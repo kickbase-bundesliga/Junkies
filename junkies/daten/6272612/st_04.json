@@ -1,0 +1,1486 @@
+{
+ "liga": "6272612",
+ "spieltag": 4,
+ "fertig": true,
+ "abgerufen": "2026-10-14T13:27:02Z",
+ "letzter_anstoss": "2026-09-20T17:30:00Z",
+ "manager": [
+  {
+   "id": "769136",
+   "name": "Benyos24",
+   "admin": false,
+   "punkte": 907,
+   "gesamt": 2926,
+   "platz": 10,
+   "st_platz": 5,
+   "teamwert": 180949699.0,
+   "aufstellung_ids": [
+    "8227",
+    "10049",
+    "11255",
+    "859",
+    "1553",
+    "8252",
+    "3209",
+    "17288",
+    "8166",
+    "17309",
+    "1920"
+   ]
+  },
+  {
+   "id": "915846",
+   "name": "SebFCA",
+   "admin": false,
+   "punkte": 763,
+   "gesamt": 3095,
+   "platz": 8,
+   "st_platz": 9,
+   "teamwert": 147430178.0,
+   "aufstellung_ids": [
+    "3218",
+    "3350",
+    "11010",
+    "9615",
+    "2141",
+    "4335",
+    "8274",
+    "3281",
+    "2887",
+    "2255",
+    "12296"
+   ]
+  },
+  {
+   "id": "1233547",
+   "name": "David9",
+   "admin": false,
+   "punkte": 1276,
+   "gesamt": 4500,
+   "platz": 2,
+   "st_platz": 1,
+   "teamwert": 209254449.0,
+   "aufstellung_ids": [
+    "620",
+    "10024",
+    "6148",
+    "4606",
+    "11006",
+    "1645",
+    "8307",
+    "16369",
+    "2718",
+    "7226",
+    "14920"
+   ]
+  },
+  {
+   "id": "1371179",
+   "name": "BennetBvB",
+   "admin": false,
+   "punkte": 750,
+   "gesamt": 2432,
+   "platz": 15,
+   "st_platz": 10,
+   "teamwert": 158754395.0,
+   "aufstellung_ids": [
+    "75",
+    "3026",
+    "1996",
+    "1704",
+    "1964",
+    "9224",
+    "7278",
+    "4199",
+    "11162",
+    "2015",
+    "10120"
+   ]
+  },
+  {
+   "id": "1406025",
+   "name": "Tillox96",
+   "admin": false,
+   "punkte": 651,
+   "gesamt": 2798,
+   "platz": 13,
+   "st_platz": 13,
+   "teamwert": 168908826.0,
+   "aufstellung_ids": [
+    "357",
+    "7283",
+    "2373",
+    "2383",
+    "9507",
+    "17282",
+    "7417",
+    "11748",
+    "10789",
+    "17203",
+    "1865"
+   ]
+  },
+  {
+   "id": "1576400",
+   "name": "sandro1879",
+   "admin": false,
+   "punkte": 628,
+   "gesamt": 3071,
+   "platz": 9,
+   "st_platz": 14,
+   "teamwert": 150021017.0,
+   "aufstellung_ids": [
+    "2195",
+    "2522",
+    "2199",
+    "49",
+    "7963",
+    "2928",
+    "6319",
+    "12367",
+    "13438",
+    "9384",
+    "10113"
+   ]
+  },
+  {
+   "id": "1623645",
+   "name": "Poet10",
+   "admin": false,
+   "punkte": 818,
+   "gesamt": 2887,
+   "platz": 12,
+   "st_platz": 7,
+   "teamwert": 122631130.0,
+   "aufstellung_ids": [
+    "3019",
+    "2366",
+    "2065",
+    "2762",
+    "10134",
+    "2074",
+    "513",
+    "1815",
+    "7781",
+    "15199",
+    "14251"
+   ]
+  },
+  {
+   "id": "1684680",
+   "name": "Seando",
+   "admin": false,
+   "punkte": 1011,
+   "gesamt": 4710,
+   "platz": 1,
+   "st_platz": 4,
+   "teamwert": 186671864.0,
+   "aufstellung_ids": [
+    "32",
+    "8355",
+    "3284",
+    "10122",
+    "2006",
+    "6209",
+    "1685",
+    "2491",
+    "2646",
+    "9995",
+    "2803"
+   ]
+  },
+  {
+   "id": "1688417",
+   "name": "Acke1899",
+   "admin": false,
+   "punkte": 1080,
+   "gesamt": 3335,
+   "platz": 6,
+   "st_platz": 3,
+   "teamwert": 156296952.0,
+   "aufstellung_ids": [
+    "6160",
+    "550",
+    "14140",
+    "6197",
+    "7721",
+    "11008",
+    "2967",
+    "12297",
+    "11675",
+    "608",
+    "493"
+   ]
+  },
+  {
+   "id": "1923586",
+   "name": "Eckman05",
+   "admin": false,
+   "punkte": 798,
+   "gesamt": 2903,
+   "platz": 11,
+   "st_platz": 8,
+   "teamwert": 120619168.0,
+   "aufstellung_ids": [
+    "1863",
+    "14241",
+    "15376",
+    "11161",
+    "3543",
+    "2120",
+    "7676",
+    "3559",
+    "7269",
+    "13448",
+    "11513"
+   ]
+  },
+  {
+   "id": "2171487",
+   "name": "Chris",
+   "admin": false,
+   "punkte": 896,
+   "gesamt": 2792,
+   "platz": 14,
+   "st_platz": 6,
+   "teamwert": 126377661.0,
+   "aufstellung_ids": [
+    "3072",
+    "4598",
+    "6292",
+    "13449",
+    "11958",
+    "8329",
+    "10131",
+    "7441",
+    "2876",
+    "10106",
+    "3183"
+   ]
+  },
+  {
+   "id": "2453055",
+   "name": "Poeti Admin",
+   "admin": true,
+   "punkte": 0,
+   "gesamt": 0,
+   "platz": 16,
+   "st_platz": 16,
+   "teamwert": 0.0,
+   "aufstellung_ids": []
+  },
+  {
+   "id": "2664047",
+   "name": "Hanuta",
+   "admin": false,
+   "punkte": 451,
+   "gesamt": 3104,
+   "platz": 7,
+   "st_platz": 15,
+   "teamwert": 134619186.0,
+   "aufstellung_ids": [
+    "2237",
+    "1246",
+    "461",
+    "14917",
+    "11570",
+    "6061",
+    "6081",
+    "10114",
+    "1671",
+    "3027",
+    "8374"
+   ]
+  },
+  {
+   "id": "2669371",
+   "name": "Lakaka",
+   "admin": false,
+   "punkte": 698,
+   "gesamt": 3397,
+   "platz": 5,
+   "st_platz": 11,
+   "teamwert": 139086424.0,
+   "aufstellung_ids": [
+    "2279",
+    "8277",
+    "17285",
+    "157",
+    "7257",
+    "2125",
+    "1639",
+    "1856",
+    "3304",
+    "11959",
+    "2661"
+   ]
+  },
+  {
+   "id": "2912849",
+   "name": "Toni41187",
+   "admin": false,
+   "punkte": 1126,
+   "gesamt": 3720,
+   "platz": 4,
+   "st_platz": 2,
+   "teamwert": 145963635.0,
+   "aufstellung_ids": [
+    "2977",
+    "2300",
+    "11512",
+    "15613",
+    "6174",
+    "11099",
+    "8367",
+    "3176",
+    "6080",
+    "670",
+    "2030"
+   ]
+  },
+  {
+   "id": "3250420",
+   "name": "uli",
+   "admin": false,
+   "punkte": 694,
+   "gesamt": 4005,
+   "platz": 3,
+   "st_platz": 12,
+   "teamwert": 191054287.0,
+   "aufstellung_ids": [
+    "9513",
+    "15211",
+    "12321",
+    "11665",
+    "1991",
+    "2560",
+    "1961",
+    "2939",
+    "11956",
+    "11886",
+    "4296"
+   ]
+  }
+ ],
+ "aufstellungen": {
+  "769136": {
+   "elf": [
+    {
+     "id": "8227",
+     "name": "Vandevoordt",
+     "verein": "43",
+     "punkte": 107
+    },
+    {
+     "id": "10049",
+     "name": "Behrens",
+     "verein": "13",
+     "punkte": 0
+    },
+    {
+     "id": "859",
+     "name": "Gyamerah",
+     "verein": "77",
+     "punkte": 48
+    },
+    {
+     "id": "17309",
+     "name": "Nwaneri",
+     "verein": "3",
+     "punkte": 63
+    },
+    {
+     "id": "8252",
+     "name": "Krattenmacher",
+     "verein": "77",
+     "punkte": 12
+    },
+    {
+     "id": "17288",
+     "name": "Regeer",
+     "verein": "10",
+     "punkte": 186
+    },
+    {
+     "id": "1553",
+     "name": "Haberer",
+     "verein": "40",
+     "punkte": 4
+    },
+    {
+     "id": "8166",
+     "name": "Chuki",
+     "verein": "10",
+     "punkte": 185
+    },
+    {
+     "id": "11255",
+     "name": "Katic",
+     "verein": "8",
+     "punkte": 154
+    },
+    {
+     "id": "1920",
+     "name": "Guirassy",
+     "verein": "3",
+     "punkte": 75
+    },
+    {
+     "id": "3209",
+     "name": "Engelhardt",
+     "verein": "5",
+     "punkte": 73
+    }
+   ],
+   "bank": [
+    {
+     "id": "7156",
+     "name": "Wöber",
+     "verein": "8",
+     "punkte": 26
+    }
+   ]
+  },
+  "915846": {
+   "elf": [
+    {
+     "id": "2255",
+     "name": "Burkardt",
+     "verein": "4",
+     "punkte": 148
+    },
+    {
+     "id": "8274",
+     "name": "El Mala",
+     "verein": "28",
+     "punkte": 68
+    },
+    {
+     "id": "11010",
+     "name": "Diks",
+     "verein": "15",
+     "punkte": 4
+    },
+    {
+     "id": "3218",
+     "name": "Backhaus",
+     "verein": "5",
+     "punkte": 26
+    },
+    {
+     "id": "4335",
+     "name": "Scherhant",
+     "verein": "5",
+     "punkte": 238
+    },
+    {
+     "id": "2141",
+     "name": "Baku",
+     "verein": "43",
+     "punkte": 13
+    },
+    {
+     "id": "3281",
+     "name": "Reis",
+     "verein": "10",
+     "punkte": 78
+    },
+    {
+     "id": "12296",
+     "name": "Okpala",
+     "verein": "29",
+     "punkte": 0
+    },
+    {
+     "id": "9615",
+     "name": "Al Dakhil",
+     "verein": "9",
+     "punkte": 0
+    },
+    {
+     "id": "3350",
+     "name": "Keidel",
+     "verein": "77",
+     "punkte": 93
+    },
+    {
+     "id": "2887",
+     "name": "Dōan",
+     "verein": "4",
+     "punkte": 95
+    }
+   ],
+   "bank": []
+  },
+  "1233547": {
+   "elf": [
+    {
+     "id": "1645",
+     "name": "Eggestein",
+     "verein": "5",
+     "punkte": 60
+    },
+    {
+     "id": "11006",
+     "name": "Suzuki",
+     "verein": "5",
+     "punkte": 179
+    },
+    {
+     "id": "7226",
+     "name": "Kane",
+     "verein": "2",
+     "punkte": 294
+    },
+    {
+     "id": "8307",
+     "name": "Sano",
+     "verein": "18",
+     "punkte": 169
+    },
+    {
+     "id": "2718",
+     "name": "Skhiri",
+     "verein": "28",
+     "punkte": 118
+    },
+    {
+     "id": "10024",
+     "name": "Schmied",
+     "verein": "28",
+     "punkte": 0
+    },
+    {
+     "id": "4606",
+     "name": "Kuruçay",
+     "verein": "8",
+     "punkte": 153
+    },
+    {
+     "id": "620",
+     "name": "Schwolow",
+     "verein": "18",
+     "punkte": 102
+    },
+    {
+     "id": "6148",
+     "name": "Pinckert",
+     "verein": "77",
+     "punkte": 173
+    },
+    {
+     "id": "14920",
+     "name": "Pimpong",
+     "verein": "4",
+     "punkte": 0
+    },
+    {
+     "id": "16369",
+     "name": "Onyedika",
+     "verein": "4",
+     "punkte": 28
+    }
+   ],
+   "bank": [
+    {
+     "id": "72",
+     "name": "Flekken",
+     "verein": "7",
+     "punkte": 144
+    }
+   ]
+  },
+  "1371179": {
+   "elf": [
+    {
+     "id": "4199",
+     "name": "García",
+     "verein": "7",
+     "punkte": 137
+    },
+    {
+     "id": "1704",
+     "name": "Anton",
+     "verein": "3",
+     "punkte": 123
+    },
+    {
+     "id": "1996",
+     "name": "Friedl",
+     "verein": "10",
+     "punkte": 178
+    },
+    {
+     "id": "11162",
+     "name": "Avdullahu",
+     "verein": "14",
+     "punkte": 59
+    },
+    {
+     "id": "75",
+     "name": "Drewes",
+     "verein": "3",
+     "punkte": 0
+    },
+    {
+     "id": "10120",
+     "name": "Røssing-Lelesiit",
+     "verein": "6",
+     "punkte": 0
+    },
+    {
+     "id": "2015",
+     "name": "Obermair",
+     "verein": "29",
+     "punkte": 62
+    },
+    {
+     "id": "1964",
+     "name": "Götze",
+     "verein": "29",
+     "punkte": 40
+    },
+    {
+     "id": "7278",
+     "name": "Poreba",
+     "verein": "77",
+     "punkte": 97
+    },
+    {
+     "id": "3026",
+     "name": "Günther",
+     "verein": "77",
+     "punkte": 54
+    },
+    {
+     "id": "9224",
+     "name": "Zimmerschied",
+     "verein": "77",
+     "punkte": 0
+    }
+   ],
+   "bank": []
+  },
+  "1406025": {
+   "elf": [
+    {
+     "id": "9507",
+     "name": "Nusa",
+     "verein": "43",
+     "punkte": 44
+    },
+    {
+     "id": "2373",
+     "name": "Kabak",
+     "verein": "14",
+     "punkte": 85
+    },
+    {
+     "id": "357",
+     "name": "Grahl",
+     "verein": "4",
+     "punkte": 0
+    },
+    {
+     "id": "7283",
+     "name": "Brackelmann",
+     "verein": "13",
+     "punkte": 142
+    },
+    {
+     "id": "17282",
+     "name": "Moore",
+     "verein": "28",
+     "punkte": 44
+    },
+    {
+     "id": "2383",
+     "name": "Schlotterbeck",
+     "verein": "3",
+     "punkte": 149
+    },
+    {
+     "id": "7417",
+     "name": "Aséko",
+     "verein": "4",
+     "punkte": 21
+    },
+    {
+     "id": "17203",
+     "name": "Moffi",
+     "verein": "6",
+     "punkte": 23
+    },
+    {
+     "id": "11748",
+     "name": "Mohya",
+     "verein": "15",
+     "punkte": -6
+    },
+    {
+     "id": "1865",
+     "name": "Poulsen",
+     "verein": "6",
+     "punkte": 149
+    },
+    {
+     "id": "10789",
+     "name": "Karl",
+     "verein": "2",
+     "punkte": 0
+    }
+   ],
+   "bank": []
+  },
+  "1576400": {
+   "elf": [
+    {
+     "id": "2522",
+     "name": "Raum",
+     "verein": "43",
+     "punkte": 71
+    },
+    {
+     "id": "2195",
+     "name": "Dahmen",
+     "verein": "13",
+     "punkte": 118
+    },
+    {
+     "id": "49",
+     "name": "Ginter",
+     "verein": "5",
+     "punkte": 78
+    },
+    {
+     "id": "13438",
+     "name": "Ruoppi",
+     "verein": "18",
+     "punkte": 0
+    },
+    {
+     "id": "2199",
+     "name": "Vagnoman",
+     "verein": "9",
+     "punkte": 66
+    },
+    {
+     "id": "2928",
+     "name": "Petkov",
+     "verein": "77",
+     "punkte": 96
+    },
+    {
+     "id": "7963",
+     "name": "Quansah",
+     "verein": "7",
+     "punkte": 114
+    },
+    {
+     "id": "6319",
+     "name": "Honorat",
+     "verein": "15",
+     "punkte": 13
+    },
+    {
+     "id": "12367",
+     "name": "Spalt",
+     "verein": "9",
+     "punkte": 0
+    },
+    {
+     "id": "9384",
+     "name": "Darvich",
+     "verein": "77",
+     "punkte": 30
+    },
+    {
+     "id": "10113",
+     "name": "Gomis",
+     "verein": "43",
+     "punkte": 42
+    }
+   ],
+   "bank": []
+  },
+  "1623645": {
+   "elf": [
+    {
+     "id": "513",
+     "name": "Götze",
+     "verein": "4",
+     "punkte": 2
+    },
+    {
+     "id": "1815",
+     "name": "Kramarić",
+     "verein": "14",
+     "punkte": 3
+    },
+    {
+     "id": "2065",
+     "name": "Uduokhai",
+     "verein": "40",
+     "punkte": 71
+    },
+    {
+     "id": "2074",
+     "name": "Hack",
+     "verein": "15",
+     "punkte": -11
+    },
+    {
+     "id": "2366",
+     "name": "Davies",
+     "verein": "2",
+     "punkte": 320
+    },
+    {
+     "id": "2762",
+     "name": "Becker",
+     "verein": "8",
+     "punkte": 77
+    },
+    {
+     "id": "3019",
+     "name": "Atubolu",
+     "verein": "4",
+     "punkte": 81
+    },
+    {
+     "id": "7781",
+     "name": "Sauer",
+     "verein": "9",
+     "punkte": -8
+    },
+    {
+     "id": "10134",
+     "name": "Schmetgens",
+     "verein": "10",
+     "punkte": 17
+    },
+    {
+     "id": "14251",
+     "name": "Saibari",
+     "verein": "2",
+     "punkte": 182
+    },
+    {
+     "id": "15199",
+     "name": "Moreira",
+     "verein": "7",
+     "punkte": 84
+    }
+   ],
+   "bank": []
+  },
+  "1684680": {
+   "elf": [
+    {
+     "id": "1685",
+     "name": "Kimmich",
+     "verein": "2",
+     "punkte": 216
+    },
+    {
+     "id": "2646",
+     "name": "Becker",
+     "verein": "18",
+     "punkte": 248
+    },
+    {
+     "id": "10122",
+     "name": "Gruber",
+     "verein": "18",
+     "punkte": 118
+    },
+    {
+     "id": "9995",
+     "name": "Mokwa",
+     "verein": "77",
+     "punkte": 34
+    },
+    {
+     "id": "3284",
+     "name": "Rohr",
+     "verein": "77",
+     "punkte": 151
+    },
+    {
+     "id": "6209",
+     "name": "Treu",
+     "verein": "5",
+     "punkte": 28
+    },
+    {
+     "id": "8355",
+     "name": "Banks",
+     "verein": "13",
+     "punkte": 37
+    },
+    {
+     "id": "32",
+     "name": "Karius",
+     "verein": "8",
+     "punkte": 88
+    },
+    {
+     "id": "2803",
+     "name": "Lemperle",
+     "verein": "14",
+     "punkte": 17
+    },
+    {
+     "id": "2491",
+     "name": "Skarke",
+     "verein": "40",
+     "punkte": -23
+    },
+    {
+     "id": "2006",
+     "name": "Posch",
+     "verein": "18",
+     "punkte": 97
+    }
+   ],
+   "bank": []
+  },
+  "1688417": {
+   "elf": [
+    {
+     "id": "11675",
+     "name": "Díaz",
+     "verein": "2",
+     "punkte": 116
+    },
+    {
+     "id": "6160",
+     "name": "Kristof",
+     "verein": "77",
+     "punkte": 105
+    },
+    {
+     "id": "608",
+     "name": "Füllkrug",
+     "verein": "10",
+     "punkte": 187
+    },
+    {
+     "id": "11008",
+     "name": "Banzuzi",
+     "verein": "43",
+     "punkte": 44
+    },
+    {
+     "id": "14140",
+     "name": "Mensah",
+     "verein": "28",
+     "punkte": 51
+    },
+    {
+     "id": "493",
+     "name": "Gregoritsch",
+     "verein": "13",
+     "punkte": 16
+    },
+    {
+     "id": "6197",
+     "name": "Curda",
+     "verein": "29",
+     "punkte": 159
+    },
+    {
+     "id": "2967",
+     "name": "El-Faouzi",
+     "verein": "8",
+     "punkte": 68
+    },
+    {
+     "id": "7721",
+     "name": "Grüll",
+     "verein": "10",
+     "punkte": 266
+    },
+    {
+     "id": "12297",
+     "name": "Tanaka",
+     "verein": "8",
+     "punkte": 68
+    },
+    {
+     "id": "550",
+     "name": "Bell",
+     "verein": "18",
+     "punkte": 0
+    }
+   ],
+   "bank": []
+  },
+  "1923586": {
+   "elf": [
+    {
+     "id": "1863",
+     "name": "Heuer Fernandes",
+     "verein": "6",
+     "punkte": 133
+    },
+    {
+     "id": "2120",
+     "name": "Nartey",
+     "verein": "9",
+     "punkte": -9
+    },
+    {
+     "id": "3543",
+     "name": "Brown",
+     "verein": "2",
+     "punkte": 32
+    },
+    {
+     "id": "3559",
+     "name": "Ulrich",
+     "verein": "29",
+     "punkte": 109
+    },
+    {
+     "id": "7269",
+     "name": "Tella",
+     "verein": "7",
+     "punkte": 0
+    },
+    {
+     "id": "7676",
+     "name": "Rieder",
+     "verein": "13",
+     "punkte": 103
+    },
+    {
+     "id": "11161",
+     "name": "Machida",
+     "verein": "14",
+     "punkte": 99
+    },
+    {
+     "id": "11513",
+     "name": "Kofane",
+     "verein": "7",
+     "punkte": 19
+    },
+    {
+     "id": "13448",
+     "name": "Aouchiche",
+     "verein": "8",
+     "punkte": 119
+    },
+    {
+     "id": "14241",
+     "name": "Medina",
+     "verein": "7",
+     "punkte": 123
+    },
+    {
+     "id": "15376",
+     "name": "Estève",
+     "verein": "43",
+     "punkte": 70
+    }
+   ],
+   "bank": []
+  },
+  "2171487": {
+   "elf": [
+    {
+     "id": "2876",
+     "name": "Schallenberg",
+     "verein": "8",
+     "punkte": 9
+    },
+    {
+     "id": "3072",
+     "name": "Urbig",
+     "verein": "2",
+     "punkte": 0
+    },
+    {
+     "id": "3183",
+     "name": "Kade",
+     "verein": "13",
+     "punkte": 0
+    },
+    {
+     "id": "4598",
+     "name": "Juranović",
+     "verein": "40",
+     "punkte": 0
+    },
+    {
+     "id": "6292",
+     "name": "Hansen",
+     "verein": "29",
+     "punkte": 93
+    },
+    {
+     "id": "7441",
+     "name": "Campbell",
+     "verein": "77",
+     "punkte": 112
+    },
+    {
+     "id": "8329",
+     "name": "Olise",
+     "verein": "2",
+     "punkte": 663
+    },
+    {
+     "id": "10106",
+     "name": "Ljubičić",
+     "verein": "40",
+     "punkte": 0
+    },
+    {
+     "id": "10131",
+     "name": "Stalmach",
+     "verein": "10",
+     "punkte": 0
+    },
+    {
+     "id": "11958",
+     "name": "Castro-Montes",
+     "verein": "28",
+     "punkte": 19
+    },
+    {
+     "id": "13449",
+     "name": "Ndiaye",
+     "verein": "10",
+     "punkte": 0
+    }
+   ],
+   "bank": [
+    {
+     "id": "11666",
+     "name": "Kinzig",
+     "verein": "18",
+     "punkte": 0
+    },
+    {
+     "id": "14926",
+     "name": "Soylu",
+     "verein": "10",
+     "punkte": 0
+    }
+   ]
+  },
+  "2664047": {
+   "elf": [
+    {
+     "id": "2237",
+     "name": "Bredlow",
+     "verein": "9",
+     "punkte": 6
+    },
+    {
+     "id": "6081",
+     "name": "Uzun",
+     "verein": "4",
+     "punkte": 73
+    },
+    {
+     "id": "6061",
+     "name": "Maza",
+     "verein": "7",
+     "punkte": 194
+    },
+    {
+     "id": "1246",
+     "name": "Orban",
+     "verein": "43",
+     "punkte": 84
+    },
+    {
+     "id": "14917",
+     "name": "Van den Bosch",
+     "verein": "40",
+     "punkte": -11
+    },
+    {
+     "id": "3027",
+     "name": "Pieringer",
+     "verein": "29",
+     "punkte": 70
+    },
+    {
+     "id": "1671",
+     "name": "Prömel",
+     "verein": "9",
+     "punkte": 35
+    },
+    {
+     "id": "8374",
+     "name": "Terrier",
+     "verein": "7",
+     "punkte": 0
+    },
+    {
+     "id": "10114",
+     "name": "Chukwuemeka",
+     "verein": "3",
+     "punkte": 0
+    },
+    {
+     "id": "461",
+     "name": "Chandler",
+     "verein": "4",
+     "punkte": 0
+    },
+    {
+     "id": "11570",
+     "name": "Sebulonsen",
+     "verein": "28",
+     "punkte": 0
+    }
+   ],
+   "bank": []
+  },
+  "2669371": {
+   "elf": [
+    {
+     "id": "1639",
+     "name": "Amiri",
+     "verein": "18",
+     "punkte": 107
+    },
+    {
+     "id": "3304",
+     "name": "Matanović",
+     "verein": "5",
+     "punkte": 46
+    },
+    {
+     "id": "2279",
+     "name": "Rönnow",
+     "verein": "40",
+     "punkte": 117
+    },
+    {
+     "id": "2125",
+     "name": "Beste",
+     "verein": "5",
+     "punkte": 93
+    },
+    {
+     "id": "1856",
+     "name": "Sabitzer",
+     "verein": "3",
+     "punkte": 17
+    },
+    {
+     "id": "17285",
+     "name": "Brassier",
+     "verein": "4",
+     "punkte": 103
+    },
+    {
+     "id": "2661",
+     "name": "Diaby",
+     "verein": "7",
+     "punkte": 79
+    },
+    {
+     "id": "11959",
+     "name": "Daghim",
+     "verein": "14",
+     "punkte": 120
+    },
+    {
+     "id": "157",
+     "name": "Stark",
+     "verein": "10",
+     "punkte": 0
+    },
+    {
+     "id": "8277",
+     "name": "Becker",
+     "verein": "8",
+     "punkte": 16
+    },
+    {
+     "id": "7257",
+     "name": "Stergiou",
+     "verein": "9",
+     "punkte": 0
+    }
+   ],
+   "bank": [
+    {
+     "id": "2552",
+     "name": "Bülter",
+     "verein": "28",
+     "punkte": -11
+    }
+   ]
+  },
+  "2912849": {
+   "elf": [
+    {
+     "id": "6080",
+     "name": "Pavlović",
+     "verein": "2",
+     "punkte": 163
+    },
+    {
+     "id": "11099",
+     "name": "Bellingham",
+     "verein": "3",
+     "punkte": 97
+    },
+    {
+     "id": "2030",
+     "name": "Tietz",
+     "verein": "18",
+     "punkte": 126
+    },
+    {
+     "id": "2977",
+     "name": "Noll",
+     "verein": "29",
+     "punkte": 122
+    },
+    {
+     "id": "2300",
+     "name": "Stanišić",
+     "verein": "2",
+     "punkte": 158
+    },
+    {
+     "id": "11512",
+     "name": "Capaldo",
+     "verein": "6",
+     "punkte": 206
+    },
+    {
+     "id": "8367",
+     "name": "Sambi Lokonga",
+     "verein": "6",
+     "punkte": 64
+    },
+    {
+     "id": "6174",
+     "name": "Arthur",
+     "verein": "10",
+     "punkte": 117
+    },
+    {
+     "id": "3176",
+     "name": "Ibrahimović",
+     "verein": "13",
+     "punkte": 0
+    },
+    {
+     "id": "670",
+     "name": "Karaman",
+     "verein": "8",
+     "punkte": 84
+    },
+    {
+     "id": "15613",
+     "name": "Hashioka",
+     "verein": "15",
+     "punkte": -11
+    }
+   ],
+   "bank": [
+    {
+     "id": "11875",
+     "name": "van den Berg",
+     "verein": "28",
+     "punkte": 0
+    }
+   ]
+  },
+  "3250420": {
+   "elf": [
+    {
+     "id": "1991",
+     "name": "Upamecano",
+     "verein": "2",
+     "punkte": 97
+    },
+    {
+     "id": "15211",
+     "name": "Gadou",
+     "verein": "3",
+     "punkte": 80
+    },
+    {
+     "id": "9513",
+     "name": "Hein",
+     "verein": "10",
+     "punkte": 75
+    },
+    {
+     "id": "2560",
+     "name": "Sander",
+     "verein": "15",
+     "punkte": 54
+    },
+    {
+     "id": "11956",
+     "name": "Fernández",
+     "verein": "7",
+     "punkte": 125
+    },
+    {
+     "id": "4296",
+     "name": "Pejčinović",
+     "verein": "9",
+     "punkte": 1
+    },
+    {
+     "id": "11665",
+     "name": "Potulski",
+     "verein": "18",
+     "punkte": 88
+    },
+    {
+     "id": "1961",
+     "name": "Gnabry",
+     "verein": "2",
+     "punkte": 34
+    },
+    {
+     "id": "2939",
+     "name": "Dinkçi",
+     "verein": "10",
+     "punkte": 63
+    },
+    {
+     "id": "12321",
+     "name": "Simpson-Pusey",
+     "verein": "28",
+     "punkte": 76
+    },
+    {
+     "id": "11886",
+     "name": "Rômulo",
+     "verein": "43",
+     "punkte": 1
+    }
+   ],
+   "bank": [
+    {
+     "id": "6668",
+     "name": "Minjae",
+     "verein": "2",
+     "punkte": 88
+    },
+    {
+     "id": "2822",
+     "name": "Silas",
+     "verein": "18",
+     "punkte": 0
+    }
+   ]
+  }
+ }
+}

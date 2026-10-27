@@ -1,0 +1,1425 @@
+{
+ "Toni41187": {
+  "id": "2912849",
+  "kandidaten": [
+   "2912849"
+  ],
+  "gruppe": "A",
+  "status": "geprueft",
+  "kickbase_name": "Toni41187"
+ },
+ "Acke1899": {
+  "id": "1688417",
+  "gruppe": "A",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Acke1899"
+ },
+ "Ante Sapina": {
+  "id": "698489",
+  "kandidaten": [
+   "698489"
+  ],
+  "namen": [
+   "Ante Šapina"
+  ],
+  "gruppe": "A",
+  "status": "geprueft",
+  "kickbase_name": "Ante Šapina"
+ },
+ "DimaL": {
+  "id": "2240874",
+  "gruppe": "A",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "DimaL"
+ },
+ "Fabio": {
+  "id": "1631136",
+  "gruppe": "A",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Fabio"
+ },
+ "StevieG": {
+  "id": "1054248",
+  "gruppe": "A",
+  "quelle": [
+   "KBL",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "StevieG"
+ },
+ "Zolli": {
+  "id": "1322732",
+  "gruppe": "A",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Zolli"
+ },
+ "Garry": {
+  "id": "3417459",
+  "gruppe": "A",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Garry"
+ },
+ "Dubi": {
+  "id": "3187583",
+  "gruppe": "A",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Dubi"
+ },
+ "Daniel_Niederlande": {
+  "id": "1981519",
+  "gruppe": "B",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Daniel_Niederlande"
+ },
+ "Rooth": {
+  "id": "1478741",
+  "gruppe": "B",
+  "status": "geprueft",
+  "kickbase_name_laut_admin": "Who",
+  "manuell": true,
+  "kickbase_name": "Rooth"
+ },
+ "Tobi": {
+  "id": "1903808",
+  "gruppe": "B",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Tobi"
+ },
+ "Jan Kiefer": {
+  "id": "2587934",
+  "gruppe": "B",
+  "quelle": [
+   "Junkies"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Jan Kiefer"
+ },
+ "Kreatim": {
+  "id": "2166892",
+  "gruppe": "B",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Kreatim"
+ },
+ "Eismumie": {
+  "id": "1385124",
+  "gruppe": "B",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Eismumie"
+ },
+ "Maxxie": {
+  "id": "1502756",
+  "gruppe": "B",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Maxxie"
+ },
+ "Harvey": {
+  "id": "1408411",
+  "gruppe": "B",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Harvey"
+ },
+ "Nobse": {
+  "id": "1926223",
+  "gruppe": "B",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Nobse"
+ },
+ "Nico mit Bart": {
+  "id": "1361318",
+  "gruppe": "C",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Nico mit Bart"
+ },
+ "Lukas**": {
+  "id": "1903846",
+  "kandidaten": [
+   "1903846",
+   "2700111",
+   "439062"
+  ],
+  "gruppe": "C",
+  "status": "geprueft",
+  "kickbase_name": "Lukas**"
+ },
+ "Oli 1905": {
+  "id": "2259396",
+  "gruppe": "C",
+  "status": "geprueft",
+  "kickbase_name_laut_admin": "Oli 1905",
+  "manuell": true,
+  "kickbase_name": "Oli"
+ },
+ "Ralf": {
+  "id": "983535",
+  "kandidaten": [
+   "3582252",
+   "983535"
+  ],
+  "gruppe": "C",
+  "status": "geprueft",
+  "kickbase_name": "Ralf"
+ },
+ "Micha": {
+  "id": "2433044",
+  "gruppe": "C",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Micha "
+ },
+ "InspektorFrippe": {
+  "id": "2910337",
+  "gruppe": "C",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Inspektor Frippe"
+ },
+ "Golo": {
+  "id": "1911622",
+  "gruppe": "C",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Golo"
+ },
+ "Weasly95": {
+  "id": "2473070",
+  "gruppe": "C",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Weasly95"
+ },
+ "Hanuta": {
+  "id": "2664047",
+  "gruppe": "C",
+  "quelle": [
+   "Junkies"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Hanuta"
+ },
+ "Marcelo1848": {
+  "id": "3275140",
+  "gruppe": "D",
+  "quelle": [
+   "Junkies",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Marcelo1848"
+ },
+ "Olimtk": {
+  "id": "2780039",
+  "gruppe": "D",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "olimtk"
+ },
+ "Fabinho": {
+  "id": "1236707",
+  "gruppe": "D",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Fabinho"
+ },
+ "Charco": {
+  "id": "2256286",
+  "gruppe": "D",
+  "status": "geprueft",
+  "kickbase_name_laut_admin": "Charco",
+  "manuell": true,
+  "kickbase_name": "Charco8"
+ },
+ "Meister": {
+  "id": "1450470",
+  "gruppe": "D",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Meister"
+ },
+ "YW7": {
+  "id": "1631954",
+  "gruppe": "D",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "YW7"
+ },
+ "Tobi180996": {
+  "id": "1626013",
+  "gruppe": "D",
+  "quelle": [
+   "KBL",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Tobi180996"
+ },
+ "Dachsi.73": {
+  "id": "3867277",
+  "gruppe": "D",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Dachsi73"
+ },
+ "MrHoberg_2026": {
+  "id": "3533943",
+  "gruppe": "D",
+  "quelle": [
+   "KBL",
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "MrHoberg_2026"
+ },
+ "Hasan20": {
+  "id": "841764",
+  "kandidaten": [
+   "841764"
+  ],
+  "namen": [
+   "Hasan"
+  ],
+  "gruppe": "E",
+  "status": "geprueft",
+  "kickbase_name": "Hasan"
+ },
+ "Deeznuts": {
+  "id": "3231997",
+  "gruppe": "E",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "deeznuts96"
+ },
+ "Batu_Hayat": {
+  "id": "1061971",
+  "gruppe": "E",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "batu_hayat"
+ },
+ "Baumi": {
+  "id": "1388900",
+  "gruppe": "E",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Baumi"
+ },
+ "Christian78cs": {
+  "id": "2543617",
+  "gruppe": "E",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Christian78cs"
+ },
+ "BennetBVB": {
+  "id": "1371179",
+  "gruppe": "E",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "BennetBvB"
+ },
+ "itscalledsoccer": {
+  "id": "2729462",
+  "gruppe": "E",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "itscalledsoccer"
+ },
+ "Michael1902": {
+  "id": "710484",
+  "gruppe": "E",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "michael1902"
+ },
+ "Marcothebaumi": {
+  "id": "1451237",
+  "gruppe": "E",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "marcothebaumi"
+ },
+ "Paddy**": {
+  "id": "1904019",
+  "kandidaten": [
+   "1472537",
+   "1904019"
+  ],
+  "gruppe": "F",
+  "status": "geprueft",
+  "quelle": [
+   "Challenge-Rangliste"
+  ],
+  "kickbase_name": "Paddy**"
+ },
+ "Louis": {
+  "id": "110200",
+  "gruppe": "F",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Louis"
+ },
+ "Lcd007": {
+  "id": "200191",
+  "gruppe": "F",
+  "quelle": [
+   "KBL",
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Lcd007"
+ },
+ "Fly": {
+  "id": "1685744",
+  "gruppe": "F",
+  "quelle": [
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Fly"
+ },
+ "Budiii": {
+  "id": "338218",
+  "gruppe": "F",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Budiii"
+ },
+ "Bene": {
+  "id": "1436444",
+  "gruppe": "F",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Bene"
+ },
+ "Christoph Daum": {
+  "id": "1108745",
+  "kandidaten": [
+   "1108745"
+  ],
+  "gruppe": "F",
+  "status": "geprueft",
+  "kickbase_name": "Christoph Daum"
+ },
+ "Nici": {
+  "id": "3143624",
+  "gruppe": "F",
+  "quelle": [
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "nici"
+ },
+ "Jonas Larsokat": {
+  "id": "940374",
+  "gruppe": "F",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "nicht_in_challenge"
+ },
+ "Aaron": {
+  "id": "2861648",
+  "gruppe": "G",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Aaron"
+ },
+ "budenzauber": {
+  "id": "3303336",
+  "gruppe": "G",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "budenzauber"
+ },
+ "Hansaaufdie1": {
+  "id": "2789934",
+  "gruppe": "G",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Hansaaufdie1"
+ },
+ "URD": {
+  "id": "1611796",
+  "gruppe": "G",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "URD"
+ },
+ "El_Berondolo": {
+  "id": "819973",
+  "gruppe": "G",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "el_ berondolo"
+ },
+ "TheTipsyOne": {
+  "id": "418331",
+  "gruppe": "G",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "theTipsyOne"
+ },
+ "Scratchy": {
+  "id": "1925056",
+  "gruppe": "G",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "scratchy"
+ },
+ "Lieven": {
+  "id": "1496288",
+  "gruppe": "G",
+  "quelle": [
+   "KBL",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Lieven"
+ },
+ "Lauty": {
+  "id": null,
+  "gruppe": "G",
+  "status": "fehlt"
+ },
+ "Luclet": {
+  "id": "2687695",
+  "gruppe": "H",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Luclet"
+ },
+ "AUTJohnny": {
+  "id": "2236198",
+  "gruppe": "H",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "AUTJohnny"
+ },
+ "Dodo": {
+  "id": "1708012",
+  "gruppe": "H",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Dodo"
+ },
+ "GoatMann": {
+  "id": "3338220",
+  "gruppe": "H",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "GoatMann"
+ },
+ "Chong Tese": {
+  "id": "1645187",
+  "gruppe": "H",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Chong Tese"
+ },
+ "Holzwirt": {
+  "id": "2591325",
+  "gruppe": "H",
+  "quelle": [
+   "KBL",
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Holzwirt"
+ },
+ "FreshWieAirwaves": {
+  "id": "1997392",
+  "gruppe": "H",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "FreshWieAirwaves"
+ },
+ "Fugi": {
+  "id": "528660",
+  "gruppe": "H",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Fugi"
+ },
+ "Registro": {
+  "id": "1669890",
+  "gruppe": "H",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "registro"
+ },
+ "Mobej563": {
+  "id": "2366930",
+  "gruppe": "I",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Mobej563"
+ },
+ "Cello": {
+  "id": "1403991",
+  "gruppe": "I",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Cello"
+ },
+ "Kreon": {
+  "id": "3564033",
+  "gruppe": "I",
+  "quelle": [
+   "KBL",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Kreon"
+ },
+ "Tobias.90": {
+  "id": "1159270",
+  "gruppe": "I",
+  "quelle": [
+   "Junkies"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Tobias.90"
+ },
+ "Fcpkicker": {
+  "id": "2038365",
+  "gruppe": "I",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Fcpkicker"
+ },
+ "Sportfan13": {
+  "id": "1567969",
+  "gruppe": "I",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Sportfan13"
+ },
+ "Marek International": {
+  "id": "1926190",
+  "gruppe": "I",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Marek International"
+ },
+ "Siegero10": {
+  "id": "3457611",
+  "gruppe": "I",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Siegero10"
+ },
+ "Eric": {
+  "id": "2546392",
+  "kandidaten": [
+   "1445248",
+   "2546392"
+  ],
+  "gruppe": "I",
+  "status": "geprueft",
+  "kickbase_name": "Eric"
+ },
+ "Toni14": {
+  "id": "1519494",
+  "gruppe": "J",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Toni14"
+ },
+ "Markus": {
+  "id": "1622434",
+  "kandidaten": [
+   "1622434",
+   "395464"
+  ],
+  "gruppe": "J",
+  "status": "geprueft",
+  "kickbase_name": "Markus"
+ },
+ "Marcel 1887": {
+  "id": "1714326",
+  "kandidaten": [],
+  "gruppe": "J",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Marcel 1887"
+ },
+ "vanderfart": {
+  "id": "2555651",
+  "gruppe": "J",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "vanderfart"
+ },
+ "Meise": {
+  "id": "1176135",
+  "gruppe": "J",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Meise"
+ },
+ "Spooky 09": {
+  "id": "1881506",
+  "gruppe": "J",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Spooky 09"
+ },
+ "Carsten": {
+  "id": "1965614",
+  "gruppe": "J",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Carsten"
+ },
+ "BlackShadow": {
+  "id": "3008482",
+  "kandidaten": [
+   "3008284",
+   "3008482"
+  ],
+  "gruppe": "J",
+  "status": "geprueft",
+  "kickbase_name": "BlackShadow"
+ },
+ "Vivien": {
+  "id": "1623644",
+  "gruppe": "J",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Vivien"
+ },
+ "Miron Muslic": {
+  "id": "1009967",
+  "gruppe": "K",
+  "status": "geprueft",
+  "manuell": true,
+  "discord": "Piely",
+  "kickbase_name": "Miron Muslic ⭐️"
+ },
+ "AlexXx": {
+  "id": "2334399",
+  "gruppe": "K",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "AlexXx"
+ },
+ "Jonas96": {
+  "id": "2233118",
+  "gruppe": "K",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Jonas96"
+ },
+ "Mopsi": {
+  "id": "3557085",
+  "gruppe": "K",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "mopsi"
+ },
+ "089 (Patris)": {
+  "id": "3550599",
+  "gruppe": "K",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "089"
+ },
+ "Millzen": {
+  "id": "68963",
+  "gruppe": "K",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Millzen"
+ },
+ "Yannick": {
+  "id": "1385068",
+  "kandidaten": [
+   "1385068",
+   "2295461"
+  ],
+  "gruppe": "K",
+  "status": "geprueft",
+  "kickbase_name": "Yannick"
+ },
+ "Stammler9": {
+  "id": "1165589",
+  "gruppe": "K",
+  "quelle": [
+   "Junkies"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Stammler9"
+ },
+ "Lilo": {
+  "id": "432191",
+  "gruppe": "K",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "LiLo"
+ },
+ "thebigfoot": {
+  "id": "2235805",
+  "gruppe": "L",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "thebigfoot"
+ },
+ "Konni": {
+  "id": "2650609",
+  "gruppe": "L",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Konni"
+ },
+ "Adam": {
+  "id": "1386995",
+  "kandidaten": [
+   "1386995",
+   "3047665"
+  ],
+  "gruppe": "L",
+  "status": "geprueft",
+  "kickbase_name": "Adam"
+ },
+ "FC Halbe Lunge": {
+  "id": "1394745",
+  "gruppe": "L",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "FC Halbe Lunge"
+ },
+ "mathi_x": {
+  "id": "3177748",
+  "gruppe": "L",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "mathi_x"
+ },
+ "Poeti": {
+  "id": "1487878",
+  "gruppe": "L",
+  "quelle": [
+   "Junkies",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Poeti"
+ },
+ "Robin": {
+  "id": "1184649",
+  "kandidaten": [
+   "1184649",
+   "382642"
+  ],
+  "gruppe": "L",
+  "status": "geprueft",
+  "kickbase_name": "Robin"
+ },
+ "RedBull296": {
+  "id": "1668792",
+  "gruppe": "L",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "ReDBuLL296"
+ },
+ "Schonz": {
+  "id": "1822017",
+  "gruppe": "L",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Schonz"
+ },
+ "Raphael Matusiak": {
+  "id": "2803528",
+  "gruppe": "M",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Raphael Matusiak"
+ },
+ "Sebeb": {
+  "id": "1450398",
+  "gruppe": "M",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "SebEb"
+ },
+ "JeremiePingPong": {
+  "id": "1667851",
+  "gruppe": "M",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "JeremiePingpong"
+ },
+ "TheAnswer": {
+  "id": "1657076",
+  "gruppe": "M",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "TheAnswer"
+ },
+ "Meeeh": {
+  "id": "1911953",
+  "gruppe": "M",
+  "quelle": [
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Meeeh"
+ },
+ "BVBCologne": {
+  "id": "752859",
+  "gruppe": "M",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "BVBCologne"
+ },
+ "Martin Reim": {
+  "id": "1818625",
+  "gruppe": "M",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Martin Reim ⭐⭐⭐️"
+ },
+ "Michi907": {
+  "id": "1724536",
+  "gruppe": "M",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Michi907"
+ },
+ "CarstenWaschmeister": {
+  "id": "2233116",
+  "gruppe": "M",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "carstenwaschmeister"
+ },
+ "Siggi": {
+  "id": "1858030",
+  "gruppe": "N",
+  "quelle": [
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Siggi"
+ },
+ "Zügi": {
+  "id": "2179845",
+  "gruppe": "N",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Zügi"
+ },
+ "Seando": {
+  "id": "1684680",
+  "gruppe": "N",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Seando"
+ },
+ "Schlenzen & Partner": {
+  "id": "1205699",
+  "gruppe": "N",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Schlenzen & Partner"
+ },
+ "Wolfgang": {
+  "id": "463986",
+  "gruppe": "N",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Wolfgang"
+ },
+ "Eriksen1887": {
+  "id": "2209314",
+  "gruppe": "N",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Eriksen1887"
+ },
+ "T800": {
+  "id": "699062",
+  "gruppe": "N",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "T800"
+ },
+ "Milfred": {
+  "id": "1790620",
+  "gruppe": "N",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Milfred"
+ },
+ "Sugarfree": {
+  "id": "3076929",
+  "gruppe": "N",
+  "quelle": [
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "SugarFree"
+ },
+ "Peady": {
+  "id": "697921",
+  "gruppe": "O",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Peady"
+ },
+ "Sascha": {
+  "id": "1900799",
+  "gruppe": "O",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Sascha"
+ },
+ "JoGoal07": {
+  "id": "2692153",
+  "gruppe": "O",
+  "status": "geprueft",
+  "manuell": true,
+  "kickbase_name": "Jogoal07"
+ },
+ "Mircodinho": {
+  "id": "1062745",
+  "gruppe": "O",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "mircodinho"
+ },
+ "Swoosh": {
+  "id": "2590279",
+  "gruppe": "O",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Swoosh"
+ },
+ "LQ_R3lax0": {
+  "id": "1927404",
+  "gruppe": "O",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "LQ_R3lax0"
+ },
+ "John": {
+  "id": "478689",
+  "kandidaten": [
+   "2152161",
+   "478689"
+  ],
+  "gruppe": "O",
+  "status": "geprueft",
+  "kickbase_name": "John"
+ },
+ "Poet10": {
+  "id": "1623645",
+  "gruppe": "O",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KWBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Poet10"
+ },
+ "Chris": {
+  "id": "2171487",
+  "kandidaten": [
+   "2171487",
+   "356757"
+  ],
+  "gruppe": "O",
+  "status": "geprueft",
+  "kickbase_name": "Chris"
+ },
+ "Niklaas": {
+  "id": "1495180",
+  "gruppe": "P",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Niklaas"
+ },
+ "Baumann": {
+  "id": "1646647",
+  "gruppe": "P",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Baumann"
+ },
+ "Kevin Manthey": {
+  "id": "2598323",
+  "gruppe": "P",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Kevin Manthey"
+ },
+ "Snerti": {
+  "id": "2252575",
+  "gruppe": "P",
+  "quelle": [
+   "Junkies",
+   "KBL"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "Snerti"
+ },
+ "Marcel_2": {
+  "id": "3268464",
+  "gruppe": "P",
+  "quelle": [
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "MarcEl_2"
+ },
+ "Samis11": {
+  "id": "1703788",
+  "kandidaten": [
+   "1603788",
+   "1703788"
+  ],
+  "gruppe": "P",
+  "status": "geprueft",
+  "kickbase_name": "Samis11 "
+ },
+ "David9": {
+  "id": "1233547",
+  "gruppe": "P",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "David9"
+ },
+ "SpecialOne": {
+  "id": "1027810",
+  "gruppe": "P",
+  "quelle": [
+   "Junkies",
+   "KBL",
+   "KBL-Cup",
+   "KWBL",
+   "KWBL-Cup"
+  ],
+  "status": "geprueft",
+  "kickbase_name": "specialone"
+ },
+ "Lumeadow": {
+  "id": "1786871",
+  "gruppe": "P",
+  "quelle": [
+   "KBL",
+   "KBL-Cup",
+   "KWBL"
+  ],
+  "status": "nicht_in_challenge"
+ }
+}

@@ -1,0 +1,7126 @@
+{
+ "gruppen": {
+  "A": [
+   "Toni41187",
+   "Acke1899",
+   "Ante Sapina",
+   "DimaL",
+   "Fabio",
+   "StevieG",
+   "Zolli",
+   "Garry",
+   "Dubi"
+  ],
+  "B": [
+   "Daniel_Niederlande",
+   "Rooth",
+   "Tobi",
+   "Jan Kiefer",
+   "Kreatim",
+   "Eismumie",
+   "Maxxie",
+   "Harvey",
+   "Nobse"
+  ],
+  "C": [
+   "Nico mit Bart",
+   "Lukas**",
+   "Oli 1905",
+   "Ralf",
+   "Micha",
+   "InspektorFrippe",
+   "Golo",
+   "Weasly95",
+   "Hanuta"
+  ],
+  "D": [
+   "Marcelo1848",
+   "Olimtk",
+   "Fabinho",
+   "Charco",
+   "Meister",
+   "YW7",
+   "Tobi180996",
+   "Dachsi.73",
+   "MrHoberg_2026"
+  ],
+  "E": [
+   "Hasan20",
+   "Deeznuts",
+   "Batu_Hayat",
+   "Baumi",
+   "Christian78cs",
+   "BennetBVB",
+   "itscalledsoccer",
+   "Michael1902",
+   "Marcothebaumi"
+  ],
+  "F": [
+   "Paddy**",
+   "Louis",
+   "Lcd007",
+   "Fly",
+   "Budiii",
+   "Bene",
+   "Christoph Daum",
+   "Nici",
+   "Jonas Larsokat"
+  ],
+  "G": [
+   "Aaron",
+   "budenzauber",
+   "Hansaaufdie1",
+   "URD",
+   "El_Berondolo",
+   "TheTipsyOne",
+   "Scratchy",
+   "Lieven",
+   "Lauty"
+  ],
+  "H": [
+   "Luclet",
+   "AUTJohnny",
+   "Dodo",
+   "GoatMann",
+   "Chong Tese",
+   "Holzwirt",
+   "FreshWieAirwaves",
+   "Fugi",
+   "Registro"
+  ],
+  "I": [
+   "Mobej563",
+   "Cello",
+   "Kreon",
+   "Tobias.90",
+   "Fcpkicker",
+   "Sportfan13",
+   "Marek International",
+   "Siegero10",
+   "Eric"
+  ],
+  "J": [
+   "Toni14",
+   "Markus",
+   "Marcel 1887",
+   "vanderfart",
+   "Meise",
+   "Spooky 09",
+   "Carsten",
+   "BlackShadow",
+   "Vivien"
+  ],
+  "K": [
+   "Miron Muslic",
+   "AlexXx",
+   "Jonas96",
+   "Mopsi",
+   "089 (Patris)",
+   "Millzen",
+   "Yannick",
+   "Stammler9",
+   "Lilo"
+  ],
+  "L": [
+   "thebigfoot",
+   "Konni",
+   "Adam",
+   "FC Halbe Lunge",
+   "mathi_x",
+   "Poeti",
+   "Robin",
+   "RedBull296",
+   "Schonz"
+  ],
+  "M": [
+   "Raphael Matusiak",
+   "Sebeb",
+   "JeremiePingPong",
+   "TheAnswer",
+   "Meeeh",
+   "BVBCologne",
+   "Martin Reim",
+   "Michi907",
+   "CarstenWaschmeister"
+  ],
+  "N": [
+   "Siggi",
+   "Zügi",
+   "Seando",
+   "Schlenzen & Partner",
+   "Wolfgang",
+   "Eriksen1887",
+   "T800",
+   "Milfred",
+   "Sugarfree"
+  ],
+  "O": [
+   "Peady",
+   "Sascha",
+   "JoGoal07",
+   "Mircodinho",
+   "Swoosh",
+   "LQ_R3lax0",
+   "John",
+   "Poet10",
+   "Chris"
+  ],
+  "P": [
+   "Niklaas",
+   "Baumann",
+   "Kevin Manthey",
+   "Snerti",
+   "Marcel_2",
+   "Samis11",
+   "David9",
+   "SpecialOne",
+   "Lumeadow"
+  ]
+ },
+ "spiele": {
+  "A": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Toni41187",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "StevieG",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Fabio",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Garry",
+    "gast": "Zolli"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Ante Sapina",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Dubi",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Zolli",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "DimaL",
+    "gast": "Garry"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Fabio",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Acke1899",
+    "gast": "Zolli"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Garry",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "StevieG",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Zolli",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Toni41187",
+    "gast": "Garry"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "DimaL",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Dubi",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Garry",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Ante Sapina",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "StevieG",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Acke1899",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "DimaL",
+    "gast": "Zolli"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Fabio",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Dubi",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Toni41187",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "StevieG",
+    "gast": "Garry"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Zolli",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Acke1899",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Ante Sapina",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Dubi",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Garry",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Toni41187",
+    "gast": "Zolli"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Fabio",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Acke1899",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "DimaL",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Ante Sapina",
+    "gast": "Garry"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Zolli",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Dubi",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Ante Sapina",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "DimaL",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Zolli",
+    "gast": "Garry"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Acke1899",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Fabio",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "StevieG",
+    "gast": "Zolli"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Garry",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Toni41187",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Zolli",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Dubi",
+    "gast": "Garry"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "DimaL",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Ante Sapina",
+    "gast": "Zolli"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Garry",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Acke1899",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "StevieG",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Fabio",
+    "gast": "Garry"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "DimaL",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Toni41187",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Dubi",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Zolli",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "StevieG",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Ante Sapina",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Acke1899",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Garry",
+    "gast": "StevieG"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Dubi",
+    "gast": "Zolli"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Fabio",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Toni41187",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "DimaL",
+    "gast": "Dubi"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Acke1899",
+    "gast": "Garry"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Zolli",
+    "gast": "Toni41187"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Ante Sapina",
+    "gast": "Fabio"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "StevieG",
+    "gast": "Acke1899"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Toni41187",
+    "gast": "DimaL"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Garry",
+    "gast": "Ante Sapina"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Fabio",
+    "gast": "Zolli"
+   }
+  ],
+  "B": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Kreatim",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Rooth",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Nobse",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Tobi",
+    "gast": "Jan Kiefer"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Maxxie",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Harvey",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Jan Kiefer",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Daniel_Niederlande",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Nobse",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Eismumie",
+    "gast": "Jan Kiefer"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Tobi",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Rooth",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Jan Kiefer",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Kreatim",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Daniel_Niederlande",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Harvey",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Tobi",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Maxxie",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Rooth",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Eismumie",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Daniel_Niederlande",
+    "gast": "Jan Kiefer"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Nobse",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Harvey",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Kreatim",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Rooth",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Jan Kiefer",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Eismumie",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Maxxie",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Harvey",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Tobi",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Kreatim",
+    "gast": "Jan Kiefer"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Nobse",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Eismumie",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Daniel_Niederlande",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Maxxie",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Jan Kiefer",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Harvey",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Maxxie",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Daniel_Niederlande",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Jan Kiefer",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Eismumie",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Nobse",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Rooth",
+    "gast": "Jan Kiefer"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Tobi",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Kreatim",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Jan Kiefer",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Harvey",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Daniel_Niederlande",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Maxxie",
+    "gast": "Jan Kiefer"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Tobi",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Eismumie",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Rooth",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Nobse",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Daniel_Niederlande",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Kreatim",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Harvey",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Jan Kiefer",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Rooth",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Maxxie",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Eismumie",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Tobi",
+    "gast": "Rooth"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Harvey",
+    "gast": "Jan Kiefer"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Nobse",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Kreatim",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Daniel_Niederlande",
+    "gast": "Harvey"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Eismumie",
+    "gast": "Tobi"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Jan Kiefer",
+    "gast": "Kreatim"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Maxxie",
+    "gast": "Nobse"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Rooth",
+    "gast": "Eismumie"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Kreatim",
+    "gast": "Daniel_Niederlande"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Tobi",
+    "gast": "Maxxie"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Nobse",
+    "gast": "Jan Kiefer"
+   }
+  ],
+  "C": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Golo",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Weasly95",
+    "gast": "Micha"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Hanuta",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Ralf",
+    "gast": "InspektorFrippe"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Micha",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Lukas**",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "InspektorFrippe",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Nico mit Bart",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Hanuta",
+    "gast": "Golo"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Oli 1905",
+    "gast": "InspektorFrippe"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Ralf",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Weasly95",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "InspektorFrippe",
+    "gast": "Micha"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Golo",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Nico mit Bart",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Lukas**",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Ralf",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Micha",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Weasly95",
+    "gast": "Golo"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Oli 1905",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Nico mit Bart",
+    "gast": "InspektorFrippe"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Hanuta",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Lukas**",
+    "gast": "Micha"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Golo",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Weasly95",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "InspektorFrippe",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Oli 1905",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Micha",
+    "gast": "Golo"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Lukas**",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Ralf",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Golo",
+    "gast": "InspektorFrippe"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Hanuta",
+    "gast": "Micha"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Oli 1905",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Nico mit Bart",
+    "gast": "Golo"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Micha",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "InspektorFrippe",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Lukas**",
+    "gast": "Golo"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Micha",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Nico mit Bart",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "InspektorFrippe",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Oli 1905",
+    "gast": "Micha"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Hanuta",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Weasly95",
+    "gast": "InspektorFrippe"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Ralf",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Golo",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "InspektorFrippe",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Lukas**",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Nico mit Bart",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Micha",
+    "gast": "InspektorFrippe"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Ralf",
+    "gast": "Golo"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Oli 1905",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Weasly95",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Hanuta",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Nico mit Bart",
+    "gast": "Micha"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Golo",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Lukas**",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "InspektorFrippe",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Weasly95",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Micha",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Oli 1905",
+    "gast": "Golo"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Ralf",
+    "gast": "Weasly95"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Lukas**",
+    "gast": "InspektorFrippe"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Hanuta",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Golo",
+    "gast": "Micha"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Nico mit Bart",
+    "gast": "Lukas**"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Oli 1905",
+    "gast": "Ralf"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "InspektorFrippe",
+    "gast": "Golo"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Micha",
+    "gast": "Hanuta"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Weasly95",
+    "gast": "Oli 1905"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Golo",
+    "gast": "Nico mit Bart"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Ralf",
+    "gast": "Micha"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Hanuta",
+    "gast": "InspektorFrippe"
+   }
+  ],
+  "D": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Olimtk",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Charco",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Tobi180996",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "YW7",
+    "gast": "Fabinho"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "MrHoberg_2026",
+    "gast": "Meister"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Dachsi.73",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Fabinho",
+    "gast": "Charco"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Marcelo1848",
+    "gast": "YW7"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Tobi180996",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Meister",
+    "gast": "Fabinho"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "YW7",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Charco",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Fabinho",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Olimtk",
+    "gast": "YW7"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Marcelo1848",
+    "gast": "Meister"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Dachsi.73",
+    "gast": "Charco"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "YW7",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "MrHoberg_2026",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Charco",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Meister",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Marcelo1848",
+    "gast": "Fabinho"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Tobi180996",
+    "gast": "Charco"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Dachsi.73",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Olimtk",
+    "gast": "Meister"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Charco",
+    "gast": "YW7"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Fabinho",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Meister",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "MrHoberg_2026",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Dachsi.73",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "YW7",
+    "gast": "Meister"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Olimtk",
+    "gast": "Fabinho"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Tobi180996",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Meister",
+    "gast": "Charco"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Marcelo1848",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "MrHoberg_2026",
+    "gast": "YW7"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Fabinho",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Dachsi.73",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "MrHoberg_2026",
+    "gast": "Charco"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Marcelo1848",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Fabinho",
+    "gast": "YW7"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Meister",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Tobi180996",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Charco",
+    "gast": "Fabinho"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "YW7",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Olimtk",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Fabinho",
+    "gast": "Meister"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Dachsi.73",
+    "gast": "YW7"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Marcelo1848",
+    "gast": "Charco"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "MrHoberg_2026",
+    "gast": "Fabinho"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "YW7",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Meister",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Charco",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Tobi180996",
+    "gast": "YW7"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Marcelo1848",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Olimtk",
+    "gast": "Charco"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Dachsi.73",
+    "gast": "Meister"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Fabinho",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Charco",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "MrHoberg_2026",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Meister",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "YW7",
+    "gast": "Charco"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Dachsi.73",
+    "gast": "Fabinho"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Tobi180996",
+    "gast": "Meister"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Olimtk",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Marcelo1848",
+    "gast": "Dachsi.73"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Meister",
+    "gast": "YW7"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Fabinho",
+    "gast": "Olimtk"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "MrHoberg_2026",
+    "gast": "Tobi180996"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Charco",
+    "gast": "Meister"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Olimtk",
+    "gast": "Marcelo1848"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "YW7",
+    "gast": "MrHoberg_2026"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Tobi180996",
+    "gast": "Fabinho"
+   }
+  ],
+  "E": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "BennetBVB",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Michael1902",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Christian78cs",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Deeznuts",
+    "gast": "Marcothebaumi"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Baumi",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Hasan20",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Marcothebaumi",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Batu_Hayat",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Christian78cs",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "itscalledsoccer",
+    "gast": "Marcothebaumi"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Deeznuts",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Michael1902",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Marcothebaumi",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "BennetBVB",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Batu_Hayat",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Hasan20",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Deeznuts",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Baumi",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Michael1902",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "itscalledsoccer",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Batu_Hayat",
+    "gast": "Marcothebaumi"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Christian78cs",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Hasan20",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "BennetBVB",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Michael1902",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Marcothebaumi",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "itscalledsoccer",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Baumi",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Hasan20",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Deeznuts",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "BennetBVB",
+    "gast": "Marcothebaumi"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Christian78cs",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "itscalledsoccer",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Batu_Hayat",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Baumi",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Marcothebaumi",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Hasan20",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Baumi",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Batu_Hayat",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Marcothebaumi",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "itscalledsoccer",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Christian78cs",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Michael1902",
+    "gast": "Marcothebaumi"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Deeznuts",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "BennetBVB",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Marcothebaumi",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Hasan20",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Batu_Hayat",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Baumi",
+    "gast": "Marcothebaumi"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Deeznuts",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "itscalledsoccer",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Michael1902",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Christian78cs",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Batu_Hayat",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "BennetBVB",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Hasan20",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Marcothebaumi",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Michael1902",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Baumi",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "itscalledsoccer",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Deeznuts",
+    "gast": "Michael1902"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Hasan20",
+    "gast": "Marcothebaumi"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Christian78cs",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "BennetBVB",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Batu_Hayat",
+    "gast": "Hasan20"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "itscalledsoccer",
+    "gast": "Deeznuts"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Marcothebaumi",
+    "gast": "BennetBVB"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Baumi",
+    "gast": "Christian78cs"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Michael1902",
+    "gast": "itscalledsoccer"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "BennetBVB",
+    "gast": "Batu_Hayat"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Deeznuts",
+    "gast": "Baumi"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Christian78cs",
+    "gast": "Marcothebaumi"
+   }
+  ],
+  "F": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Fly",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Christoph Daum",
+    "gast": "Louis"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Bene",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Lcd007",
+    "gast": "Nici"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Louis",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Paddy**",
+    "gast": "Bene"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Nici",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Jonas Larsokat",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Bene",
+    "gast": "Fly"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Budiii",
+    "gast": "Nici"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Lcd007",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Christoph Daum",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Nici",
+    "gast": "Louis"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Fly",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Jonas Larsokat",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Paddy**",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Lcd007",
+    "gast": "Bene"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Louis",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Christoph Daum",
+    "gast": "Fly"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Budiii",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Jonas Larsokat",
+    "gast": "Nici"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Bene",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Paddy**",
+    "gast": "Louis"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Fly",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Christoph Daum",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Nici",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Budiii",
+    "gast": "Bene"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Louis",
+    "gast": "Fly"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Paddy**",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Lcd007",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Fly",
+    "gast": "Nici"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Bene",
+    "gast": "Louis"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Budiii",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Jonas Larsokat",
+    "gast": "Fly"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Louis",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Nici",
+    "gast": "Bene"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Paddy**",
+    "gast": "Fly"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Louis",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Jonas Larsokat",
+    "gast": "Bene"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Nici",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Budiii",
+    "gast": "Louis"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Bene",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Christoph Daum",
+    "gast": "Nici"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Lcd007",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Fly",
+    "gast": "Bene"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Nici",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Paddy**",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Jonas Larsokat",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Louis",
+    "gast": "Nici"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Lcd007",
+    "gast": "Fly"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Budiii",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Christoph Daum",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Bene",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Jonas Larsokat",
+    "gast": "Louis"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Fly",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Paddy**",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Nici",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Christoph Daum",
+    "gast": "Bene"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Louis",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Budiii",
+    "gast": "Fly"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Lcd007",
+    "gast": "Christoph Daum"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Paddy**",
+    "gast": "Nici"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Bene",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Fly",
+    "gast": "Louis"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Jonas Larsokat",
+    "gast": "Paddy**"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Budiii",
+    "gast": "Lcd007"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Nici",
+    "gast": "Fly"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Louis",
+    "gast": "Bene"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Christoph Daum",
+    "gast": "Budiii"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Fly",
+    "gast": "Jonas Larsokat"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Lcd007",
+    "gast": "Louis"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Bene",
+    "gast": "Nici"
+   }
+  ],
+  "G": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "TheTipsyOne",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "budenzauber",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "URD",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Lieven",
+    "gast": "Hansaaufdie1"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "El_Berondolo",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Aaron",
+    "gast": "URD"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Hansaaufdie1",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Lauty",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "URD",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Scratchy",
+    "gast": "Hansaaufdie1"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Lieven",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "budenzauber",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Hansaaufdie1",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "TheTipsyOne",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Lauty",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Aaron",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Lieven",
+    "gast": "URD"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "El_Berondolo",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "budenzauber",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Scratchy",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Lauty",
+    "gast": "Hansaaufdie1"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "URD",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Aaron",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "TheTipsyOne",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "budenzauber",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Hansaaufdie1",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Scratchy",
+    "gast": "URD"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "El_Berondolo",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Aaron",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Lieven",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "TheTipsyOne",
+    "gast": "Hansaaufdie1"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "URD",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Scratchy",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Lauty",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "El_Berondolo",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Hansaaufdie1",
+    "gast": "URD"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Aaron",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "El_Berondolo",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Lauty",
+    "gast": "URD"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Hansaaufdie1",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Scratchy",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "URD",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "budenzauber",
+    "gast": "Hansaaufdie1"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Lieven",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "TheTipsyOne",
+    "gast": "URD"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Hansaaufdie1",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Aaron",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Lauty",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "El_Berondolo",
+    "gast": "Hansaaufdie1"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Lieven",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Scratchy",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "budenzauber",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "URD",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Lauty",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "TheTipsyOne",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Aaron",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Hansaaufdie1",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "budenzauber",
+    "gast": "URD"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "El_Berondolo",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Scratchy",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Lieven",
+    "gast": "budenzauber"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Aaron",
+    "gast": "Hansaaufdie1"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "URD",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "TheTipsyOne",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Lauty",
+    "gast": "Aaron"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Scratchy",
+    "gast": "Lieven"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Hansaaufdie1",
+    "gast": "TheTipsyOne"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "El_Berondolo",
+    "gast": "URD"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "budenzauber",
+    "gast": "Scratchy"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "TheTipsyOne",
+    "gast": "Lauty"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Lieven",
+    "gast": "El_Berondolo"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "URD",
+    "gast": "Hansaaufdie1"
+   }
+  ],
+  "H": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "GoatMann",
+    "gast": "Registro"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "AUTJohnny",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Holzwirt",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Fugi",
+    "gast": "FreshWieAirwaves"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Dodo",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Registro",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "FreshWieAirwaves",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Luclet",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Holzwirt",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Chong Tese",
+    "gast": "FreshWieAirwaves"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Fugi",
+    "gast": "Registro"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "AUTJohnny",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "FreshWieAirwaves",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "GoatMann",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Luclet",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Registro",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Fugi",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Dodo",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "AUTJohnny",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Chong Tese",
+    "gast": "Registro"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Luclet",
+    "gast": "FreshWieAirwaves"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Holzwirt",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Registro",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "GoatMann",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "AUTJohnny",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "FreshWieAirwaves",
+    "gast": "Registro"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Chong Tese",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Dodo",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Registro",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Fugi",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "GoatMann",
+    "gast": "FreshWieAirwaves"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Holzwirt",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Chong Tese",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Luclet",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Dodo",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "FreshWieAirwaves",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Registro",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Dodo",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Luclet",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "FreshWieAirwaves",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Chong Tese",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Holzwirt",
+    "gast": "Registro"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "AUTJohnny",
+    "gast": "FreshWieAirwaves"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Fugi",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "GoatMann",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "FreshWieAirwaves",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Registro",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Luclet",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Dodo",
+    "gast": "FreshWieAirwaves"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Fugi",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Chong Tese",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "AUTJohnny",
+    "gast": "Registro"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Holzwirt",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Luclet",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "GoatMann",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Registro",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "FreshWieAirwaves",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "AUTJohnny",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Dodo",
+    "gast": "Registro"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Chong Tese",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Fugi",
+    "gast": "AUTJohnny"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Registro",
+    "gast": "FreshWieAirwaves"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Holzwirt",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "GoatMann",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Luclet",
+    "gast": "Registro"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Chong Tese",
+    "gast": "Fugi"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "FreshWieAirwaves",
+    "gast": "GoatMann"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Dodo",
+    "gast": "Holzwirt"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "AUTJohnny",
+    "gast": "Chong Tese"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "GoatMann",
+    "gast": "Luclet"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Fugi",
+    "gast": "Dodo"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Holzwirt",
+    "gast": "FreshWieAirwaves"
+   }
+  ],
+  "I": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Marek International",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Siegero10",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Eric",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Cello",
+    "gast": "Fcpkicker"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Sportfan13",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Kreon",
+    "gast": "Eric"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Fcpkicker",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Tobias.90",
+    "gast": "Cello"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Eric",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Mobej563",
+    "gast": "Fcpkicker"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Cello",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Siegero10",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Fcpkicker",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Marek International",
+    "gast": "Cello"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Tobias.90",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Kreon",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Cello",
+    "gast": "Eric"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Sportfan13",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Siegero10",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Mobej563",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Tobias.90",
+    "gast": "Fcpkicker"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Eric",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Kreon",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Marek International",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Siegero10",
+    "gast": "Cello"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Fcpkicker",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Mobej563",
+    "gast": "Eric"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Sportfan13",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Kreon",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Cello",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Marek International",
+    "gast": "Fcpkicker"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Eric",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Mobej563",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Tobias.90",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Sportfan13",
+    "gast": "Cello"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Fcpkicker",
+    "gast": "Eric"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Kreon",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Sportfan13",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Tobias.90",
+    "gast": "Eric"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Fcpkicker",
+    "gast": "Cello"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Mobej563",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Eric",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Siegero10",
+    "gast": "Fcpkicker"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Cello",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Marek International",
+    "gast": "Eric"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Fcpkicker",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Kreon",
+    "gast": "Cello"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Tobias.90",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Sportfan13",
+    "gast": "Fcpkicker"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Cello",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Mobej563",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Siegero10",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Eric",
+    "gast": "Cello"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Tobias.90",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Marek International",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Kreon",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Fcpkicker",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Siegero10",
+    "gast": "Eric"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Sportfan13",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Mobej563",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Cello",
+    "gast": "Siegero10"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Kreon",
+    "gast": "Fcpkicker"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Eric",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Marek International",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Tobias.90",
+    "gast": "Kreon"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Mobej563",
+    "gast": "Cello"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Fcpkicker",
+    "gast": "Marek International"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Sportfan13",
+    "gast": "Eric"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Siegero10",
+    "gast": "Mobej563"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Marek International",
+    "gast": "Tobias.90"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Cello",
+    "gast": "Sportfan13"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Eric",
+    "gast": "Fcpkicker"
+   }
+  ],
+  "J": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "vanderfart",
+    "gast": "Meise"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Carsten",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "BlackShadow",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Markus",
+    "gast": "Marcel 1887"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Vivien",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Meise",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Marcel 1887",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Toni14",
+    "gast": "Markus"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "BlackShadow",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Spooky 09",
+    "gast": "Marcel 1887"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Markus",
+    "gast": "Meise"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Carsten",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Marcel 1887",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "vanderfart",
+    "gast": "Markus"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Toni14",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Meise",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Markus",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Vivien",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Carsten",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Spooky 09",
+    "gast": "Meise"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Toni14",
+    "gast": "Marcel 1887"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "BlackShadow",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Meise",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "vanderfart",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Carsten",
+    "gast": "Markus"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Marcel 1887",
+    "gast": "Meise"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Spooky 09",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Vivien",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Meise",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Markus",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "vanderfart",
+    "gast": "Marcel 1887"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "BlackShadow",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Spooky 09",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Toni14",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Vivien",
+    "gast": "Markus"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Marcel 1887",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Meise",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Vivien",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Toni14",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Marcel 1887",
+    "gast": "Markus"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Spooky 09",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "BlackShadow",
+    "gast": "Meise"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Carsten",
+    "gast": "Marcel 1887"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Markus",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "vanderfart",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Marcel 1887",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Meise",
+    "gast": "Markus"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Toni14",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Vivien",
+    "gast": "Marcel 1887"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Markus",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Spooky 09",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Carsten",
+    "gast": "Meise"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "BlackShadow",
+    "gast": "Markus"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Toni14",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "vanderfart",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Meise",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Marcel 1887",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Carsten",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Vivien",
+    "gast": "Meise"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Spooky 09",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Markus",
+    "gast": "Carsten"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Meise",
+    "gast": "Marcel 1887"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "BlackShadow",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "vanderfart",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Toni14",
+    "gast": "Meise"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Spooky 09",
+    "gast": "Markus"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Marcel 1887",
+    "gast": "vanderfart"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Vivien",
+    "gast": "BlackShadow"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Carsten",
+    "gast": "Spooky 09"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "vanderfart",
+    "gast": "Toni14"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Markus",
+    "gast": "Vivien"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "BlackShadow",
+    "gast": "Marcel 1887"
+   }
+  ],
+  "K": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Millzen",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Yannick",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Mopsi",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "AlexXx",
+    "gast": "089 (Patris)"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Lilo",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Jonas96",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "089 (Patris)",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Miron Muslic",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Mopsi",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Stammler9",
+    "gast": "089 (Patris)"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "AlexXx",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Yannick",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "089 (Patris)",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Millzen",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Miron Muslic",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Jonas96",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "AlexXx",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Lilo",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Yannick",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Stammler9",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Miron Muslic",
+    "gast": "089 (Patris)"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Mopsi",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Jonas96",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Millzen",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Yannick",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "089 (Patris)",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Stammler9",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Lilo",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Jonas96",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "AlexXx",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Millzen",
+    "gast": "089 (Patris)"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Mopsi",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Stammler9",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Miron Muslic",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Lilo",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "089 (Patris)",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Jonas96",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Lilo",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Miron Muslic",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "089 (Patris)",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Stammler9",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Mopsi",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Yannick",
+    "gast": "089 (Patris)"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "AlexXx",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Millzen",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "089 (Patris)",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Jonas96",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Miron Muslic",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Lilo",
+    "gast": "089 (Patris)"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "AlexXx",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Stammler9",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Yannick",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Mopsi",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Miron Muslic",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Millzen",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Jonas96",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "089 (Patris)",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Yannick",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Lilo",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Stammler9",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "AlexXx",
+    "gast": "Yannick"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Jonas96",
+    "gast": "089 (Patris)"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Mopsi",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Millzen",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Miron Muslic",
+    "gast": "Jonas96"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Stammler9",
+    "gast": "AlexXx"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "089 (Patris)",
+    "gast": "Millzen"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Lilo",
+    "gast": "Mopsi"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Yannick",
+    "gast": "Stammler9"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Millzen",
+    "gast": "Miron Muslic"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "AlexXx",
+    "gast": "Lilo"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Mopsi",
+    "gast": "089 (Patris)"
+   }
+  ],
+  "L": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Schonz",
+    "gast": "Robin"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "thebigfoot",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "RedBull296",
+    "gast": "Adam"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Konni",
+    "gast": "FC Halbe Lunge"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "mathi_x",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Robin",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "FC Halbe Lunge",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Adam",
+    "gast": "Konni"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "RedBull296",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Poeti",
+    "gast": "FC Halbe Lunge"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Konni",
+    "gast": "Robin"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "thebigfoot",
+    "gast": "Adam"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "FC Halbe Lunge",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Schonz",
+    "gast": "Konni"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Adam",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Robin",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Konni",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "mathi_x",
+    "gast": "Adam"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "thebigfoot",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Poeti",
+    "gast": "Robin"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Adam",
+    "gast": "FC Halbe Lunge"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "RedBull296",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Robin",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Schonz",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "thebigfoot",
+    "gast": "Konni"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "FC Halbe Lunge",
+    "gast": "Robin"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Poeti",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "mathi_x",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Robin",
+    "gast": "Adam"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Konni",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Schonz",
+    "gast": "FC Halbe Lunge"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "RedBull296",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Poeti",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Adam",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "mathi_x",
+    "gast": "Konni"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "FC Halbe Lunge",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Robin",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "mathi_x",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Adam",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "FC Halbe Lunge",
+    "gast": "Konni"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Poeti",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "RedBull296",
+    "gast": "Robin"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "thebigfoot",
+    "gast": "FC Halbe Lunge"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Konni",
+    "gast": "Adam"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Schonz",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "FC Halbe Lunge",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Robin",
+    "gast": "Konni"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Adam",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "mathi_x",
+    "gast": "FC Halbe Lunge"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Konni",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Poeti",
+    "gast": "Adam"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "thebigfoot",
+    "gast": "Robin"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "RedBull296",
+    "gast": "Konni"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Adam",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Schonz",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Robin",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "FC Halbe Lunge",
+    "gast": "Adam"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "thebigfoot",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "mathi_x",
+    "gast": "Robin"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Poeti",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Konni",
+    "gast": "thebigfoot"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Robin",
+    "gast": "FC Halbe Lunge"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "RedBull296",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Schonz",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Adam",
+    "gast": "Robin"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Poeti",
+    "gast": "Konni"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "FC Halbe Lunge",
+    "gast": "Schonz"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "mathi_x",
+    "gast": "RedBull296"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "thebigfoot",
+    "gast": "Poeti"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Schonz",
+    "gast": "Adam"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Konni",
+    "gast": "mathi_x"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "RedBull296",
+    "gast": "FC Halbe Lunge"
+   }
+  ],
+  "M": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "TheAnswer",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Michi907",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "BVBCologne",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Raphael Matusiak",
+    "gast": "Martin Reim"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "JeremiePingPong",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Meeeh",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Martin Reim",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Sebeb",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "BVBCologne",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "CarstenWaschmeister",
+    "gast": "Martin Reim"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Raphael Matusiak",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Michi907",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Martin Reim",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "TheAnswer",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Sebeb",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Meeeh",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Raphael Matusiak",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "JeremiePingPong",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Michi907",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "CarstenWaschmeister",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Sebeb",
+    "gast": "Martin Reim"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "BVBCologne",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Meeeh",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "TheAnswer",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Michi907",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Martin Reim",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "CarstenWaschmeister",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "JeremiePingPong",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Meeeh",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Raphael Matusiak",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "TheAnswer",
+    "gast": "Martin Reim"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "BVBCologne",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "CarstenWaschmeister",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Sebeb",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "JeremiePingPong",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Martin Reim",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Meeeh",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "JeremiePingPong",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Sebeb",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Martin Reim",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "CarstenWaschmeister",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "BVBCologne",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Michi907",
+    "gast": "Martin Reim"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Raphael Matusiak",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "TheAnswer",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Martin Reim",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Meeeh",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Sebeb",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "JeremiePingPong",
+    "gast": "Martin Reim"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Raphael Matusiak",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "CarstenWaschmeister",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Michi907",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "BVBCologne",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Sebeb",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "TheAnswer",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Meeeh",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Martin Reim",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Michi907",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "JeremiePingPong",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "CarstenWaschmeister",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Raphael Matusiak",
+    "gast": "Michi907"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Meeeh",
+    "gast": "Martin Reim"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "BVBCologne",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "TheAnswer",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Sebeb",
+    "gast": "Meeeh"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "CarstenWaschmeister",
+    "gast": "Raphael Matusiak"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Martin Reim",
+    "gast": "TheAnswer"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "JeremiePingPong",
+    "gast": "BVBCologne"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Michi907",
+    "gast": "CarstenWaschmeister"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "TheAnswer",
+    "gast": "Sebeb"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Raphael Matusiak",
+    "gast": "JeremiePingPong"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "BVBCologne",
+    "gast": "Martin Reim"
+   }
+  ],
+  "N": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Sugarfree",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Schlenzen & Partner",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Milfred",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Seando",
+    "gast": "Eriksen1887"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Zügi",
+    "gast": "T800"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Siggi",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Eriksen1887",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Wolfgang",
+    "gast": "Seando"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Milfred",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "T800",
+    "gast": "Eriksen1887"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Seando",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Schlenzen & Partner",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Eriksen1887",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Sugarfree",
+    "gast": "Seando"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Wolfgang",
+    "gast": "T800"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Siggi",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Seando",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Zügi",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Schlenzen & Partner",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "T800",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Wolfgang",
+    "gast": "Eriksen1887"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Milfred",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Siggi",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Sugarfree",
+    "gast": "T800"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Schlenzen & Partner",
+    "gast": "Seando"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Eriksen1887",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "T800",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Zügi",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Siggi",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Seando",
+    "gast": "T800"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Sugarfree",
+    "gast": "Eriksen1887"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Milfred",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "T800",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Wolfgang",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Zügi",
+    "gast": "Seando"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Eriksen1887",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Siggi",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Zügi",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Wolfgang",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Eriksen1887",
+    "gast": "Seando"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "T800",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Milfred",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Schlenzen & Partner",
+    "gast": "Eriksen1887"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Seando",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Sugarfree",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Eriksen1887",
+    "gast": "T800"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Siggi",
+    "gast": "Seando"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Wolfgang",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Zügi",
+    "gast": "Eriksen1887"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Seando",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "T800",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Schlenzen & Partner",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Milfred",
+    "gast": "Seando"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Wolfgang",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Sugarfree",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Siggi",
+    "gast": "T800"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Eriksen1887",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Schlenzen & Partner",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Zügi",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "T800",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Seando",
+    "gast": "Schlenzen & Partner"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Siggi",
+    "gast": "Eriksen1887"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Milfred",
+    "gast": "T800"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Sugarfree",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Wolfgang",
+    "gast": "Siggi"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "T800",
+    "gast": "Seando"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Eriksen1887",
+    "gast": "Sugarfree"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Zügi",
+    "gast": "Milfred"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Schlenzen & Partner",
+    "gast": "T800"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Sugarfree",
+    "gast": "Wolfgang"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Seando",
+    "gast": "Zügi"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Milfred",
+    "gast": "Eriksen1887"
+   }
+  ],
+  "O": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "John",
+    "gast": "Peady"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "Chris",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "JoGoal07",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Swoosh",
+    "gast": "Sascha"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "Mircodinho",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Peady",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Sascha",
+    "gast": "Chris"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "LQ_R3lax0",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "JoGoal07",
+    "gast": "John"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Poet10",
+    "gast": "Sascha"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Swoosh",
+    "gast": "Peady"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "Chris",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Sascha",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "John",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "LQ_R3lax0",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Peady",
+    "gast": "Chris"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Swoosh",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "Mircodinho",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "Chris",
+    "gast": "John"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Poet10",
+    "gast": "Peady"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "LQ_R3lax0",
+    "gast": "Sascha"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "JoGoal07",
+    "gast": "Chris"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Peady",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "John",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "Chris",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Sascha",
+    "gast": "Peady"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Poet10",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "Mircodinho",
+    "gast": "John"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Peady",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Swoosh",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "John",
+    "gast": "Sascha"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "JoGoal07",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Chris",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "LQ_R3lax0",
+    "gast": "John"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "Mircodinho",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Sascha",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Peady",
+    "gast": "John"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "Mircodinho",
+    "gast": "Chris"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "LQ_R3lax0",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Sascha",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Poet10",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "JoGoal07",
+    "gast": "Peady"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "Chris",
+    "gast": "Sascha"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Swoosh",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "John",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Sascha",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Peady",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "LQ_R3lax0",
+    "gast": "Chris"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "Mircodinho",
+    "gast": "Sascha"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Swoosh",
+    "gast": "John"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Poet10",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "Chris",
+    "gast": "Peady"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "JoGoal07",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "LQ_R3lax0",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "John",
+    "gast": "Chris"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Peady",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Sascha",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "Chris",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "Mircodinho",
+    "gast": "Peady"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Poet10",
+    "gast": "John"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Swoosh",
+    "gast": "Chris"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Peady",
+    "gast": "Sascha"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "JoGoal07",
+    "gast": "Poet10"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "John",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "LQ_R3lax0",
+    "gast": "Peady"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Poet10",
+    "gast": "Swoosh"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Sascha",
+    "gast": "John"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "Mircodinho",
+    "gast": "JoGoal07"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "Poet10",
+    "gast": "Chris"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "John",
+    "gast": "LQ_R3lax0"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Swoosh",
+    "gast": "Mircodinho"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "JoGoal07",
+    "gast": "Sascha"
+   }
+  ],
+  "P": [
+   {
+    "nr": 1,
+    "st": 1,
+    "heim": "Samis11",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 2,
+    "st": 1,
+    "heim": "David9",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 3,
+    "st": 1,
+    "heim": "Lumeadow",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 4,
+    "st": 1,
+    "heim": "Snerti",
+    "gast": "Marcel_2"
+   },
+   {
+    "nr": 5,
+    "st": 2,
+    "heim": "SpecialOne",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 6,
+    "st": 2,
+    "heim": "Kevin Manthey",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 7,
+    "st": 2,
+    "heim": "Marcel_2",
+    "gast": "David9"
+   },
+   {
+    "nr": 8,
+    "st": 2,
+    "heim": "Niklaas",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 9,
+    "st": 3,
+    "heim": "Lumeadow",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 10,
+    "st": 3,
+    "heim": "Baumann",
+    "gast": "Marcel_2"
+   },
+   {
+    "nr": 11,
+    "st": 3,
+    "heim": "Snerti",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 12,
+    "st": 3,
+    "heim": "David9",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 13,
+    "st": 4,
+    "heim": "Marcel_2",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 14,
+    "st": 4,
+    "heim": "Samis11",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 15,
+    "st": 4,
+    "heim": "Niklaas",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 16,
+    "st": 4,
+    "heim": "Kevin Manthey",
+    "gast": "David9"
+   },
+   {
+    "nr": 17,
+    "st": 5,
+    "heim": "Snerti",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 18,
+    "st": 5,
+    "heim": "SpecialOne",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 19,
+    "st": 5,
+    "heim": "David9",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 20,
+    "st": 5,
+    "heim": "Baumann",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 21,
+    "st": 6,
+    "heim": "Niklaas",
+    "gast": "Marcel_2"
+   },
+   {
+    "nr": 22,
+    "st": 6,
+    "heim": "Lumeadow",
+    "gast": "David9"
+   },
+   {
+    "nr": 23,
+    "st": 6,
+    "heim": "Kevin Manthey",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 24,
+    "st": 6,
+    "heim": "Samis11",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 25,
+    "st": 7,
+    "heim": "David9",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 26,
+    "st": 7,
+    "heim": "Marcel_2",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 27,
+    "st": 7,
+    "heim": "Baumann",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 28,
+    "st": 7,
+    "heim": "SpecialOne",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 29,
+    "st": 8,
+    "heim": "Kevin Manthey",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 30,
+    "st": 8,
+    "heim": "Snerti",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 31,
+    "st": 8,
+    "heim": "Samis11",
+    "gast": "Marcel_2"
+   },
+   {
+    "nr": 32,
+    "st": 8,
+    "heim": "Lumeadow",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 33,
+    "st": 9,
+    "heim": "Baumann",
+    "gast": "David9"
+   },
+   {
+    "nr": 34,
+    "st": 9,
+    "heim": "Niklaas",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 35,
+    "st": 9,
+    "heim": "SpecialOne",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 36,
+    "st": 9,
+    "heim": "Marcel_2",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 37,
+    "st": 10,
+    "heim": "Kevin Manthey",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 38,
+    "st": 10,
+    "heim": "SpecialOne",
+    "gast": "David9"
+   },
+   {
+    "nr": 39,
+    "st": 10,
+    "heim": "Niklaas",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 40,
+    "st": 10,
+    "heim": "Marcel_2",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 41,
+    "st": 11,
+    "heim": "Baumann",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 42,
+    "st": 11,
+    "heim": "Lumeadow",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 43,
+    "st": 11,
+    "heim": "David9",
+    "gast": "Marcel_2"
+   },
+   {
+    "nr": 44,
+    "st": 11,
+    "heim": "Snerti",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 45,
+    "st": 12,
+    "heim": "Samis11",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 46,
+    "st": 12,
+    "heim": "Marcel_2",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 47,
+    "st": 12,
+    "heim": "Kevin Manthey",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 48,
+    "st": 12,
+    "heim": "Niklaas",
+    "gast": "David9"
+   },
+   {
+    "nr": 49,
+    "st": 13,
+    "heim": "SpecialOne",
+    "gast": "Marcel_2"
+   },
+   {
+    "nr": 50,
+    "st": 13,
+    "heim": "Snerti",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 51,
+    "st": 13,
+    "heim": "Baumann",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 52,
+    "st": 13,
+    "heim": "David9",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 53,
+    "st": 14,
+    "heim": "Lumeadow",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 54,
+    "st": 14,
+    "heim": "Niklaas",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 55,
+    "st": 14,
+    "heim": "Samis11",
+    "gast": "David9"
+   },
+   {
+    "nr": 56,
+    "st": 14,
+    "heim": "Kevin Manthey",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 57,
+    "st": 15,
+    "heim": "Marcel_2",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 58,
+    "st": 15,
+    "heim": "David9",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 59,
+    "st": 15,
+    "heim": "SpecialOne",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 60,
+    "st": 15,
+    "heim": "Baumann",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 61,
+    "st": 16,
+    "heim": "Snerti",
+    "gast": "David9"
+   },
+   {
+    "nr": 62,
+    "st": 16,
+    "heim": "Kevin Manthey",
+    "gast": "Marcel_2"
+   },
+   {
+    "nr": 63,
+    "st": 16,
+    "heim": "Lumeadow",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 64,
+    "st": 16,
+    "heim": "Samis11",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 65,
+    "st": 17,
+    "heim": "Niklaas",
+    "gast": "Kevin Manthey"
+   },
+   {
+    "nr": 66,
+    "st": 17,
+    "heim": "Baumann",
+    "gast": "Snerti"
+   },
+   {
+    "nr": 67,
+    "st": 17,
+    "heim": "Marcel_2",
+    "gast": "Samis11"
+   },
+   {
+    "nr": 68,
+    "st": 17,
+    "heim": "SpecialOne",
+    "gast": "Lumeadow"
+   },
+   {
+    "nr": 69,
+    "st": 18,
+    "heim": "David9",
+    "gast": "Baumann"
+   },
+   {
+    "nr": 70,
+    "st": 18,
+    "heim": "Samis11",
+    "gast": "Niklaas"
+   },
+   {
+    "nr": 71,
+    "st": 18,
+    "heim": "Snerti",
+    "gast": "SpecialOne"
+   },
+   {
+    "nr": 72,
+    "st": 18,
+    "heim": "Lumeadow",
+    "gast": "Marcel_2"
+   }
+  ]
+ }
+}

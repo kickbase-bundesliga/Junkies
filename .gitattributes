@@ -1,0 +1,6 @@
+# Zeilenenden einheitlich speichern (Windows lokal / Linux online), sonst riesige Diffs
+* text=auto
+*.png binary
+*.jpeg binary
+*.jpg binary
+*.xlsx binary

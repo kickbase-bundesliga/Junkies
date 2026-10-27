@@ -1,0 +1,85 @@
+# Junkies: taeglich Daten von Kickbase holen, speichern und die Webseite veroeffentlichen.
+# Manuell: Reiter "Actions" -> "Junkies" -> "Run workflow".
+# Bei Aenderungen an Config, Skripten oder Pokal-Dateien wird nur die Webseite neu gebaut.
+name: Junkies
+
+on:
+  schedule:
+    - cron: "53 5 * * *"     # taeglich ca. 7:53 Uhr Sommerzeit / 6:53 Uhr Winterzeit
+  workflow_dispatch:
+    inputs:
+      nur_webseite:
+        description: "Nur Webseite neu bauen (keine neuen Daten holen)"
+        type: boolean
+        default: false
+      alles_neu:
+        description: "Alle Spieltage neu holen (nur bei Problemen)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "scripts/**"
+      - "junkies/pokal/**"
+      - "junkies/logo.png"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: junkies
+  cancel-in-progress: false
+
+jobs:
+  daten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Daten holen
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.nur_webseite != true)
+        env:
+          KWBL_EMAIL: ${{ secrets.KWBL_EMAIL }}
+          KWBL_PASSWORT: ${{ secrets.KWBL_PASSWORT }}
+          PRIVAT_EMAIL: ${{ secrets.PRIVAT_EMAIL }}
+          PRIVAT_PASSWORT: ${{ secrets.PRIVAT_PASSWORT }}
+          ALLES_NEU: ${{ inputs.alles_neu }}
+          PYTHONUNBUFFERED: "1"
+          PYTHONIOENCODING: utf-8
+        run: |
+          if [ "$ALLES_NEU" = "true" ]; then
+            python scripts/junkies_sammeln.py --alles
+          else
+            python scripts/junkies_sammeln.py
+          fi
+          ST=$(python -c "import json;p=json.load(open('junkies/daten/spielplan.json'));print(max([int(k) for k,v in p.items() if v.get('fertig')] or [0]))")
+          bash .github/speichern.sh "Junkies: Daten bis Spieltag $ST"
+
+      - name: Webseite bauen
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python scripts/junkies_webseite.py
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: junkies/webseite
+
+  veroeffentlichen:
+    needs: daten
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5

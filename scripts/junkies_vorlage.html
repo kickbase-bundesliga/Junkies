@@ -1,0 +1,465 @@
+<title>Kickbase Junkies</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Layout: schwarzer Kopf mit Logo und Format-Reitern, darunter eine Arbeitsflaeche je Format (Tabelle links, Zusatz rechts/unten) */
+:root {
+  --bg: #121311;
+  --surface: #1c1d1a;
+  --surface-2: #252722;
+  --line: #33352f;
+  --fg: #f2f3ee;
+  --muted: #a0a497;
+  --lime: #aaf02f;
+  --lime-ink: #152200;
+  --lime-text: #b9f55a;
+  --lime-soft: rgba(170, 240, 47, .14);
+  --ok: #57d18b;
+  --warn: #f2b93b;
+  --bad: #ff6b5e;
+  --info: #8fb3ff;
+  --zone2: #6f8f3a;
+  --head: #0b0c0a;
+  --head-fg: #f2f3ee;
+  --font-display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Barlow", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f4f5ef; --surface: #ffffff; --surface-2: #eceee6; --line: #d9dcd0;
+    --fg: #161714; --muted: #5d6156; --lime: #aaf02f; --lime-ink: #152200; --lime-text: #4f7d0b;
+    --lime-soft: rgba(110, 170, 20, .14); --ok: #1f8f55; --warn: #a86b00; --bad: #c8342a; --info: #2f5fc4;
+    --zone2: #8aa85a; --head: #121311; --head-fg: #f2f3ee; color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --bg: #f4f5ef; --surface: #ffffff; --surface-2: #eceee6; --line: #d9dcd0;
+  --fg: #161714; --muted: #5d6156; --lime: #aaf02f; --lime-ink: #152200; --lime-text: #4f7d0b;
+  --lime-soft: rgba(110, 170, 20, .14); --ok: #1f8f55; --warn: #a86b00; --bad: #c8342a; --info: #2f5fc4;
+  --zone2: #8aa85a; --head: #121311; --head-fg: #f2f3ee; color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.45; margin: 0; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* Kopf */
+header.kopf { background: var(--head); color: var(--head-fg); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; border-bottom: 3px solid var(--lime); }
+.kopf-innen { display: flex; align-items: center; gap: 14px; padding-block: 10px; }
+.logo { width: 46px; height: 46px; border-radius: 10px; background: var(--lime); flex: none; object-fit: cover; }
+.marke { display: flex; flex-direction: column; min-width: 0; }
+.marke b { font-family: var(--font-display); font-weight: 800; font-size: 26px; letter-spacing: .02em; text-transform: uppercase; line-height: 1; }
+.marke b span { color: var(--lime); }
+.marke small { color: #a0a497; font-size: 12.5px; letter-spacing: .04em; }
+.reiter { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-block: 0 10px; }
+.reiter::-webkit-scrollbar { display: none; }
+.reiter button { font: 600 15px/1 var(--font-display); letter-spacing: .06em; text-transform: uppercase; color: #c9ccc0; background: transparent; border: 1px solid #33352f; border-radius: 999px; padding: 8px 14px; cursor: pointer; white-space: nowrap; }
+.reiter button:hover { border-color: var(--lime); color: #fff; }
+.reiter button[aria-selected="true"] { background: var(--lime); color: var(--lime-ink); border-color: var(--lime); }
+.reiter button[disabled] { opacity: .45; cursor: default; }
+button:focus-visible, .chip:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; }
+
+main { padding-block: 22px 48px; display: grid; gap: 22px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; letter-spacing: .02em; margin: 0; text-wrap: balance; line-height: 1.05; }
+h1 { font-size: clamp(30px, 5vw, 44px); }
+h2 { font-size: 24px; }
+h3 { font-size: 18px; letter-spacing: .04em; }
+.unterzeile { color: var(--muted); margin: 6px 0 0; max-width: 70ch; }
+.kopfzeile { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+
+/* Bedienleisten */
+.leiste { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.leiste .label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-right: 4px; }
+.chip { font: 600 14px/1 var(--font-body); font-variant-numeric: tabular-nums; min-width: 34px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.chip:hover { border-color: var(--lime-text); }
+.chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+
+/* Kacheln */
+.status { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+.kachel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; min-width: 0; }
+.kachel small { display: block; font-size: 11.5px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.kachel strong { font-family: var(--font-display); font-weight: 800; font-size: 26px; line-height: 1.1; display: block; overflow-wrap: anywhere; }
+.kachel.alarm { border-color: var(--bad); }
+.kachel.alarm strong { color: var(--bad); }
+
+/* Raster */
+.raster { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+@media (max-width: 900px) { .raster { grid-template-columns: minmax(0, 1fr); } }
+.flaeche { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; min-width: 0; display: grid; gap: 12px; }
+
+/* Tabellen */
+.tab-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th { font-size: 11.5px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); font-weight: 600; text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+th:nth-child(2), td:nth-child(2) { text-align: left; white-space: normal; width: 100%; }
+td.pl { font-family: var(--font-display); font-weight: 800; font-size: 17px; text-align: center; width: 40px; border-left: 4px solid transparent; }
+tr.z1 td.pl { border-left-color: var(--lime); }
+tr.z2 td.pl { border-left-color: var(--zone2); }
+tr.z3 td.pl { border-left-color: var(--bad); }
+tr.gefahr td { background: color-mix(in srgb, var(--bad) 12%, transparent); }
+tr.raus td { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--bad); }
+td .st-top { color: var(--lime-text); font-weight: 600; }
+.legende { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; color: var(--muted); }
+.legende i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.marke-korr { color: var(--warn); font-size: 12px; margin-left: 4px; }
+
+/* Abgabeliste */
+.frist { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
+.frist b { font-family: var(--font-display); font-size: 20px; text-transform: uppercase; }
+.pill { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+.pill.ok { color: var(--ok); } .pill.warn { color: var(--warn); } .pill.bad { color: var(--bad); } .pill.info { color: var(--info); } .pill.muted { color: var(--muted); }
+.abgabe { border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 8px; }
+.abgabe:first-of-type { border-top: 0; padding-top: 0; }
+.abgabe-kopf { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.abgabe-kopf strong { font-size: 16px; }
+.abgabe-kopf .pkt { font-variant-numeric: tabular-nums; color: var(--muted); }
+.spieler { display: grid; gap: 6px; }
+.sp { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 8px; align-items: start; background: var(--surface-2); border-radius: 9px; padding: 8px 10px; }
+.sp .ico { font-size: 15px; line-height: 1.3; text-align: center; }
+.sp .nm { font-weight: 600; min-width: 0; }
+.sp .nm small { display: block; font-weight: 400; color: var(--muted); font-size: 12.5px; overflow-wrap: anywhere; }
+.sp .pp { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+.sp.ok .ico { color: var(--ok); } .sp.warn .ico { color: var(--warn); } .sp.bad .ico { color: var(--bad); } .sp.info .ico { color: var(--info); } .sp.muted .ico { color: var(--muted); }
+.strafe { color: var(--bad); font-weight: 600; }
+.sieger { background: var(--lime-soft); border: 1px solid var(--lime-text); border-radius: 12px; padding: 12px; display: grid; gap: 8px; }
+.leer { color: var(--muted); font-style: italic; }
+
+/* Quali-Uebersicht */
+.quali-spalten { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 900px) { .quali-spalten { grid-template-columns: minmax(0, 1fr); } }
+.quali-spalten ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; counter-reset: q; }
+.quali-spalten li { display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; gap: 8px; padding: 6px 8px; border-radius: 8px; background: var(--surface-2); font-variant-numeric: tabular-nums; counter-increment: q; }
+.quali-spalten li::before { content: counter(q); font-family: var(--font-display); font-weight: 800; color: var(--muted); }
+.quali-spalten li small { color: var(--muted); }
+.qkopf { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid var(--lime); padding-bottom: 6px; margin-bottom: 8px; }
+.qkopf.z2 { border-color: var(--zone2); } .qkopf.z3 { border-color: var(--bad); }
+
+/* KO-Zeitleiste */
+.zeitleiste { display: flex; flex-wrap: wrap; gap: 6px; }
+.zeitleiste span { font: 600 13px/1 var(--font-body); font-variant-numeric: tabular-nums; padding: 7px 9px; border-radius: 7px; border: 1px solid var(--line); color: var(--muted); }
+.zeitleiste span.erledigt { background: var(--surface-2); color: var(--fg); text-decoration: line-through; text-decoration-color: var(--bad); }
+.zeitleiste span.naechster { border-color: var(--bad); color: var(--bad); }
+
+/* Turnierbaum */
+.baum { display: grid; grid-template-columns: repeat(4, minmax(170px, 1fr)); gap: 14px; min-width: 760px; }
+.runde { display: grid; grid-template-rows: auto 1fr; gap: 10px; }
+.paare { display: grid; gap: 10px; align-content: space-around; }
+.runde small.st { color: var(--muted); font-size: 12px; }
+.paarung { background: var(--surface-2); border-radius: 10px; padding: 8px; display: grid; gap: 4px; border: 1px solid var(--line); }
+.paarung .t { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 6px; align-items: center; font-variant-numeric: tabular-nums; }
+.paarung .t .seed { font-family: var(--font-display); font-weight: 800; color: var(--muted); text-align: center; }
+.paarung .t.sieg { font-weight: 600; } .paarung .t.sieg .w { color: var(--lime-text); }
+.paarung .t .leer { font-style: normal; }
+.paarung .sp-reihe { display: flex; gap: 4px; flex-wrap: wrap; font-size: 11.5px; color: var(--muted); }
+.paarung.p3 { border-style: dashed; }
+
+/* Regeln */
+.regeln { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.regeln section { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; min-width: 0; }
+.regeln ul { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 6px; }
+.regeln li { max-width: 65ch; }
+
+footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
+@media (prefers-reduced-motion: no-preference) { .flaeche, .kachel { transition: border-color .15s; } }
+</style>
+
+<header class="kopf">
+  <div class="wrap">
+    <div class="kopf-innen">
+      <img class="logo" src="__LOGO__" alt="Kickbase Junkies Logo">
+      <div class="marke"><b>Kickbase <span>Junkies</span></b><small id="stand"></small></div>
+    </div>
+    <nav class="reiter" role="tablist" id="reiter"></nav>
+  </div>
+</header>
+<main class="wrap" id="inhalt"></main>
+<footer class="wrap" id="fuss"></footer>
+
+<script type="application/json" id="daten">__DATEN__</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("daten").textContent);
+  var F = D.formate;
+  var $ = function (s) { return document.querySelector(s); };
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]; }); };
+  var zahl = function (n) { return n == null ? "–" : Math.round(n).toLocaleString("de-DE"); };
+  var mio = function (n) { return n == null ? "–" : (n / 1e6).toLocaleString("de-DE", {minimumFractionDigits: 1, maximumFractionDigits: 1}) + " Mio."; };
+  var euro = function (n) { return n == null ? "–" : Math.round(n).toLocaleString("de-DE") + " €"; };
+  var zeit = function (iso, mitTag) {
+    if (!iso) return "–";
+    var d = new Date(iso);
+    var o = {timeZone: "Europe/Berlin", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"};
+    if (mitTag !== false) o.weekday = "short";
+    return d.toLocaleString("de-DE", o).replace(",", "") + " Uhr";
+  };
+  var speicher = {
+    lesen: function (k) { try { return localStorage.getItem("junkies." + k); } catch (e) { return null; } },
+    schreiben: function (k, v) { try { localStorage.setItem("junkies." + k, v); } catch (e) {} }
+  };
+
+  var REITER = [
+    {key: "quali", titel: "Liga A–C"},
+    {key: "draft", titel: "14er Draft"},
+    {key: "ko", titel: "Knock Out"},
+    {key: "playoff", titel: "Playoff"},
+    {key: "pokal", titel: "Pokal"},
+    {key: "regeln", titel: "Regeln"}
+  ];
+  var zustand = {reiter: "quali", liga: 0, st: {}};
+
+  $("#stand").textContent = "Saison " + D.saison + " · Stand nach Spieltag " + D.spieltag;
+  $("#fuss").textContent = "Daten von Kickbase, berechnet am " + zeit(D.stand) + ". Admin-Accounts sind ausgeblendet. Bei Punktgleichheit liegt der geringere Teamwert vorn.";
+
+  function reiterZeichnen() {
+    $("#reiter").innerHTML = REITER.map(function (r) {
+      return '<button role="tab" data-r="' + r.key + '" aria-selected="' + (zustand.reiter === r.key) + '"' + (r.aus ? " disabled title=\"folgt später\"" : "") + ">" + esc(r.titel) + (r.aus ? " · bald" : "") + "</button>";
+    }).join("");
+  }
+  $("#reiter").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-r]");
+    if (!b || b.disabled) return;
+    zustand.reiter = b.dataset.r;
+    speicher.schreiben("reiter", zustand.reiter);
+    try { history.replaceState(null, "", "#" + zustand.reiter); } catch (err) {}
+    zeichnen();
+  });
+
+  function stLeiste(key, max, aktiv) {
+    var h = '<div class="leiste" data-st-leiste="' + key + '"><span class="label">Spieltag</span>';
+    for (var i = 1; i <= max; i++) h += '<button class="chip" data-st="' + i + '" aria-pressed="' + (i === aktiv) + '">' + i + "</button>";
+    return h + "</div>";
+  }
+  function stVon(key, max) { var s = zustand.st[key]; return s && s <= max ? s : max; }
+
+  function tabelleHtml(zeilen, opt) {
+    opt = opt || {};
+    var top = Math.max.apply(null, zeilen.map(function (z) { return z.punkte || 0; }).concat([0]));
+    var h = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Spieltag</th><th>Gesamt</th><th>Teamwert</th></tr></thead><tbody>';
+    zeilen.forEach(function (z) {
+      var kl = opt.zone ? opt.zone(z) : "";
+      h += '<tr class="' + kl + '"><td class="pl">' + (z.platzText || z.platz) + "</td><td>" + esc(z.name) + (z.zusatz || "") + "</td>" +
+        '<td class="' + (z.punkte === top && top > 0 ? "st-top" : "") + '">' + zahl(z.punkte) + "</td><td><b>" + zahl(z.gesamt) + "</b>" + (z.korrigiert ? '<span class="marke-korr" title="Gesamtpunkte manuell korrigiert">*</span>' : "") + "</td><td>" + mio(z.teamwert) + "</td></tr>";
+    });
+    return h + "</tbody></table></div>";
+  }
+
+  // ---------------------------------------------------------- Abgabeliste
+  var STATUS = {
+    ok: {kl: "ok", ico: "✓", txt: "verkauft, Regel erfüllt"},
+    zu_spaet: {kl: "warn", ico: "!", txt: "zu spät verkauft"},
+    auch_verkauft: {kl: "ok", ico: "✓", txt: "ebenfalls verkauft"},
+    bleibt: {kl: "muted", ico: "·", txt: "darf bleiben"},
+    offen: {kl: "muted", ico: "…", txt: "Kandidat, Frist läuft"},
+    ueberfaellig: {kl: "bad", ico: "✕", txt: "Kandidat, noch nicht verkauft"},
+    an_manager: {kl: "info", ico: "↪", txt: "an Manager verkauft, zählt nicht"}
+  };
+  var MSTATUS = {
+    erfuellt: '<span class="pill ok">erfüllt</span>',
+    zu_spaet: '<span class="pill warn">zu spät</span>',
+    offen: '<span class="pill muted">offen</span>',
+    ueberfaellig: '<span class="pill bad">überfällig</span>'
+  };
+  function strafeText(s) {
+    if (!s || !s.strafe) return "";
+    var t = s.strafe, teile = [];
+    if (!t.summe) return "<br>" + (t.mw_diff == null ? "Marktwert zur Frist fehlt, Strafe bitte prüfen" : "bisher keine Strafe: Marktwert seit der Frist nicht gestiegen, Tagesgebühr ab 24 h nach der Frist");
+    if (t.mw_diff != null) teile.push("MW-Differenz " + euro(t.mw_diff));
+    else teile.push("MW zur Frist fehlt");
+    if (t.gebuehr) teile.push("Gebühr " + euro(t.gebuehr));
+    return '<br><span class="strafe">' + (s.status === "ueberfaellig" ? "Strafe bisher " : "Strafe ") + euro(t.summe) + "</span> (" + teile.join(" + ") + ")";
+  }
+  function spielerHtml(s) {
+    var st = STATUS[s.status] || STATUS.offen;
+    var info = st.txt;
+    if (s.verkauft) info += " " + zeit(s.verkauft);
+    if (s.an_manager) info += " an " + esc(s.an_manager);
+    info += strafeText(s);
+    if (s.mw_seit_frist != null) info += "<br>Marktwert seit der Frist " + (s.mw_seit_frist >= 0 ? "+" : "") + euro(s.mw_seit_frist);
+    if (s.aufgestellt_nach_frist) info += '<br><span class="strafe">⚠ nach der Frist am Spieltag ' + s.aufgestellt_nach_frist + " noch aufgestellt</span>";
+    return '<div class="sp ' + st.kl + '"><span class="ico" aria-hidden="true">' + st.ico + '</span><span class="nm">' + esc(s.name) + (s.ersatz ? ' <span class="pill info">Nachrücker</span>' : "") + (s.gleichstand ? ' <span class="pill info">punktgleich mit Platz 3</span>' : "") + "<small>" + info + '</small></span><span class="pp">' + zahl(s.punkte) + " P.</span></div>";
+  }
+  function abgabeHtml(a, letzter) {
+    if (!a) return '<p class="leer">Für diesen Spieltag liegen noch keine Aufstellungen vor.</p>';
+    var h = '<div class="frist"><b>Abgaben</b><span>Frist ' + zeit(a.frist) + (a.frist_art === "englische Woche" ? " (englische Woche)" : "") + "</span></div>";
+    if (a.sieger) {
+      var sg = a.sieger;
+      h += '<div class="sieger"><div class="abgabe-kopf"><strong>Spieltagssieger ' + esc(sg.name) + '</strong><span class="pkt">' + zahl(sg.punkte) + ' P.</span></div><div>Top 3 an den Gesamtletzten <b>' + esc(sg.letzter) + "</b>. Ein Spieler per Veto gesperrt, einer wird gepickt.</div><div class=\"spieler\">";
+      sg.spieler.forEach(function (s) {
+        var ok = !!s.an_letzten;
+        h += '<div class="sp ' + (ok ? "ok" : "muted") + '"><span class="ico" aria-hidden="true">' + (ok ? "✓" : "·") + '</span><span class="nm">' + esc(s.name) + "<small>" + (ok ? "von " + esc(sg.letzter) + " gekauft " + zeit(s.an_letzten) + (s.preis ? " für " + euro(s.preis) : "") : (sg.erledigt ? "nicht gepickt" : "noch offen")) + '</small></span><span class="pp">' + zahl(s.punkte) + " P.</span></div>";
+      });
+      h += "</div></div>";
+    }
+    if (!a.manager.length) return h + '<p class="leer">Niemand hat 1000 oder mehr Punkte geholt.</p>';
+    var offen = a.manager.filter(function (m) { return !m.erledigt; }).length;
+    var ueber = a.manager.filter(function (m) { return m.status === "ueberfaellig"; }).length;
+    var strafe = a.manager.reduce(function (s, m) { return s + (m.strafe || 0); }, 0);
+    h += '<div class="leiste"><span class="pill muted">' + a.manager.length + " Manager mit 1000+</span>" + (offen ? '<span class="pill ' + (ueber ? "bad" : "muted") + '">' + offen + (ueber ? " überfällig" : " offen") + "</span>" : '<span class="pill ok">alle erledigt</span>') + (strafe ? '<span class="pill bad">Strafen ' + euro(strafe) + "</span>" : "") + "</div>";
+    a.manager.forEach(function (m) {
+      h += '<div class="abgabe"><div class="abgabe-kopf"><strong>' + esc(m.name) + '</strong><span class="pkt">' + zahl(m.punkte) + " P. · " + (MSTATUS[m.status] || "") + "</span></div>" + (m.status === "ueberfaellig" && m.strafe_info ? '<div class="strafe" style="font-size:13px">Gebühr bisher ' + euro(m.strafe_info.gebuehr) + ", dazu kommt der Marktwertgewinn des Spielers, der später verkauft wird</div>" : "") + '<div class="spieler">' + m.spieler.map(spielerHtml).join("") + "</div></div>";
+    });
+    return h;
+  }
+
+  // ---------------------------------------------------------- Reiter: Liga A-C
+  function zeichneQuali() {
+    var q = F.quali;
+    var namen = q.ligen.map(function (l) { return l.kurz; }).concat(["Quali-Übersicht"]);
+    var li = zustand.liga;
+    var st = stVon("quali", q.akt);
+    var h = '<div class="kopfzeile"><div><h1>Liga A–C</h1><p class="unterzeile">Hinrunde bis Spieltag ' + q.hinrunde_bis + " ist die Qualifikation. Platz 1–5 jeder Liga spielt die Rückrunde in Liga 1, Platz 6–10 in Liga 2, ab Platz 11 ist die Saison beendet.</p></div></div>";
+    h += '<div class="leiste" id="liga-wahl">' + namen.map(function (n, i) { return '<button class="chip" data-liga="' + i + '" aria-pressed="' + (i === li) + '">' + esc(n) + "</button>"; }).join("") + "</div>";
+    h += stLeiste("quali", q.akt, st);
+    if (li < q.ligen.length) {
+      var l = q.ligen[li];
+      var zeilen = l.tabellen[st] || [];
+      h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>' + esc(l.name) + '</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
+        tabelleHtml(zeilen, {zone: function (z) { return z.platz <= 5 ? "z1" : z.platz <= 10 ? "z2" : "z3"; }}) +
+        '<div class="legende"><span><i style="background:var(--lime)"></i>Liga 1</span><span><i style="background:var(--zone2)"></i>Liga 2</span><span><i style="background:var(--bad)"></i>ausgeschieden</span></div></section>' +
+        '<section class="flaeche">' + abgabeHtml(l.abgaben[st]) + "</section></div>";
+    } else {
+      var u = q.uebersicht[st];
+      var spalte = function (titel, kl, liste, zusatz) {
+        return '<section class="flaeche"><div class="qkopf ' + kl + '"><h3>' + titel + '</h3><span class="pill muted">' + liste.length + "</span></div><p class=\"unterzeile\" style=\"margin:0\">" + zusatz + "</p><ol>" +
+          liste.map(function (e) { return "<li><span>" + esc(e.name) + " <small>" + esc(e.liga) + " · Pl. " + e.platz + "</small></span><b>" + zahl(e.gesamt) + "</b></li>"; }).join("") + "</ol></section>";
+      };
+      h += '<div class="quali-spalten">' + spalte("Liga 1", "", u.liga1, "Platz 1–5 aus A, B und C") + spalte("Liga 2", "z2", u.liga2, "Platz 6–10 aus A, B und C") + spalte("Ausgeschieden", "z3", u.raus, "ab Platz 11") + "</div>";
+      h += '<p class="unterzeile">Zwischenstand nach Spieltag ' + st + ". Sortiert nach Gesamtpunkten über alle drei Ligen.</p>";
+    }
+    return h;
+  }
+
+  // ---------------------------------------------------------- Reiter: Draft
+  function zeichneDraft() {
+    var d = F.draft, st = stVon("draft", d.akt), zeilen = d.tabellen[st] || [];
+    var h = '<div class="kopfzeile"><div><h1>14er Draft Liga</h1><p class="unterzeile">Full Season. Der Spieltagssieger gibt seine Top 3 an den Gesamtletzten ab, alle anderen mit 1000+ Punkten verkaufen einen ihrer Top 3.</p></div></div>';
+    h += stLeiste("draft", d.akt, st);
+    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
+      tabelleHtml(zeilen, {zone: function (z) { return z.platz === zeilen.length ? "z3" : ""; }}) +
+      '<div class="legende"><span><i style="background:var(--bad)"></i>Gesamtletzter, bekommt einen Spieler vom Spieltagssieger</span></div></section><section class="flaeche">' + abgabeHtml(d.abgaben[st]) + "</section></div>";
+    return h;
+  }
+
+  // ---------------------------------------------------------- Reiter: Knock Out
+  function zeichneKo() {
+    var k = F.ko, st = stVon("ko", k.akt), zeilen = k.tabellen[st] || [];
+    var raus = {}; k.ausgeschieden.forEach(function (e) { raus[e.name] = e; });
+    var aktiveZeilen = zeilen.filter(function (z) { return !raus[z.name] || raus[z.name].nach_st >= st; });
+    var letzterAktiv = aktiveZeilen.filter(function (z) { return !raus[z.name]; }).slice(-1)[0];
+    var h = '<div class="kopfzeile"><div><h1>Knock Out Liga</h1><p class="unterzeile">Nach festen Spieltagen fliegt der Letzte der Gesamttabelle raus. Ab Spieltag 31 spielen die letzten 4 um den Titel.</p></div></div>';
+    h += '<div class="status"><div class="kachel"><small>Aktive Manager</small><strong>' + k.aktive + '</strong></div><div class="kachel"><small>Nächster Rauswurf</small><strong>' + (k.naechster_rauswurf ? "nach ST " + k.naechster_rauswurf : "Finale") + '</strong></div><div class="kachel alarm"><small>Aktuell gefährdet</small><strong>' + esc(k.gefaehrdet || "–") + '</strong></div><div class="kachel"><small>Ausgeschieden</small><strong>' + k.ausgeschieden.length + "</strong></div></div>";
+    h += '<div class="zeitleiste" aria-label="Rauswurf-Spieltage">' + k.rauswurf_nach.map(function (s) {
+      var erledigt = k.ausgeschieden.some(function (e) { return e.nach_st === s; });
+      return '<span class="' + (erledigt ? "erledigt" : s === k.naechster_rauswurf ? "naechster" : "") + '">ST ' + s + "</span>";
+    }).join("") + "</div>";
+    if (k.vorschlaege.length) h += '<div class="kachel alarm"><small>Für den Admin</small>' + k.vorschlaege.map(function (v) { return "Nach Spieltag " + v.nach_st + " ist <b>" + esc(v.manager) + "</b> Letzter. Bitte in der Config eintragen."; }).join("<br>") + "</div>";
+    h += stLeiste("ko", k.akt, st);
+    var tz = zeilen.map(function (z) {
+      var e = raus[z.name], kl = "";
+      if (e && e.nach_st === st) { kl = "raus"; z = Object.assign({}, z, {zusatz: ' <span class="pill bad">raus nach ST ' + st + "</span>"}); }
+      else if (st === k.akt && letzterAktiv && z.name === letzterAktiv.name) { kl = "gefahr"; z = Object.assign({}, z, {zusatz: ' <span class="pill bad">gefährdet</span>'}); }
+      z.kl = kl; return z;
+    });
+    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(tz, {zone: function (z) { return z.kl; }}) + '<div class="legende"><span>* Gesamtpunkte manuell korrigiert (Kickbase hat sie beim Wiedereintritt verloren)</span></div></section>';
+    h += '<section class="flaeche"><h2>Ausgeschieden</h2>' + (k.ausgeschieden.length ? '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Raus nach</th><th>Punkte</th></tr></thead><tbody>' +
+      k.ausgeschieden.map(function (e, i) { return '<tr class="z3"><td class="pl">' + (17 - (k.ausgeschieden.length - 1 - i)) + "</td><td>" + esc(e.name) + (e.grund === "freiwillig" ? ' <span class="pill muted">freiwillig</span>' : "") + "</td><td>ST " + e.nach_st + "</td><td>" + zahl(e.gesamt) + "</td></tr>"; }).join("") + "</tbody></table></div>" : '<p class="leer">Noch niemand.</p>') +
+      '<p class="unterzeile" style="margin:0">Endplatzierung: die 4 Finalisten nach Punkten, dahinter die Ausgeschiedenen in umgekehrter Reihenfolge.</p></section></div>';
+    return h;
+  }
+
+  // ---------------------------------------------------------- Reiter: Playoff
+  function team(s, seite, ser) {
+    if (!s) return '<div class="t"><span class="seed">·</span><span class="leer">offen</span><span></span></div>';
+    var sieg = ser.sieger && ser.sieger.id === s.id;
+    return '<div class="t' + (sieg ? " sieg" : "") + '"><span class="seed">' + s.seed + "</span><span>" + esc(s.name) + '</span><span class="w">' + (ser.vorschau ? "" : ser.stand[seite]) + "</span></div>";
+  }
+  function paarungHtml(ser, p3) {
+    var spiele = (ser.spiele || []).filter(function (s) { return !s.offen; }).map(function (s) { return "ST " + s.st + ": " + zahl(s.a) + "–" + zahl(s.b); }).join(" · ");
+    return '<div class="paarung' + (p3 ? " p3" : "") + '">' + team(ser.a, 0, ser) + team(ser.b, 1, ser) + (spiele ? '<div class="sp-reihe">' + spiele + "</div>" : "") + "</div>";
+  }
+  function zeichnePlayoff() {
+    var p = F.playoff, st = stVon("playoff", Math.min(p.akt, p.hauptrunde_bis)), zeilen = p.tabellen[st] || [];
+    var h = '<div class="kopfzeile"><div><h1>Playoff Liga</h1><p class="unterzeile">Hauptrunde bis Spieltag ' + p.hauptrunde_bis + ", danach K.-o.-Baum: Achtel- und Viertelfinale Best of 3, Halbfinale, Finale und Spiel um Platz 3 Best of 5. Ein Spiel ist ein Spieltag.</p></div></div>";
+    h += '<section class="flaeche"><div class="kopfzeile"><h2>Turnierbaum</h2>' + (p.setzliste_vorlaeufig ? '<span class="pill warn">Vorschau mit Setzliste nach Spieltag ' + Math.min(p.akt, p.hauptrunde_bis) + "</span>" : "") + '</div><div class="tab-scroll"><div class="baum">' +
+      p.runden.map(function (r, i) {
+        return '<div class="runde"><h3>' + esc(r.name) + ' <small class="st">ST ' + r.st[0] + "–" + r.st[r.st.length - 1] + '</small></h3><div class="paare">' + r.serien.map(function (s) { return paarungHtml(s); }).join("") +
+          (i === p.runden.length - 1 ? '<div><h3>Spiel um Platz 3</h3></div>' + paarungHtml(p.platz3, true) : "") + "</div></div>";
+      }).join("") + "</div></div></section>";
+    h += stLeiste("playoff", Math.min(p.akt, p.hauptrunde_bis), st);
+    h += '<section class="flaeche"><div class="kopfzeile"><h2>Hauptrunde</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(zeilen.map(function (z) { return Object.assign({}, z, {platzText: z.platz}); }), {zone: function () { return "z1"; }}) + '<div class="legende"><span>Der Tabellenplatz nach Spieltag ' + p.hauptrunde_bis + " ist die Setzliste (1 gegen 16, 8 gegen 9 …).</span></div></section>";
+    return h;
+  }
+
+  // ---------------------------------------------------------- Reiter: Regeln
+
+  // ---------------------------------------------------------- Reiter: Pokal
+  function zeichnePokal() {
+    var p = F.pokal, gs = Object.keys(p.gruppen);
+    var g = zustand.gruppe && p.gruppen[zustand.gruppe] ? zustand.gruppe : gs[0];
+    var gr = p.gruppen[g];
+    var maxSt = p.gruppenphase_bis;
+    var st = zustand.st.pokal || Math.max(1, Math.min(p.akt || 1, maxSt));
+    var h = '<div class="kopfzeile"><div><h1>Junkies Pokal</h1><p class="unterzeile">Gruppenphase Spieltag 1–' + maxSt + ' im 1 gegen 1 über die Junkies-Challenge: Sieg 2 Punkte, Unentschieden 1, Niederlage 0. Gruppensieger direkt ins 16tel-Finale, Platz 2 und 3 in die Zwischenrunde (Best of 3).</p></div></div>';
+    h += '<div class="status"><div class="kachel"><small>Gewertet bis</small><strong>Spieltag ' + (p.akt || "–") + '</strong></div><div class="kachel"><small>Gruppen</small><strong>' + gs.length + ' × 9</strong></div><div class="kachel' + (p.ids_fehlen.length ? " alarm" : "") + '"><small>Manager ohne ID</small><strong>' + p.ids_fehlen.length + "</strong></div></div>";
+    h += '<div class="leiste" id="gruppen-wahl"><span class="label">Gruppe</span>' + gs.map(function (x) { return '<button class="chip" data-gruppe="' + x + '" aria-pressed="' + (x === g) + '">' + x + "</button>"; }).join("") + "</div>";
+    var t = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Sp.</th><th>S-U-N</th><th>Punkte KB</th><th>Diff</th><th>Pkt.</th></tr></thead><tbody>';
+    gr.tabelle.forEach(function (z) {
+      var kl = z.platz === 1 ? "z1" : z.platz <= 3 ? "z2" : "";
+      var zusatz = z.inaktiv ? ' <span class="pill bad">ausgeschlossen' + (z.ausgeschlossen_st ? " seit ST " + z.ausgeschlossen_st : "") + "</span>" : z.id_fehlt ? ' <span class="pill warn">ID fehlt</span>' : "";
+      t += '<tr class="' + kl + '"><td class="pl">' + z.platz + "</td><td>" + esc(z.name) + zusatz + "</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + ":" + zahl(z.minus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
+    });
+    t += "</tbody></table></div>";
+    var sd = gr.spieltage[st] || {spiele: [], frei: null};
+    var d = '<div class="kopfzeile"><h2>Spieltag ' + st + '</h2>' + (st > p.akt ? '<span class="pill muted">noch nicht gespielt</span>' : "") + "</div>";
+    d += sd.spiele.map(function (e) {
+      var fertig = e.a != null && e.b != null;
+      var aw = fertig && e.a > e.b, bw = fertig && e.b > e.a;
+      return '<div class="sp ' + (fertig ? "" : "muted") + '" style="grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)"><span class="nm" style="text-align:right' + (aw ? ";color:var(--lime-text)" : "") + '">' + esc(e.heim) + '</span><span class="pp" style="font-weight:600;color:var(--fg)">' + (fertig ? zahl(e.a) + " : " + zahl(e.b) : (e.offen ? "fehlt" : "– : –")) + '</span><span class="nm"' + (bw ? ' style="color:var(--lime-text)"' : "") + ">" + esc(e.gast) + "</span></div>";
+    }).join("");
+    if (sd.frei) d += '<p class="unterzeile" style="margin:0">Spielfrei: ' + esc(sd.frei) + "</p>";
+    h += stLeiste("pokal", maxSt, st);
+    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Gruppe ' + g + '</h2><span class="pill muted">nach Spieltag ' + (p.akt || 0) + "</span></div>" + t + '<div class="legende"><span><i style="background:var(--lime)"></i>16tel-Finale</span><span><i style="background:var(--zone2)"></i>Zwischenrunde</span><span>Sortierung: Punkte, dann erzielte Kickbase-Punkte</span></div></section><section class="flaeche spieler">' + d + "</section></div>";
+    h += '<section class="flaeche"><h2>K.-o.-Runden</h2><div class="tab-scroll"><table><thead><tr><th>Runde</th><th>Modus</th><th>Spieltage</th></tr></thead><tbody>' + p.runden.map(function (r) { return "<tr><td style=\"text-align:left\">" + esc(r.name) + "</td><td style=\"text-align:left;width:100%\">" + (r.st.length === 3 ? "Best of 3, wird ausgelost" : "Summe der Kickbase-Punkte") + "</td><td>" + r.st[0] + "–" + r.st[r.st.length - 1] + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
+    if (p.ausgeschlossen.length) h += '<p class="unterzeile">Ausgeschlossen nach 3 Spieltagen ohne Aufstellung (alle Spiele zählen 0 Punkte, der Gegner gewinnt): ' + p.ausgeschlossen.map(function (a) { return esc(a.name) + (a.st ? " (ab ST " + a.st + ")" : ""); }).join(", ") + "</p>";
+    if (p.ids_fehlen.length) h += '<p class="unterzeile">Ohne Kickbase-ID, Ergebnisse folgen: ' + p.ids_fehlen.map(esc).join(", ") + "</p>";
+    return h;
+  }
+
+  function zeichneRegeln() {
+    var R = [
+      ["Liga A–C", ["Halbserie, Live-Draft mit 6 Runden im Snake-Modus (Reihenfolge gelost)", "Budget 150 Mio., Kader 16, max. 3 Spieler je Verein, Erfolgsboni aus, Underpay nicht erlaubt", "Hinrunde bis Spieltag 15 ist die Qualifikation: Platz 1–5 jeder Liga → Liga 1, Platz 6–10 → Liga 2, ab Platz 11 raus. Neuer Draft zur Rückrunde", "Wer an einem Spieltag 1000+ Punkte holt, verkauft mindestens einen seiner Top 3 an den Markt (bei Punktgleichheit mit Platz 3 zählen alle punktgleichen Spieler als Top 3) bis 22 Uhr am Tag nach der Spieltagsabrechnung (Regelfall Dienstag 22 Uhr, englische Woche Freitag 20 Uhr)", "Schon vorher an den Markt verkauft zählt. Ging ein Top-3-Spieler an einen anderen Manager, zählt das nicht, dann muss einer aus den Top 4 an den Markt", "Zu spät verkauft: Strafe = Marktwertgewinn seit der Frist + 250.000 € je weiteren angefangenen Tag", "Gedraftete Spieler bis zum Trade-Start halten, außer bei offiziell bestätigter längerer Verletzung"]],
+      ["14er Draft Liga", ["Full Season, Draft mit 14 Runden, Ligastart direkt nach Finalisierung des Drafts", "Budget 180 Mio., Kader 15, max. 3 Spieler je Verein, Boni aus, Underpay verboten", "Der Spieltagssieger gibt seine Top 3 an den Gesamtletzten ab: der Sieger sperrt einen per Veto, der Letzte pickt aus den anderen beiden einen zum Marktwert", "Alle anderen mit 1000+ Punkten verkaufen mindestens einen ihrer Top 3 (bei Punktgleichheit mit Platz 3 zählen alle punktgleichen Spieler) bis Dienstag 22 Uhr (englische Woche Freitag 20 Uhr)", "Zu spät verkauft: Strafe = Marktwertgewinn seit der Frist + 250.000 € je weiteren angefangenen Tag", "Gepickte Spieler bis Ligastart nur bei Verletzung, Sperre oder Liga-Austritt verkaufen. Trading nur im Ligachat auf Discord oder in der App"]],
+      ["Knock Out Liga", ["Full Season, 200 Mio., Kader 15, max. 3 Spieler je Verein, Underpay und Boni aus", "Spieltag 1–4 Roll On, danach fliegt nach Spieltag 5, 7, 9, 11, 13, 15, 18, 20, 22, 24, 26, 28 und 30 der Letzte der Gesamttabelle raus", "Gleichstand: der Manager mit dem geringeren Teamwert bleibt drin", "Steigt jemand freiwillig aus, entfällt der nächste Rauswurf", "Ab Spieltag 31 spielen 4 Manager um den Titel, es zählen weiter die Gesamtpunkte der Saison"]],
+      ["Playoff Liga", ["Full Season, 200 Mio., Kader 14, max. 2 Spieler je Verein, Boni und Underpay aus", "Hauptrunde bis Spieltag 18, die Tabelle ergibt die Setzliste (Gleichstand: geringerer Teamwert vorn)", "Achtelfinale ST 19–21 und Viertelfinale ST 22–24 im Best of 3, Halbfinale ST 25–29, Finale und Spiel um Platz 3 ST 30–34 im Best of 5", "Ein Spiel ist ein Spieltag, mehr Punkte gewinnt. Bei gleichen Punkten gewinnt der geringere Teamwert", "Fester Turnierbaum: 1–16, 8–9, 4–13, 5–12, 2–15, 7–10, 3–14, 6–11"]]
+    ];
+    return '<div><h1>Regeln</h1><p class="unterzeile">Kurzfassung je Format. Verbindlich ist, was im Discord steht.</p></div><div class="regeln">' + R.map(function (r) {
+      return "<section><h2>" + esc(r[0]) + "</h2><ul>" + r[1].map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></section>";
+    }).join("") + "</div>";
+  }
+
+  var ZEICHNER = {pokal: zeichnePokal, quali: zeichneQuali, draft: zeichneDraft, ko: zeichneKo, playoff: zeichnePlayoff, regeln: zeichneRegeln};
+  function zeichnen() {
+    reiterZeichnen();
+    var f = ZEICHNER[zustand.reiter] || zeichneQuali;
+    $("#inhalt").innerHTML = F[zustand.reiter] || zustand.reiter === "regeln" ? f() : '<p class="leer">Keine Daten.</p>';
+  }
+  $("#inhalt").addEventListener("click", function (e) {
+    var b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.st) { zustand.st[b.closest("[data-st-leiste]").dataset.stLeiste] = +b.dataset.st; zeichnen(); }
+    else if (b.dataset.gruppe) { zustand.gruppe = b.dataset.gruppe; speicher.schreiben("gruppe", zustand.gruppe); zeichnen(); }
+    else if (b.dataset.liga != null) { zustand.liga = +b.dataset.liga; speicher.schreiben("liga", zustand.liga); zeichnen(); }
+  });
+
+  var start = (location.hash || "").slice(1) || speicher.lesen("reiter");
+  if (start && ZEICHNER[start]) zustand.reiter = start;
+  zustand.gruppe = speicher.lesen("gruppe");
+  var l = +speicher.lesen("liga"); if (l >= 0 && l <= 3) zustand.liga = l;
+  zeichnen();
+})();
+</script>

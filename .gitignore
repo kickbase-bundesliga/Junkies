@@ -1,0 +1,11 @@
+# Zugangsdaten - NIE hochladen (config/kwbl.txt, config/privat.txt, ...)
+config/*.txt
+
+# Wird gebaut (lokal mit start.bat, online per Workflow)
+junkies/webseite/
+
+# API-Rohdaten, Archive, Python
+api_dump/
+*.zip
+__pycache__/
+*.pyc

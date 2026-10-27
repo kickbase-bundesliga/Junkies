@@ -1,0 +1,172 @@
+{
+ "1": {
+  "fertig": true,
+  "erster": "2026-08-28T18:30:00Z",
+  "letzter": "2026-08-30T15:30:00Z"
+ },
+ "2": {
+  "fertig": true,
+  "erster": "2026-09-04T18:30:00Z",
+  "letzter": "2026-09-06T15:30:00Z"
+ },
+ "3": {
+  "fertig": true,
+  "erster": "2026-09-11T18:30:00Z",
+  "letzter": "2026-09-13T15:30:00Z"
+ },
+ "4": {
+  "fertig": true,
+  "erster": "2026-09-18T18:30:00Z",
+  "letzter": "2026-09-20T17:30:00Z"
+ },
+ "5": {
+  "fertig": true,
+  "erster": "2026-10-09T18:30:00Z",
+  "letzter": "2026-10-11T15:30:00Z"
+ },
+ "6": {
+  "fertig": true,
+  "erster": "2026-10-16T18:30:00Z",
+  "letzter": "2026-10-18T15:30:00Z"
+ },
+ "7": {
+  "fertig": false,
+  "erster": "2026-10-23T18:30:00Z",
+  "letzter": "2026-10-25T16:30:00Z"
+ },
+ "8": {
+  "fertig": false,
+  "erster": "2026-10-30T19:30:00Z",
+  "letzter": "2026-11-01T16:30:00Z"
+ },
+ "9": {
+  "fertig": false,
+  "erster": "2026-11-06T19:30:00Z",
+  "letzter": "2026-11-08T18:30:00Z"
+ },
+ "10": {
+  "fertig": false,
+  "erster": "2026-11-20T19:30:00Z",
+  "letzter": "2026-11-22T16:30:00Z"
+ },
+ "11": {
+  "fertig": false,
+  "erster": "2026-11-27T19:30:00Z",
+  "letzter": "2026-11-29T18:30:00Z"
+ },
+ "12": {
+  "fertig": false,
+  "erster": "2026-12-05T13:30:00Z",
+  "letzter": "2026-12-05T13:30:00Z"
+ },
+ "13": {
+  "fertig": false,
+  "erster": "2026-12-12T13:30:00Z",
+  "letzter": "2026-12-12T13:30:00Z"
+ },
+ "14": {
+  "fertig": false,
+  "erster": "2026-12-19T13:30:00Z",
+  "letzter": "2026-12-19T13:30:00Z"
+ },
+ "15": {
+  "fertig": false,
+  "erster": "2027-01-09T13:30:00Z",
+  "letzter": "2027-01-09T13:30:00Z"
+ },
+ "16": {
+  "fertig": false,
+  "erster": "2027-01-13T13:30:00Z",
+  "letzter": "2027-01-13T13:30:00Z"
+ },
+ "17": {
+  "fertig": false,
+  "erster": "2027-01-16T13:30:00Z",
+  "letzter": "2027-01-16T13:30:00Z"
+ },
+ "18": {
+  "fertig": false,
+  "erster": "2027-01-23T13:30:00Z",
+  "letzter": "2027-01-23T13:30:00Z"
+ },
+ "19": {
+  "fertig": false,
+  "erster": "2027-01-30T13:30:00Z",
+  "letzter": "2027-01-30T13:30:00Z"
+ },
+ "20": {
+  "fertig": false,
+  "erster": "2027-02-06T13:30:00Z",
+  "letzter": "2027-02-06T13:30:00Z"
+ },
+ "21": {
+  "fertig": false,
+  "erster": "2027-02-13T13:30:00Z",
+  "letzter": "2027-02-13T13:30:00Z"
+ },
+ "22": {
+  "fertig": false,
+  "erster": "2027-02-20T13:30:00Z",
+  "letzter": "2027-02-20T13:30:00Z"
+ },
+ "23": {
+  "fertig": false,
+  "erster": "2027-02-27T13:30:00Z",
+  "letzter": "2027-02-27T13:30:00Z"
+ },
+ "24": {
+  "fertig": false,
+  "erster": "2027-03-03T13:30:00Z",
+  "letzter": "2027-03-03T13:30:00Z"
+ },
+ "25": {
+  "fertig": false,
+  "erster": "2027-03-06T13:30:00Z",
+  "letzter": "2027-03-06T13:30:00Z"
+ },
+ "26": {
+  "fertig": false,
+  "erster": "2027-03-13T13:30:00Z",
+  "letzter": "2027-03-13T13:30:00Z"
+ },
+ "27": {
+  "fertig": false,
+  "erster": "2027-03-20T13:30:00Z",
+  "letzter": "2027-03-20T13:30:00Z"
+ },
+ "28": {
+  "fertig": false,
+  "erster": "2027-04-03T13:30:00Z",
+  "letzter": "2027-04-03T13:30:00Z"
+ },
+ "29": {
+  "fertig": false,
+  "erster": "2027-04-10T13:30:00Z",
+  "letzter": "2027-04-10T13:30:00Z"
+ },
+ "30": {
+  "fertig": false,
+  "erster": "2027-04-17T13:30:00Z",
+  "letzter": "2027-04-17T13:30:00Z"
+ },
+ "31": {
+  "fertig": false,
+  "erster": "2027-04-24T13:30:00Z",
+  "letzter": "2027-04-24T13:30:00Z"
+ },
+ "32": {
+  "fertig": false,
+  "erster": "2027-05-08T13:30:00Z",
+  "letzter": "2027-05-08T13:30:00Z"
+ },
+ "33": {
+  "fertig": false,
+  "erster": "2027-05-15T13:30:00Z",
+  "letzter": "2027-05-15T13:30:00Z"
+ },
+ "34": {
+  "fertig": false,
+  "erster": "2027-05-22T13:30:00Z",
+  "letzter": "2027-05-22T13:30:00Z"
+ }
+}
