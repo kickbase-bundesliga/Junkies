@@ -713,6 +713,41 @@
    "art": 2,
    "preis": 8787485,
    "zeit": "2026-10-16T14:41:54Z"
+  },
+  {
+   "spieler_id": "2803",
+   "spieler": "Lemperle",
+   "art": 2,
+   "preis": 9643376,
+   "zeit": "2026-10-26T05:50:29Z"
+  },
+  {
+   "spieler_id": "7224",
+   "spieler": "Castello Jr.",
+   "art": 1,
+   "preis": 17378989,
+   "zeit": "2026-10-25T14:20:35Z"
+  },
+  {
+   "spieler_id": "2358",
+   "spieler": "Krauß",
+   "art": 2,
+   "preis": 9112617,
+   "zeit": "2026-10-25T07:18:35Z"
+  },
+  {
+   "spieler_id": "3120",
+   "spieler": "Bischof",
+   "art": 1,
+   "preis": 20578989,
+   "zeit": "2026-10-25T06:21:19Z"
+  },
+  {
+   "spieler_id": "10112",
+   "spieler": "Jaquez",
+   "art": 2,
+   "preis": 3060332,
+   "zeit": "2026-10-23T20:12:17Z"
   }
  ],
  "699062": [
@@ -1450,6 +1485,20 @@
    "art": 1,
    "preis": 3755555,
    "zeit": "2026-10-14T16:24:14Z"
+  },
+  {
+   "spieler_id": "12341",
+   "spieler": "Ribeiro",
+   "art": 1,
+   "preis": 6999009,
+   "zeit": "2026-10-23T17:42:38Z"
+  },
+  {
+   "spieler_id": "11008",
+   "spieler": "Banzuzi",
+   "art": 2,
+   "preis": 12000000,
+   "zeit": "2026-10-23T15:17:11Z"
   }
  ],
  "1027810": [
@@ -5407,6 +5456,118 @@
    "art": 1,
    "preis": 3292135,
    "zeit": "2026-10-14T21:17:35Z"
+  },
+  {
+   "spieler_id": "3336",
+   "spieler": "Marino",
+   "art": 1,
+   "preis": 6806286,
+   "zeit": "2026-10-27T02:15:37Z"
+  },
+  {
+   "spieler_id": "15199",
+   "spieler": "Moreira",
+   "art": 2,
+   "preis": 18085888,
+   "zeit": "2026-10-26T21:49:33Z"
+  },
+  {
+   "spieler_id": "9776",
+   "spieler": "Maksimović",
+   "art": 1,
+   "preis": 6919913,
+   "zeit": "2026-10-26T12:44:48Z"
+  },
+  {
+   "spieler_id": "16369",
+   "spieler": "Onyedika",
+   "art": 2,
+   "preis": 9902108,
+   "zeit": "2026-10-25T20:51:59Z"
+  },
+  {
+   "spieler_id": "2084",
+   "spieler": "Lienhart",
+   "art": 1,
+   "preis": 19330277,
+   "zeit": "2026-10-25T12:49:37Z"
+  },
+  {
+   "spieler_id": "6061",
+   "spieler": "Maza",
+   "art": 1,
+   "preis": 33166816,
+   "zeit": "2026-10-25T07:04:15Z"
+  },
+  {
+   "spieler_id": "15472",
+   "spieler": "Daka",
+   "art": 2,
+   "preis": 961076,
+   "zeit": "2026-10-25T06:55:52Z"
+  },
+  {
+   "spieler_id": "15472",
+   "spieler": "Daka",
+   "art": 1,
+   "preis": 987784,
+   "zeit": "2026-10-25T06:18:17Z"
+  },
+  {
+   "spieler_id": "1955",
+   "spieler": "Burke",
+   "art": 2,
+   "preis": 3337692,
+   "zeit": "2026-10-24T17:46:41Z"
+  },
+  {
+   "spieler_id": "8235",
+   "spieler": "Gantenbein",
+   "art": 2,
+   "preis": 5728990,
+   "zeit": "2026-10-24T13:07:01Z"
+  },
+  {
+   "spieler_id": "7269",
+   "spieler": "Tella",
+   "art": 1,
+   "preis": 3769648,
+   "zeit": "2026-10-24T07:09:59Z"
+  },
+  {
+   "spieler_id": "8296",
+   "spieler": "Schmahl",
+   "art": 1,
+   "preis": 2326620,
+   "zeit": "2026-10-24T05:24:46Z"
+  },
+  {
+   "spieler_id": "1955",
+   "spieler": "Burke",
+   "art": 1,
+   "preis": 3448383,
+   "zeit": "2026-10-23T20:20:52Z"
+  },
+  {
+   "spieler_id": "8381",
+   "spieler": "Burcu",
+   "art": 2,
+   "preis": 4340366,
+   "zeit": "2026-10-23T17:58:07Z"
+  },
+  {
+   "spieler_id": "7394",
+   "spieler": "Amoako",
+   "art": 2,
+   "preis": 3980548,
+   "zeit": "2026-10-23T17:48:25Z"
+  },
+  {
+   "spieler_id": "12341",
+   "spieler": "Ribeiro",
+   "art": 2,
+   "preis": 6999009,
+   "zeit": "2026-10-23T17:42:38Z"
   }
  ],
  "1212731": [
@@ -7819,6 +7980,34 @@
    "art": 1,
    "preis": 6600000,
    "zeit": "2026-10-16T11:38:07Z"
+  },
+  {
+   "spieler_id": "7242",
+   "spieler": "Gosens",
+   "art": 2,
+   "preis": 9549112,
+   "zeit": "2026-10-25T11:56:21Z"
+  },
+  {
+   "spieler_id": "4318",
+   "spieler": "Oermann",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-10-23T16:30:02Z"
+  },
+  {
+   "spieler_id": "15502",
+   "spieler": "Binder",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-10-23T16:29:59Z"
+  },
+  {
+   "spieler_id": "11886",
+   "spieler": "Rômulo",
+   "art": 2,
+   "preis": 14500000,
+   "zeit": "2026-10-23T16:29:49Z"
   }
  ],
  "1567969": [
@@ -9256,6 +9445,55 @@
    "art": 1,
    "preis": 3923521,
    "zeit": "2026-10-15T08:57:20Z"
+  },
+  {
+   "spieler_id": "6168",
+   "spieler": "Fellhauer",
+   "art": 1,
+   "preis": 13432100,
+   "zeit": "2026-10-27T00:55:11Z"
+  },
+  {
+   "spieler_id": "1540",
+   "spieler": "Da Costa",
+   "art": 1,
+   "preis": 7878787,
+   "zeit": "2026-10-26T20:45:16Z"
+  },
+  {
+   "spieler_id": "15283",
+   "spieler": "Adeline",
+   "art": 2,
+   "preis": 5585306,
+   "zeit": "2026-10-25T17:09:40Z"
+  },
+  {
+   "spieler_id": "118",
+   "spieler": "Grifo",
+   "art": 2,
+   "preis": 6542591,
+   "zeit": "2026-10-24T20:41:34Z"
+  },
+  {
+   "spieler_id": "9754",
+   "spieler": "Bah",
+   "art": 2,
+   "preis": 6259157,
+   "zeit": "2026-10-24T14:53:59Z"
+  },
+  {
+   "spieler_id": "9384",
+   "spieler": "Darvich",
+   "art": 2,
+   "preis": 6727204,
+   "zeit": "2026-10-23T16:28:31Z"
+  },
+  {
+   "spieler_id": "11008",
+   "spieler": "Banzuzi",
+   "art": 1,
+   "preis": 12000000,
+   "zeit": "2026-10-23T15:17:11Z"
   }
  ],
  "1808207": [
@@ -9923,6 +10161,20 @@
    "art": 2,
    "preis": 3590873,
    "zeit": "2026-10-15T21:31:05Z"
+  },
+  {
+   "spieler_id": "2804",
+   "spieler": "Musiala",
+   "art": 1,
+   "preis": 20333339,
+   "zeit": "2026-10-25T04:18:44Z"
+  },
+  {
+   "spieler_id": "10114",
+   "spieler": "Chukwuemeka",
+   "art": 1,
+   "preis": 2222229,
+   "zeit": "2026-10-23T19:16:42Z"
   }
  ],
  "1818625": [
@@ -10891,6 +11143,13 @@
    "art": 2,
    "preis": 10467469,
    "zeit": "2026-10-14T19:00:07Z"
+  },
+  {
+   "spieler_id": "13629",
+   "spieler": "Güther",
+   "art": 1,
+   "preis": 500000,
+   "zeit": "2026-10-26T22:21:01Z"
   }
  ],
  "1981519": [
@@ -16259,6 +16518,97 @@
    "art": 2,
    "preis": 9400000,
    "zeit": "2026-10-16T18:19:34Z"
+  },
+  {
+   "spieler_id": "7463",
+   "spieler": "Onyeka",
+   "art": 1,
+   "preis": 5234567,
+   "zeit": "2026-10-27T06:49:37Z"
+  },
+  {
+   "spieler_id": "2261",
+   "spieler": "Neuhaus",
+   "art": 1,
+   "preis": 7234567,
+   "zeit": "2026-10-27T04:02:16Z"
+  },
+  {
+   "spieler_id": "1865",
+   "spieler": "Poulsen",
+   "art": 2,
+   "preis": 7723389,
+   "zeit": "2026-10-26T21:11:18Z"
+  },
+  {
+   "spieler_id": "15193",
+   "spieler": "Rots",
+   "art": 1,
+   "preis": 8856789,
+   "zeit": "2026-10-25T17:47:39Z"
+  },
+  {
+   "spieler_id": "2476",
+   "spieler": "Lee",
+   "art": 1,
+   "preis": 11234567,
+   "zeit": "2026-10-25T13:00:44Z"
+  },
+  {
+   "spieler_id": "11162",
+   "spieler": "Avdullahu",
+   "art": 1,
+   "preis": 13523456,
+   "zeit": "2026-10-25T09:41:54Z"
+  },
+  {
+   "spieler_id": "7215",
+   "spieler": "Makengo",
+   "art": 1,
+   "preis": 15656789,
+   "zeit": "2026-10-24T23:58:23Z"
+  },
+  {
+   "spieler_id": "1856",
+   "spieler": "Sabitzer",
+   "art": 2,
+   "preis": 7678509,
+   "zeit": "2026-10-24T18:40:14Z"
+  },
+  {
+   "spieler_id": "15256",
+   "spieler": "Wójcik",
+   "art": 2,
+   "preis": 3771898,
+   "zeit": "2026-10-24T15:35:57Z"
+  },
+  {
+   "spieler_id": "11512",
+   "spieler": "Capaldo",
+   "art": 2,
+   "preis": 9743366,
+   "zeit": "2026-10-24T14:43:46Z"
+  },
+  {
+   "spieler_id": "7158",
+   "spieler": "Undav",
+   "art": 2,
+   "preis": 29683121,
+   "zeit": "2026-10-24T13:07:17Z"
+  },
+  {
+   "spieler_id": "15256",
+   "spieler": "Wójcik",
+   "art": 1,
+   "preis": 3771898,
+   "zeit": "2026-10-24T04:22:03Z"
+  },
+  {
+   "spieler_id": "2941",
+   "spieler": "Scally",
+   "art": 1,
+   "preis": 6611750,
+   "zeit": "2026-10-23T22:37:48Z"
   }
  ],
  "2543617": [
@@ -16947,6 +17297,20 @@
    "art": 2,
    "preis": 21341818,
    "zeit": "2026-10-14T20:41:26Z"
+  },
+  {
+   "spieler_id": "3419",
+   "spieler": "Raab",
+   "art": 1,
+   "preis": 500055,
+   "zeit": "2026-10-27T04:13:23Z"
+  },
+  {
+   "spieler_id": "6085",
+   "spieler": "Seimen",
+   "art": 2,
+   "preis": 11861387,
+   "zeit": "2026-10-26T14:16:08Z"
   }
  ],
  "2555651": [
@@ -18083,6 +18447,48 @@
    "art": 1,
    "preis": 666999,
    "zeit": "2026-10-14T17:45:51Z"
+  },
+  {
+   "spieler_id": "2536",
+   "spieler": "Köbbing",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-10-27T04:17:16Z"
+  },
+  {
+   "spieler_id": "524",
+   "spieler": "Baumann",
+   "art": 1,
+   "preis": 12008888,
+   "zeit": "2026-10-26T20:04:49Z"
+  },
+  {
+   "spieler_id": "11967",
+   "spieler": "Vieira",
+   "art": 2,
+   "preis": 14887248,
+   "zeit": "2026-10-26T07:23:15Z"
+  },
+  {
+   "spieler_id": "14048",
+   "spieler": "Goto",
+   "art": 2,
+   "preis": 4575608,
+   "zeit": "2026-10-26T07:23:03Z"
+  },
+  {
+   "spieler_id": "11010",
+   "spieler": "Diks",
+   "art": 2,
+   "preis": 8892711,
+   "zeit": "2026-10-23T17:33:50Z"
+  },
+  {
+   "spieler_id": "8001",
+   "spieler": "Lochoshvili",
+   "art": 1,
+   "preis": 10900000,
+   "zeit": "2026-10-23T15:44:10Z"
   }
  ],
  "3275140": [
@@ -18876,6 +19282,41 @@
    "art": 2,
    "preis": 13700000,
    "zeit": "2026-10-16T16:19:32Z"
+  },
+  {
+   "spieler_id": "11513",
+   "spieler": "Kofane",
+   "art": 1,
+   "preis": 4001848,
+   "zeit": "2026-10-26T17:37:12Z"
+  },
+  {
+   "spieler_id": "6183",
+   "spieler": "Futkeu",
+   "art": 2,
+   "preis": 4134213,
+   "zeit": "2026-10-24T19:51:57Z"
+  },
+  {
+   "spieler_id": "9995",
+   "spieler": "Mokwa",
+   "art": 1,
+   "preis": 6136136,
+   "zeit": "2026-10-24T00:04:38Z"
+  },
+  {
+   "spieler_id": "11886",
+   "spieler": "Rômulo",
+   "art": 1,
+   "preis": 14500000,
+   "zeit": "2026-10-23T16:29:49Z"
+  },
+  {
+   "spieler_id": "8001",
+   "spieler": "Lochoshvili",
+   "art": 2,
+   "preis": 10900000,
+   "zeit": "2026-10-23T15:44:10Z"
   }
  ],
  "3332630": [
