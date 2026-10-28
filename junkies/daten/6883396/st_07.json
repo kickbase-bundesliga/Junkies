@@ -2,7 +2,7 @@
  "liga": "6883396",
  "spieltag": 7,
  "fertig": true,
- "abgerufen": "2026-10-27T07:48:04Z",
+ "abgerufen": "2026-10-28T11:52:16Z",
  "letzter_anstoss": "2026-10-25T16:30:00Z",
  "manager": [
   {
@@ -167,17 +167,6 @@
    ]
   },
   {
-   "id": "1495180",
-   "name": "Niklaas",
-   "admin": false,
-   "punkte": 0,
-   "gesamt": 0,
-   "platz": 17,
-   "st_platz": 17,
-   "teamwert": 0.0,
-   "aufstellung_ids": []
-  },
-  {
    "id": "1622434",
    "name": "Markus",
    "admin": false,
@@ -275,8 +264,8 @@
    "admin": true,
    "punkte": 0,
    "gesamt": 0,
-   "platz": 18,
-   "st_platz": 18,
+   "platz": 17,
+   "st_platz": 17,
    "teamwert": 0.0,
    "aufstellung_ids": []
   },

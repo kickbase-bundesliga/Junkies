@@ -2,7 +2,7 @@
  "liga": "6272605",
  "spieltag": 7,
  "fertig": true,
- "abgerufen": "2026-10-27T07:37:35Z",
+ "abgerufen": "2026-10-28T11:41:29Z",
  "letzter_anstoss": "2026-10-25T16:30:00Z",
  "manager": [
   {
@@ -1179,10 +1179,10 @@
   "2252575": {
    "elf": [
     {
-     "id": "49",
-     "name": "Ginter",
-     "verein": "5",
-     "punkte": 62
+     "id": "2006",
+     "name": "Posch",
+     "verein": "18",
+     "punkte": 66
     },
     {
      "id": "1246",
@@ -1191,40 +1191,16 @@
      "punkte": 166
     },
     {
-     "id": "1865",
-     "name": "Poulsen",
+     "id": "11512",
+     "name": "Capaldo",
      "verein": "6",
-     "punkte": 28
-    },
-    {
-     "id": "2006",
-     "name": "Posch",
-     "verein": "18",
-     "punkte": 66
+     "punkte": 0
     },
     {
      "id": "2015",
      "name": "Obermair",
      "verein": "29",
      "punkte": 134
-    },
-    {
-     "id": "2195",
-     "name": "Dahmen",
-     "verein": "13",
-     "punkte": 48
-    },
-    {
-     "id": "2201",
-     "name": "Maina",
-     "verein": "28",
-     "punkte": 57
-    },
-    {
-     "id": "2302",
-     "name": "Jeong",
-     "verein": "40",
-     "punkte": 66
     },
     {
      "id": "2897",
@@ -1239,24 +1215,48 @@
      "punkte": 23
     },
     {
-     "id": "11512",
-     "name": "Capaldo",
+     "id": "2201",
+     "name": "Maina",
+     "verein": "28",
+     "punkte": 57
+    },
+    {
+     "id": "49",
+     "name": "Ginter",
+     "verein": "5",
+     "punkte": 62
+    },
+    {
+     "id": "2195",
+     "name": "Dahmen",
+     "verein": "13",
+     "punkte": 48
+    },
+    {
+     "id": "2302",
+     "name": "Jeong",
+     "verein": "40",
+     "punkte": 66
+    },
+    {
+     "id": "1865",
+     "name": "Poulsen",
      "verein": "6",
-     "punkte": 0
+     "punkte": 28
     }
    ],
    "bank": [
-    {
-     "id": "1856",
-     "name": "Sabitzer",
-     "verein": "3",
-     "punkte": 53
-    },
     {
      "id": "7158",
      "name": "Undav",
      "verein": "9",
      "punkte": 7
+    },
+    {
+     "id": "1856",
+     "name": "Sabitzer",
+     "verein": "3",
+     "punkte": 53
     }
    ]
   },
