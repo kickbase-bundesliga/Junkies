@@ -2885,6 +2885,13 @@
    "art": 1,
    "preis": 6855555,
    "zeit": "2026-10-29T19:54:25Z"
+  },
+  {
+   "spieler_id": "7325",
+   "spieler": "Baum",
+   "art": 1,
+   "preis": 9255555,
+   "zeit": "2026-10-30T12:44:19Z"
   }
  ],
  "841764": [
@@ -3587,6 +3594,27 @@
    "art": 2,
    "preis": 7100000,
    "zeit": "2026-10-30T05:50:43Z"
+  },
+  {
+   "spieler_id": "2762",
+   "spieler": "Becker",
+   "art": 1,
+   "preis": 7069420,
+   "zeit": "2026-10-30T19:49:19Z"
+  },
+  {
+   "spieler_id": "14917",
+   "spieler": "Van den Bosch",
+   "art": 2,
+   "preis": 10900000,
+   "zeit": "2026-10-30T18:48:35Z"
+  },
+  {
+   "spieler_id": "6172",
+   "spieler": "Adamu",
+   "art": 1,
+   "preis": 4000000,
+   "zeit": "2026-10-30T15:54:59Z"
   }
  ],
  "1212731": [
@@ -9613,6 +9641,41 @@
    "art": 1,
    "preis": 7807255,
    "zeit": "2026-10-29T23:09:34Z"
+  },
+  {
+   "spieler_id": "11253",
+   "spieler": "Mickelson",
+   "art": 1,
+   "preis": 1521117,
+   "zeit": "2026-10-31T10:59:22Z"
+  },
+  {
+   "spieler_id": "577",
+   "spieler": "Batz",
+   "art": 1,
+   "preis": 500006,
+   "zeit": "2026-10-30T22:30:54Z"
+  },
+  {
+   "spieler_id": "10122",
+   "spieler": "Gruber",
+   "art": 2,
+   "preis": 6666753,
+   "zeit": "2026-10-30T20:54:07Z"
+  },
+  {
+   "spieler_id": "620",
+   "spieler": "Schwolow",
+   "art": 2,
+   "preis": 7875318,
+   "zeit": "2026-10-30T20:53:52Z"
+  },
+  {
+   "spieler_id": "4296",
+   "spieler": "Pejčinović",
+   "art": 2,
+   "preis": 7806657,
+   "zeit": "2026-10-30T12:27:00Z"
   }
  ],
  "1502756": [
@@ -10590,6 +10653,20 @@
    "art": 1,
    "preis": 10558855,
    "zeit": "2026-10-27T16:02:39Z"
+  },
+  {
+   "spieler_id": "1815",
+   "spieler": "Kramarić",
+   "art": 1,
+   "preis": 7788855,
+   "zeit": "2026-10-30T22:45:34Z"
+  },
+  {
+   "spieler_id": "51",
+   "spieler": "Khedira",
+   "art": 1,
+   "preis": 5111555,
+   "zeit": "2026-10-30T21:49:58Z"
   }
  ],
  "1622434": [
@@ -12106,6 +12183,13 @@
    "art": 1,
    "preis": 7784211,
    "zeit": "2026-10-29T05:27:32Z"
+  },
+  {
+   "spieler_id": "7684",
+   "spieler": "Aebischer",
+   "art": 2,
+   "preis": 4109568,
+   "zeit": "2026-10-30T18:41:44Z"
   }
  ],
  "1688417": [
@@ -15433,6 +15517,27 @@
    "art": 1,
    "preis": 5789999,
    "zeit": "2026-10-29T06:31:45Z"
+  },
+  {
+   "spieler_id": "11631",
+   "spieler": "Burger",
+   "art": 1,
+   "preis": 20123999,
+   "zeit": "2026-10-30T18:55:50Z"
+  },
+  {
+   "spieler_id": "14917",
+   "spieler": "Van den Bosch",
+   "art": 1,
+   "preis": 10900000,
+   "zeit": "2026-10-30T18:48:35Z"
+  },
+  {
+   "spieler_id": "6209",
+   "spieler": "Treu",
+   "art": 2,
+   "preis": 14160530,
+   "zeit": "2026-10-30T17:31:42Z"
   }
  ],
  "1708012": [
@@ -16303,6 +16408,13 @@
    "art": 1,
    "preis": 1025600,
    "zeit": "2026-10-28T15:57:40Z"
+  },
+  {
+   "spieler_id": "9776",
+   "spieler": "Maksimović",
+   "art": 2,
+   "preis": 8500000,
+   "zeit": "2026-10-30T14:34:43Z"
   }
  ],
  "1881506": [
@@ -18538,6 +18650,20 @@
    "art": 1,
    "preis": 1693664,
    "zeit": "2026-10-29T10:25:07Z"
+  },
+  {
+   "spieler_id": "7737",
+   "spieler": "Veerman",
+   "art": 1,
+   "preis": 15223669,
+   "zeit": "2026-10-31T00:26:14Z"
+  },
+  {
+   "spieler_id": "2495",
+   "spieler": "Boss",
+   "art": 1,
+   "preis": 599999,
+   "zeit": "2026-10-30T21:31:45Z"
   }
  ],
  "2171487": [
@@ -20238,6 +20364,20 @@
    "art": 2,
    "preis": 2072133,
    "zeit": "2026-10-28T21:24:50Z"
+  },
+  {
+   "spieler_id": "15376",
+   "spieler": "Estève",
+   "art": 2,
+   "preis": 6179314,
+   "zeit": "2026-10-30T22:02:13Z"
+  },
+  {
+   "spieler_id": "1671",
+   "spieler": "Prömel",
+   "art": 1,
+   "preis": 11261111,
+   "zeit": "2026-10-30T21:02:56Z"
   }
  ],
  "2755846": [
@@ -21017,6 +21157,20 @@
    "art": 1,
    "preis": 4404899,
    "zeit": "2026-10-28T20:43:43Z"
+  },
+  {
+   "spieler_id": "1865",
+   "spieler": "Poulsen",
+   "art": 2,
+   "preis": 8172346,
+   "zeit": "2026-10-30T15:01:32Z"
+  },
+  {
+   "spieler_id": "9776",
+   "spieler": "Maksimović",
+   "art": 1,
+   "preis": 8500000,
+   "zeit": "2026-10-30T14:34:43Z"
   }
  ]
 }
