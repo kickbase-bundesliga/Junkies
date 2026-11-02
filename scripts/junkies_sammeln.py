@@ -11,8 +11,9 @@ Abgabe-Regel (Liga A-C und 14er Draft) zusaetzlich:
   - aktueller Kader je Manager
   - Marktwertverlauf der abzugebenden Spieler (fuer die Strafzahlung)
 
-Fertige Spieltage werden nur bis 48 h nach dem letzten Anstoss neu geholt
-(Nachkontrolle), danach bleiben sie unveraendert liegen.
+Ein Spieltag gilt als fertig, wenn alle Spiele beendet sind und die Kickbase-Abrechnung
+(18 Uhr am Tag nach dem letzten Spiel) plus 1 Stunde vorbei ist. Danach wird er noch
+48 h lang neu geholt (Nachkontrolle) und bleibt dann unveraendert liegen.
 
 Aufruf (im Projektordner Junkies2.0):
     python scripts/junkies_sammeln.py            normal
@@ -32,7 +33,11 @@ from kickbase import Api, zugang as zugangsdaten  # noqa: E402
 
 CONFIG = os.path.join("config", "junkies.json")
 DATEN = os.path.join("junkies", "daten")
-NACHKONTROLLE_H = 48
+NACHKONTROLLE_H = 48          # nach dem Abschluss noch so lange neu holen
+# Kickbase rechnet am Tag nach dem letzten Spiel um 18 Uhr (Ortszeit) ab.
+# Ein Spieltag gilt als fertig ab Abrechnung + 1 Stunde (normal Montag 19 Uhr).
+ABRECHNUNG_UHR = 18
+FERTIG_NACH_ABRECHNUNG_MIN = 60
 ABGABE_FORMATE = ("quali", "draft")
 
 
@@ -45,6 +50,24 @@ def jetzt():
 def zeit(text):
     """Kickbase-Zeit '2026-10-10T13:30:00Z' -> datetime (UTC)."""
     return dt.datetime.strptime(text[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=dt.timezone.utc)
+
+
+def _letzter_sonntag(jahr, monat):
+    t = dt.datetime(jahr, monat, 31 if monat in (3, 10) else 30, 1, tzinfo=dt.timezone.utc)
+    return t - dt.timedelta(days=(t.weekday() + 1) % 7)
+
+
+def berlin_offset(d):
+    """Abstand deutsche Zeit zu UTC (Sommerzeit letzter So im Maerz bis letzter So im Oktober, 1 Uhr UTC)."""
+    return dt.timedelta(hours=2 if _letzter_sonntag(d.year, 3) <= d < _letzter_sonntag(d.year, 10) else 1)
+
+
+def fertig_ab(letzter_anstoss):
+    """Abrechnung am Folgetag um ABRECHNUNG_UHR (Ortszeit) + FERTIG_NACH_ABRECHNUNG_MIN -> UTC."""
+    lokal = letzter_anstoss + berlin_offset(letzter_anstoss)
+    abrechnung = (lokal + dt.timedelta(days=1)).replace(hour=ABRECHNUNG_UHR, minute=0, second=0)
+    abrechnung_utc = abrechnung - berlin_offset(abrechnung - dt.timedelta(hours=1))
+    return abrechnung_utc + dt.timedelta(minutes=FERTIG_NACH_ABRECHNUNG_MIN)
 
 
 def lesen(pfad, standard=None):
@@ -75,16 +98,20 @@ def zugang():
 def spielplan(api, wettbewerb):
     """{spieltag: {"fertig": bool, "erster": iso, "letzter": iso}}"""
     d = api.get("/v4/competitions/%d/matchdays" % wettbewerb)
+    jetzt = dt.datetime.now(dt.timezone.utc)
     plan = {}
     for tag in d.get("it", []) if isinstance(d, dict) else []:
         spiele = tag.get("it", [])
         if not spiele:
             continue
         zeiten = sorted(s["dt"] for s in spiele if s.get("dt"))
+        ab = fertig_ab(zeit(zeiten[-1])) if zeiten else None
         plan[int(tag["day"])] = {
-            "fertig": all(s.get("st") == 2 for s in spiele),
+            # alle Spiele beendet UND Kickbase-Abrechnung (+1 h) vorbei
+            "fertig": all(s.get("st") == 2 for s in spiele) and ab is not None and jetzt >= ab,
             "erster": zeiten[0] if zeiten else None,
             "letzter": zeiten[-1] if zeiten else None,
+            "fertig_ab": ab.strftime("%Y-%m-%dT%H:%M:%SZ") if ab else None,
         }
     return plan
 
@@ -96,7 +123,8 @@ def muss_holen(gespeichert, info, alles):
         return True
     if not info or not info.get("letzter"):
         return False
-    grenze = zeit(info["letzter"]) + dt.timedelta(hours=NACHKONTROLLE_H)
+    basis = zeit(info["fertig_ab"]) if info.get("fertig_ab") else zeit(info["letzter"])
+    grenze = basis + dt.timedelta(hours=NACHKONTROLLE_H)
     return zeit(gespeichert["abgerufen"]) < grenze
 
 

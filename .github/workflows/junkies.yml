@@ -5,7 +5,8 @@ name: Junkies
 
 on:
   schedule:
-    - cron: "53 5 * * *"     # taeglich ca. 7:53 Uhr Sommerzeit / 6:53 Uhr Winterzeit
+    - cron: "17 18 * * *"    # taeglich ca. 19:17 Uhr Winterzeit / 20:17 Uhr Sommerzeit (Abrechnung 18 Uhr + 1 h)
+    - cron: "53 5 * * *"     # taeglich ca. 6:53 Uhr Winterzeit / 7:53 Uhr Sommerzeit (Nachkontrolle, Transfers)
   workflow_dispatch:
     inputs:
       nur_webseite:
