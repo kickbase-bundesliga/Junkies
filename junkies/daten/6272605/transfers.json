@@ -776,6 +776,55 @@
    "art": 1,
    "preis": 2578989,
    "zeit": "2026-10-31T14:12:34Z"
+  },
+  {
+   "spieler_id": "78",
+   "spieler": "Hofmann",
+   "art": 1,
+   "preis": 5578989,
+   "zeit": "2026-11-02T05:13:32Z"
+  },
+  {
+   "spieler_id": "7737",
+   "spieler": "Veerman",
+   "art": 1,
+   "preis": 16789898,
+   "zeit": "2026-11-02T05:00:53Z"
+  },
+  {
+   "spieler_id": "16378",
+   "spieler": "Karetsas",
+   "art": 1,
+   "preis": 20378989,
+   "zeit": "2026-11-02T04:31:32Z"
+  },
+  {
+   "spieler_id": "14908",
+   "spieler": "Abraha",
+   "art": 1,
+   "preis": 1578989,
+   "zeit": "2026-11-02T04:20:24Z"
+  },
+  {
+   "spieler_id": "2725",
+   "spieler": "Bornauw",
+   "art": 2,
+   "preis": 8401209,
+   "zeit": "2026-11-01T19:22:33Z"
+  },
+  {
+   "spieler_id": "11752",
+   "spieler": "Omari",
+   "art": 2,
+   "preis": 8037684,
+   "zeit": "2026-11-01T19:22:25Z"
+  },
+  {
+   "spieler_id": "2864",
+   "spieler": "Collins",
+   "art": 2,
+   "preis": 7370606,
+   "zeit": "2026-11-01T19:22:16Z"
   }
  ],
  "699062": [
@@ -1569,6 +1618,13 @@
    "art": 1,
    "preis": 6255555,
    "zeit": "2026-10-31T16:23:44Z"
+  },
+  {
+   "spieler_id": "3102",
+   "spieler": "Rothe",
+   "art": 2,
+   "preis": 9891375,
+   "zeit": "2026-11-01T13:53:41Z"
   }
  ],
  "1027810": [
@@ -6991,6 +7047,13 @@
    "art": 1,
    "preis": 1200000,
    "zeit": "2026-10-30T15:27:40Z"
+  },
+  {
+   "spieler_id": "14251",
+   "spieler": "Saibari",
+   "art": 2,
+   "preis": 29004758,
+   "zeit": "2026-11-01T20:54:26Z"
   }
  ],
  "1451237": [
@@ -9767,6 +9830,13 @@
    "art": 2,
    "preis": 13223266,
    "zeit": "2026-10-31T17:48:20Z"
+  },
+  {
+   "spieler_id": "3029",
+   "spieler": "Ljubičić",
+   "art": 1,
+   "preis": 2754645,
+   "zeit": "2026-11-01T20:01:49Z"
   }
  ],
  "1808207": [
@@ -12181,6 +12251,20 @@
    "art": 1,
    "preis": 4269869,
    "zeit": "2026-11-01T08:49:37Z"
+  },
+  {
+   "spieler_id": "1961",
+   "spieler": "Gnabry",
+   "art": 2,
+   "preis": 17132926,
+   "zeit": "2026-11-01T14:31:56Z"
+  },
+  {
+   "spieler_id": "3209",
+   "spieler": "Engelhardt",
+   "art": 1,
+   "preis": 14688769,
+   "zeit": "2026-11-01T12:29:32Z"
   }
  ],
  "2240874": [
@@ -18979,6 +19063,13 @@
    "art": 1,
    "preis": 5000088,
    "zeit": "2026-10-27T07:44:13Z"
+  },
+  {
+   "spieler_id": "8001",
+   "spieler": "Lochoshvili",
+   "art": 2,
+   "preis": 8265203,
+   "zeit": "2026-11-02T11:46:49Z"
   }
  ],
  "3275140": [
