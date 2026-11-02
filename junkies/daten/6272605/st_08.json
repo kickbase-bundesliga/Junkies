@@ -2,7 +2,7 @@
  "liga": "6272605",
  "spieltag": 8,
  "fertig": true,
- "abgerufen": "2026-11-02T13:52:53Z",
+ "abgerufen": "2026-11-02T19:07:25Z",
  "letzter_anstoss": "2026-11-01T16:30:00Z",
  "manager": [
   {
@@ -12,7 +12,7 @@
    "punkte": 593,
    "gesamt": 6653,
    "platz": 8,
-   "st_platz": 13,
+   "st_platz": 14,
    "teamwert": 182706618.0,
    "aufstellung_ids": [
     "3218",
@@ -32,10 +32,10 @@
    "id": "699062",
    "name": "T800",
    "admin": false,
-   "punkte": 866,
-   "gesamt": 6345,
+   "punkte": 881,
+   "gesamt": 6360,
    "platz": 12,
-   "st_platz": 7,
+   "st_platz": 5,
    "teamwert": 169149970.0,
    "aufstellung_ids": [
     "2279",
@@ -78,8 +78,8 @@
    "id": "1212731",
    "name": "Marvhin23",
    "admin": false,
-   "punkte": 669,
-   "gesamt": 4826,
+   "punkte": 683,
+   "gesamt": 4840,
    "platz": 15,
    "st_platz": 11,
    "teamwert": 132990396.0,
@@ -104,7 +104,7 @@
    "punkte": 880,
    "gesamt": 6770,
    "platz": 7,
-   "st_platz": 5,
+   "st_platz": 6,
    "teamwert": 191240771.0,
    "aufstellung_ids": [
     "8227",
@@ -124,9 +124,9 @@
    "id": "1567969",
    "name": "Sportfan13",
    "admin": false,
-   "punkte": 1151,
-   "gesamt": 7395,
-   "platz": 5,
+   "punkte": 1173,
+   "gesamt": 7417,
+   "platz": 4,
    "st_platz": 1,
    "teamwert": 201963638.0,
    "aufstellung_ids": [
@@ -147,8 +147,8 @@
    "id": "1808207",
    "name": "turbojoni",
    "admin": false,
-   "punkte": 752,
-   "gesamt": 6836,
+   "punkte": 781,
+   "gesamt": 6865,
    "platz": 6,
    "st_platz": 9,
    "teamwert": 202667771.0,
@@ -170,8 +170,8 @@
    "id": "1818625",
    "name": "Martin Reim ⭐⭐⭐️",
    "admin": false,
-   "punkte": 662,
-   "gesamt": 6165,
+   "punkte": 680,
+   "gesamt": 6183,
    "platz": 13,
    "st_platz": 12,
    "teamwert": 148434893.0,
@@ -193,10 +193,10 @@
    "id": "1981519",
    "name": "Daniel_Niederlande",
    "admin": false,
-   "punkte": 872,
-   "gesamt": 8591,
+   "punkte": 856,
+   "gesamt": 8575,
    "platz": 1,
-   "st_platz": 6,
+   "st_platz": 7,
    "teamwert": 206309221.0,
    "aufstellung_ids": [
     "9513",
@@ -216,8 +216,8 @@
    "id": "2240874",
    "name": "DimaL",
    "admin": false,
-   "punkte": 1069,
-   "gesamt": 7604,
+   "punkte": 1094,
+   "gesamt": 7629,
    "platz": 3,
    "st_platz": 2,
    "teamwert": 170437026.0,
@@ -239,8 +239,8 @@
    "id": "2252575",
    "name": "Snerti",
    "admin": false,
-   "punkte": 806,
-   "gesamt": 6497,
+   "punkte": 823,
+   "gesamt": 6514,
    "platz": 11,
    "st_platz": 8,
    "teamwert": 209922522.0,
@@ -275,7 +275,7 @@
    "admin": false,
    "punkte": 1013,
    "gesamt": 7400,
-   "platz": 4,
+   "platz": 5,
    "st_platz": 3,
    "teamwert": 207334264.0,
    "aufstellung_ids": [
@@ -342,10 +342,10 @@
    "id": "3332630",
    "name": "sonne-theGamer",
    "admin": false,
-   "punkte": 579,
-   "gesamt": 6090,
+   "punkte": 626,
+   "gesamt": 6137,
    "platz": 14,
-   "st_platz": 14,
+   "st_platz": 13,
    "teamwert": 137315503.0,
    "aufstellung_ids": [
     "7275",
@@ -495,7 +495,7 @@
      "id": "4199",
      "name": "García",
      "verein": "7",
-     "punkte": 107
+     "punkte": 122
     },
     {
      "id": "7278",
@@ -626,7 +626,7 @@
      "id": "2074",
      "name": "Hack",
      "verein": "15",
-     "punkte": 72
+     "punkte": 86
     },
     {
      "id": "2749",
@@ -781,7 +781,7 @@
      "id": "4333",
      "name": "Ullrich",
      "verein": "15",
-     "punkte": 32
+     "punkte": 54
     },
     {
      "id": "6292",
@@ -859,7 +859,7 @@
      "id": "3063",
      "name": "Chiarodia",
      "verein": "15",
-     "punkte": 73
+     "punkte": 102
     },
     {
      "id": "3284",
@@ -955,7 +955,7 @@
      "id": "7226",
      "name": "Kane",
      "verein": "2",
-     "punkte": 57
+     "punkte": 62
     },
     {
      "id": "7325",
@@ -979,7 +979,7 @@
      "id": "11748",
      "name": "Mohya",
      "verein": "15",
-     "punkte": 44
+     "punkte": 57
     },
     {
      "id": "11949",
@@ -1045,7 +1045,7 @@
      "id": "3069",
      "name": "Nmecha",
      "verein": "3",
-     "punkte": 19
+     "punkte": -26
     },
     {
      "id": "3759",
@@ -1087,7 +1087,7 @@
      "id": "15613",
      "name": "Hashioka",
      "verein": "15",
-     "punkte": 50
+     "punkte": 79
     }
    ],
    "bank": [
@@ -1111,7 +1111,7 @@
      "id": "1685",
      "name": "Kimmich",
      "verein": "2",
-     "punkte": 108
+     "punkte": 133
     },
     {
      "id": "3281",
@@ -1212,7 +1212,7 @@
      "id": "2261",
      "name": "Neuhaus",
      "verein": "15",
-     "punkte": 45
+     "punkte": 62
     },
     {
      "id": "2897",
@@ -1250,7 +1250,7 @@
      "id": "2941",
      "name": "Scally",
      "verein": "15",
-     "punkte": 45
+     "punkte": 68
     },
     {
      "id": "7215",
@@ -1531,7 +1531,7 @@
      "id": "15202",
      "name": "Uno",
      "verein": "15",
-     "punkte": 25
+     "punkte": 48
     }
    ]
   },
@@ -1565,7 +1565,7 @@
      "id": "2560",
      "name": "Sander",
      "verein": "15",
-     "punkte": 64
+     "punkte": 99
     },
     {
      "id": "2783",
@@ -1577,7 +1577,7 @@
      "id": "6199",
      "name": "Machino",
      "verein": "15",
-     "punkte": 32
+     "punkte": 44
     },
     {
      "id": "7275",

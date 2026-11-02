@@ -2,7 +2,7 @@
  "liga": "6272609",
  "spieltag": 7,
  "fertig": true,
- "abgerufen": "2026-10-28T11:44:17Z",
+ "abgerufen": "2026-11-02T19:10:16Z",
  "letzter_anstoss": "2026-10-25T16:30:00Z",
  "manager": [
   {
@@ -521,40 +521,10 @@
      "punkte": 101
     },
     {
-     "id": "2383",
-     "name": "Schlotterbeck",
-     "verein": "3",
-     "punkte": 103
-    },
-    {
-     "id": "2646",
-     "name": "Becker",
-     "verein": "18",
-     "punkte": 123
-    },
-    {
-     "id": "2746",
-     "name": "Schick",
-     "verein": "7",
-     "punkte": 48
-    },
-    {
-     "id": "2783",
-     "name": "Tapsoba",
-     "verein": "7",
-     "punkte": -4
-    },
-    {
      "id": "6160",
      "name": "Kristof",
      "verein": "77",
      "punkte": 35
-    },
-    {
-     "id": "8166",
-     "name": "Chuki",
-     "verein": "10",
-     "punkte": 92
     },
     {
      "id": "8292",
@@ -563,10 +533,40 @@
      "punkte": 175
     },
     {
-     "id": "11101",
-     "name": "Albert",
+     "id": "2383",
+     "name": "Schlotterbeck",
      "verein": "3",
-     "punkte": 0
+     "punkte": 103
+    },
+    {
+     "id": "2783",
+     "name": "Tapsoba",
+     "verein": "7",
+     "punkte": -4
+    },
+    {
+     "id": "8166",
+     "name": "Chuki",
+     "verein": "10",
+     "punkte": 92
+    },
+    {
+     "id": "13448",
+     "name": "Aouchiche",
+     "verein": "8",
+     "punkte": 104
+    },
+    {
+     "id": "2746",
+     "name": "Schick",
+     "verein": "7",
+     "punkte": 48
+    },
+    {
+     "id": "2646",
+     "name": "Becker",
+     "verein": "18",
+     "punkte": 123
     },
     {
      "id": "11570",
@@ -575,24 +575,24 @@
      "punkte": 96
     },
     {
-     "id": "13448",
-     "name": "Aouchiche",
-     "verein": "8",
-     "punkte": 104
+     "id": "11101",
+     "name": "Albert",
+     "verein": "3",
+     "punkte": 0
     }
    ],
    "bank": [
-    {
-     "id": "7239",
-     "name": "Finkgräfe",
-     "verein": "43",
-     "punkte": 120
-    },
     {
      "id": "9440",
      "name": "Mane",
      "verein": "3",
      "punkte": 0
+    },
+    {
+     "id": "7239",
+     "name": "Finkgräfe",
+     "verein": "43",
+     "punkte": 120
     }
    ]
   },
@@ -1329,22 +1329,10 @@
   "2598323": {
    "elf": [
     {
-     "id": "524",
-     "name": "Baumann",
-     "verein": "14",
-     "punkte": 119
-    },
-    {
-     "id": "2255",
-     "name": "Burkardt",
-     "verein": "4",
-     "punkte": 37
-    },
-    {
-     "id": "2366",
-     "name": "Davies",
-     "verein": "2",
-     "punkte": 17
+     "id": "6061",
+     "name": "Maza",
+     "verein": "7",
+     "punkte": 38
     },
     {
      "id": "2373",
@@ -1353,28 +1341,16 @@
      "punkte": 171
     },
     {
-     "id": "2749",
-     "name": "Tigges",
-     "verein": "29",
-     "punkte": 55
+     "id": "2366",
+     "name": "Davies",
+     "verein": "2",
+     "punkte": 17
     },
     {
-     "id": "2854",
-     "name": "Demirović",
-     "verein": "9",
-     "punkte": 208
-    },
-    {
-     "id": "6061",
-     "name": "Maza",
-     "verein": "7",
-     "punkte": 38
-    },
-    {
-     "id": "7224",
-     "name": "Castello Jr.",
-     "verein": "43",
-     "punkte": 0
+     "id": "524",
+     "name": "Baumann",
+     "verein": "14",
+     "punkte": 119
     },
     {
      "id": "9507",
@@ -1383,30 +1359,54 @@
      "punkte": 197
     },
     {
-     "id": "9776",
-     "name": "Maksimović",
+     "id": "2255",
+     "name": "Burkardt",
+     "verein": "4",
+     "punkte": 37
+    },
+    {
+     "id": "7224",
+     "name": "Castello Jr.",
      "verein": "43",
-     "punkte": 51
+     "punkte": 0
     },
     {
      "id": "10115",
      "name": "Svensson",
      "verein": "3",
      "punkte": 90
+    },
+    {
+     "id": "2854",
+     "name": "Demirović",
+     "verein": "9",
+     "punkte": 208
+    },
+    {
+     "id": "9776",
+     "name": "Maksimović",
+     "verein": "43",
+     "punkte": 51
+    },
+    {
+     "id": "2749",
+     "name": "Tigges",
+     "verein": "29",
+     "punkte": 55
     }
    ],
    "bank": [
-    {
-     "id": "4333",
-     "name": "Ullrich",
-     "verein": "15",
-     "punkte": 56
-    },
     {
      "id": "12341",
      "name": "Ribeiro",
      "verein": "13",
      "punkte": 1
+    },
+    {
+     "id": "4333",
+     "name": "Ullrich",
+     "verein": "15",
+     "punkte": 56
     },
     {
      "id": "13433",

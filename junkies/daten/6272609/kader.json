@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-02T13:57:03Z",
+ "abgerufen": "2026-11-02T19:11:32Z",
  "kader": {
   "338218": [
    {
@@ -190,6 +190,11 @@
     "id": "2722",
     "name": "Osterhage",
     "marktwert": 3825824
+   },
+   {
+    "id": "11631",
+    "name": "Burger",
+    "marktwert": 16273984
    }
   ],
   "1165589": [
@@ -577,6 +582,11 @@
     "id": "49",
     "name": "Ginter",
     "marktwert": 28413609
+   },
+   {
+    "id": "6199",
+    "name": "Machino",
+    "marktwert": 6505160
    }
   ],
   "1997392": [
@@ -641,11 +651,6 @@
     "id": "14249",
     "name": "El Aynaoui",
     "marktwert": 15408747
-   },
-   {
-    "id": "3559",
-    "name": "Ulrich",
-    "marktwert": 7727271
    },
    {
     "id": "15211",
@@ -934,6 +939,11 @@
     "id": "11949",
     "name": "Nandja",
     "marktwert": 2167523
+   },
+   {
+    "id": "7737",
+    "name": "Veerman",
+    "marktwert": 13345514
    }
   ]
  }

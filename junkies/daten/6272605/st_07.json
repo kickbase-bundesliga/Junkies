@@ -2,7 +2,7 @@
  "liga": "6272605",
  "spieltag": 7,
  "fertig": true,
- "abgerufen": "2026-10-28T11:41:29Z",
+ "abgerufen": "2026-11-02T19:07:16Z",
  "letzter_anstoss": "2026-10-25T16:30:00Z",
  "manager": [
   {
@@ -366,40 +366,10 @@
   "202239": {
    "elf": [
     {
-     "id": "2172",
-     "name": "Führich",
-     "verein": "9",
-     "punkte": 95
-    },
-    {
-     "id": "2358",
-     "name": "Krauß",
-     "verein": "28",
-     "punkte": 64
-    },
-    {
      "id": "2366",
      "name": "Davies",
      "verein": "2",
      "punkte": 17
-    },
-    {
-     "id": "2714",
-     "name": "Beier",
-     "verein": "3",
-     "punkte": 151
-    },
-    {
-     "id": "2725",
-     "name": "Bornauw",
-     "verein": "6",
-     "punkte": 73
-    },
-    {
-     "id": "3218",
-     "name": "Backhaus",
-     "verein": "5",
-     "punkte": 98
     },
     {
      "id": "4596",
@@ -408,16 +378,10 @@
      "punkte": 149
     },
     {
-     "id": "8247",
-     "name": "Hendriks",
-     "verein": "9",
-     "punkte": 115
-    },
-    {
-     "id": "10113",
-     "name": "Gomis",
-     "verein": "43",
-     "punkte": 179
+     "id": "2725",
+     "name": "Bornauw",
+     "verein": "6",
+     "punkte": 73
     },
     {
      "id": "11665",
@@ -426,10 +390,46 @@
      "punkte": 121
     },
     {
+     "id": "2714",
+     "name": "Beier",
+     "verein": "3",
+     "punkte": 151
+    },
+    {
+     "id": "2172",
+     "name": "Führich",
+     "verein": "9",
+     "punkte": 95
+    },
+    {
+     "id": "3218",
+     "name": "Backhaus",
+     "verein": "5",
+     "punkte": 98
+    },
+    {
+     "id": "8247",
+     "name": "Hendriks",
+     "verein": "9",
+     "punkte": 115
+    },
+    {
      "id": "11752",
      "name": "Omari",
      "verein": "6",
      "punkte": 78
+    },
+    {
+     "id": "2358",
+     "name": "Krauß",
+     "verein": "28",
+     "punkte": 64
+    },
+    {
+     "id": "10113",
+     "name": "Gomis",
+     "verein": "43",
+     "punkte": 179
     }
    ],
    "bank": [
@@ -446,12 +446,6 @@
      "punkte": 32
     },
     {
-     "id": "7717",
-     "name": "Prass",
-     "verein": "14",
-     "punkte": 159
-    },
-    {
      "id": "7750",
      "name": "Hranác",
      "verein": "14",
@@ -462,6 +456,12 @@
      "name": "Jaquez",
      "verein": "9",
      "punkte": 0
+    },
+    {
+     "id": "7717",
+     "name": "Prass",
+     "verein": "14",
+     "punkte": 159
     }
    ]
   },
@@ -952,52 +952,10 @@
   "1818625": {
    "elf": [
     {
-     "id": "2471",
-     "name": "Schubert",
-     "verein": "29",
-     "punkte": 0
-    },
-    {
-     "id": "2552",
-     "name": "Bülter",
-     "verein": "28",
-     "punkte": 105
-    },
-    {
-     "id": "2854",
-     "name": "Demirović",
-     "verein": "9",
-     "punkte": 208
-    },
-    {
-     "id": "7226",
-     "name": "Kane",
-     "verein": "2",
-     "punkte": 90
-    },
-    {
-     "id": "7325",
-     "name": "Baum",
-     "verein": "4",
-     "punkte": 102
-    },
-    {
-     "id": "7684",
-     "name": "Aebischer",
-     "verein": "40",
-     "punkte": 37
-    },
-    {
      "id": "10049",
      "name": "Behrens",
      "verein": "13",
      "punkte": 93
-    },
-    {
-     "id": "11161",
-     "name": "Machida",
-     "verein": "14",
-     "punkte": 137
     },
     {
      "id": "11748",
@@ -1006,16 +964,58 @@
      "punkte": 276
     },
     {
+     "id": "7226",
+     "name": "Kane",
+     "verein": "2",
+     "punkte": 90
+    },
+    {
+     "id": "7684",
+     "name": "Aebischer",
+     "verein": "40",
+     "punkte": 37
+    },
+    {
      "id": "11949",
      "name": "Nandja",
      "verein": "6",
      "punkte": 38
     },
     {
+     "id": "7325",
+     "name": "Baum",
+     "verein": "4",
+     "punkte": 102
+    },
+    {
+     "id": "11161",
+     "name": "Machida",
+     "verein": "14",
+     "punkte": 137
+    },
+    {
+     "id": "2552",
+     "name": "Bülter",
+     "verein": "28",
+     "punkte": 105
+    },
+    {
      "id": "15373",
      "name": "Heskey",
      "verein": "28",
      "punkte": 4
+    },
+    {
+     "id": "2471",
+     "name": "Schubert",
+     "verein": "29",
+     "punkte": 0
+    },
+    {
+     "id": "2854",
+     "name": "Demirović",
+     "verein": "9",
+     "punkte": 208
     }
    ],
    "bank": [

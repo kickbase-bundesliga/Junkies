@@ -2,7 +2,7 @@
  "liga": "6272612",
  "spieltag": 7,
  "fertig": true,
- "abgerufen": "2026-10-28T11:46:38Z",
+ "abgerufen": "2026-11-02T19:12:52Z",
  "letzter_anstoss": "2026-10-25T16:30:00Z",
  "manager": [
   {
@@ -605,16 +605,10 @@
   "1371179": {
    "elf": [
     {
-     "id": "51",
-     "name": "Khedira",
-     "verein": "40",
-     "punkte": 62
-    },
-    {
-     "id": "620",
-     "name": "Schwolow",
-     "verein": "18",
-     "punkte": 86
+     "id": "4199",
+     "name": "García",
+     "verein": "7",
+     "punkte": 78
     },
     {
      "id": "2015",
@@ -623,16 +617,10 @@
      "punkte": 134
     },
     {
-     "id": "2201",
-     "name": "Maina",
-     "verein": "28",
-     "punkte": 57
-    },
-    {
-     "id": "2395",
-     "name": "Ryerson",
-     "verein": "3",
-     "punkte": 102
+     "id": "51",
+     "name": "Khedira",
+     "verein": "40",
+     "punkte": 62
     },
     {
      "id": "2694",
@@ -641,10 +629,22 @@
      "punkte": 92
     },
     {
-     "id": "2897",
-     "name": "Reitz",
-     "verein": "43",
-     "punkte": 36
+     "id": "8001",
+     "name": "Lochoshvili",
+     "verein": "28",
+     "punkte": 116
+    },
+    {
+     "id": "620",
+     "name": "Schwolow",
+     "verein": "18",
+     "punkte": 86
+    },
+    {
+     "id": "2201",
+     "name": "Maina",
+     "verein": "28",
+     "punkte": 57
     },
     {
      "id": "3102",
@@ -653,16 +653,16 @@
      "punkte": 66
     },
     {
-     "id": "4199",
-     "name": "García",
-     "verein": "7",
-     "punkte": 78
+     "id": "2897",
+     "name": "Reitz",
+     "verein": "43",
+     "punkte": 36
     },
     {
-     "id": "8001",
-     "name": "Lochoshvili",
-     "verein": "28",
-     "punkte": 116
+     "id": "2395",
+     "name": "Ryerson",
+     "verein": "3",
+     "punkte": 102
     },
     {
      "id": "11958",
@@ -850,10 +850,16 @@
   "1623645": {
    "elf": [
     {
-     "id": "1815",
-     "name": "Kramarić",
-     "verein": "14",
-     "punkte": 241
+     "id": "14251",
+     "name": "Saibari",
+     "verein": "2",
+     "punkte": 58
+    },
+    {
+     "id": "2762",
+     "name": "Becker",
+     "verein": "8",
+     "punkte": 139
     },
     {
      "id": "2065",
@@ -868,16 +874,10 @@
      "punkte": 17
     },
     {
-     "id": "2552",
-     "name": "Bülter",
-     "verein": "28",
-     "punkte": 105
-    },
-    {
-     "id": "2762",
-     "name": "Becker",
-     "verein": "8",
-     "punkte": 139
+     "id": "15199",
+     "name": "Moreira",
+     "verein": "7",
+     "punkte": -20
     },
     {
      "id": "3019",
@@ -886,10 +886,16 @@
      "punkte": 95
     },
     {
-     "id": "3063",
-     "name": "Chiarodia",
-     "verein": "15",
-     "punkte": 97
+     "id": "7781",
+     "name": "Sauer",
+     "verein": "9",
+     "punkte": 13
+    },
+    {
+     "id": "1815",
+     "name": "Kramarić",
+     "verein": "14",
+     "punkte": 241
     },
     {
      "id": "7277",
@@ -898,22 +904,16 @@
      "punkte": 41
     },
     {
-     "id": "7781",
-     "name": "Sauer",
-     "verein": "9",
-     "punkte": 13
+     "id": "2552",
+     "name": "Bülter",
+     "verein": "28",
+     "punkte": 105
     },
     {
-     "id": "14251",
-     "name": "Saibari",
-     "verein": "2",
-     "punkte": 58
-    },
-    {
-     "id": "15199",
-     "name": "Moreira",
-     "verein": "7",
-     "punkte": -20
+     "id": "3063",
+     "name": "Chiarodia",
+     "verein": "15",
+     "punkte": 97
     }
    ],
    "bank": []

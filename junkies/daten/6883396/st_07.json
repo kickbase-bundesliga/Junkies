@@ -2,7 +2,7 @@
  "liga": "6883396",
  "spieltag": 7,
  "fertig": true,
- "abgerufen": "2026-10-28T11:52:16Z",
+ "abgerufen": "2026-11-02T19:18:42Z",
  "letzter_anstoss": "2026-10-25T16:30:00Z",
  "manager": [
   {
@@ -35,7 +35,7 @@
    "punkte": 809,
    "gesamt": 5764,
    "platz": 10,
-   "st_platz": 6,
+   "st_platz": 5,
    "teamwert": 162476306.0,
    "aufstellung_ids": [
     "8227",
@@ -81,7 +81,7 @@
    "punkte": 704,
    "gesamt": 4908,
    "platz": 15,
-   "st_platz": 11,
+   "st_platz": 10,
    "teamwert": 120287738.0,
    "aufstellung_ids": [
     "3072",
@@ -104,7 +104,7 @@
    "punkte": 671,
    "gesamt": 5105,
    "platz": 13,
-   "st_platz": 13,
+   "st_platz": 12,
    "teamwert": 167378259.0,
    "aufstellung_ids": [
     "32",
@@ -121,36 +121,13 @@
    ]
   },
   {
-   "id": "1458682",
-   "name": "Michelino ",
-   "admin": false,
-   "punkte": 918,
-   "gesamt": 4875,
-   "platz": 16,
-   "st_platz": 5,
-   "teamwert": 154228326.0,
-   "aufstellung_ids": [
-    "2977",
-    "11161",
-    "7320",
-    "2247",
-    "4199",
-    "17282",
-    "3081",
-    "7219",
-    "2687",
-    "2661",
-    "2176"
-   ]
-  },
-  {
    "id": "1487878",
    "name": "Poeti",
    "admin": false,
    "punkte": 762,
    "gesamt": 5097,
    "platz": 14,
-   "st_platz": 10,
+   "st_platz": 9,
    "teamwert": 182458274.0,
    "aufstellung_ids": [
     "524",
@@ -173,7 +150,7 @@
    "punkte": 773,
    "gesamt": 6373,
    "platz": 4,
-   "st_platz": 9,
+   "st_platz": 8,
    "teamwert": 153059601.0,
    "aufstellung_ids": [
     "1883",
@@ -219,7 +196,7 @@
    "punkte": 776,
    "gesamt": 5669,
    "platz": 11,
-   "st_platz": 8,
+   "st_platz": 7,
    "teamwert": 136861772.0,
    "aufstellung_ids": [
     "1863",
@@ -264,8 +241,8 @@
    "admin": true,
    "punkte": 0,
    "gesamt": 0,
-   "platz": 17,
-   "st_platz": 17,
+   "platz": 16,
+   "st_platz": 16,
    "teamwert": 0.0,
    "aufstellung_ids": []
   },
@@ -276,7 +253,7 @@
    "punkte": 703,
    "gesamt": 7164,
    "platz": 2,
-   "st_platz": 12,
+   "st_platz": 11,
    "teamwert": 224380092.0,
    "aufstellung_ids": [
     "2279",
@@ -299,7 +276,7 @@
    "punkte": 591,
    "gesamt": 5299,
    "platz": 12,
-   "st_platz": 14,
+   "st_platz": 13,
    "teamwert": 213746491.0,
    "aufstellung_ids": [
     "620",
@@ -322,7 +299,7 @@
    "punkte": 575,
    "gesamt": 6485,
    "platz": 3,
-   "st_platz": 15,
+   "st_platz": 14,
    "teamwert": 204469652.0,
    "aufstellung_ids": [
     "2195",
@@ -345,7 +322,7 @@
    "punkte": 530,
    "gesamt": 5799,
    "platz": 9,
-   "st_platz": 16,
+   "st_platz": 15,
    "teamwert": 144916622.0,
    "aufstellung_ids": [
     "72",
@@ -368,7 +345,7 @@
    "punkte": 805,
    "gesamt": 6225,
    "platz": 7,
-   "st_platz": 7,
+   "st_platz": 6,
    "teamwert": 144934454.0,
    "aufstellung_ids": [
     "3218",

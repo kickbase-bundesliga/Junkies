@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-02T14:02:55Z",
+ "abgerufen": "2026-11-02T19:17:27Z",
  "kader": {
   "418331": [
    {
@@ -71,6 +71,11 @@
     "id": "11955",
     "name": "El Khannouss",
     "marktwert": 14795579
+   },
+   {
+    "id": "2498",
+    "name": "Baack",
+    "marktwert": 1935023
    }
   ],
   "699062": [
@@ -324,6 +329,11 @@
     "id": "9995",
     "name": "Mokwa",
     "marktwert": 6088388
+   },
+   {
+    "id": "7463",
+    "name": "Onyeka",
+    "marktwert": 5791883
    }
   ],
   "1450470": [
@@ -607,6 +617,11 @@
     "id": "7543",
     "name": "Moerstedt",
     "marktwert": 1064785
+   },
+   {
+    "id": "17285",
+    "name": "Brassier",
+    "marktwert": 17509185
    }
   ],
   "1667851": [
@@ -798,11 +813,6 @@
     "id": "3029",
     "name": "Ljubičić",
     "marktwert": 2256886
-   },
-   {
-    "id": "11665",
-    "name": "Potulski",
-    "marktwert": 9860186
    },
    {
     "id": "14908",
@@ -1088,9 +1098,9 @@
     "marktwert": 9433632
    },
    {
-    "id": "2725",
-    "name": "Bornauw",
-    "marktwert": 8364516
+    "id": "10916",
+    "name": "Ayhan",
+    "marktwert": 596300
    }
   ],
   "2755846": [
