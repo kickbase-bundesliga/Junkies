@@ -96,7 +96,11 @@ table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nu
 th { font-size: 11.5px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); font-weight: 600; text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
 td { padding: 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
 th:nth-child(2), td:nth-child(2) { text-align: left; white-space: normal; width: 100%; }
-td.trend { font-family: var(--font-display); font-weight: 700; font-size: 14px; white-space: nowrap; width: 44px; color: var(--muted); }
+table th.trend, table td.trend { text-align: left; width: 1%; white-space: nowrap; }
+td.trend { font-family: var(--font-display); font-weight: 700; font-size: 14px; color: var(--muted); }
+th.trend + th, td.trend + td { text-align: left; white-space: normal; width: 100%; }
+th.sortierbar { cursor: pointer; user-select: none; }
+th.sortierbar[aria-sort="descending"]::after { content: " ↓"; }
 .trend .up { color: var(--ok); }
 .trend .down { color: var(--bad); }
 td.pl { font-family: var(--font-display); font-weight: 800; font-size: 17px; text-align: center; width: 40px; border-left: 4px solid transparent; }
@@ -251,7 +255,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     opt = opt || {};
     var vor = opt.vorher ? plaetze(opt.vorher) : null;
     var top = Math.max.apply(null, zeilen.map(function (z) { return z.punkte || 0; }).concat([0]));
-    var h = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th>' + (vor ? '<th>Trend</th>' : "") + '<th>Manager</th><th>Spieltag</th><th>Gesamt</th><th>Teamwert</th></tr></thead><tbody>';
+    var h = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th>' + (vor ? '<th class="trend">Trend</th>' : "") + '<th>Manager</th><th>Spieltag</th><th>Gesamt</th><th>Teamwert</th></tr></thead><tbody>';
     zeilen.forEach(function (z) {
       var kl = opt.zone ? opt.zone(z) : "";
       h += '<tr class="' + kl + '"><td class="pl">' + (z.platzText || z.platz) + "</td>" + (vor ? '<td class="trend">' + trendHtml(z.platz, vor[z.name]) + "</td>" : "") + "<td>" + esc(z.name) + (z.zusatz || "") + "</td>" +
@@ -418,8 +422,11 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var st = zustand.st.pokal || Math.max(1, Math.min(p.akt || 1, maxSt));
     var h = '<div class="kopfzeile"><div><h1>Junkies Pokal</h1><p class="unterzeile">Gruppenphase Spieltag 1–' + maxSt + ' im 1 gegen 1 über die Junkies-Challenge: Sieg 2 Punkte, Unentschieden 1, Niederlage 0. Gruppensieger direkt ins 16tel-Finale, Platz 2 und 3 in die Zwischenrunde (Best of 3).</p></div></div>';
     h += '<div class="status"><div class="kachel"><small>Gewertet bis</small><strong>Spieltag ' + (p.akt || "–") + '</strong></div><div class="kachel"><small>Gruppen</small><strong>' + gs.length + ' × 9</strong></div><div class="kachel' + (p.ids_fehlen.length ? " alarm" : "") + '"><small>Manager ohne ID</small><strong>' + p.ids_fehlen.length + "</strong></div></div>";
-    h += '<div class="leiste" id="gruppen-wahl"><span class="label">Gruppe</span>' + gs.map(function (x) { return '<button class="chip" data-gruppe="' + x + '" aria-pressed="' + (x === g) + '">' + x + "</button>"; }).join("") + "</div>";
-    var t = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Trend</th><th>Manager</th><th>Sp.</th><th>S-U-N</th><th>Punkte KB</th><th>Diff</th><th>Pkt.</th></tr></thead><tbody>';
+    var gesamt = zustand.gruppe === "gesamt";
+    h += '<div class="leiste" id="gruppen-wahl"><span class="label">Gruppe</span>' + gs.map(function (x) { return '<button class="chip" data-gruppe="' + x + '" aria-pressed="' + (x === g && !gesamt) + '">' + x + "</button>"; }).join("") +
+      '<button class="chip" data-gruppe="gesamt" aria-pressed="' + gesamt + '">Gesamtranking</button></div>';
+    if (gesamt) return h + pokalGesamt(p) + pokalFuss(p);
+    var t = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th class="trend">Trend</th><th>Manager</th><th>Sp.</th><th>S-U-N</th><th>Punkte KB</th><th>Diff</th><th>Pkt.</th></tr></thead><tbody>';
     gr.tabelle.forEach(function (z) {
       var kl = z.platz === 1 ? "z1" : z.platz <= 3 ? "z2" : "";
       var zusatz = z.inaktiv ? ' <span class="pill bad">ausgeschlossen' + (z.ausgeschlossen_st ? " seit ST " + z.ausgeschlossen_st : "") + "</span>" : z.id_fehlt ? ' <span class="pill warn">ID fehlt</span>' : "";
@@ -436,6 +443,29 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     if (sd.frei) d += '<p class="unterzeile" style="margin:0">Spielfrei: ' + esc(sd.frei) + "</p>";
     h += stLeiste("pokal", maxSt, st);
     h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Gruppe ' + g + '</h2><span class="pill muted">nach Spieltag ' + (p.akt || 0) + "</span></div>" + t + '<div class="legende"><span><i style="background:var(--lime)"></i>16tel-Finale</span><span><i style="background:var(--zone2)"></i>Zwischenrunde</span><span>Sortierung: Punkte, dann erzielte Kickbase-Punkte</span></div></section><section class="flaeche spieler">' + d + "</section></div>";
+    return h + pokalFuss(p);
+  }
+
+  // Alle Gruppen zusammen: Punkte, dann erzielte Kickbase-Punkte (Spalten sortierbar)
+  var POKAL_SORT = {pkt: function (z) { return [z.pkt, z.plus]; }, plus: function (z) { return [z.plus, z.pkt]; },
+    diff: function (z) { return [z.plus - z.minus, z.pkt]; }, sp: function (z) { return [z.sp, z.pkt]; }};
+  function pokalGesamt(p) {
+    var alle = [];
+    Object.keys(p.gruppen).forEach(function (g) { p.gruppen[g].tabelle.forEach(function (z) { alle.push(Object.assign({gruppe: g}, z)); }); });
+    var s = zustand.pokalSort || "pkt", f = POKAL_SORT[s] || POKAL_SORT.pkt;
+    alle.sort(function (a, b) { var x = f(a), y = f(b); return (y[0] - x[0]) || (y[1] - x[1]) || a.name.localeCompare(b.name); });
+    var th = function (k, txt) { return '<th class="sortierbar" data-psort="' + k + '" aria-sort="' + (s === k ? "descending" : "none") + '">' + txt + "</th>"; };
+    var t = '<section class="flaeche"><div class="kopfzeile"><h2>Gesamtranking</h2><span class="pill muted">nach Spieltag ' + (p.akt || 0) + '</span></div><div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Gruppe</th>' +
+      th("sp", "Sp.") + "<th>S-U-N</th>" + th("plus", "Punkte KB") + th("diff", "Diff") + th("pkt", "Pkt.") + "</tr></thead><tbody>";
+    alle.forEach(function (z, i) {
+      var zusatz = z.inaktiv ? ' <span class="pill bad">ausgeschlossen</span>' : "";
+      t += '<tr class="' + (z.platz === 1 ? "z1" : z.platz <= 3 ? "z2" : "") + '"><td class="pl">' + (i + 1) + "</td><td>" + esc(z.name) + zusatz + "</td><td>" + esc(z.gruppe) + " · " + z.platz + ".</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
+    });
+    return t + '</tbody></table></div><div class="legende"><span><i style="background:var(--lime)"></i>Gruppensieger</span><span><i style="background:var(--zone2)"></i>Gruppenplatz 2–3</span><span>Standard: Punkte, dann erzielte Kickbase-Punkte. Spaltenkopf antippen zum Sortieren.</span></div></section>';
+  }
+
+  function pokalFuss(p) {
+    var h = "";
     h += '<section class="flaeche"><h2>K.-o.-Runden</h2><div class="tab-scroll"><table><thead><tr><th>Runde</th><th>Modus</th><th>Spieltage</th></tr></thead><tbody>' + p.runden.map(function (r) { return "<tr><td style=\"text-align:left\">" + esc(r.name) + "</td><td style=\"text-align:left;width:100%\">" + (r.st.length === 3 ? "Best of 3, wird ausgelost" : "Summe der Kickbase-Punkte") + "</td><td>" + r.st[0] + "–" + r.st[r.st.length - 1] + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
     if (p.ausgeschlossen.length) h += '<p class="unterzeile">Ausgeschlossen nach 3 Spieltagen ohne Aufstellung (spielfreie Spieltage zählen nicht mit; danach zählen alle Spiele 0 Punkte, der Gegner gewinnt): ' + p.ausgeschlossen.map(function (a) { return esc(a.name) + (a.st ? " (ab ST " + a.st + ")" : ""); }).join(", ") + "</p>";
     if (p.ids_fehlen.length) h += '<p class="unterzeile">Ohne Kickbase-ID, Ergebnisse folgen: ' + p.ids_fehlen.map(esc).join(", ") + "</p>";
@@ -461,6 +491,8 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     $("#inhalt").innerHTML = F[zustand.reiter] || zustand.reiter === "regeln" ? f() : '<p class="leer">Keine Daten.</p>';
   }
   $("#inhalt").addEventListener("click", function (e) {
+    var ps = e.target.closest("[data-psort]");
+    if (ps) { zustand.pokalSort = ps.dataset.psort; zeichnen(); return; }
     var b = e.target.closest("button");
     if (!b) return;
     if (b.dataset.st) { zustand.st[b.closest("[data-st-leiste]").dataset.stLeiste] = +b.dataset.st; zeichnen(); }
