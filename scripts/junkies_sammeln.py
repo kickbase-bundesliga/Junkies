@@ -273,7 +273,7 @@ def spieler_stammdaten(api, lid, ordner):
         d = api.get("/v4/leagues/%s/players/%s" % (lid, pid))
         if fehler(d) or not isinstance(d, dict):
             continue
-        sp[pid] = {"n": d.get("shn") or d.get("ln") or pid, "pos": d.get("pos"), "tn": d.get("tn") or ""}
+        sp[pid] = {"n": d.get("ln") or pid, "nr": d.get("shn"), "pos": d.get("pos"), "tn": d.get("tn") or ""}
     if fehlend:
         schreiben(pfad, sp)
         print("  Stammdaten fuer %d Spieler geholt" % len(fehlend))

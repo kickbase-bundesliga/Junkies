@@ -620,7 +620,15 @@ def auswerten(jetzt=None):
     for f in erg["formate"].values():
         for d in (f.get("aufstellungen") or {}).values():
             benutzt.update(d["p"])
-    erg["spieler"] = {pid: [s.get("n"), s.get("pos"), s.get("tn")] for pid, s in spieler.items() if pid in benutzt}
+    # Name aus dem Team Center (Kickbase-Anzeigename), Position/Verein aus den Stammdaten
+    namen = {}
+    for sts in (s for liste in alle_sts.values() for s in liste):
+        for d in sts.values():
+            for auf in (d.get("aufstellungen") or {}).values():
+                for s in (auf or {}).get("elf", []):
+                    namen[s["id"]] = s.get("name")
+    erg["spieler"] = {pid: [namen.get(pid) or s.get("n"), s.get("pos"), s.get("tn")]
+                      for pid, s in spieler.items() if pid in benutzt}
     # Namen aus den Aufstellungen ergaenzen, falls Stammdaten fehlen
     for f in erg["formate"].values():
         for d in (f.get("aufstellungen") or {}).values():
