@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T21:16:18Z",
+ "abgerufen": "2026-11-03T23:38:17Z",
  "kader": {
   "418331": [
    {
@@ -649,6 +649,11 @@
     "id": "6199",
     "name": "Machino",
     "marktwert": 6952044
+   },
+   {
+    "id": "670",
+    "name": "Karaman",
+    "marktwert": 4930025
    }
   ],
   "1688417": [
@@ -691,11 +696,6 @@
     "id": "3158",
     "name": "Asllani",
     "marktwert": 15870310
-   },
-   {
-    "id": "2749",
-    "name": "Tigges",
-    "marktwert": 7707941
    },
    {
     "id": "3471",

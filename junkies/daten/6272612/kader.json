@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T21:13:07Z",
+ "abgerufen": "2026-11-03T23:35:35Z",
  "kader": {
   "769136": [
    {
@@ -383,11 +383,6 @@
     "marktwert": 9522040
    },
    {
-    "id": "2749",
-    "name": "Tigges",
-    "marktwert": 7707941
-   },
-   {
     "id": "6217",
     "name": "Philippe",
     "marktwert": 4415831
@@ -458,6 +453,11 @@
     "id": "3284",
     "name": "Rohr",
     "marktwert": 15803560
+   },
+   {
+    "id": "15472",
+    "name": "Daka",
+    "marktwert": 2084357
    }
   ],
   "1684680": [
@@ -562,11 +562,6 @@
     "id": "3204",
     "name": "Conté",
     "marktwert": 14702666
-   },
-   {
-    "id": "2214",
-    "name": "Karazor",
-    "marktwert": 10317716
    },
    {
     "id": "8247",

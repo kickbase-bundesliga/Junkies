@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T21:06:49Z",
+ "abgerufen": "2026-11-03T23:30:48Z",
  "kader": {
   "202239": [
    {
@@ -795,11 +795,6 @@
     "marktwert": 16812268
    },
    {
-    "id": "2895",
-    "name": "Nebel",
-    "marktwert": 8450984
-   },
-   {
     "id": "11006",
     "name": "Suzuki",
     "marktwert": 19061369
@@ -942,6 +937,11 @@
     "id": "3453",
     "name": "Köhn",
     "marktwert": 760792
+   },
+   {
+    "id": "6081",
+    "name": "Uzun",
+    "marktwert": 24001407
    }
   ],
   "3332630": [

@@ -2,7 +2,7 @@
  "liga": "6940829",
  "spieltag": 8,
  "fertig": true,
- "abgerufen": "2026-11-03T21:20:32Z",
+ "abgerufen": "2026-11-03T23:39:41Z",
  "letzter_anstoss": "2026-11-01T16:30:00Z",
  "manager": [
   {
@@ -466,40 +466,16 @@
   "463986": {
    "elf": [
     {
+     "id": "2247",
+     "name": "Sosa",
+     "verein": "28",
+     "punkte": 98
+    },
+    {
      "id": "2783",
      "name": "Tapsoba",
      "verein": "7",
      "punkte": 86
-    },
-    {
-     "id": "15202",
-     "name": "Uno",
-     "verein": "15",
-     "punkte": 48
-    },
-    {
-     "id": "3218",
-     "name": "Backhaus",
-     "verein": "5",
-     "punkte": 86
-    },
-    {
-     "id": "14251",
-     "name": "Saibari",
-     "verein": "2",
-     "punkte": 1
-    },
-    {
-     "id": "2928",
-     "name": "Petkov",
-     "verein": "77",
-     "punkte": 77
-    },
-    {
-     "id": "14241",
-     "name": "Medina",
-     "verein": "7",
-     "punkte": 78
     },
     {
      "id": "2895",
@@ -508,10 +484,28 @@
      "punkte": -13
     },
     {
+     "id": "2928",
+     "name": "Petkov",
+     "verein": "77",
+     "punkte": 77
+    },
+    {
+     "id": "3218",
+     "name": "Backhaus",
+     "verein": "5",
+     "punkte": 86
+    },
+    {
      "id": "8166",
      "name": "Chuki",
      "verein": "10",
      "punkte": 78
+    },
+    {
+     "id": "8307",
+     "name": "Sano",
+     "verein": "18",
+     "punkte": 11
     },
     {
      "id": "12284",
@@ -520,16 +514,22 @@
      "punkte": 27
     },
     {
-     "id": "2247",
-     "name": "Sosa",
-     "verein": "28",
-     "punkte": 98
+     "id": "14241",
+     "name": "Medina",
+     "verein": "7",
+     "punkte": 78
     },
     {
-     "id": "8307",
-     "name": "Sano",
-     "verein": "18",
-     "punkte": 11
+     "id": "14251",
+     "name": "Saibari",
+     "verein": "2",
+     "punkte": 1
+    },
+    {
+     "id": "15202",
+     "name": "Uno",
+     "verein": "15",
+     "punkte": 48
     }
    ],
    "bank": [

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T21:09:58Z",
+ "abgerufen": "2026-11-03T23:33:04Z",
  "kader": {
   "338218": [
    {
@@ -61,6 +61,11 @@
     "id": "10113",
     "name": "Gomis",
     "marktwert": 12303494
+   },
+   {
+    "id": "1553",
+    "name": "Haberer",
+    "marktwert": 5695644
    }
   ],
   "478689": [
@@ -418,11 +423,6 @@
     "id": "11512",
     "name": "Capaldo",
     "marktwert": 8101808
-   },
-   {
-    "id": "2302",
-    "name": "Jeong",
-    "marktwert": 4518501
    },
    {
     "id": "3543",
@@ -795,6 +795,11 @@
     "id": "16378",
     "name": "Karetsas",
     "marktwert": 17346735
+   },
+   {
+    "id": "11043",
+    "name": "Assignon",
+    "marktwert": 4534747
    }
   ],
   "2646552": [
