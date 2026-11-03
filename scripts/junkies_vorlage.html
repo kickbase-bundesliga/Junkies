@@ -96,6 +96,9 @@ table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nu
 th { font-size: 11.5px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); font-weight: 600; text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
 td { padding: 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
 th:nth-child(2), td:nth-child(2) { text-align: left; white-space: normal; width: 100%; }
+td.trend { font-family: var(--font-display); font-weight: 700; font-size: 14px; white-space: nowrap; width: 44px; color: var(--muted); }
+.trend .up { color: var(--ok); }
+.trend .down { color: var(--bad); }
 td.pl { font-family: var(--font-display); font-weight: 800; font-size: 17px; text-align: center; width: 40px; border-left: 4px solid transparent; }
 tr.z1 td.pl { border-left-color: var(--lime); }
 tr.z2 td.pl { border-left-color: var(--zone2); }
@@ -236,13 +239,22 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
   }
   function stVon(key, max) { var s = zustand.st[key]; return s && s <= max ? s : max; }
 
+  // Tabellenveraenderung zum Spieltag davor (wie bei der KBL): ▲ 2, ▼ 1, –
+  function trendHtml(jetzt, vorher) {
+    if (vorher == null || jetzt == null) return "";
+    var d = vorher - jetzt;
+    return d > 0 ? '<span class="up">▲ ' + d + "</span>" : d < 0 ? '<span class="down">▼ ' + (-d) + "</span>" : "<span>–</span>";
+  }
+  function plaetze(zeilen) { var m = {}; (zeilen || []).forEach(function (z) { m[z.name] = z.platz; }); return m; }
+
   function tabelleHtml(zeilen, opt) {
     opt = opt || {};
+    var vor = opt.vorher ? plaetze(opt.vorher) : null;
     var top = Math.max.apply(null, zeilen.map(function (z) { return z.punkte || 0; }).concat([0]));
-    var h = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Spieltag</th><th>Gesamt</th><th>Teamwert</th></tr></thead><tbody>';
+    var h = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th>' + (vor ? '<th>Trend</th>' : "") + '<th>Manager</th><th>Spieltag</th><th>Gesamt</th><th>Teamwert</th></tr></thead><tbody>';
     zeilen.forEach(function (z) {
       var kl = opt.zone ? opt.zone(z) : "";
-      h += '<tr class="' + kl + '"><td class="pl">' + (z.platzText || z.platz) + "</td><td>" + esc(z.name) + (z.zusatz || "") + "</td>" +
+      h += '<tr class="' + kl + '"><td class="pl">' + (z.platzText || z.platz) + "</td>" + (vor ? '<td class="trend">' + trendHtml(z.platz, vor[z.name]) + "</td>" : "") + "<td>" + esc(z.name) + (z.zusatz || "") + "</td>" +
         '<td class="' + (z.punkte === top && top > 0 ? "st-top" : "") + '">' + zahl(z.punkte) + "</td><td><b>" + zahl(z.gesamt) + "</b>" + (z.korrigiert ? '<span class="marke-korr" title="Gesamtpunkte manuell korrigiert">*</span>' : "") + "</td><td>" + mio(z.teamwert) + "</td></tr>";
     });
     return h + "</tbody></table></div>";
@@ -319,7 +331,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
       var l = q.ligen[li];
       var zeilen = l.tabellen[st] || [];
       h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>' + esc(l.name) + '</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
-        tabelleHtml(zeilen, {zone: function (z) { return z.platz <= 5 ? "z1" : z.platz <= 10 ? "z2" : "z3"; }}) +
+        tabelleHtml(zeilen, {vorher: l.tabellen[st - 1], zone: function (z) { return z.platz <= 5 ? "z1" : z.platz <= 10 ? "z2" : "z3"; }}) +
         '<div class="legende"><span><i style="background:var(--lime)"></i>Liga 1</span><span><i style="background:var(--zone2)"></i>Liga 2</span><span><i style="background:var(--bad)"></i>ausgeschieden</span></div></section>' +
         '<section class="flaeche">' + abgabeHtml(l.abgaben[st]) + "</section></div>";
     } else {
@@ -340,7 +352,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var h = '<div class="kopfzeile"><div><h1>14er Draft Liga</h1><p class="unterzeile">Full Season. Der Spieltagssieger gibt seine Top 3 an den Gesamtletzten ab, alle anderen mit 1000+ Punkten verkaufen einen ihrer Top 3.</p></div></div>';
     h += stLeiste("draft", d.akt, st);
     h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
-      tabelleHtml(zeilen, {zone: function (z) { return z.platz === zeilen.length ? "z3" : ""; }}) +
+      tabelleHtml(zeilen, {vorher: d.tabellen[st - 1], zone: function (z) { return z.platz === zeilen.length ? "z3" : ""; }}) +
       '<div class="legende"><span><i style="background:var(--bad)"></i>Gesamtletzter, bekommt einen Spieler vom Spieltagssieger</span></div></section><section class="flaeche">' + abgabeHtml(d.abgaben[st]) + "</section></div>";
     return h;
   }
@@ -365,7 +377,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
       else if (st === k.akt && letzterAktiv && z.name === letzterAktiv.name) { kl = "gefahr"; z = Object.assign({}, z, {zusatz: ' <span class="pill bad">gefährdet</span>'}); }
       z.kl = kl; return z;
     });
-    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(tz, {zone: function (z) { return z.kl; }}) + '<div class="legende"><span>* Gesamtpunkte manuell korrigiert (Kickbase hat sie beim Wiedereintritt verloren)</span></div></section>';
+    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(tz, {vorher: k.tabellen[st - 1], zone: function (z) { return z.kl; }}) + '<div class="legende"><span>* Gesamtpunkte manuell korrigiert (Kickbase hat sie beim Wiedereintritt verloren)</span></div></section>';
     h += '<section class="flaeche"><h2>Ausgeschieden</h2>' + (k.ausgeschieden.length ? '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Raus nach</th><th>Punkte</th></tr></thead><tbody>' +
       k.ausgeschieden.map(function (e, i) { return '<tr class="z3"><td class="pl">' + (17 - (k.ausgeschieden.length - 1 - i)) + "</td><td>" + esc(e.name) + (e.grund === "freiwillig" ? ' <span class="pill muted">freiwillig</span>' : "") + "</td><td>ST " + e.nach_st + "</td><td>" + zahl(e.gesamt) + "</td></tr>"; }).join("") + "</tbody></table></div>" : '<p class="leer">Noch niemand.</p>') +
       '<p class="unterzeile" style="margin:0">Endplatzierung: die 4 Finalisten nach Punkten, dahinter die Ausgeschiedenen in umgekehrter Reihenfolge.</p></section></div>';
@@ -391,7 +403,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
           (i === p.runden.length - 1 ? '<div><h3>Spiel um Platz 3</h3></div>' + paarungHtml(p.platz3, true) : "") + "</div></div>";
       }).join("") + "</div></div></section>";
     h += stLeiste("playoff", Math.min(p.akt, p.hauptrunde_bis), st);
-    h += '<section class="flaeche"><div class="kopfzeile"><h2>Hauptrunde</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(zeilen.map(function (z) { return Object.assign({}, z, {platzText: z.platz}); }), {zone: function () { return "z1"; }}) + '<div class="legende"><span>Der Tabellenplatz nach Spieltag ' + p.hauptrunde_bis + " ist die Setzliste (1 gegen 16, 8 gegen 9 …).</span></div></section>";
+    h += '<section class="flaeche"><div class="kopfzeile"><h2>Hauptrunde</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(zeilen.map(function (z) { return Object.assign({}, z, {platzText: z.platz}); }), {vorher: p.tabellen[st - 1], zone: function () { return "z1"; }}) + '<div class="legende"><span>Der Tabellenplatz nach Spieltag ' + p.hauptrunde_bis + " ist die Setzliste (1 gegen 16, 8 gegen 9 …).</span></div></section>";
     return h;
   }
 
@@ -407,11 +419,11 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var h = '<div class="kopfzeile"><div><h1>Junkies Pokal</h1><p class="unterzeile">Gruppenphase Spieltag 1–' + maxSt + ' im 1 gegen 1 über die Junkies-Challenge: Sieg 2 Punkte, Unentschieden 1, Niederlage 0. Gruppensieger direkt ins 16tel-Finale, Platz 2 und 3 in die Zwischenrunde (Best of 3).</p></div></div>';
     h += '<div class="status"><div class="kachel"><small>Gewertet bis</small><strong>Spieltag ' + (p.akt || "–") + '</strong></div><div class="kachel"><small>Gruppen</small><strong>' + gs.length + ' × 9</strong></div><div class="kachel' + (p.ids_fehlen.length ? " alarm" : "") + '"><small>Manager ohne ID</small><strong>' + p.ids_fehlen.length + "</strong></div></div>";
     h += '<div class="leiste" id="gruppen-wahl"><span class="label">Gruppe</span>' + gs.map(function (x) { return '<button class="chip" data-gruppe="' + x + '" aria-pressed="' + (x === g) + '">' + x + "</button>"; }).join("") + "</div>";
-    var t = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Sp.</th><th>S-U-N</th><th>Punkte KB</th><th>Diff</th><th>Pkt.</th></tr></thead><tbody>';
+    var t = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Trend</th><th>Manager</th><th>Sp.</th><th>S-U-N</th><th>Punkte KB</th><th>Diff</th><th>Pkt.</th></tr></thead><tbody>';
     gr.tabelle.forEach(function (z) {
       var kl = z.platz === 1 ? "z1" : z.platz <= 3 ? "z2" : "";
       var zusatz = z.inaktiv ? ' <span class="pill bad">ausgeschlossen' + (z.ausgeschlossen_st ? " seit ST " + z.ausgeschlossen_st : "") + "</span>" : z.id_fehlt ? ' <span class="pill warn">ID fehlt</span>' : "";
-      t += '<tr class="' + kl + '"><td class="pl">' + z.platz + "</td><td>" + esc(z.name) + zusatz + "</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + ":" + zahl(z.minus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
+      t += '<tr class="' + kl + '"><td class="pl">' + z.platz + '</td><td class="trend">' + trendHtml(z.platz, z.vorplatz) + "</td><td>" + esc(z.name) + zusatz + "</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + ":" + zahl(z.minus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
     });
     t += "</tbody></table></div>";
     var sd = gr.spieltage[st] || {spiele: [], frei: null};
@@ -425,7 +437,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     h += stLeiste("pokal", maxSt, st);
     h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Gruppe ' + g + '</h2><span class="pill muted">nach Spieltag ' + (p.akt || 0) + "</span></div>" + t + '<div class="legende"><span><i style="background:var(--lime)"></i>16tel-Finale</span><span><i style="background:var(--zone2)"></i>Zwischenrunde</span><span>Sortierung: Punkte, dann erzielte Kickbase-Punkte</span></div></section><section class="flaeche spieler">' + d + "</section></div>";
     h += '<section class="flaeche"><h2>K.-o.-Runden</h2><div class="tab-scroll"><table><thead><tr><th>Runde</th><th>Modus</th><th>Spieltage</th></tr></thead><tbody>' + p.runden.map(function (r) { return "<tr><td style=\"text-align:left\">" + esc(r.name) + "</td><td style=\"text-align:left;width:100%\">" + (r.st.length === 3 ? "Best of 3, wird ausgelost" : "Summe der Kickbase-Punkte") + "</td><td>" + r.st[0] + "–" + r.st[r.st.length - 1] + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
-    if (p.ausgeschlossen.length) h += '<p class="unterzeile">Ausgeschlossen nach 3 Spieltagen ohne Aufstellung (alle Spiele zählen 0 Punkte, der Gegner gewinnt): ' + p.ausgeschlossen.map(function (a) { return esc(a.name) + (a.st ? " (ab ST " + a.st + ")" : ""); }).join(", ") + "</p>";
+    if (p.ausgeschlossen.length) h += '<p class="unterzeile">Ausgeschlossen nach 3 Spieltagen ohne Aufstellung (spielfreie Spieltage zählen nicht mit; danach zählen alle Spiele 0 Punkte, der Gegner gewinnt): ' + p.ausgeschlossen.map(function (a) { return esc(a.name) + (a.st ? " (ab ST " + a.st + ")" : ""); }).join(", ") + "</p>";
     if (p.ids_fehlen.length) h += '<p class="unterzeile">Ohne Kickbase-ID, Ergebnisse folgen: ' + p.ids_fehlen.map(esc).join(", ") + "</p>";
     return h;
   }

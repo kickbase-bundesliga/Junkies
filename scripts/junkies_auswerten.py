@@ -425,11 +425,18 @@ def pokal(cfg, plan):
     fertig = sorted(int(st) for st, i in plan.items() if i.get("fertig"))
     akt = max([st for st in fertig if st <= pk.get("gruppenphase_bis", 18)] or [0])
 
-    # Automatischer Ausschluss: 3x 0 Punkte (nicht aufgestellt) -> alle Spiele mit 0 gewertet
+    # Automatischer Ausschluss: 3x 0 Punkte (nicht aufgestellt) -> alle Spiele mit 0 gewertet.
+    # Spielfreie Spieltage (kein Gruppenspiel) zaehlen dabei nicht mit.
     nullrunden = int(pk.get("ausschluss_nach_nullrunden", 3))
+    spielt = {}
+    for g, spiele in gp["spiele"].items():
+        for s in spiele:
+            for n in (s["heim"], s["gast"]):
+                spielt.setdefault(n, set()).add(s["st"])
     ausgeschlossen = {}
     for name, m in pd["manager"].items():
-        nullen = [st for st in range(1, akt + 1) if not m["punkte"].get(str(st))]
+        nullen = [st for st in range(1, akt + 1)
+                  if st in spielt.get(name, ()) and not m["punkte"].get(str(st))]
         if len(nullen) >= nullrunden:
             ausgeschlossen[name] = nullen[nullrunden - 1]
     for name in pk.get("inaktiv", []):
@@ -444,6 +451,21 @@ def pokal(cfg, plan):
             return None
         # kein Eintrag fuer einen gewerteten Spieltag = nicht aufgestellt = 0 Punkte
         return m["punkte"].get(str(st), 0)
+
+    def rangfolge(g, namen, bis):
+        """Plaetze der Gruppe nach Spieltag <bis> (gleiche Regeln wie unten)."""
+        tab = {n: [0, 0] for n in namen}   # Punkte, erzielte KB-Punkte
+        for s in gp["spiele"][g]:
+            if s["st"] > bis:
+                continue
+            pa, pb = punkte(s["heim"], s["st"]), punkte(s["gast"], s["st"])
+            if pa is None or pb is None:
+                continue
+            for n, x, y in ((s["heim"], pa, pb), (s["gast"], pb, pa)):
+                tab[n][1] += x
+                tab[n][0] += 2 if x > y else 1 if x == y else 0
+        reihe = sorted(namen, key=lambda n: (-tab[n][0], -tab[n][1], n.lower()))
+        return {n: i for i, n in enumerate(reihe, 1)}
 
     gruppen = {}
     for g, namen in gp["gruppen"].items():
@@ -478,8 +500,10 @@ def pokal(cfg, plan):
             frei = [n for n in namen if n not in dabei]
             spieltage[st] = {"spiele": liste, "frei": frei[0] if frei else None}
         zeilen = sorted(tab.values(), key=lambda t: (-t["pkt"], -t["plus"], t["name"].lower()))
+        vorher = rangfolge(g, namen, akt - 1) if akt > 1 else {}
         for i, z in enumerate(zeilen, 1):
             z["platz"] = i
+            z["vorplatz"] = vorher.get(z["name"])
         gruppen[g] = {"tabelle": zeilen, "spieltage": spieltage}
     fehlende = sorted(n for n in tn if n not in pd["manager"] and n not in inaktiv)
     return {"gruppen": gruppen, "akt": akt, "gruppenphase_bis": pk.get("gruppenphase_bis", 18),
