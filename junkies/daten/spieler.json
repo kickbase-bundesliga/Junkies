@@ -1,0 +1,2297 @@
+{
+ "10004": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Frankfurt"
+ },
+ "10049": {
+  "n": 16,
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "10106": {
+  "n": 27,
+  "pos": 4,
+  "tn": "Union Berlin"
+ },
+ "10113": {
+  "n": 27,
+  "pos": 4,
+  "tn": "Leipzig"
+ },
+ "10114": {
+  "n": 17,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "10115": {
+  "n": 24,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "1012": {
+  "n": 10,
+  "pos": 4,
+  "tn": "Schalke"
+ },
+ "10122": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "10134": {
+  "n": 33,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "10789": {
+  "n": 42,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "11006": {
+  "n": 14,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "11007": {
+  "n": 22,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "11008": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "11010": {
+  "n": 4,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "11043": {
+  "n": 22,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "11099": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "11161": {
+  "n": 28,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "11162": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Hoffenheim"
+ },
+ "11181": {
+  "n": "Tape",
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "11186": {
+  "n": 37,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "11255": {
+  "n": 25,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "11512": {
+  "n": 24,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "11513": {
+  "n": 35,
+  "pos": 4,
+  "tn": "Leverkusen"
+ },
+ "11556": {
+  "n": 4,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "11570": {
+  "n": 28,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "11631": {
+  "n": 18,
+  "pos": 3,
+  "tn": "Hoffenheim"
+ },
+ "11665": {
+  "n": 48,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "11666": {
+  "n": 40,
+  "pos": 1,
+  "tn": "Mainz"
+ },
+ "11675": {
+  "n": 14,
+  "pos": 4,
+  "tn": "Bayern"
+ },
+ "11748": {
+  "n": 36,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "11752": {
+  "n": 17,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "11756": {
+  "n": 42,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "11886": {
+  "n": 40,
+  "pos": 4,
+  "tn": "Leipzig"
+ },
+ "11949": {
+  "n": 43,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "11955": {
+  "n": 11,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "11956": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "11957": {
+  "n": 29,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "11958": {
+  "n": 17,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "11959": {
+  "n": 14,
+  "pos": 4,
+  "tn": "Hoffenheim"
+ },
+ "11967": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "12158": {
+  "n": 38,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "12263": {
+  "n": 37,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "12284": {
+  "n": 26,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "12294": {
+  "n": 29,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "12297": {
+  "n": 13,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "12314": {
+  "n": 39,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "12321": {
+  "n": 22,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "12341": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Augsburg"
+ },
+ "1246": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "12763": {
+  "n": 29,
+  "pos": 4,
+  "tn": "Union Berlin"
+ },
+ "1333": {
+  "n": 16,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "13433": {
+  "n": 37,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "13442": {
+  "n": 38,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "13448": {
+  "n": 24,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "13449": {
+  "n": 16,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "13472": {
+  "n": 49,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "13671": {
+  "n": 48,
+  "pos": 1,
+  "tn": "Augsburg"
+ },
+ "13888": {
+  "n": 20,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "14048": {
+  "n": 42,
+  "pos": 4,
+  "tn": "Freiburg"
+ },
+ "14241": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "14249": {
+  "n": 21,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "14251": {
+  "n": 34,
+  "pos": 4,
+  "tn": "Bayern"
+ },
+ "14256": {
+  "n": 7,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "14300": {
+  "n": 23,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "14425": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "14899": {
+  "n": 36,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "14914": {
+  "n": 44,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "14917": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "15181": {
+  "n": 5,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "15193": {
+  "n": 39,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "15199": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Leverkusen"
+ },
+ "15202": {
+  "n": 47,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "15211": {
+  "n": 22,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "15262": {
+  "n": 17,
+  "pos": 3,
+  "tn": "Hoffenheim"
+ },
+ "15283": {
+  "n": 5,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "15313": {
+  "n": 38,
+  "pos": 4,
+  "tn": "Bremen"
+ },
+ "15373": {
+  "n": 11,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "15376": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "1540": {
+  "n": 21,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "15472": {
+  "n": 27,
+  "pos": 4,
+  "tn": "Hamburg"
+ },
+ "15478": {
+  "n": 4,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "15502": {
+  "n": 46,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "1553": {
+  "n": 19,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "15589": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "15613": {
+  "n": 14,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "1580": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Köln"
+ },
+ "1590": {
+  "n": 27,
+  "pos": 1,
+  "tn": "Mainz"
+ },
+ "16369": {
+  "n": 25,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "16378": {
+  "n": 19,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "1639": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Mainz"
+ },
+ "1645": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "16564": {
+  "n": 34,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "1664": {
+  "n": 7,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "1671": {
+  "n": 21,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "1685": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "1689": {
+  "n": 39,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "16945": {
+  "n": 27,
+  "pos": 4,
+  "tn": "Köln"
+ },
+ "16948": {
+  "n": 45,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "1704": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "17282": {
+  "n": 47,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "17285": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "17288": {
+  "n": 44,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "173": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "17306": {
+  "n": 30,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "17309": {
+  "n": 18,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "1745": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "1809": {
+  "n": 27,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "1856": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "1863": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Hamburg"
+ },
+ "1865": {
+  "n": 15,
+  "pos": 4,
+  "tn": "Hamburg"
+ },
+ "1873": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Dortmund"
+ },
+ "1883": {
+  "n": 1,
+  "pos": 1,
+  "tn": "M'gladbach"
+ },
+ "1910": {
+  "n": 21,
+  "pos": 1,
+  "tn": "Freiburg"
+ },
+ "1920": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Dortmund"
+ },
+ "1961": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "1964": {
+  "n": 20,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "1978": {
+  "n": 23,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "1991": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "1996": {
+  "n": 32,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "2006": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "2015": {
+  "n": 23,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "2030": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Mainz"
+ },
+ "2065": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "2074": {
+  "n": 25,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "2084": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "2125": {
+  "n": 19,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "2141": {
+  "n": 17,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "2144": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "2172": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "2176": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Freiburg"
+ },
+ "2195": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Augsburg"
+ },
+ "2199": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "2201": {
+  "n": 37,
+  "pos": 4,
+  "tn": "Köln"
+ },
+ "2214": {
+  "n": 16,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "2232": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "2237": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Stuttgart"
+ },
+ "2247": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "2255": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Frankfurt"
+ },
+ "2261": {
+  "n": 10,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "2275": {
+  "n": 14,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "2279": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Union Berlin"
+ },
+ "2294": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "2302": {
+  "n": 11,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "2358": {
+  "n": 5,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "2366": {
+  "n": 19,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "237": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Bayern"
+ },
+ "2373": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "2383": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "2395": {
+  "n": 26,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "2449": {
+  "n": 7,
+  "pos": 4,
+  "tn": "Schalke"
+ },
+ "2471": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Paderborn"
+ },
+ "2476": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Mainz"
+ },
+ "2522": {
+  "n": 22,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "2536": {
+  "n": 44,
+  "pos": 1,
+  "tn": "Köln"
+ },
+ "2552": {
+  "n": 30,
+  "pos": 4,
+  "tn": "Köln"
+ },
+ "2560": {
+  "n": 16,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "2646": {
+  "n": 23,
+  "pos": 4,
+  "tn": "Mainz"
+ },
+ "2661": {
+  "n": 19,
+  "pos": 4,
+  "tn": "Leverkusen"
+ },
+ "2687": {
+  "n": 28,
+  "pos": 4,
+  "tn": "Leipzig"
+ },
+ "2694": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "2714": {
+  "n": 14,
+  "pos": 4,
+  "tn": "Dortmund"
+ },
+ "2718": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "2722": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "2725": {
+  "n": 33,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "2746": {
+  "n": 14,
+  "pos": 4,
+  "tn": "Leverkusen"
+ },
+ "2749": {
+  "n": 27,
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "2762": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "2765": {
+  "n": 29,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "2783": {
+  "n": 12,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "2803": {
+  "n": 19,
+  "pos": 4,
+  "tn": "Hoffenheim"
+ },
+ "2804": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "2852": {
+  "n": 37,
+  "pos": 1,
+  "tn": "Hoffenheim"
+ },
+ "2854": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Stuttgart"
+ },
+ "2863": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "2864": {
+  "n": 34,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "2887": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "2895": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Mainz"
+ },
+ "2897": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "2928": {
+  "n": 25,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "2939": {
+  "n": 18,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "2941": {
+  "n": 29,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "2967": {
+  "n": 23,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "2977": {
+  "n": 15,
+  "pos": 1,
+  "tn": "Paderborn"
+ },
+ "2988": {
+  "n": 18,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "3019": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Frankfurt"
+ },
+ "3026": {
+  "n": 21,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "3027": {
+  "n": 18,
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "3029": {
+  "n": 21,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "3063": {
+  "n": 2,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "3069": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "3072": {
+  "n": 40,
+  "pos": 1,
+  "tn": "Bayern"
+ },
+ "3081": {
+  "n": 40,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "3089": {
+  "n": 21,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "3102": {
+  "n": 15,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "3120": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "3124": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Hoffenheim"
+ },
+ "3129": {
+  "n": 6,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "3158": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Hoffenheim"
+ },
+ "3166": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Bremen"
+ },
+ "3176": {
+  "n": 21,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "3183": {
+  "n": 30,
+  "pos": 4,
+  "tn": "Augsburg"
+ },
+ "3187": {
+  "n": 13,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "3190": {
+  "n": 24,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "3193": {
+  "n": 8,
+  "pos": 4,
+  "tn": "Stuttgart"
+ },
+ "32": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Schalke"
+ },
+ "3204": {
+  "n": 20,
+  "pos": 4,
+  "tn": "Hoffenheim"
+ },
+ "3209": {
+  "n": 16,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "3218": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Freiburg"
+ },
+ "3277": {
+  "n": 28,
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "3281": {
+  "n": 15,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "3284": {
+  "n": 31,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "3304": {
+  "n": 31,
+  "pos": 4,
+  "tn": "Freiburg"
+ },
+ "3318": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Mainz"
+ },
+ "3336": {
+  "n": 30,
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "3350": {
+  "n": 43,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "3419": {
+  "n": 31,
+  "pos": 1,
+  "tn": "Union Berlin"
+ },
+ "3470": {
+  "n": 19,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "3471": {
+  "n": 10,
+  "pos": 4,
+  "tn": "Hoffenheim"
+ },
+ "3491": {
+  "n": 26,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "3521": {
+  "n": "Elfadli",
+  "pos": 2,
+  "tn": "Hamburg"
+ },
+ "3543": {
+  "n": 11,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "3559": {
+  "n": 28,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "357": {
+  "n": 33,
+  "pos": 1,
+  "tn": "Frankfurt"
+ },
+ "3759": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "4199": {
+  "n": 24,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "4292": {
+  "n": 20,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "4296": {
+  "n": 17,
+  "pos": 4,
+  "tn": "Stuttgart"
+ },
+ "4318": {
+  "n": 15,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "4333": {
+  "n": 26,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "4335": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "4352": {
+  "n": 34,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "4406": {
+  "n": 29,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "4446": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "4563": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "4596": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "4598": {
+  "n": 18,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "4606": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "461": {
+  "n": 22,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "4654": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "49": {
+  "n": 28,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "493": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Augsburg"
+ },
+ "51": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "513": {
+  "n": 27,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "524": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Hoffenheim"
+ },
+ "550": {
+  "n": 16,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "6061": {
+  "n": 30,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "608": {
+  "n": 10,
+  "pos": 4,
+  "tn": "Bremen"
+ },
+ "6080": {
+  "n": 45,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "6081": {
+  "n": 42,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "6085": {
+  "n": 41,
+  "pos": 1,
+  "tn": "Stuttgart"
+ },
+ "6104": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Leipzig"
+ },
+ "6148": {
+  "n": 19,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "6160": {
+  "n": 20,
+  "pos": 1,
+  "tn": "Elversberg"
+ },
+ "6168": {
+  "n": 19,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "6172": {
+  "n": 20,
+  "pos": 4,
+  "tn": "Schalke"
+ },
+ "6174": {
+  "n": 13,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "6176": {
+  "n": 13,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "6183": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Elversberg"
+ },
+ "619": {
+  "n": 7,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "6197": {
+  "n": 17,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "6199": {
+  "n": 18,
+  "pos": 4,
+  "tn": "M'gladbach"
+ },
+ "620": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Mainz"
+ },
+ "6201": {
+  "n": 21,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "6209": {
+  "n": 29,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "6217": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "6292": {
+  "n": 22,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "6300": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "6319": {
+  "n": 9,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "663": {
+  "n": 8,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "6668": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "670": {
+  "n": 19,
+  "pos": 4,
+  "tn": "Schalke"
+ },
+ "6745": {
+  "n": 22,
+  "pos": 4,
+  "tn": "Leverkusen"
+ },
+ "7158": {
+  "n": 26,
+  "pos": 4,
+  "tn": "Stuttgart"
+ },
+ "7167": {
+  "n": 14,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "72": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Leverkusen"
+ },
+ "7215": {
+  "n": 33,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "7216": {
+  "n": 37,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "7219": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "7224": {
+  "n": 23,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "7226": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Bayern"
+ },
+ "7239": {
+  "n": 35,
+  "pos": 2,
+  "tn": "Leipzig"
+ },
+ "7242": {
+  "n": 8,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "7257": {
+  "n": 20,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "7269": {
+  "n": 23,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "7275": {
+  "n": 40,
+  "pos": 1,
+  "tn": "Frankfurt"
+ },
+ "7277": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "7278": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "7282": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "7283": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "7320": {
+  "n": 25,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "7325": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Frankfurt"
+ },
+ "7336": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "7349": {
+  "n": 29,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "7417": {
+  "n": 15,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "7441": {
+  "n": 39,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "7463": {
+  "n": 40,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "7498": {
+  "n": 23,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "75": {
+  "n": 30,
+  "pos": 1,
+  "tn": "Dortmund"
+ },
+ "7514": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "755": {
+  "n": 22,
+  "pos": 1,
+  "tn": "Schalke"
+ },
+ "7616": {
+  "n": 21,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "7673": {
+  "n": 21,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "7676": {
+  "n": 32,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "7684": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "7717": {
+  "n": 22,
+  "pos": 3,
+  "tn": "Hoffenheim"
+ },
+ "7721": {
+  "n": 17,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "7737": {
+  "n": 25,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "7745": {
+  "n": 34,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "7774": {
+  "n": 22,
+  "pos": 2,
+  "tn": "M'gladbach"
+ },
+ "7963": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "8001": {
+  "n": 24,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "8061": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Leipzig"
+ },
+ "8166": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "8222": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Schalke"
+ },
+ "8227": {
+  "n": 26,
+  "pos": 1,
+  "tn": "Leipzig"
+ },
+ "8235": {
+  "n": 17,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "8247": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "8252": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "8274": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "8277": {
+  "n": 33,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "8292": {
+  "n": 5,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "8296": {
+  "n": 17,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "8301": {
+  "n": 26,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "8307": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Mainz"
+ },
+ "8329": {
+  "n": 17,
+  "pos": 3,
+  "tn": "Bayern"
+ },
+ "8351": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "8355": {
+  "n": 40,
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "8364": {
+  "n": 43,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "8367": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "8374": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Leverkusen"
+ },
+ "8381": {
+  "n": 9,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "8385": {
+  "n": "Pauli",
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "849": {
+  "n": 11,
+  "pos": 4,
+  "tn": "M'gladbach"
+ },
+ "859": {
+  "n": 30,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "8872": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "89": {
+  "n": 30,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "9384": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "9440": {
+  "n": 39,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "9507": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "9513": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Bremen"
+ },
+ "9540": {
+  "n": 3,
+  "pos": 4,
+  "tn": "M'gladbach"
+ },
+ "9598": {
+  "n": 15,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "9605": {
+  "n": 11,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "9642": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "9698": {
+  "n": 21,
+  "pos": 4,
+  "tn": "Dortmund"
+ },
+ "9754": {
+  "n": 35,
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "9776": {
+  "n": 30,
+  "pos": 3,
+  "tn": "Leipzig"
+ },
+ "9923": {
+  "n": "Mbangula",
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "9965": {
+  "n": 23,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "9995": {
+  "n": 42,
+  "pos": 4,
+  "tn": "Elversberg"
+ },
+ "10024": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "10112": {
+  "n": 14,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "10120": {
+  "n": 38,
+  "pos": 4,
+  "tn": "Hamburg"
+ },
+ "10916": {
+  "n": 43,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "11100": {
+  "n": 40,
+  "pos": 3,
+  "tn": "Dortmund"
+ },
+ "11101": {
+  "n": 41,
+  "pos": 4,
+  "tn": "Dortmund"
+ },
+ "118": {
+  "n": 32,
+  "pos": 3,
+  "tn": "Freiburg"
+ },
+ "11875": {
+  "n": 33,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "11947": {
+  "n": "Bouanani",
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "12296": {
+  "n": "Okpala",
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "12367": {
+  "n": 47,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "12368": {
+  "n": 12,
+  "pos": 1,
+  "tn": "Hamburg"
+ },
+ "1257": {
+  "n": 17,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "13479": {
+  "n": 39,
+  "pos": 4,
+  "tn": "Augsburg"
+ },
+ "13629": {
+  "n": 49,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "13806": {
+  "n": 7,
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "14140": {
+  "n": 14,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "14911": {
+  "n": 29,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "14926": {
+  "n": 34,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "168": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "17179": {
+  "n": 47,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "17203": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Hamburg"
+ },
+ "1728": {
+  "n": 1,
+  "pos": 1,
+  "tn": "Leipzig"
+ },
+ "1815": {
+  "n": 27,
+  "pos": 3,
+  "tn": "Hoffenheim"
+ },
+ "1858": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "1954": {
+  "n": 13,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "1955": {
+  "n": 7,
+  "pos": 4,
+  "tn": "Union Berlin"
+ },
+ "2038": {
+  "n": 27,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "2300": {
+  "n": 44,
+  "pos": 2,
+  "tn": "Bayern"
+ },
+ "2301": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "2399": {
+  "n": 15,
+  "pos": 3,
+  "tn": "Mainz"
+ },
+ "2498": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "2702": {
+  "n": 5,
+  "pos": 3,
+  "tn": "Mainz"
+ },
+ "2842": {
+  "n": 27,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "2846": {
+  "n": 10,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "2855": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Köln"
+ },
+ "3041": {
+  "n": 30,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "3450": {
+  "n": 25,
+  "pos": 1,
+  "tn": "Bremen"
+ },
+ "3453": {
+  "n": 17,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "3754": {
+  "n": 17,
+  "pos": 2,
+  "tn": "Leverkusen"
+ },
+ "43": {
+  "n": 8,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "4576": {
+  "n": "Hanche-Olsen",
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "6290": {
+  "n": "Bätzner",
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "7156": {
+  "n": 39,
+  "pos": 2,
+  "tn": "Schalke"
+ },
+ "7543": {
+  "n": 9,
+  "pos": 4,
+  "tn": "Hoffenheim"
+ },
+ "7723": {
+  "n": 14,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "7781": {
+  "n": 44,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "78": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "9224": {
+  "n": 29,
+  "pos": 3,
+  "tn": "Elversberg"
+ },
+ "9283": {
+  "n": 38,
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "9600": {
+  "n": 30,
+  "pos": 1,
+  "tn": "Bremen"
+ },
+ "9682": {
+  "n": "Chaves",
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "9683": {
+  "n": 23,
+  "pos": 4,
+  "tn": "Union Berlin"
+ },
+ "9684": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "9746": {
+  "n": "Andrés",
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "10121": {
+  "n": 15,
+  "pos": 4,
+  "tn": "Köln"
+ },
+ "10131": {
+  "n": 23,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "10530": {
+  "n": "Harder",
+  "pos": 4,
+  "tn": "Leipzig"
+ },
+ "1223": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "12262": {
+  "n": 19,
+  "pos": 4,
+  "tn": "Paderborn"
+ },
+ "13438": {
+  "n": 20,
+  "pos": 3,
+  "tn": "Mainz"
+ },
+ "14920": {
+  "n": 35,
+  "pos": 4,
+  "tn": "Frankfurt"
+ },
+ "157": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "1889": {
+  "n": 18,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "2120": {
+  "n": 28,
+  "pos": 3,
+  "tn": "Stuttgart"
+ },
+ "2126": {
+  "n": 19,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "2491": {
+  "n": 21,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "2764": {
+  "n": 14,
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "2862": {
+  "n": 17,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "2876": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "3143": {
+  "n": "Jakić",
+  "pos": 3,
+  "tn": "Augsburg"
+ },
+ "3481": {
+  "n": 6,
+  "pos": 3,
+  "tn": "Bremen"
+ },
+ "4": {
+  "n": 28,
+  "pos": 1,
+  "tn": "Leverkusen"
+ },
+ "4589": {
+  "n": 31,
+  "pos": 4,
+  "tn": "Stuttgart"
+ },
+ "577": {
+  "n": 33,
+  "pos": 1,
+  "tn": "M'gladbach"
+ },
+ "7350": {
+  "n": 19,
+  "pos": 4,
+  "tn": "Hamburg"
+ },
+ "7750": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Hoffenheim"
+ },
+ "8984": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Paderborn"
+ },
+ "9615": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "1811": {
+  "n": 6,
+  "pos": 2,
+  "tn": "Augsburg"
+ },
+ "2069": {
+  "n": 4,
+  "pos": 2,
+  "tn": "Köln"
+ },
+ "2400": {
+  "n": 28,
+  "pos": 2,
+  "tn": "Union Berlin"
+ },
+ "2717": {
+  "n": 24,
+  "pos": 3,
+  "tn": "Union Berlin"
+ },
+ "3228": {
+  "n": 11,
+  "pos": 4,
+  "tn": "Bremen"
+ },
+ "60": {
+  "n": 31,
+  "pos": 2,
+  "tn": "Mainz"
+ },
+ "10048": {
+  "n": 8,
+  "pos": 3,
+  "tn": "Paderborn"
+ },
+ "11591": {
+  "n": 32,
+  "pos": 3,
+  "tn": "Hoffenheim"
+ },
+ "11680": {
+  "n": 18,
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "1225": {
+  "n": 25,
+  "pos": 1,
+  "tn": "Leipzig"
+ },
+ "15256": {
+  "n": 3,
+  "pos": 2,
+  "tn": "Bremen"
+ },
+ "15301": {
+  "n": 32,
+  "pos": 4,
+  "tn": "Union Berlin"
+ },
+ "1767": {
+  "n": 24,
+  "pos": 1,
+  "tn": "Freiburg"
+ },
+ "2736": {
+  "n": 5,
+  "pos": 2,
+  "tn": "Dortmund"
+ },
+ "2766": {
+  "n": "Palacios",
+  "pos": 3,
+  "tn": "Leverkusen"
+ },
+ "3516": {
+  "n": 8,
+  "pos": 3,
+  "tn": "M'gladbach"
+ },
+ "6158": {
+  "n": 24,
+  "pos": 4,
+  "tn": "Elversberg"
+ },
+ "6185": {
+  "n": "Larsson",
+  "pos": 3,
+  "tn": "Frankfurt"
+ },
+ "7394": {
+  "n": 22,
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "7491": {
+  "n": "Bahoya",
+  "pos": 4,
+  "tn": "Frankfurt"
+ },
+ "7696": {
+  "n": 22,
+  "pos": 1,
+  "tn": "Augsburg"
+ },
+ "8363": {
+  "n": 27,
+  "pos": 2,
+  "tn": "Freiburg"
+ },
+ "9413": {
+  "n": "Baldé",
+  "pos": 3,
+  "tn": "Hamburg"
+ },
+ "11253": {
+  "n": 2,
+  "pos": 2,
+  "tn": "Elversberg"
+ },
+ "1655": {
+  "n": "Zetterer",
+  "pos": 1,
+  "tn": "Frankfurt"
+ },
+ "2068": {
+  "n": 23,
+  "pos": 2,
+  "tn": "Stuttgart"
+ },
+ "3139": {
+  "n": 26,
+  "pos": 4,
+  "tn": "Bremen"
+ },
+ "3307": {
+  "n": 14,
+  "pos": 3,
+  "tn": "Schalke"
+ },
+ "737": {
+  "n": 7,
+  "pos": 3,
+  "tn": "Köln"
+ },
+ "8289": {
+  "n": 36,
+  "pos": 1,
+  "tn": "Hoffenheim"
+ }
+}
