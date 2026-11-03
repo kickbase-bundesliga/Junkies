@@ -1,0 +1,16 @@
+name: tmp erkunden
+on: workflow_dispatch
+jobs:
+  e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with: {python-version: "3.12"}
+      - env:
+          KWBL_EMAIL: ${{ secrets.KWBL_EMAIL }}
+          KWBL_PASSWORT: ${{ secrets.KWBL_PASSWORT }}
+          PRIVAT_EMAIL: ${{ secrets.PRIVAT_EMAIL }}
+          PRIVAT_PASSWORT: ${{ secrets.PRIVAT_PASSWORT }}
+          PYTHONIOENCODING: utf-8
+        run: python scripts/tmp_erkunden.py
