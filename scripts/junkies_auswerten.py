@@ -509,7 +509,67 @@ def pokal(cfg, plan):
     return {"gruppen": gruppen, "akt": akt, "gruppenphase_bis": pk.get("gruppenphase_bis", 18),
             "runden": pk.get("runden", []), "ids_fehlen": fehlende,
             "ausgeschlossen": [{"name": n, "st": st} for n, st in sorted(ausgeschlossen.items())],
+            "favoriten": {n: m["favoriten"] for n, m in pd["manager"].items() if m.get("favoriten")},
             "stand_punkte": pd.get("abgerufen")}
+
+
+# ---------------------------------------------------------------- Aufstellungen und Elfen
+
+# In Kickbase erlaubte Formationen (Abwehr-Mittelfeld-Sturm); Positionen 1 Tor, 2 Abwehr, 3 MF, 4 Sturm
+FORMATIONEN = ["3-4-3", "3-5-2", "3-6-1", "4-2-4", "4-3-3", "4-4-2", "4-5-1", "5-2-3", "5-3-2", "5-4-1"]
+
+
+def beste_elf(kand, pos, wert, neben):
+    """Erlaubte Formation mit der hoechsten Summe von wert (bei Gleichstand neben). -> (Formation, [pid])"""
+    nach_pos = {1: [], 2: [], 3: [], 4: []}
+    for p in kand:
+        if pos.get(p) in nach_pos:
+            nach_pos[pos[p]].append(p)
+    for k in nach_pos:
+        nach_pos[k].sort(key=lambda p: (-wert(p), -neben(p), p))
+    beste = None
+    for f in FORMATIONEN:
+        d, m, s = [int(x) for x in f.split("-")]
+        if len(nach_pos[1]) < 1 or len(nach_pos[2]) < d or len(nach_pos[3]) < m or len(nach_pos[4]) < s:
+            continue
+        elf = nach_pos[1][:1] + nach_pos[2][:d] + nach_pos[3][:m] + nach_pos[4][:s]
+        summe = (sum(wert(p) for p in elf), sum(neben(p) for p in elf))
+        if beste is None or summe > beste[1]:
+            beste = (f, summe, elf)
+    return (beste[0], beste[2]) if beste else (None, [])
+
+
+def format_aufstellungen(spieltage, spieler):
+    """spieltage: [{st: Spieltagsdatei}] aller Ligen eines Formats.
+    -> {"st": {st: {"m": {Manager: [pid...]}, "p": {pid: Punkte}, "elfen": {...}}}}"""
+    pos = {pid: (d or {}).get("pos") for pid, d in spieler.items()}
+    erg = {}
+    alle_st = sorted(set(st for sts in spieltage for st in sts))
+    for st in alle_st:
+        aufst, punkte, anzahl = {}, {}, {}
+        for sts in spieltage:
+            d = sts.get(st) or {}
+            namen = {m["id"]: m["name"].strip() for m in d.get("manager", []) if not m["admin"]}
+            for uid, auf in (d.get("aufstellungen") or {}).items():
+                if not auf or uid not in namen:
+                    continue
+                ids = [s["id"] for s in auf.get("elf", [])]
+                aufst[namen[uid]] = ids
+                for s in auf.get("elf", []):
+                    punkte[s["id"]] = s.get("punkte", 0) or 0
+                    anzahl[s["id"]] = anzahl.get(s["id"], 0) + 1
+        if not aufst:
+            continue
+        kand = list(punkte)
+        pk = lambda p: punkte.get(p, 0)          # noqa: E731
+        an = lambda p: anzahl.get(p, 0)          # noqa: E731
+        f_top, top = beste_elf(kand, pos, pk, an)
+        f_meist, meist = beste_elf(kand, pos, an, pk)
+        f_flop, flop = beste_elf(kand, pos, lambda p: -pk(p), lambda p: -an(p))
+        erg[st] = {"m": aufst, "p": punkte,
+                   "elfen": {"top": {"f": f_top, "p": top}, "meist": {"f": f_meist, "p": meist},
+                             "flop": {"f": f_flop, "p": flop}}}
+    return erg
 
 
 # ---------------------------------------------------------------- Gesamt
@@ -521,8 +581,11 @@ def auswerten(jetzt=None):
     erg = {"saison": cfg.get("saison"), "stand": iso(jetzt), "formate": {}}
     quali = []
     akt_gesamt = 0
+    spieler = lesen(os.path.join(DATEN, "spieler.json"), {})
+    alle_sts = {}
     for liga in cfg["ligen"]:
         sts = spieltage_laden(liga["id"])
+        alle_sts.setdefault(liga["format"], []).append(sts)
         fertig = [st for st in sorted(sts) if sts[st].get("fertig")]
         akt = fertig[-1] if fertig else 0
         akt_gesamt = max(akt_gesamt, akt)
@@ -549,6 +612,20 @@ def auswerten(jetzt=None):
     p = pokal(cfg, plan)
     if p:
         erg["formate"]["pokal"] = p
+    # Aufstellungen (Managerprofil) und Elfen des Spieltags je Format
+    for fmt, liste in alle_sts.items():
+        if fmt in erg["formate"]:
+            erg["formate"][fmt]["aufstellungen"] = format_aufstellungen(liste, spieler)
+    benutzt = set()
+    for f in erg["formate"].values():
+        for d in (f.get("aufstellungen") or {}).values():
+            benutzt.update(d["p"])
+    erg["spieler"] = {pid: [s.get("n"), s.get("pos"), s.get("tn")] for pid, s in spieler.items() if pid in benutzt}
+    # Namen aus den Aufstellungen ergaenzen, falls Stammdaten fehlen
+    for f in erg["formate"].values():
+        for d in (f.get("aufstellungen") or {}).values():
+            for pid in d["p"]:
+                erg["spieler"].setdefault(pid, [pid, None, ""])
     erg["spieltag"] = akt_gesamt
     erg["fristen"] = {st: iso(frist(st, plan, cfg)[0]) for st in range(1, akt_gesamt + 2)}
     return erg

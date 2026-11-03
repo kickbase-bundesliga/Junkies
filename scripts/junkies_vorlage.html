@@ -134,6 +134,28 @@ td .st-top { color: var(--lime-text); font-weight: 600; }
 .strafe { color: var(--bad); font-weight: 600; }
 .sieger { background: var(--lime-soft); border: 1px solid var(--lime-text); border-radius: 12px; padding: 12px; display: grid; gap: 8px; }
 .leer { color: var(--muted); font-style: italic; }
+/* Managerprofil-Links */
+button.mname { all: unset; cursor: pointer; }
+button.mname:hover { color: var(--lime-text); text-decoration: underline; }
+button.mname:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; border-radius: 3px; }
+/* Elfen auf dem Spielfeld */
+.elfen { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 18px; align-items: start; }
+.elf h3 { font-family: var(--font-display); font-size: 20px; text-transform: uppercase; margin: 0; }
+.elf .sub { font-size: 13px; color: var(--muted); margin: 2px 0 8px; }
+.pitch { position: relative; border-radius: 12px; padding: 14px 6px; display: grid; gap: 12px; overflow: hidden;
+  background: repeating-linear-gradient(180deg, #2c6b40 0 46px, #275f39 46px 92px); }
+.pitch::before { content: ""; position: absolute; inset: 8px; border: 2px solid rgba(255,255,255,.25); border-radius: 3px; pointer-events: none; }
+.prow { position: relative; z-index: 1; display: flex; justify-content: center; gap: 4px; min-width: 0; }
+.tok { flex: 0 1 86px; min-width: 0; background: rgba(6,18,10,.6); color: #fff; border-radius: 6px; padding: 6px 3px; text-align: center; }
+.tok b { display: block; font: 700 14px/1.1 var(--font-display); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tok span { display: block; font: 600 13px/1.2 var(--font-display); color: #cfe8d8; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tok.minus span { color: #ffb4ab; }
+.profil-st { display: grid; gap: 4px; }
+.profil-st .status { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.profil-st .kachel strong { font-size: clamp(16px, 4.5vw, 24px); }
+.fav { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; margin: 0; padding: 0; list-style: none; }
+.fav li { display: contents; }
+.fav b { font-variant-numeric: tabular-nums; }
 
 /* Quali-Uebersicht */
 .quali-spalten { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
@@ -231,6 +253,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var b = e.target.closest("button[data-r]");
     if (!b || b.disabled) return;
     zustand.reiter = b.dataset.r;
+    zustand.profil = null;
     speicher.schreiben("reiter", zustand.reiter);
     try { history.replaceState(null, "", "#" + zustand.reiter); } catch (err) {}
     zeichnen();
@@ -242,6 +265,54 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     return h + "</div>";
   }
   function stVon(key, max) { var s = zustand.st[key]; return s && s <= max ? s : max; }
+
+  // Managername als Link zum Profil
+  function mlink(name) { return '<button type="button" class="mname" data-profil="' + esc(name) + '">' + esc(name) + "</button>"; }
+
+  // Spielfeld: Reihen von oben nach unten Sturm, Mittelfeld, Abwehr, Tor
+  function spielfeld(ids, label) {
+    if (!ids || !ids.length) return '<p class="leer">Keine Aufstellung.</p>';
+    var pos = function (p) { return (D.spieler[p] || [])[1]; };
+    var reihen = [4, 3, 2, 1].map(function (n) { return ids.filter(function (p) { return pos(p) === n; }); });
+    reihen[1] = reihen[1].concat(ids.filter(function (p) { return [1, 2, 3, 4].indexOf(pos(p)) < 0; }));
+    return '<div class="pitch" role="list">' + reihen.filter(function (r) { return r.length; }).map(function (r) {
+      return '<div class="prow">' + r.map(function (p) {
+        var s = D.spieler[p] || [p], l = label(p);
+        return '<div class="tok' + (l.minus ? " minus" : "") + '" role="listitem" title="' + esc(s[0]) + (s[2] ? " · " + esc(s[2]) : "") + '"><b>' + esc(s[0]) + "</b><span>" + l.text + "</span></div>";
+      }).join("") + "</div>";
+    }).join("") + "</div>";
+  }
+  function punkteLabel(pk) { return function (p) { var v = pk[p] || 0; return {text: zahl(v), minus: v < 0}; }; }
+
+  // Elfen des Spieltags eines Formats: Top, meistaufgestellt, Flop
+  function elfenHtml(fmt, st) {
+    var a = fmt.aufstellungen && fmt.aufstellungen[st];
+    if (!a) return "";
+    var anz = {};
+    Object.keys(a.m).forEach(function (n) { a.m[n].forEach(function (p) { anz[p] = (anz[p] || 0) + 1; }); });
+    var summe = function (ids) { return ids.reduce(function (s, p) { return s + (a.p[p] || 0); }, 0); };
+    var e = a.elfen, nM = Object.keys(a.m).length;
+    var block = function (titel, x, label, sub) {
+      return '<div class="elf"><h3>' + titel + '</h3><p class="sub">' + (x.f ? x.f + " · " : "") + sub(x.p) + "</p>" + spielfeld(x.p, label) + "</div>";
+    };
+    // In einer einzelnen Liga gehoert jeder Spieler nur einem Manager -> "meistaufgestellt" sagt nichts;
+    // dann stattdessen die Elf des Spieltagssiegers zeigen.
+    var mehrfach = Object.keys(anz).some(function (p) { return anz[p] > 1; });
+    var mitte;
+    if (mehrfach) {
+      mitte = block("Meistaufgestellte Elf", e.meist, function (p) { return {text: anz[p] + "× · " + zahl(a.p[p] || 0), minus: (a.p[p] || 0) < 0}; }, function (ids) { return zahl(summe(ids)) + " Punkte"; });
+    } else {
+      var sieger = Object.keys(a.m).sort(function (x, y) { return summe(a.m[y]) - summe(a.m[x]); })[0];
+      var ids = (a.m[sieger] || []).slice().sort(function (x, y) { return ((D.spieler[x] || [])[1] || 9) - ((D.spieler[y] || [])[1] || 9); });
+      mitte = '<div class="elf"><h3>Elf des Spieltagssiegers</h3><p class="sub">' + mlink(sieger) + " · " + zahl(summe(ids)) + " Punkte</p>" + spielfeld(ids, punkteLabel(a.p)) + "</div>";
+    }
+    return '<section class="flaeche"><div class="kopfzeile"><h2>Elfen des Spieltags</h2><span class="pill muted">Spieltag ' + st + " · " + nM + " Aufstellungen</span></div>" +
+      '<div class="elfen">' +
+      block("Top-Elf", e.top, punkteLabel(a.p), function (ids) { return zahl(summe(ids)) + " Punkte"; }) +
+      mitte +
+      block("Flop-Elf", e.flop, punkteLabel(a.p), function (ids) { return zahl(summe(ids)) + " Punkte"; }) +
+      '</div><p class="unterzeile" style="margin:0;font-size:13px">Nur Spieler, die an diesem Spieltag in diesem Format aufgestellt waren, in der erlaubten Kickbase-Formation mit der höchsten (Flop: niedrigsten) Summe. ' + (mehrfach ? "Meistaufgestellt: Anzahl Aufstellungen über alle Ligen des Formats, bei Gleichstand mehr Punkte." : "Jeder Spieler gehört in dieser Liga nur einem Manager, deshalb in der Mitte die Elf des Spieltagssiegers.") + '</p></section>';
+  }
 
   // Tabellenveraenderung zum Spieltag davor (wie bei der KBL): ▲ 2, ▼ 1, –
   function trendHtml(jetzt, vorher) {
@@ -258,7 +329,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var h = '<div class="tab-scroll"><table><thead><tr><th>Pl.</th>' + (vor ? '<th class="trend">Trend</th>' : "") + '<th>Manager</th><th>Spieltag</th><th>Gesamt</th><th>Teamwert</th></tr></thead><tbody>';
     zeilen.forEach(function (z) {
       var kl = opt.zone ? opt.zone(z) : "";
-      h += '<tr class="' + kl + '"><td class="pl">' + (z.platzText || z.platz) + "</td>" + (vor ? '<td class="trend">' + trendHtml(z.platz, vor[z.name]) + "</td>" : "") + "<td>" + esc(z.name) + (z.zusatz || "") + "</td>" +
+      h += '<tr class="' + kl + '"><td class="pl">' + (z.platzText || z.platz) + "</td>" + (vor ? '<td class="trend">' + trendHtml(z.platz, vor[z.name]) + "</td>" : "") + "<td>" + mlink(z.name) + (z.zusatz || "") + "</td>" +
         '<td class="' + (z.punkte === top && top > 0 ? "st-top" : "") + '">' + zahl(z.punkte) + "</td><td><b>" + zahl(z.gesamt) + "</b>" + (z.korrigiert ? '<span class="marke-korr" title="Gesamtpunkte manuell korrigiert">*</span>' : "") + "</td><td>" + mio(z.teamwert) + "</td></tr>";
     });
     return h + "</tbody></table></div>";
@@ -337,7 +408,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
       h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>' + esc(l.name) + '</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
         tabelleHtml(zeilen, {vorher: l.tabellen[st - 1], zone: function (z) { return z.platz <= 5 ? "z1" : z.platz <= 10 ? "z2" : "z3"; }}) +
         '<div class="legende"><span><i style="background:var(--lime)"></i>Liga 1</span><span><i style="background:var(--zone2)"></i>Liga 2</span><span><i style="background:var(--bad)"></i>ausgeschieden</span></div></section>' +
-        '<section class="flaeche">' + abgabeHtml(l.abgaben[st]) + "</section></div>";
+        '<section class="flaeche">' + abgabeHtml(l.abgaben[st]) + "</section></div>" + elfenHtml(q, st);
     } else {
       var u = q.uebersicht[st];
       var spalte = function (titel, kl, liste, zusatz) {
@@ -357,7 +428,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     h += stLeiste("draft", d.akt, st);
     h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
       tabelleHtml(zeilen, {vorher: d.tabellen[st - 1], zone: function (z) { return z.platz === zeilen.length ? "z3" : ""; }}) +
-      '<div class="legende"><span><i style="background:var(--bad)"></i>Gesamtletzter, bekommt einen Spieler vom Spieltagssieger</span></div></section><section class="flaeche">' + abgabeHtml(d.abgaben[st]) + "</section></div>";
+      '<div class="legende"><span><i style="background:var(--bad)"></i>Gesamtletzter, bekommt einen Spieler vom Spieltagssieger</span></div></section><section class="flaeche">' + abgabeHtml(d.abgaben[st]) + "</section></div>" + elfenHtml(d, st);
     return h;
   }
 
@@ -384,7 +455,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(tz, {vorher: k.tabellen[st - 1], zone: function (z) { return z.kl; }}) + '<div class="legende"><span>* Gesamtpunkte manuell korrigiert (Kickbase hat sie beim Wiedereintritt verloren)</span></div></section>';
     h += '<section class="flaeche"><h2>Ausgeschieden</h2>' + (k.ausgeschieden.length ? '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Raus nach</th><th>Punkte</th></tr></thead><tbody>' +
       k.ausgeschieden.map(function (e, i) { return '<tr class="z3"><td class="pl">' + (17 - (k.ausgeschieden.length - 1 - i)) + "</td><td>" + esc(e.name) + (e.grund === "freiwillig" ? ' <span class="pill muted">freiwillig</span>' : "") + "</td><td>ST " + e.nach_st + "</td><td>" + zahl(e.gesamt) + "</td></tr>"; }).join("") + "</tbody></table></div>" : '<p class="leer">Noch niemand.</p>') +
-      '<p class="unterzeile" style="margin:0">Endplatzierung: die 4 Finalisten nach Punkten, dahinter die Ausgeschiedenen in umgekehrter Reihenfolge.</p></section></div>';
+      '<p class="unterzeile" style="margin:0">Endplatzierung: die 4 Finalisten nach Punkten, dahinter die Ausgeschiedenen in umgekehrter Reihenfolge.</p></section></div>' + elfenHtml(k, st);
     return h;
   }
 
@@ -407,7 +478,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
           (i === p.runden.length - 1 ? '<div><h3>Spiel um Platz 3</h3></div>' + paarungHtml(p.platz3, true) : "") + "</div></div>";
       }).join("") + "</div></div></section>";
     h += stLeiste("playoff", Math.min(p.akt, p.hauptrunde_bis), st);
-    h += '<section class="flaeche"><div class="kopfzeile"><h2>Hauptrunde</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(zeilen.map(function (z) { return Object.assign({}, z, {platzText: z.platz}); }), {vorher: p.tabellen[st - 1], zone: function () { return "z1"; }}) + '<div class="legende"><span>Der Tabellenplatz nach Spieltag ' + p.hauptrunde_bis + " ist die Setzliste (1 gegen 16, 8 gegen 9 …).</span></div></section>";
+    h += '<section class="flaeche"><div class="kopfzeile"><h2>Hauptrunde</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(zeilen.map(function (z) { return Object.assign({}, z, {platzText: z.platz}); }), {vorher: p.tabellen[st - 1], zone: function () { return "z1"; }}) + '<div class="legende"><span>Der Tabellenplatz nach Spieltag ' + p.hauptrunde_bis + " ist die Setzliste (1 gegen 16, 8 gegen 9 …).</span></div></section>" + elfenHtml(p, st);
     return h;
   }
 
@@ -430,7 +501,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     gr.tabelle.forEach(function (z) {
       var kl = z.platz === 1 ? "z1" : z.platz <= 3 ? "z2" : "";
       var zusatz = z.inaktiv ? ' <span class="pill bad">ausgeschlossen' + (z.ausgeschlossen_st ? " seit ST " + z.ausgeschlossen_st : "") + "</span>" : z.id_fehlt ? ' <span class="pill warn">ID fehlt</span>' : "";
-      t += '<tr class="' + kl + '"><td class="pl">' + z.platz + '</td><td class="trend">' + trendHtml(z.platz, z.vorplatz) + "</td><td>" + esc(z.name) + zusatz + "</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + ":" + zahl(z.minus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
+      t += '<tr class="' + kl + '"><td class="pl">' + z.platz + '</td><td class="trend">' + trendHtml(z.platz, z.vorplatz) + "</td><td>" + mlink(z.name) + zusatz + "</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + ":" + zahl(z.minus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
     });
     t += "</tbody></table></div>";
     var sd = gr.spieltage[st] || {spiele: [], frei: null};
@@ -459,7 +530,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
       th("sp", "Sp.") + "<th>S-U-N</th>" + th("plus", "Punkte KB") + th("diff", "Diff") + th("pkt", "Pkt.") + "</tr></thead><tbody>";
     alle.forEach(function (z, i) {
       var zusatz = z.inaktiv ? ' <span class="pill bad">ausgeschlossen</span>' : "";
-      t += '<tr class="' + (z.platz === 1 ? "z1" : z.platz <= 3 ? "z2" : "") + '"><td class="pl">' + (i + 1) + "</td><td>" + esc(z.name) + zusatz + "</td><td>" + esc(z.gruppe) + " · " + z.platz + ".</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
+      t += '<tr class="' + (z.platz === 1 ? "z1" : z.platz <= 3 ? "z2" : "") + '"><td class="pl">' + (i + 1) + "</td><td>" + mlink(z.name) + zusatz + "</td><td>" + esc(z.gruppe) + " · " + z.platz + ".</td><td>" + z.sp + "</td><td>" + z.s + "-" + z.u + "-" + z.n + "</td><td>" + zahl(z.plus) + "</td><td>" + (z.plus - z.minus > 0 ? "+" : "") + zahl(z.plus - z.minus) + "</td><td><b>" + z.pkt + "</b></td></tr>";
     });
     return t + '</tbody></table></div><div class="legende"><span><i style="background:var(--lime)"></i>Gruppensieger</span><span><i style="background:var(--zone2)"></i>Gruppenplatz 2–3</span><span>Standard: Punkte, dann erzielte Kickbase-Punkte. Spaltenkopf antippen zum Sortieren.</span></div></section>';
   }
@@ -484,13 +555,84 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     }).join("") + "</div>";
   }
 
+  // ---------------------------------------------------------- Managerprofil
+  var FORMAT_NAMEN = {quali: "Liga A–C", draft: "14er Draft", ko: "Knock Out", playoff: "Playoff"};
+  function profilFormate(name) {
+    // -> [{key, titel, fmt, tab: {st: Zeile}}] fuer alle Formate, in denen der Manager vorkommt
+    var aus = [];
+    ["quali", "draft", "ko", "playoff"].forEach(function (key) {
+      var f = F[key];
+      if (!f) return;
+      var quellen = key === "quali" ? f.ligen.map(function (l) { return [l.tabellen, l.kurz]; }) : [[f.tabellen, null]];
+      quellen.forEach(function (q) {
+        var tab = {};
+        Object.keys(q[0] || {}).forEach(function (st) {
+          var z = (q[0][st] || []).filter(function (r) { return r.name === name; })[0];
+          if (z) tab[st] = z;
+        });
+        if (Object.keys(tab).length) aus.push({key: key, titel: FORMAT_NAMEN[key] + (q[1] ? " · " + q[1] : ""), fmt: f, tab: tab});
+      });
+    });
+    return aus;
+  }
+  function zeichneProfil() {
+    var name = zustand.profil;
+    var h = '<div class="leiste"><button type="button" class="chip" data-zurueck="1">‹ Zurück</button></div>' +
+      '<div class="kopfzeile"><div><h1>' + esc(name) + '</h1><p class="unterzeile">Platzierungen und Aufstellungen je Format. Spieltag antippen, um die Aufstellung zu sehen.</p></div></div>';
+    var formate = profilFormate(name);
+    formate.forEach(function (x) {
+      var sts = Object.keys(x.tab).map(Number).sort(function (a, b) { return a - b; });
+      var key = "profil-" + x.key + "-" + x.titel;
+      var st = zustand.st[key] && x.tab[zustand.st[key]] ? zustand.st[key] : sts[sts.length - 1];
+      var z = x.tab[st], a = x.fmt.aufstellungen && x.fmt.aufstellungen[st], ids = a && a.m[name];
+      var summe = ids ? ids.reduce(function (s, p) { return s + (a.p[p] || 0); }, 0) : null;
+      h += '<section class="flaeche"><div class="kopfzeile"><h2>' + esc(x.titel) + '</h2><span class="pill muted">aktuell Platz ' + x.tab[sts[sts.length - 1]].platz + "</span></div>" +
+        '<div class="leiste" data-st-leiste="' + esc(key) + '"><span class="label">Spieltag</span>' + sts.map(function (s) { return '<button class="chip" data-st="' + s + '" aria-pressed="' + (s === st) + '">' + s + "</button>"; }).join("") + "</div>" +
+        '<div class="raster"><div class="profil-st"><div class="status"><div class="kachel"><small>Spieltag ' + st + "</small><strong>" + zahl(z.punkte) + ' P.</strong></div><div class="kachel"><small>Spieltagsplatz</small><strong>' + (z.st_platz || "–") + '</strong></div><div class="kachel"><small>Tabelle</small><strong>' + z.platz + ". · " + zahl(z.gesamt) + "</strong></div></div>" +
+        '<div class="tab-scroll"><table><thead><tr><th>ST</th><th>Punkte</th><th>ST-Platz</th><th>Platz</th><th>Gesamt</th></tr></thead><tbody>' +
+        sts.slice().reverse().map(function (s) { var r = x.tab[s]; return "<tr" + (s === st ? ' style="background:var(--lime-soft)"' : "") + "><td>" + s + "</td><td>" + zahl(r.punkte) + "</td><td>" + (r.st_platz || "–") + "</td><td>" + r.platz + "</td><td>" + zahl(r.gesamt) + "</td></tr>"; }).join("") +
+        "</tbody></table></div></div><div>" + (ids ? '<p class="unterzeile" style="margin:0 0 8px">Aufstellung Spieltag ' + st + " · " + zahl(summe) + " Punkte</p>" + spielfeld(ids, punkteLabel(a.p)) : '<p class="leer">Für diesen Spieltag ist keine Aufstellung gespeichert.</p>') + "</div></div></section>";
+    });
+    // Pokal
+    var p = F.pokal;
+    if (p) {
+      var g = null, zeile = null;
+      Object.keys(p.gruppen).forEach(function (k) { p.gruppen[k].tabelle.forEach(function (r) { if (r.name === name) { g = k; zeile = r; } }); });
+      if (g) {
+        var spiele = [];
+        Object.keys(p.gruppen[g].spieltage).forEach(function (s) {
+          p.gruppen[g].spieltage[s].spiele.forEach(function (e) { if (e.heim === name || e.gast === name) spiele.push({st: +s, e: e}); });
+          if (p.gruppen[g].spieltage[s].frei === name) spiele.push({st: +s, frei: true});
+        });
+        spiele.sort(function (a, b) { return b.st - a.st; });
+        var fav = (p.favoriten || {})[name] || [];
+        h += '<section class="flaeche"><div class="kopfzeile"><h2>Pokal · Gruppe ' + esc(g) + '</h2><span class="pill muted">Platz ' + zeile.platz + " · " + zeile.pkt + " Pkt.</span></div>" +
+          '<div class="raster"><div class="tab-scroll"><table><thead><tr><th>ST</th><th>Gegner</th><th>Ergebnis</th></tr></thead><tbody>' +
+          spiele.filter(function (x) { return x.st <= p.akt; }).map(function (x) {
+            if (x.frei) return "<tr><td>" + x.st + '</td><td colspan="2" class="leer" style="text-align:left">spielfrei</td></tr>';
+            var heim = x.e.heim === name, ich = heim ? x.e.a : x.e.b, er = heim ? x.e.b : x.e.a, geg = heim ? x.e.gast : x.e.heim;
+            var farbe = ich == null || er == null ? "" : ich > er ? "var(--ok)" : ich < er ? "var(--bad)" : "var(--muted)";
+            return "<tr><td>" + x.st + "</td><td>" + mlink(geg) + '</td><td style="color:' + farbe + ';font-weight:600">' + zahl(ich) + " : " + zahl(er) + "</td></tr>";
+          }).join("") + "</tbody></table></div><div><h3 style=\"margin:0 0 6px\">Meisteingesetzte Spieler in der Challenge</h3>" +
+          (fav.length ? '<ul class="fav">' + fav.map(function (f) { return "<li><span>" + esc(f[1]) + "</span><b>" + f[2] + "×</b></li>"; }).join("") + "</ul>" : '<p class="leer">Folgt mit dem nächsten Datenabruf.</p>') +
+          '<p class="unterzeile" style="margin:8px 0 0;font-size:13px">Die Aufstellung je Spieltag gibt Kickbase für die Challenge nicht heraus, nur die am häufigsten eingesetzten Spieler.</p></div></div></section>';
+      }
+    }
+    if (!formate.length && !(p && h.indexOf("Pokal · Gruppe") >= 0)) h += '<p class="leer">Keine Daten zu diesem Manager.</p>';
+    return h;
+  }
+
   var ZEICHNER = {pokal: zeichnePokal, quali: zeichneQuali, draft: zeichneDraft, ko: zeichneKo, playoff: zeichnePlayoff, regeln: zeichneRegeln};
   function zeichnen() {
     reiterZeichnen();
+    if (zustand.profil) { $("#inhalt").innerHTML = zeichneProfil(); return; }
     var f = ZEICHNER[zustand.reiter] || zeichneQuali;
     $("#inhalt").innerHTML = F[zustand.reiter] || zustand.reiter === "regeln" ? f() : '<p class="leer">Keine Daten.</p>';
   }
   $("#inhalt").addEventListener("click", function (e) {
+    var pr = e.target.closest("[data-profil]");
+    if (pr) { zustand.profil = pr.dataset.profil; zeichnen(); window.scrollTo(0, 0); return; }
+    if (e.target.closest("[data-zurueck]")) { zustand.profil = null; zeichnen(); return; }
     var ps = e.target.closest("[data-psort]");
     if (ps) { zustand.pokalSort = ps.dataset.psort; zeichnen(); return; }
     var b = e.target.closest("button");

@@ -121,6 +121,8 @@ def muss_holen(gespeichert, info, alles):
         return True
     if not gespeichert.get("fertig"):
         return True
+    if info.get("fertig") and "aufstellungen" not in gespeichert:
+        return True                      # Aufstellungen nachholen (seit 11/2026 fuer alle Formate)
     if not info or not info.get("letzter"):
         return False
     basis = zeit(info["fertig_ab"]) if info.get("fertig_ab") else zeit(info["letzter"])
@@ -209,7 +211,8 @@ def liga_sammeln(api, liga, plan, admin_ids, alles):
         eintrag = {"liga": lid, "spieltag": st, "fertig": bool(info.get("fertig")),
                    "abgerufen": jetzt().strftime("%Y-%m-%dT%H:%M:%SZ"),
                    "letzter_anstoss": info.get("letzter"), "manager": manager}
-        if fmt in ABGABE_FORMATE and info.get("fertig"):
+        if info.get("fertig"):
+            # Aufstellungen aller Manager (Profile, Elfen des Spieltags; bei Liga A-C/Draft auch Top 3)
             eintrag["aufstellungen"] = {}
             for m in manager:
                 if not m["admin"]:
@@ -217,6 +220,7 @@ def liga_sammeln(api, liga, plan, admin_ids, alles):
         schreiben(pfad, eintrag)
         geholt.append(st)
     print("  Spieltage geholt: %s" % (", ".join(map(str, geholt)) or "keine (alles aktuell)"))
+    spieler_stammdaten(api, lid, ordner)
 
     if fmt not in ABGABE_FORMATE:
         return
@@ -253,6 +257,28 @@ def liga_sammeln(api, liga, plan, admin_ids, alles):
     print("  Marktwertverlauf fuer %d Spieler aktualisiert" % len(spieler))
 
 
+def spieler_stammdaten(api, lid, ordner):
+    """Position und Verein aller aufgestellten Spieler (einmalig je Spieler) -> junkies/daten/spieler.json."""
+    pfad = os.path.join(DATEN, "spieler.json")
+    sp = lesen(pfad, {})
+    fehlend = set()
+    for fn in os.listdir(ordner):
+        if not fn.startswith("st_"):
+            continue
+        for auf in ((lesen(os.path.join(ordner, fn)) or {}).get("aufstellungen") or {}).values():
+            for s in (auf or {}).get("elf", []):
+                if s["id"] not in sp:
+                    fehlend.add(s["id"])
+    for pid in sorted(fehlend):
+        d = api.get("/v4/leagues/%s/players/%s" % (lid, pid))
+        if fehler(d) or not isinstance(d, dict):
+            continue
+        sp[pid] = {"n": d.get("shn") or d.get("ln") or pid, "pos": d.get("pos"), "tn": d.get("tn") or ""}
+    if fehlend:
+        schreiben(pfad, sp)
+        print("  Stammdaten fuer %d Spieler geholt" % len(fehlend))
+
+
 def pokal_sammeln(cfg):
     """Spieltagspunkte aller Pokalteilnehmer aus der Challenge (eigener Account noetig)."""
     pk = cfg.get("pokal") or {}
@@ -277,7 +303,9 @@ def pokal_sammeln(cfg):
                 neu[name] = alt[name]
             continue
         punkte = {str(m["day"]): m.get("p", 0) for m in d["mds"] if m.get("t") == 2}
-        neu[name] = {"id": uid, "kickbase_name": (d.get("u") or {}).get("n"), "punkte": punkte}
+        # fp = in der Challenge am haeufigsten eingesetzte Spieler (Tagesaufstellungen gibt die API nicht her)
+        fav = [[str(f.get("i")), f.get("n"), f.get("usc", 0), str(f.get("tid") or "")] for f in (d.get("fp") or [])]
+        neu[name] = {"id": uid, "kickbase_name": (d.get("u") or {}).get("n"), "punkte": punkte, "favoriten": fav}
     schreiben(pfad, {"abgerufen": jetzt().strftime("%Y-%m-%dT%H:%M:%SZ"), "manager": neu})
     print("\nPokal: Punkte von %d Teilnehmern geholt%s" % (
         len(neu), (", Fehler bei: " + ", ".join(fehler_n)) if fehler_n else ""))
