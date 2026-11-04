@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T23:35:35Z",
+ "abgerufen": "2026-11-04T13:26:00Z",
  "kader": {
   "769136": [
    {
@@ -140,11 +140,6 @@
     "id": "2172",
     "name": "Führich",
     "marktwert": 20396858
-   },
-   {
-    "id": "1883",
-    "name": "Nicolas",
-    "marktwert": 10627466
    },
    {
     "id": "2804",
@@ -334,6 +329,11 @@
     "id": "1689",
     "name": "Henrichs",
     "marktwert": 6936750
+   },
+   {
+    "id": "1553",
+    "name": "Haberer",
+    "marktwert": 5695644
    }
   ],
   "1576400": [
@@ -396,6 +396,16 @@
     "id": "8367",
     "name": "Sambi Lokonga",
     "marktwert": 4908458
+   },
+   {
+    "id": "3228",
+    "name": "Njinmah",
+    "marktwert": 831320
+   },
+   {
+    "id": "12763",
+    "name": "Latte Lath",
+    "marktwert": 4287904
    }
   ],
   "1623645": [

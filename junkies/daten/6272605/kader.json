@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T23:30:48Z",
+ "abgerufen": "2026-11-04T13:20:36Z",
  "kader": {
   "202239": [
    {
@@ -545,6 +545,11 @@
     "id": "4654",
     "name": "Kömür",
     "marktwert": 3742108
+   },
+   {
+    "id": "3019",
+    "name": "Atubolu",
+    "marktwert": 14251570
    }
   ],
   "1981519": [
@@ -612,6 +617,11 @@
     "id": "3209",
     "name": "Engelhardt",
     "marktwert": 14003458
+   },
+   {
+    "id": "1223",
+    "name": "Friedrich",
+    "marktwert": 797835
    }
   ],
   "2240874": [

@@ -2,7 +2,7 @@
  "liga": "6272609",
  "spieltag": 8,
  "fertig": true,
- "abgerufen": "2026-11-03T23:31:59Z",
+ "abgerufen": "2026-11-04T13:21:56Z",
  "letzter_anstoss": "2026-11-01T16:30:00Z",
  "manager": [
   {
@@ -1011,58 +1011,10 @@
   "1703788": {
    "elf": [
     {
-     "id": "43",
-     "name": "Weiser",
-     "verein": "10",
-     "punkte": 43
-    },
-    {
-     "id": "1961",
-     "name": "Gnabry",
-     "verein": "2",
-     "punkte": 21
-    },
-    {
-     "id": "2863",
-     "name": "Knauff",
-     "verein": "4",
-     "punkte": 31
-    },
-    {
-     "id": "2897",
-     "name": "Reitz",
-     "verein": "43",
-     "punkte": 101
-    },
-    {
      "id": "3120",
      "name": "Bischof",
      "verein": "2",
      "punkte": 0
-    },
-    {
-     "id": "3176",
-     "name": "Ibrahimović",
-     "verein": "13",
-     "punkte": 142
-    },
-    {
-     "id": "6148",
-     "name": "Pinckert",
-     "verein": "77",
-     "punkte": 92
-    },
-    {
-     "id": "8227",
-     "name": "Vandevoordt",
-     "verein": "43",
-     "punkte": 109
-    },
-    {
-     "id": "11008",
-     "name": "Banzuzi",
-     "verein": "43",
-     "punkte": 79
     },
     {
      "id": "14251",
@@ -1071,10 +1023,58 @@
      "punkte": 1
     },
     {
+     "id": "6148",
+     "name": "Pinckert",
+     "verein": "77",
+     "punkte": 92
+    },
+    {
+     "id": "3176",
+     "name": "Ibrahimović",
+     "verein": "13",
+     "punkte": 142
+    },
+    {
+     "id": "11008",
+     "name": "Banzuzi",
+     "verein": "43",
+     "punkte": 79
+    },
+    {
+     "id": "1961",
+     "name": "Gnabry",
+     "verein": "2",
+     "punkte": 21
+    },
+    {
+     "id": "2897",
+     "name": "Reitz",
+     "verein": "43",
+     "punkte": 101
+    },
+    {
+     "id": "2863",
+     "name": "Knauff",
+     "verein": "4",
+     "punkte": 31
+    },
+    {
      "id": "14911",
      "name": "Lippmann",
      "verein": "29",
      "punkte": 0
+    },
+    {
+     "id": "43",
+     "name": "Weiser",
+     "verein": "10",
+     "punkte": 43
+    },
+    {
+     "id": "8227",
+     "name": "Vandevoordt",
+     "verein": "43",
+     "punkte": 109
     }
    ],
    "bank": [

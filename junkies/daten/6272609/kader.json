@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T23:33:04Z",
+ "abgerufen": "2026-11-04T13:23:09Z",
  "kader": {
   "338218": [
    {
@@ -549,11 +549,6 @@
     "marktwert": 5086227
    },
    {
-    "id": "49",
-    "name": "Ginter",
-    "marktwert": 28539773
-   },
-   {
     "id": "6199",
     "name": "Machino",
     "marktwert": 6952044
@@ -567,6 +562,11 @@
     "id": "3350",
     "name": "Keidel",
     "marktwert": 10045061
+   },
+   {
+    "id": "3026",
+    "name": "Günther",
+    "marktwert": 8012093
    }
   ],
   "1997392": [
@@ -924,6 +924,11 @@
     "id": "15301",
     "name": "Gray",
     "marktwert": 2105561
+   },
+   {
+    "id": "2846",
+    "name": "Tillman",
+    "marktwert": 5726051
    }
   ]
  }

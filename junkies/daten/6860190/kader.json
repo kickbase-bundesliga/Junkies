@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-03T23:38:17Z",
+ "abgerufen": "2026-11-04T13:29:05Z",
  "kader": {
   "418331": [
    {
@@ -185,6 +185,11 @@
     "id": "2762",
     "name": "Becker",
     "marktwert": 6843527
+   },
+   {
+    "id": "14048",
+    "name": "Goto",
+    "marktwert": 4363794
    }
   ],
   "1212731": [
@@ -783,6 +788,11 @@
     "id": "4598",
     "name": "Juranović",
     "marktwert": 4264097
+   },
+   {
+    "id": "7441",
+    "name": "Campbell",
+    "marktwert": 5972305
    }
   ],
   "1881506": [
