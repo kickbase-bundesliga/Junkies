@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-04T23:47:33Z",
+ "abgerufen": "2026-11-05T13:32:53Z",
  "kader": {
   "202239": [
    {
@@ -860,6 +860,11 @@
     "id": "3129",
     "name": "Itakura",
     "marktwert": 6587710
+   },
+   {
+    "id": "2764",
+    "name": "Keitel",
+    "marktwert": 4896116
    }
   ],
   "3275140": [
@@ -907,11 +912,6 @@
     "id": "15202",
     "name": "Uno",
     "marktwert": 3913418
-   },
-   {
-    "id": "2214",
-    "name": "Karazor",
-    "marktwert": 9892884
    },
    {
     "id": "9995",
@@ -1014,6 +1014,11 @@
     "id": "8273",
     "name": "El Mala",
     "marktwert": 1275561
+   },
+   {
+    "id": "2846",
+    "name": "Tillman",
+    "marktwert": 5937340
    }
   ]
  }

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-04T23:50:13Z",
+ "abgerufen": "2026-11-05T13:35:16Z",
  "kader": {
   "338218": [
    {
@@ -93,11 +93,6 @@
     "id": "6292",
     "name": "Hansen",
     "marktwert": 7830276
-   },
-   {
-    "id": "2214",
-    "name": "Karazor",
-    "marktwert": 9892884
    },
    {
     "id": "2247",
@@ -443,6 +438,11 @@
     "id": "15529",
     "name": "Ilicevic",
     "marktwert": 718267
+   },
+   {
+    "id": "2928",
+    "name": "Petkov",
+    "marktwert": 12713134
    }
   ],
   "1677028": [
@@ -572,6 +572,11 @@
     "id": "8273",
     "name": "El Mala",
     "marktwert": 1275561
+   },
+   {
+    "id": "10049",
+    "name": "Behrens",
+    "marktwert": 14220825
    }
   ],
   "1997392": [
@@ -772,11 +777,6 @@
     "marktwert": 25642090
    },
    {
-    "id": "11665",
-    "name": "Potulski",
-    "marktwert": 10318162
-   },
-   {
     "id": "2762",
     "name": "Becker",
     "marktwert": 7114500
@@ -862,6 +862,11 @@
     "id": "2552",
     "name": "Bülter",
     "marktwert": 7447087
+   },
+   {
+    "id": "3041",
+    "name": "Widmer",
+    "marktwert": 737768
    }
   ],
   "2729462": [
@@ -934,6 +939,11 @@
     "id": "2846",
     "name": "Tillman",
     "marktwert": 5937340
+   },
+   {
+    "id": "3754",
+    "name": "Vázquez",
+    "marktwert": 1488442
    }
   ]
  }

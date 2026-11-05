@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-04T23:53:13Z",
+ "abgerufen": "2026-11-05T13:37:58Z",
  "kader": {
   "769136": [
    {
@@ -185,6 +185,11 @@
     "id": "10134",
     "name": "Schmetgens",
     "marktwert": 3161939
+   },
+   {
+    "id": "2764",
+    "name": "Keitel",
+    "marktwert": 4896116
    }
   ],
   "1371179": [
@@ -252,11 +257,6 @@
     "id": "3026",
     "name": "Günther",
     "marktwert": 8268300
-   },
-   {
-    "id": "1809",
-    "name": "Wolf",
-    "marktwert": 7789986
    }
   ],
   "1406025": [
@@ -520,6 +520,16 @@
     "id": "14300",
     "name": "Okon-Engstler",
     "marktwert": 2672311
+   },
+   {
+    "id": "12341",
+    "name": "Ribeiro",
+    "marktwert": 3611519
+   },
+   {
+    "id": "3041",
+    "name": "Widmer",
+    "marktwert": 737768
    }
   ],
   "1688417": [
@@ -867,11 +877,6 @@
     "id": "2783",
     "name": "Tapsoba",
     "marktwert": 27161574
-   },
-   {
-    "id": "2302",
-    "name": "Jeong",
-    "marktwert": 4394582
    },
    {
     "id": "2358",

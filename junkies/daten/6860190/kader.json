@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-04T23:56:26Z",
+ "abgerufen": "2026-11-05T13:40:53Z",
  "kader": {
   "418331": [
    {
@@ -66,6 +66,11 @@
     "id": "2498",
     "name": "Baack",
     "marktwert": 3087454
+   },
+   {
+    "id": "2074",
+    "name": "Hack",
+    "marktwert": 5322239
    }
   ],
   "699062": [
@@ -711,6 +716,11 @@
     "id": "8273",
     "name": "El Mala",
     "marktwert": 1275561
+   },
+   {
+    "id": "10024",
+    "name": "Schmied",
+    "marktwert": 2407614
    }
   ],
   "1708012": [
@@ -775,14 +785,14 @@
     "marktwert": 3161939
    },
    {
-    "id": "4598",
-    "name": "Juranović",
-    "marktwert": 4320425
-   },
-   {
     "id": "7441",
     "name": "Campbell",
     "marktwert": 6251215
+   },
+   {
+    "id": "1978",
+    "name": "Torunarigha",
+    "marktwert": 4597007
    }
   ],
   "1881506": [
