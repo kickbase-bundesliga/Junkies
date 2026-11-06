@@ -5934,6 +5934,34 @@
    "art": 2,
    "preis": 7789986,
    "zeit": "2026-11-05T13:18:46Z"
+  },
+  {
+   "spieler_id": "51",
+   "spieler": "Khedira",
+   "art": 2,
+   "preis": 6356749,
+   "zeit": "2026-11-06T19:20:18Z"
+  },
+  {
+   "spieler_id": "11513",
+   "spieler": "Kofane",
+   "art": 2,
+   "preis": 5818222,
+   "zeit": "2026-11-06T19:20:16Z"
+  },
+  {
+   "spieler_id": "7616",
+   "spieler": "ter Horst",
+   "art": 2,
+   "preis": 7864054,
+   "zeit": "2026-11-06T19:20:13Z"
+  },
+  {
+   "spieler_id": "11513",
+   "spieler": "Kofane",
+   "art": 1,
+   "preis": 5825000,
+   "zeit": "2026-11-06T17:59:31Z"
   }
  ],
  "1406025": [
@@ -7672,6 +7700,41 @@
    "art": 1,
    "preis": 4899999,
    "zeit": "2026-11-06T11:42:41Z"
+  },
+  {
+   "spieler_id": "1553",
+   "spieler": "Haberer",
+   "art": 2,
+   "preis": 6192879,
+   "zeit": "2026-11-06T18:34:59Z"
+  },
+  {
+   "spieler_id": "14896",
+   "spieler": "Koné",
+   "art": 2,
+   "preis": 3968640,
+   "zeit": "2026-11-06T18:34:53Z"
+  },
+  {
+   "spieler_id": "2498",
+   "spieler": "Baack",
+   "art": 2,
+   "preis": 3378972,
+   "zeit": "2026-11-06T17:42:14Z"
+  },
+  {
+   "spieler_id": "10122",
+   "spieler": "Gruber",
+   "art": 2,
+   "preis": 7751096,
+   "zeit": "2026-11-06T17:42:00Z"
+  },
+  {
+   "spieler_id": "11255",
+   "spieler": "Katic",
+   "art": 2,
+   "preis": 16949234,
+   "zeit": "2026-11-06T17:41:04Z"
   }
  ],
  "1576400": [
@@ -8612,6 +8675,20 @@
    "art": 1,
    "preis": 6185000,
    "zeit": "2026-11-06T11:51:17Z"
+  },
+  {
+   "spieler_id": "6217",
+   "spieler": "Philippe",
+   "art": 2,
+   "preis": 4927295,
+   "zeit": "2026-11-06T21:17:55Z"
+  },
+  {
+   "spieler_id": "12763",
+   "spieler": "Latte Lath",
+   "art": 2,
+   "preis": 4339335,
+   "zeit": "2026-11-06T21:16:27Z"
   }
  ],
  "1623645": [
@@ -9076,6 +9153,20 @@
    "art": 1,
    "preis": 17500000,
    "zeit": "2026-11-05T20:43:29Z"
+  },
+  {
+   "spieler_id": "3063",
+   "spieler": "Chiarodia",
+   "art": 2,
+   "preis": 4549286,
+   "zeit": "2026-11-06T21:30:41Z"
+  },
+  {
+   "spieler_id": "2762",
+   "spieler": "Becker",
+   "art": 2,
+   "preis": 7345979,
+   "zeit": "2026-11-06T18:44:28Z"
   }
  ],
  "1684680": [
@@ -14444,6 +14535,13 @@
    "art": 1,
    "preis": 2666699,
    "zeit": "2026-11-06T10:15:15Z"
+  },
+  {
+   "spieler_id": "3559",
+   "spieler": "Ulrich",
+   "art": 2,
+   "preis": 6964062,
+   "zeit": "2026-11-06T18:30:38Z"
   }
  ],
  "2171487": [
@@ -18388,6 +18486,13 @@
    "art": 1,
    "preis": 4116409,
    "zeit": "2026-11-06T00:07:20Z"
+  },
+  {
+   "spieler_id": "2449",
+   "spieler": "Hwang",
+   "art": 2,
+   "preis": 4116406,
+   "zeit": "2026-11-06T18:31:14Z"
   }
  ]
 }
