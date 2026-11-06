@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-05T23:42:45Z",
+ "abgerufen": "2026-11-06T13:17:31Z",
  "kader": {
   "202239": [
    {
@@ -234,11 +234,6 @@
     "marktwert": 15665617
    },
    {
-    "id": "663",
-    "name": "Andrich",
-    "marktwert": 4397487
-   },
-   {
     "id": "2074",
     "name": "Hack",
     "marktwert": 5565579
@@ -267,6 +262,11 @@
     "id": "3089",
     "name": "Ito",
     "marktwert": 1119895
+   },
+   {
+    "id": "10112",
+    "name": "Jaquez",
+    "marktwert": 5559856
    }
   ],
   "1451237": [
@@ -324,6 +324,11 @@
     "id": "10115",
     "name": "Svensson",
     "marktwert": 21527576
+   },
+   {
+    "id": "4598",
+    "name": "Juranović",
+    "marktwert": 4342255
    }
   ],
   "1567969": [
@@ -396,6 +401,11 @@
     "id": "1671",
     "name": "Prömel",
     "marktwert": 10731605
+   },
+   {
+    "id": "6158",
+    "name": "Schnellbacher",
+    "marktwert": 500000
    }
   ],
   "1808207": [
@@ -535,6 +545,11 @@
     "id": "3019",
     "name": "Atubolu",
     "marktwert": 14310657
+   },
+   {
+    "id": "10916",
+    "name": "Ayhan",
+    "marktwert": 1645098
    }
   ],
   "1981519": [
@@ -659,6 +674,11 @@
     "id": "3471",
     "name": "Hložek",
     "marktwert": 11259419
+   },
+   {
+    "id": "2498",
+    "name": "Baack",
+    "marktwert": 3378972
    }
   ],
   "2252575": [
@@ -937,6 +957,16 @@
     "id": "11675",
     "name": "Díaz",
     "marktwert": 40402550
+   },
+   {
+    "id": "8381",
+    "name": "Burcu",
+    "marktwert": 2903956
+   },
+   {
+    "id": "11010",
+    "name": "Diks",
+    "marktwert": 7629552
    }
   ],
   "3332630": [

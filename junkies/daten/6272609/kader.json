@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-05T23:44:51Z",
+ "abgerufen": "2026-11-06T13:19:52Z",
  "kader": {
   "338218": [
    {
@@ -123,6 +123,11 @@
     "id": "10024",
     "name": "Schmied",
     "marktwert": 2780751
+   },
+   {
+    "id": "577",
+    "name": "Batz",
+    "marktwert": 1891623
    }
   ],
   "730586": [
@@ -381,6 +386,11 @@
     "id": "1671",
     "name": "Prömel",
     "marktwert": 10731605
+   },
+   {
+    "id": "11675",
+    "name": "Díaz",
+    "marktwert": 40402550
    }
   ],
   "1622434": [
@@ -443,6 +453,11 @@
     "id": "2928",
     "name": "Petkov",
     "marktwert": 12800160
+   },
+   {
+    "id": "461",
+    "name": "Chandler",
+    "marktwert": 500000
    }
   ],
   "1677028": [
@@ -564,11 +579,6 @@
     "marktwert": 10407717
    },
    {
-    "id": "3026",
-    "name": "Günther",
-    "marktwert": 8444059
-   },
-   {
     "id": "8273",
     "name": "El Mala",
     "marktwert": 1663909
@@ -619,6 +629,16 @@
     "id": "2261",
     "name": "Neuhaus",
     "marktwert": 9533966
+   },
+   {
+    "id": "2762",
+    "name": "Becker",
+    "marktwert": 7345979
+   },
+   {
+    "id": "3754",
+    "name": "Vázquez",
+    "marktwert": 1824051
    }
   ],
   "2587934": [
@@ -728,6 +748,11 @@
     "id": "1873",
     "name": "Kobel",
     "marktwert": 18859810
+   },
+   {
+    "id": "3026",
+    "name": "Günther",
+    "marktwert": 8444059
    }
   ],
   "2598323": [
@@ -775,11 +800,6 @@
     "id": "2144",
     "name": "Koch",
     "marktwert": 25701057
-   },
-   {
-    "id": "2762",
-    "name": "Becker",
-    "marktwert": 7345979
    },
    {
     "id": "7216",
@@ -929,11 +949,6 @@
     "id": "15301",
     "name": "Gray",
     "marktwert": 2800482
-   },
-   {
-    "id": "3754",
-    "name": "Vázquez",
-    "marktwert": 1824051
    }
   ]
  }

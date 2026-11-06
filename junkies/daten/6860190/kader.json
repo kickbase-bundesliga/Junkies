@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-05T23:49:45Z",
+ "abgerufen": "2026-11-06T13:25:18Z",
  "kader": {
   "418331": [
    {
@@ -36,11 +36,6 @@
     "id": "9605",
     "name": "Grønbæk",
     "marktwert": 7848094
-   },
-   {
-    "id": "2895",
-    "name": "Nebel",
-    "marktwert": 7340629
    },
    {
     "id": "7277",
@@ -296,6 +291,11 @@
     "marktwert": 8295636
    },
    {
+    "id": "14256",
+    "name": "El Ouahdi",
+    "marktwert": 5042787
+   },
+   {
     "id": "3026",
     "name": "Günther",
     "marktwert": 8444059
@@ -430,6 +430,11 @@
     "marktwert": 15380367
    },
    {
+    "id": "3183",
+    "name": "Kade",
+    "marktwert": 14714951
+   },
+   {
     "id": "7158",
     "name": "Undav",
     "marktwert": 28708848
@@ -530,6 +535,11 @@
     "id": "9684",
     "name": "Claude-Maurice",
     "marktwert": 5247952
+   },
+   {
+    "id": "3453",
+    "name": "Köhn",
+    "marktwert": 1365644
    }
   ],
   "1622434": [
@@ -592,6 +602,11 @@
     "id": "2764",
     "name": "Keitel",
     "marktwert": 5139417
+   },
+   {
+    "id": "15529",
+    "name": "Ilicevic",
+    "marktwert": 998201
    }
   ],
   "1667851": [
@@ -1013,11 +1028,6 @@
     "marktwert": 16035806
    },
    {
-    "id": "3183",
-    "name": "Kade",
-    "marktwert": 14714951
-   },
-   {
     "id": "8301",
     "name": "Sirch",
     "marktwert": 4888515
@@ -1036,11 +1046,6 @@
     "id": "2300",
     "name": "Stanišić",
     "marktwert": 14471132
-   },
-   {
-    "id": "14256",
-    "name": "El Ouahdi",
-    "marktwert": 5042787
    },
    {
     "id": "3281",
@@ -1066,6 +1071,11 @@
     "id": "2863",
     "name": "Knauff",
     "marktwert": 3432242
+   },
+   {
+    "id": "2065",
+    "name": "Uduokhai",
+    "marktwert": 5009961
    }
   ],
   "2755846": [
@@ -1133,6 +1143,11 @@
     "id": "2491",
     "name": "Skarke",
     "marktwert": 4078715
+   },
+   {
+    "id": "3228",
+    "name": "Njinmah",
+    "marktwert": 1278878
    }
   ]
  }

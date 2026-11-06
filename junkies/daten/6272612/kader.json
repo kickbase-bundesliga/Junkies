@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-05T23:47:13Z",
+ "abgerufen": "2026-11-06T13:22:29Z",
  "kader": {
   "769136": [
    {
@@ -339,6 +339,11 @@
     "id": "1553",
     "name": "Haberer",
     "marktwert": 6192879
+   },
+   {
+    "id": "14048",
+    "name": "Goto",
+    "marktwert": 4597714
    }
   ],
   "1576400": [
@@ -416,6 +421,11 @@
     "id": "670",
     "name": "Karaman",
     "marktwert": 4924032
+   },
+   {
+    "id": "2846",
+    "name": "Tillman",
+    "marktwert": 6123048
    }
   ],
   "1623645": [
@@ -540,6 +550,11 @@
     "id": "3041",
     "name": "Widmer",
     "marktwert": 996159
+   },
+   {
+    "id": "2941",
+    "name": "Scally",
+    "marktwert": 8975729
    }
   ],
   "1688417": [
@@ -674,6 +689,11 @@
     "id": "7167",
     "name": "Lynen",
     "marktwert": 2254900
+   },
+   {
+    "id": "15529",
+    "name": "Ilicevic",
+    "marktwert": 998201
    }
   ],
   "2171487": [
@@ -932,6 +952,11 @@
     "id": "6319",
     "name": "Honorat",
     "marktwert": 5573503
+   },
+   {
+    "id": "8351",
+    "name": "Højlund",
+    "marktwert": 500000
    }
   ],
   "3250420": [
@@ -989,6 +1014,16 @@
     "id": "11675",
     "name": "Díaz",
     "marktwert": 40402550
+   },
+   {
+    "id": "2449",
+    "name": "Hwang",
+    "marktwert": 4116406
+   },
+   {
+    "id": "17203",
+    "name": "Moffi",
+    "marktwert": 4838649
    }
   ]
  }
