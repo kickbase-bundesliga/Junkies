@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-06T23:16:33Z",
+ "abgerufen": "2026-11-07T11:58:18Z",
  "kader": {
   "202239": [
    {
@@ -396,6 +396,11 @@
     "id": "6158",
     "name": "Schnellbacher",
     "marktwert": 500000
+   },
+   {
+    "id": "3139",
+    "name": "Itten",
+    "marktwert": 500000
    }
   ],
   "1808207": [
@@ -597,6 +602,11 @@
     "id": "1223",
     "name": "Friedrich",
     "marktwert": 1770268
+   },
+   {
+    "id": "670",
+    "name": "Karaman",
+    "marktwert": 5016926
    }
   ],
   "2240874": [
@@ -698,11 +708,6 @@
     "marktwert": 17044705
    },
    {
-    "id": "2941",
-    "name": "Scally",
-    "marktwert": 9118190
-   },
-   {
     "id": "7215",
     "name": "Makengo",
     "marktwert": 17043460
@@ -736,6 +741,16 @@
     "id": "6160",
     "name": "Kristof",
     "marktwert": 12033579
+   },
+   {
+    "id": "9754",
+    "name": "Bah",
+    "marktwert": 2931326
+   },
+   {
+    "id": "1856",
+    "name": "Sabitzer",
+    "marktwert": 4956559
    }
   ],
   "2543617": [
@@ -852,11 +867,6 @@
     "marktwert": 11614484
    },
    {
-    "id": "3129",
-    "name": "Itakura",
-    "marktwert": 6587376
-   },
-   {
     "id": "2764",
     "name": "Keitel",
     "marktwert": 5175444
@@ -942,6 +952,11 @@
     "id": "577",
     "name": "Batz",
     "marktwert": 2339644
+   },
+   {
+    "id": "12367",
+    "name": "Spalt",
+    "marktwert": 1520980
    }
   ],
   "3332630": [

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-06T23:18:40Z",
+ "abgerufen": "2026-11-07T12:00:08Z",
  "kader": {
   "338218": [
    {
@@ -78,11 +78,6 @@
     "id": "7320",
     "name": "Scheller",
     "marktwert": 11046692
-   },
-   {
-    "id": "1883",
-    "name": "Nicolas",
-    "marktwert": 9019347
    },
    {
     "id": "15202",
@@ -381,6 +376,11 @@
     "id": "11675",
     "name": "Díaz",
     "marktwert": 40468427
+   },
+   {
+    "id": "8381",
+    "name": "Burcu",
+    "marktwert": 2809504
    }
   ],
   "1622434": [
@@ -443,6 +443,16 @@
     "id": "461",
     "name": "Chandler",
     "marktwert": 500000
+   },
+   {
+    "id": "6668",
+    "name": "Minjae",
+    "marktwert": 12128929
+   },
+   {
+    "id": "7325",
+    "name": "Baum",
+    "marktwert": 9269635
    }
   ],
   "1677028": [
@@ -554,11 +564,6 @@
     "marktwert": 7383913
    },
    {
-    "id": "2864",
-    "name": "Collins",
-    "marktwert": 7255358
-   },
-   {
     "id": "3350",
     "name": "Keidel",
     "marktwert": 10529399
@@ -572,6 +577,16 @@
     "id": "10049",
     "name": "Behrens",
     "marktwert": 14318561
+   },
+   {
+    "id": "2074",
+    "name": "Hack",
+    "marktwert": 5794462
+   },
+   {
+    "id": "2764",
+    "name": "Keitel",
+    "marktwert": 5175444
    }
   ],
   "1997392": [
@@ -800,6 +815,26 @@
     "id": "11043",
     "name": "Assignon",
     "marktwert": 4224517
+   },
+   {
+    "id": "2967",
+    "name": "El-Faouzi",
+    "marktwert": 5000481
+   },
+   {
+    "id": "2176",
+    "name": "Höler",
+    "marktwert": 2801955
+   },
+   {
+    "id": "11513",
+    "name": "Kofane",
+    "marktwert": 5863973
+   },
+   {
+    "id": "11680",
+    "name": "Eichhorn",
+    "marktwert": 1352223
    }
   ],
   "2646552": [

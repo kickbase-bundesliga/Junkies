@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-06T23:23:41Z",
+ "abgerufen": "2026-11-07T12:04:30Z",
  "kader": {
   "418331": [
    {
@@ -66,6 +66,11 @@
     "id": "2074",
     "name": "Hack",
     "marktwert": 5794462
+   },
+   {
+    "id": "3209",
+    "name": "Engelhardt",
+    "marktwert": 14491885
    }
   ],
   "699062": [
@@ -401,6 +406,11 @@
     "id": "2855",
     "name": "Ache",
     "marktwert": 5212986
+   },
+   {
+    "id": "2120",
+    "name": "Nartey",
+    "marktwert": 2752112
    }
   ],
   "1502756": [
@@ -535,6 +545,11 @@
     "id": "3453",
     "name": "Köhn",
     "marktwert": 1688738
+   },
+   {
+    "id": "11186",
+    "name": "Maluze",
+    "marktwert": 5429246
    }
   ],
   "1622434": [
@@ -602,6 +617,11 @@
     "id": "15529",
     "name": "Ilicevic",
     "marktwert": 1314381
+   },
+   {
+    "id": "1223",
+    "name": "Friedrich",
+    "marktwert": 1770268
    }
   ],
   "1667851": [
@@ -803,6 +823,11 @@
     "id": "11680",
     "name": "Eichhorn",
     "marktwert": 1352223
+   },
+   {
+    "id": "15472",
+    "name": "Daka",
+    "marktwert": 3057828
    }
   ],
   "1881506": [
@@ -1133,6 +1158,11 @@
     "id": "3228",
     "name": "Njinmah",
     "marktwert": 1545727
+   },
+   {
+    "id": "16945",
+    "name": "Dallinga",
+    "marktwert": 500000
    }
   ]
  }
