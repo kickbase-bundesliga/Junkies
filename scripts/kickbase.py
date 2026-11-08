@@ -17,6 +17,9 @@ import urllib.request
 
 BASIS = "https://api.kickbase.com"
 PAUSE = 0.4  # Sekunden zwischen zwei Anfragen (API schonen)
+# Offene Kennung: Kickbase soll sehen, dass die Abrufe von der Junkies-Seite kommen
+# und dass Poeti dahintersteht.
+USER_AGENT = "Junkies-Ligaseite/1.0 (betrieben von Poeti; +https://kickbase-bundesliga.github.io/Junkies/)"
 
 
 def zugang(name):
@@ -54,7 +57,7 @@ class Api:
         for versuch in range(versuche):
             req = urllib.request.Request(BASIS + pfad, data=daten, method=methode)
             req.add_header("Accept", "application/json")
-            req.add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+            req.add_header("User-Agent", USER_AGENT)
             if daten is not None:
                 req.add_header("Content-Type", "application/json")
             if self.token:
