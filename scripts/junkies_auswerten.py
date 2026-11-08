@@ -425,7 +425,7 @@ def pokal(cfg, plan):
     fertig = sorted(int(st) for st, i in plan.items() if i.get("fertig"))
     akt = max([st for st in fertig if st <= pk.get("gruppenphase_bis", 18)] or [0])
 
-    # Automatischer Ausschluss: 3x 0 Punkte (nicht aufgestellt) -> alle Spiele mit 0 gewertet.
+    # Automatischer Ausschluss: 3x 0 oder Minuspunkte (nicht/unvollstaendig aufgestellt) -> alle Spiele mit 0 gewertet.
     # Spielfreie Spieltage (kein Gruppenspiel) zaehlen dabei nicht mit.
     nullrunden = int(pk.get("ausschluss_nach_nullrunden", 3))
     spielt = {}
@@ -436,7 +436,7 @@ def pokal(cfg, plan):
     ausgeschlossen = {}
     for name, m in pd["manager"].items():
         nullen = [st for st in range(1, akt + 1)
-                  if st in spielt.get(name, ()) and not m["punkte"].get(str(st))]
+                  if st in spielt.get(name, ()) and (m["punkte"].get(str(st)) or 0) <= 0]
         if len(nullen) >= nullrunden:
             ausgeschlossen[name] = nullen[nullrunden - 1]
     for name in pk.get("inaktiv", []):

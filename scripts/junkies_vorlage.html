@@ -538,7 +538,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
   function pokalFuss(p) {
     var h = "";
     h += '<section class="flaeche"><h2>K.-o.-Runden</h2><div class="tab-scroll"><table><thead><tr><th>Runde</th><th>Modus</th><th>Spieltage</th></tr></thead><tbody>' + p.runden.map(function (r) { return "<tr><td style=\"text-align:left\">" + esc(r.name) + "</td><td style=\"text-align:left;width:100%\">" + (r.st.length === 3 ? "Best of 3, wird ausgelost" : "Summe der Kickbase-Punkte") + "</td><td>" + r.st[0] + "–" + r.st[r.st.length - 1] + "</td></tr>"; }).join("") + "</tbody></table></div></section>";
-    if (p.ausgeschlossen.length) h += '<p class="unterzeile">Ausgeschlossen nach 3 Spieltagen ohne Aufstellung (spielfreie Spieltage zählen nicht mit; danach zählen alle Spiele 0 Punkte, der Gegner gewinnt): ' + p.ausgeschlossen.map(function (a) { return esc(a.name) + (a.st ? " (ab ST " + a.st + ")" : ""); }).join(", ") + "</p>";
+    if (p.ausgeschlossen.length) h += '<p class="unterzeile">Ausgeschlossen nach 3 Spieltagen mit 0 oder Minuspunkten, also ohne oder mit unvollständiger Aufstellung (spielfreie Spieltage zählen nicht mit; danach zählen alle Spiele 0 Punkte, der Gegner gewinnt): ' + p.ausgeschlossen.map(function (a) { return esc(a.name) + (a.st ? " (ab ST " + a.st + ")" : ""); }).join(", ") + "</p>";
     if (p.ids_fehlen.length) h += '<p class="unterzeile">Ohne Kickbase-ID, Ergebnisse folgen: ' + p.ids_fehlen.map(esc).join(", ") + "</p>";
     return h;
   }
