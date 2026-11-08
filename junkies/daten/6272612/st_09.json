@@ -2,15 +2,15 @@
  "liga": "6272612",
  "spieltag": 9,
  "fertig": false,
- "abgerufen": "2026-11-07T22:01:43Z",
+ "abgerufen": "2026-11-08T12:19:07Z",
  "letzter_anstoss": "2026-11-08T18:30:00Z",
  "manager": [
   {
    "id": "769136",
    "name": "Benyos24",
    "admin": false,
-   "punkte": 1141,
-   "gesamt": 8378,
+   "punkte": 1136,
+   "gesamt": 8373,
    "platz": 4,
    "st_platz": 2,
    "teamwert": 207204568.0,

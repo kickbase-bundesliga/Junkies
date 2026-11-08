@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-07T22:05:16Z",
+ "abgerufen": "2026-11-08T12:23:06Z",
  "kader": {
   "418331": [
    {
@@ -48,11 +48,6 @@
     "marktwert": 15414978
    },
    {
-    "id": "6319",
-    "name": "Honorat",
-    "marktwert": 5517474
-   },
-   {
     "id": "11955",
     "name": "El Khannouss",
     "marktwert": 15995015
@@ -71,6 +66,11 @@
     "id": "3209",
     "name": "Engelhardt",
     "marktwert": 14650901
+   },
+   {
+    "id": "10113",
+    "name": "Gomis",
+    "marktwert": 13057525
    }
   ],
   "699062": [
@@ -455,16 +455,6 @@
     "marktwert": 9293384
    },
    {
-    "id": "7219",
-    "name": "Jóhannesson",
-    "marktwert": 7203524
-   },
-   {
-    "id": "2864",
-    "name": "Collins",
-    "marktwert": 6743476
-   },
-   {
     "id": "78",
     "name": "Hofmann",
     "marktwert": 4993154
@@ -718,11 +708,6 @@
     "marktwert": 16377380
    },
    {
-    "id": "3471",
-    "name": "Hložek",
-    "marktwert": 10238269
-   },
-   {
     "id": "11631",
     "name": "Burger",
     "marktwert": 17309040
@@ -813,6 +798,11 @@
     "id": "15472",
     "name": "Daka",
     "marktwert": 3366925
+   },
+   {
+    "id": "15502",
+    "name": "Binder",
+    "marktwert": 1369890
    }
   ],
   "1881506": [

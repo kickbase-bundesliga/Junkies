@@ -2,7 +2,7 @@
  "liga": "6860190",
  "spieltag": 9,
  "fertig": false,
- "abgerufen": "2026-11-07T22:03:50Z",
+ "abgerufen": "2026-11-08T12:21:30Z",
  "letzter_anstoss": "2026-11-08T18:30:00Z",
  "manager": [
   {
@@ -78,8 +78,8 @@
    "id": "1212731",
    "name": "Marvhin23",
    "admin": false,
-   "punkte": 1408,
-   "gesamt": 7652,
+   "punkte": 1403,
+   "gesamt": 7647,
    "platz": 11,
    "st_platz": 2,
    "teamwert": 190665607.0,

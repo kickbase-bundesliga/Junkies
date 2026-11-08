@@ -2,15 +2,15 @@
  "liga": "6272609",
  "spieltag": 9,
  "fertig": false,
- "abgerufen": "2026-11-07T21:59:51Z",
+ "abgerufen": "2026-11-08T12:17:03Z",
  "letzter_anstoss": "2026-11-08T18:30:00Z",
  "manager": [
   {
    "id": "338218",
    "name": "Budiii",
    "admin": false,
-   "punkte": 966,
-   "gesamt": 7905,
+   "punkte": 961,
+   "gesamt": 7900,
    "platz": 6,
    "st_platz": 1,
    "teamwert": 153361354.0,

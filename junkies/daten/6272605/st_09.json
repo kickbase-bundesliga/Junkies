@@ -2,7 +2,7 @@
  "liga": "6272605",
  "spieltag": 9,
  "fertig": false,
- "abgerufen": "2026-11-07T21:57:36Z",
+ "abgerufen": "2026-11-08T12:14:32Z",
  "letzter_anstoss": "2026-11-08T18:30:00Z",
  "manager": [
   {
@@ -32,8 +32,8 @@
    "id": "699062",
    "name": "T800",
    "admin": false,
-   "punkte": 256,
-   "gesamt": 6616,
+   "punkte": 251,
+   "gesamt": 6611,
    "platz": 14,
    "st_platz": 15,
    "teamwert": 168132173.0,

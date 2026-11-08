@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-07T21:58:57Z",
+ "abgerufen": "2026-11-08T12:16:02Z",
  "kader": {
   "202239": [
    {
@@ -61,6 +61,16 @@
     "id": "7737",
     "name": "Veerman",
     "marktwert": 14505821
+   },
+   {
+    "id": "3041",
+    "name": "Widmer",
+    "marktwert": 1717327
+   },
+   {
+    "id": "3228",
+    "name": "Njinmah",
+    "marktwert": 1912954
    }
   ],
   "699062": [
@@ -195,6 +205,16 @@
     "id": "15472",
     "name": "Daka",
     "marktwert": 3366925
+   },
+   {
+    "id": "2358",
+    "name": "Krauß",
+    "marktwert": 8554682
+   },
+   {
+    "id": "15502",
+    "name": "Binder",
+    "marktwert": 1369890
    }
   ],
   "1212731": [
@@ -396,6 +416,11 @@
     "id": "3139",
     "name": "Itten",
     "marktwert": 500000
+   },
+   {
+    "id": "7158",
+    "name": "Undav",
+    "marktwert": 28797140
    }
   ],
   "1808207": [
@@ -713,11 +738,6 @@
     "marktwert": 9490945
    },
    {
-    "id": "7463",
-    "name": "Onyeka",
-    "marktwert": 7075563
-   },
-   {
     "id": "8252",
     "name": "Krattenmacher",
     "marktwert": 10658347
@@ -728,14 +748,9 @@
     "marktwert": 12039687
    },
    {
-    "id": "9754",
-    "name": "Bah",
-    "marktwert": 2869032
-   },
-   {
-    "id": "1856",
-    "name": "Sabitzer",
-    "marktwert": 4906938
+    "id": "2803",
+    "name": "Lemperle",
+    "marktwert": 7085038
    }
   ],
   "2543617": [
@@ -869,11 +884,6 @@
     "marktwert": 32098980
    },
    {
-    "id": "8307",
-    "name": "Sano",
-    "marktwert": 22150964
-   },
-   {
     "id": "14249",
     "name": "El Aynaoui",
     "marktwert": 16317397
@@ -942,6 +952,11 @@
     "id": "12367",
     "name": "Spalt",
     "marktwert": 2033751
+   },
+   {
+    "id": "3027",
+    "name": "Pieringer",
+    "marktwert": 2949154
    }
   ],
   "3332630": [

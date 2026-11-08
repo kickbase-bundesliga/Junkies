@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-07T22:00:50Z",
+ "abgerufen": "2026-11-08T12:18:08Z",
  "kader": {
   "338218": [
    {
@@ -128,6 +128,11 @@
     "id": "577",
     "name": "Batz",
     "marktwert": 2791244
+   },
+   {
+    "id": "2939",
+    "name": "Dinkçi",
+    "marktwert": 8278447
    }
   ],
   "730586": [
@@ -415,11 +420,6 @@
     "marktwert": 4906938
    },
    {
-    "id": "6217",
-    "name": "Philippe",
-    "marktwert": 4740313
-   },
-   {
     "id": "2084",
     "name": "Lienhart",
     "marktwert": 19583414
@@ -519,11 +519,6 @@
   ],
   "1703788": [
    {
-    "id": "6148",
-    "name": "Pinckert",
-    "marktwert": 12211774
-   },
-   {
     "id": "3120",
     "name": "Bischof",
     "marktwert": 19359977
@@ -582,6 +577,11 @@
     "id": "2764",
     "name": "Keitel",
     "marktwert": 5070706
+   },
+   {
+    "id": "2065",
+    "name": "Uduokhai",
+    "marktwert": 4654416
    }
   ],
   "1997392": [
@@ -691,6 +691,11 @@
     "id": "10122",
     "name": "Gruber",
     "marktwert": 8208733
+   },
+   {
+    "id": "11959",
+    "name": "Daghim",
+    "marktwert": 15913927
    }
   ],
   "2589813": [
@@ -802,11 +807,6 @@
     "marktwert": 18285206
    },
    {
-    "id": "11043",
-    "name": "Assignon",
-    "marktwert": 4122337
-   },
-   {
     "id": "2967",
     "name": "El-Faouzi",
     "marktwert": 5007283
@@ -825,6 +825,11 @@
     "id": "11680",
     "name": "Eichhorn",
     "marktwert": 1682439
+   },
+   {
+    "id": "6081",
+    "name": "Uzun",
+    "marktwert": 24666179
    }
   ],
   "2646552": [
@@ -887,6 +892,11 @@
     "id": "3041",
     "name": "Widmer",
     "marktwert": 1717327
+   },
+   {
+    "id": "7463",
+    "name": "Onyeka",
+    "marktwert": 7075563
    }
   ],
   "2729462": [
