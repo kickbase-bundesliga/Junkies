@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-08T22:18:17Z",
+ "abgerufen": "2026-11-09T14:29:02Z",
  "kader": {
   "338218": [
    {
@@ -133,6 +133,11 @@
     "id": "2939",
     "name": "Dinkçi",
     "marktwert": 8547546
+   },
+   {
+    "id": "2300",
+    "name": "Stanišić",
+    "marktwert": 14585485
    }
   ],
   "730586": [
@@ -376,6 +381,11 @@
     "id": "8381",
     "name": "Burcu",
     "marktwert": 2630373
+   },
+   {
+    "id": "13448",
+    "name": "Aouchiche",
+    "marktwert": 7830955
    }
   ],
   "1622434": [
@@ -443,6 +453,11 @@
     "id": "7325",
     "name": "Baum",
     "marktwert": 9382142
+   },
+   {
+    "id": "10120",
+    "name": "Røssing-Lelesiit",
+    "marktwert": 1353381
    }
   ],
   "1677028": [
@@ -577,6 +592,11 @@
     "id": "10916",
     "name": "Ayhan",
     "marktwert": 2641822
+   },
+   {
+    "id": "15502",
+    "name": "Binder",
+    "marktwert": 1674604
    }
   ],
   "1997392": [
@@ -730,11 +750,6 @@
     "id": "2366",
     "name": "Davies",
     "marktwert": 23764430
-   },
-   {
-    "id": "524",
-    "name": "Baumann",
-    "marktwert": 11649406
    },
    {
     "id": "9507",

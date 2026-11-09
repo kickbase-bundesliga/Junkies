@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-08T22:16:09Z",
+ "abgerufen": "2026-11-09T14:26:54Z",
  "kader": {
   "202239": [
    {
@@ -66,6 +66,11 @@
     "id": "3228",
     "name": "Njinmah",
     "marktwert": 2371212
+   },
+   {
+    "id": "10120",
+    "name": "Røssing-Lelesiit",
+    "marktwert": 1353381
    }
   ],
   "699062": [
@@ -205,6 +210,11 @@
     "id": "14300",
     "name": "Okon-Engstler",
     "marktwert": 4265156
+   },
+   {
+    "id": "11161",
+    "name": "Machida",
+    "marktwert": 11132586
    }
   ],
   "1212731": [
@@ -559,11 +569,6 @@
     "marktwert": 27724140
    },
    {
-    "id": "6148",
-    "name": "Pinckert",
-    "marktwert": 11531183
-   },
-   {
     "id": "14241",
     "name": "Medina",
     "marktwert": 17495603
@@ -582,11 +587,6 @@
     "id": "51",
     "name": "Khedira",
     "marktwert": 6490489
-   },
-   {
-    "id": "11556",
-    "name": "Massengo",
-    "marktwert": 11041123
    },
    {
     "id": "15211",
@@ -736,6 +736,16 @@
     "id": "8872",
     "name": "Sticker",
     "marktwert": 500000
+   },
+   {
+    "id": "6085",
+    "name": "Seimen",
+    "marktwert": 11985781
+   },
+   {
+    "id": "15199",
+    "name": "Moreira",
+    "marktwert": 15138800
    }
   ],
   "2543617": [
@@ -927,6 +937,11 @@
     "id": "3027",
     "name": "Pieringer",
     "marktwert": 3000648
+   },
+   {
+    "id": "6745",
+    "name": "Boniface",
+    "marktwert": 506105
    }
   ],
   "3332630": [

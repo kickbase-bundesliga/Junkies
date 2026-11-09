@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-08T22:23:19Z",
+ "abgerufen": "2026-11-09T14:34:06Z",
  "kader": {
   "418331": [
    {
@@ -185,6 +185,11 @@
     "id": "2661",
     "name": "Diaby",
     "marktwert": 15071295
+   },
+   {
+    "id": "3089",
+    "name": "Ito",
+    "marktwert": 2163336
    }
   ],
   "1212731": [
@@ -401,6 +406,11 @@
     "id": "2120",
     "name": "Nartey",
     "marktwert": 3415159
+   },
+   {
+    "id": "2176",
+    "name": "Höler",
+    "marktwert": 2797598
    }
   ],
   "1502756": [
@@ -788,6 +798,11 @@
     "id": "15502",
     "name": "Binder",
     "marktwert": 1674604
+   },
+   {
+    "id": "8351",
+    "name": "Højlund",
+    "marktwert": 542314
    }
   ],
   "1881506": [
@@ -850,6 +865,11 @@
     "id": "7737",
     "name": "Veerman",
     "marktwert": 14699865
+   },
+   {
+    "id": "7320",
+    "name": "Scheller",
+    "marktwert": 10812082
    }
   ],
   "2171487": [
@@ -941,16 +961,6 @@
     "marktwert": 13546116
    },
    {
-    "id": "12297",
-    "name": "Tanaka",
-    "marktwert": 7860836
-   },
-   {
-    "id": "3081",
-    "name": "Vidović",
-    "marktwert": 4754372
-   },
-   {
     "id": "7963",
     "name": "Quansah",
     "marktwert": 19307092
@@ -964,11 +974,6 @@
     "id": "2395",
     "name": "Ryerson",
     "marktwert": 17120558
-   },
-   {
-    "id": "8381",
-    "name": "Burcu",
-    "marktwert": 2630373
    },
    {
     "id": "10112",
