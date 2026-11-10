@@ -75,6 +75,18 @@ def spieltage_laden(lid):
     return erg
 
 
+# ---------------------------------------------------------------- Vorlaeufiger Stand
+
+def vorl_von(sts, akt):
+    """Laufender Spieltag nach dem letzten fertigen, wenn schon Live-Punkte vorliegen -> Nr oder None.
+    Wird auf der Seite als "vorlaeufig" gezeigt; Rauswuerfe, Abgaben, Pokal-Ausschluss usw. richten
+    sich weiter nur nach fertigen Spieltagen."""
+    d = sts.get(akt + 1)
+    if d and not d.get("fertig") and any((m.get("punkte") or 0) != 0 for m in d.get("manager", [])):
+        return akt + 1
+    return None
+
+
 # ---------------------------------------------------------------- Tabellen
 
 def sortiert(manager):
@@ -327,7 +339,7 @@ def knockout(liga, sts, cfg):
             "gefaehrdet": (sorted([z for z in tabellen.get(akt, []) if z["name"] not in raus],
                                   key=lambda z: (-(z["gesamt"] or 0), z["teamwert"] or 0)) or [{}])[-1].get("name"),
             "aktive": aktive_n, "ausgeschieden": liste, "vorschlaege": vorschlaege,
-            "rauswurf_nach": ko["rauswurf_nach"], "freiwillig": freiwillig}
+            "rauswurf_nach": ko["rauswurf_nach"], "freiwillig": freiwillig, "vorl": vorl_von(sts, akt)}
 
 
 # ---------------------------------------------------------------- Playoffs
@@ -394,8 +406,9 @@ def playoff(liga, sts, cfg):
         platz3 = serie(verlierer_hf[0], verlierer_hf[1], po["runden"][-1]["st"], sts)
     else:
         platz3 = {"a": None, "b": None, "stand": [0, 0], "spiele": [], "sieger": None, "vorschau": True}
+    v = vorl_von(sts, akt)
     return {"tabellen": tabellen, "akt": akt, "hauptrunde_bis": hr, "runden": runden, "platz3": platz3,
-            "setzliste_vorlaeufig": akt < hr}
+            "setzliste_vorlaeufig": akt < hr, "vorl": v if v and v <= hr else None}
 
 
 # ---------------------------------------------------------------- Quali A-C
@@ -424,6 +437,10 @@ def pokal(cfg, plan):
     inaktiv = set(pk.get("inaktiv", []))
     fertig = sorted(int(st) for st, i in plan.items() if i.get("fertig"))
     akt = max([st for st in fertig if st <= pk.get("gruppenphase_bis", 18)] or [0])
+    # vorlaeufig: naechster Spieltag, wenn schon Challenge-Punkte vorliegen (Ausschluss zaehlt nur fertige)
+    vorl = akt + 1 if (akt + 1 <= pk.get("gruppenphase_bis", 18) and any(
+        (m["punkte"].get(str(akt + 1)) or 0) != 0 for m in pd["manager"].values())) else None
+    bis = vorl or akt
 
     # Automatischer Ausschluss: 3x 0 oder Minuspunkte (nicht/unvollstaendig aufgestellt) -> alle Spiele mit 0 gewertet.
     # Spielfreie Spieltage (kein Gruppenspiel) zaehlen dabei nicht mit.
@@ -475,10 +492,10 @@ def pokal(cfg, plan):
         spieltage = {}
         for s in gp["spiele"][g]:
             st = s["st"]
-            pa = punkte(s["heim"], st) if st <= akt else None
-            pb = punkte(s["gast"], st) if st <= akt else None
+            pa = punkte(s["heim"], st) if st <= bis else None
+            pb = punkte(s["gast"], st) if st <= bis else None
             ergebnis = {"heim": s["heim"], "gast": s["gast"], "a": pa, "b": pb}
-            if st <= akt and pa is not None and pb is not None:
+            if st <= bis and pa is not None and pb is not None:
                 for n, x, y in ((s["heim"], pa, pb), (s["gast"], pb, pa)):
                     t = tab[n]
                     t["sp"] += 1
@@ -492,7 +509,7 @@ def pokal(cfg, plan):
                         t["pkt"] += 1
                     else:
                         t["n"] += 1
-            elif st <= akt:
+            elif st <= bis:
                 ergebnis["offen"] = True
             spieltage.setdefault(st, []).append(ergebnis)
         for st, liste in spieltage.items():
@@ -500,13 +517,13 @@ def pokal(cfg, plan):
             frei = [n for n in namen if n not in dabei]
             spieltage[st] = {"spiele": liste, "frei": frei[0] if frei else None}
         zeilen = sorted(tab.values(), key=lambda t: (-t["pkt"], -t["plus"], t["name"].lower()))
-        vorher = rangfolge(g, namen, akt - 1) if akt > 1 else {}
+        vorher = rangfolge(g, namen, bis - 1) if bis > 1 else {}
         for i, z in enumerate(zeilen, 1):
             z["platz"] = i
             z["vorplatz"] = vorher.get(z["name"])
         gruppen[g] = {"tabelle": zeilen, "spieltage": spieltage}
     fehlende = sorted(n for n in tn if n not in pd["manager"] and n not in inaktiv)
-    return {"gruppen": gruppen, "akt": akt, "gruppenphase_bis": pk.get("gruppenphase_bis", 18),
+    return {"gruppen": gruppen, "akt": akt, "vorl": vorl, "gruppenphase_bis": pk.get("gruppenphase_bis", 18),
             "runden": pk.get("runden", []), "ids_fehlen": fehlende,
             "ausgeschlossen": [{"name": n, "st": st} for n, st in sorted(ausgeschlossen.items())],
             "favoriten": {n: m["favoriten"] for n, m in pd["manager"].items() if m.get("favoriten")},
@@ -594,10 +611,12 @@ def auswerten(jetzt=None):
         if fmt == "quali":
             name = namen["hinrunde"] if akt <= cfg["hinrunde_bis"] else (namen.get("rueckrunde") or namen["hinrunde"])
             quali.append({"id": liga["id"], "name": name, "kurz": name.replace("Junkies ", ""), "akt": akt,
+                          "vorl": vorl_von(sts, akt),
                           "tabellen": {st: tabelle(sts[st]) for st in sorted(sts)},
                           "abgaben": {st: abgabeliste(liga, st, sts, plan, cfg, jetzt, fmt) for st in fertig}})
         elif fmt == "draft":
             erg["formate"]["draft"] = {"id": liga["id"], "name": namen["saison"], "akt": akt,
+                                       "vorl": vorl_von(sts, akt),
                                        "tabellen": {st: tabelle(sts[st]) for st in sorted(sts)},
                                        "abgaben": {st: abgabeliste(liga, st, sts, plan, cfg, jetzt, fmt)
                                                    for st in fertig}}
@@ -607,8 +626,10 @@ def auswerten(jetzt=None):
             erg["formate"]["playoff"] = dict(playoff(liga, sts, cfg), id=liga["id"], name=namen["saison"])
     if quali:
         akt_q = max(l["akt"] for l in quali)
-        erg["formate"]["quali"] = {"ligen": quali, "akt": akt_q, "hinrunde_bis": cfg["hinrunde_bis"],
-                                   "uebersicht": {st: quali_uebersicht(quali, st) for st in range(1, akt_q + 1)}}
+        vorl_q = max([l["vorl"] for l in quali if l.get("vorl")] or [0]) or None
+        erg["formate"]["quali"] = {"ligen": quali, "akt": akt_q, "vorl": vorl_q, "hinrunde_bis": cfg["hinrunde_bis"],
+                                   "uebersicht": {st: quali_uebersicht(quali, st)
+                                                  for st in range(1, (vorl_q or akt_q) + 1)}}
     p = pokal(cfg, plan)
     if p:
         erg["formate"]["pokal"] = p

@@ -7,6 +7,8 @@ on:
   schedule:
     - cron: "17 18 * * *"    # taeglich ca. 19:17 Uhr Winterzeit / 20:17 Uhr Sommerzeit (Abrechnung 18 Uhr + 1 h)
     - cron: "53 5 * * *"     # taeglich ca. 6:53 Uhr Winterzeit / 7:53 Uhr Sommerzeit (Nachkontrolle, Transfers)
+    - cron: "37 20 * * 0"    # Sonntag ca. 21:37 / 22:37 Uhr: vorlaeufiger Stand des laufenden Spieltags
+    - cron: "41 21 * * 1"    # Montag ca. 22:41 / 23:41 Uhr: vorlaeufiger Stand inkl. Montagsspiel
   workflow_dispatch:
     inputs:
       nur_webseite:

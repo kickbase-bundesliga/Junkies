@@ -241,7 +241,11 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
   ];
   var zustand = {reiter: "quali", liga: 0, st: {}};
 
-  $("#stand").textContent = "Saison " + D.saison + " · Stand nach Spieltag " + D.spieltag;
+  (function () {
+    var v = 0;
+    Object.keys(F).forEach(function (k) { if (F[k] && F[k].vorl) v = Math.max(v, F[k].vorl); });
+    $("#stand").textContent = "Saison " + D.saison + " · Stand nach Spieltag " + D.spieltag + (v ? " · Spieltag " + v + " vorläufig" : "");
+  })();
   $("#fuss").textContent = "Daten von Kickbase, berechnet am " + zeit(D.stand) + ". Admin-Accounts sind ausgeblendet. Bei Punktgleichheit liegt der geringere Teamwert vorn.";
 
   function reiterZeichnen() {
@@ -265,6 +269,11 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     return h + "</div>";
   }
   function stVon(key, max) { var s = zustand.st[key]; return s && s <= max ? s : max; }
+  // laufender Spieltag mit Live-Punkten (noch nicht von Kickbase abgerechnet)
+  function nachSt(st, vorl) {
+    return st === vorl ? '<span class="pill warn" title="Live-Punkte, endgültig nach der Kickbase-Abrechnung">Spieltag ' + st + " · vorläufig</span>"
+      : '<span class="pill muted">nach Spieltag ' + st + "</span>";
+  }
 
   // Managername als Link zum Profil
   function mlink(name) { return '<button type="button" class="mname" data-profil="' + esc(name) + '">' + esc(name) + "</button>"; }
@@ -398,14 +407,14 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var q = F.quali;
     var namen = q.ligen.map(function (l) { return l.kurz; }).concat(["Quali-Übersicht"]);
     var li = zustand.liga;
-    var st = stVon("quali", q.akt);
+    var st = stVon("quali", q.vorl || q.akt);
     var h = '<div class="kopfzeile"><div><h1>Liga A–C</h1><p class="unterzeile">Hinrunde bis Spieltag ' + q.hinrunde_bis + " ist die Qualifikation. Platz 1–5 jeder Liga spielt die Rückrunde in Liga 1, Platz 6–10 in Liga 2, ab Platz 11 ist die Saison beendet.</p></div></div>";
     h += '<div class="leiste" id="liga-wahl">' + namen.map(function (n, i) { return '<button class="chip" data-liga="' + i + '" aria-pressed="' + (i === li) + '">' + esc(n) + "</button>"; }).join("") + "</div>";
-    h += stLeiste("quali", q.akt, st);
+    h += stLeiste("quali", q.vorl || q.akt, st);
     if (li < q.ligen.length) {
       var l = q.ligen[li];
       var zeilen = l.tabellen[st] || [];
-      h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>' + esc(l.name) + '</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
+      h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>' + esc(l.name) + "</h2>" + nachSt(st, l.vorl) + "</div>" +
         tabelleHtml(zeilen, {vorher: l.tabellen[st - 1], zone: function (z) { return z.platz <= 5 ? "z1" : z.platz <= 10 ? "z2" : "z3"; }}) +
         '<div class="legende"><span><i style="background:var(--lime)"></i>Liga 1</span><span><i style="background:var(--zone2)"></i>Liga 2</span><span><i style="background:var(--bad)"></i>ausgeschieden</span></div></section>' +
         '<section class="flaeche">' + abgabeHtml(l.abgaben[st]) + "</section></div>" + elfenHtml(q, st);
@@ -423,10 +432,10 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
 
   // ---------------------------------------------------------- Reiter: Draft
   function zeichneDraft() {
-    var d = F.draft, st = stVon("draft", d.akt), zeilen = d.tabellen[st] || [];
+    var d = F.draft, st = stVon("draft", d.vorl || d.akt), zeilen = d.tabellen[st] || [];
     var h = '<div class="kopfzeile"><div><h1>14er Draft Liga</h1><p class="unterzeile">Full Season. Der Spieltagssieger gibt seine Top 3 an den Gesamtletzten ab, alle anderen mit 1000+ Punkten verkaufen einen ihrer Top 3.</p></div></div>';
-    h += stLeiste("draft", d.akt, st);
-    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" +
+    h += stLeiste("draft", d.vorl || d.akt, st);
+    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2>' + nachSt(st, d.vorl) + "</div>" +
       tabelleHtml(zeilen, {vorher: d.tabellen[st - 1], zone: function (z) { return z.platz === zeilen.length ? "z3" : ""; }}) +
       '<div class="legende"><span><i style="background:var(--bad)"></i>Gesamtletzter, bekommt einen Spieler vom Spieltagssieger</span></div></section><section class="flaeche">' + abgabeHtml(d.abgaben[st]) + "</section></div>" + elfenHtml(d, st);
     return h;
@@ -434,7 +443,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
 
   // ---------------------------------------------------------- Reiter: Knock Out
   function zeichneKo() {
-    var k = F.ko, st = stVon("ko", k.akt), zeilen = k.tabellen[st] || [];
+    var k = F.ko, st = stVon("ko", k.vorl || k.akt), zeilen = k.tabellen[st] || [];
     var raus = {}; k.ausgeschieden.forEach(function (e) { raus[e.name] = e; });
     var aktiveZeilen = zeilen.filter(function (z) { return !raus[z.name] || raus[z.name].nach_st >= st; });
     var letzterAktiv = aktiveZeilen.filter(function (z) { return !raus[z.name]; }).slice(-1)[0];
@@ -445,14 +454,14 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
       return '<span class="' + (erledigt ? "erledigt" : s === k.naechster_rauswurf ? "naechster" : "") + '">ST ' + s + "</span>";
     }).join("") + "</div>";
     if (k.vorschlaege.length) h += '<div class="kachel alarm"><small>Für den Admin</small>' + k.vorschlaege.map(function (v) { return "Nach Spieltag " + v.nach_st + " ist <b>" + esc(v.manager) + "</b> Letzter. Bitte in der Config eintragen."; }).join("<br>") + "</div>";
-    h += stLeiste("ko", k.akt, st);
+    h += stLeiste("ko", k.vorl || k.akt, st);
     var tz = zeilen.map(function (z) {
       var e = raus[z.name], kl = "";
       if (e && e.nach_st === st) { kl = "raus"; z = Object.assign({}, z, {zusatz: ' <span class="pill bad">raus nach ST ' + st + "</span>"}); }
       else if (st === k.akt && letzterAktiv && z.name === letzterAktiv.name) { kl = "gefahr"; z = Object.assign({}, z, {zusatz: ' <span class="pill bad">gefährdet</span>'}); }
       z.kl = kl; return z;
     });
-    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(tz, {vorher: k.tabellen[st - 1], zone: function (z) { return z.kl; }}) + '<div class="legende"><span>* Gesamtpunkte manuell korrigiert (Kickbase hat sie beim Wiedereintritt verloren)</span></div></section>';
+    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Tabelle</h2>' + nachSt(st, k.vorl) + "</div>" + tabelleHtml(tz, {vorher: k.tabellen[st - 1], zone: function (z) { return z.kl; }}) + '<div class="legende"><span>* Gesamtpunkte manuell korrigiert (Kickbase hat sie beim Wiedereintritt verloren)</span></div></section>';
     h += '<section class="flaeche"><h2>Ausgeschieden</h2>' + (k.ausgeschieden.length ? '<div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Raus nach</th><th>Punkte</th></tr></thead><tbody>' +
       k.ausgeschieden.map(function (e, i) { return '<tr class="z3"><td class="pl">' + (17 - (k.ausgeschieden.length - 1 - i)) + "</td><td>" + esc(e.name) + (e.grund === "freiwillig" ? ' <span class="pill muted">freiwillig</span>' : "") + "</td><td>ST " + e.nach_st + "</td><td>" + zahl(e.gesamt) + "</td></tr>"; }).join("") + "</tbody></table></div>" : '<p class="leer">Noch niemand.</p>') +
       '<p class="unterzeile" style="margin:0">Endplatzierung: die 4 Finalisten nach Punkten, dahinter die Ausgeschiedenen in umgekehrter Reihenfolge.</p></section></div>' + elfenHtml(k, st);
@@ -470,15 +479,16 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     return '<div class="paarung' + (p3 ? " p3" : "") + '">' + team(ser.a, 0, ser) + team(ser.b, 1, ser) + (spiele ? '<div class="sp-reihe">' + spiele + "</div>" : "") + "</div>";
   }
   function zeichnePlayoff() {
-    var p = F.playoff, st = stVon("playoff", Math.min(p.akt, p.hauptrunde_bis)), zeilen = p.tabellen[st] || [];
+    var p = F.playoff, pMax = p.vorl || Math.min(p.akt, p.hauptrunde_bis);
+    var st = stVon("playoff", pMax), zeilen = p.tabellen[st] || [];
     var h = '<div class="kopfzeile"><div><h1>Playoff Liga</h1><p class="unterzeile">Hauptrunde bis Spieltag ' + p.hauptrunde_bis + ", danach K.-o.-Baum: Achtel- und Viertelfinale Best of 3, Halbfinale, Finale und Spiel um Platz 3 Best of 5. Ein Spiel ist ein Spieltag.</p></div></div>";
     h += '<section class="flaeche"><div class="kopfzeile"><h2>Turnierbaum</h2>' + (p.setzliste_vorlaeufig ? '<span class="pill warn">Vorschau mit Setzliste nach Spieltag ' + Math.min(p.akt, p.hauptrunde_bis) + "</span>" : "") + '</div><div class="tab-scroll"><div class="baum">' +
       p.runden.map(function (r, i) {
         return '<div class="runde"><h3>' + esc(r.name) + ' <small class="st">ST ' + r.st[0] + "–" + r.st[r.st.length - 1] + '</small></h3><div class="paare">' + r.serien.map(function (s) { return paarungHtml(s); }).join("") +
           (i === p.runden.length - 1 ? '<div><h3>Spiel um Platz 3</h3></div>' + paarungHtml(p.platz3, true) : "") + "</div></div>";
       }).join("") + "</div></div></section>";
-    h += stLeiste("playoff", Math.min(p.akt, p.hauptrunde_bis), st);
-    h += '<section class="flaeche"><div class="kopfzeile"><h2>Hauptrunde</h2><span class="pill muted">nach Spieltag ' + st + "</span></div>" + tabelleHtml(zeilen.map(function (z) { return Object.assign({}, z, {platzText: z.platz}); }), {vorher: p.tabellen[st - 1], zone: function () { return "z1"; }}) + '<div class="legende"><span>Der Tabellenplatz nach Spieltag ' + p.hauptrunde_bis + " ist die Setzliste (1 gegen 16, 8 gegen 9 …).</span></div></section>" + elfenHtml(p, st);
+    h += stLeiste("playoff", pMax, st);
+    h += '<section class="flaeche"><div class="kopfzeile"><h2>Hauptrunde</h2>' + nachSt(st, p.vorl) + "</div>" + tabelleHtml(zeilen.map(function (z) { return Object.assign({}, z, {platzText: z.platz}); }), {vorher: p.tabellen[st - 1], zone: function () { return "z1"; }}) + '<div class="legende"><span>Der Tabellenplatz nach Spieltag ' + p.hauptrunde_bis + " ist die Setzliste (1 gegen 16, 8 gegen 9 …).</span></div></section>" + elfenHtml(p, st);
     return h;
   }
 
@@ -490,7 +500,8 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var g = zustand.gruppe && p.gruppen[zustand.gruppe] ? zustand.gruppe : gs[0];
     var gr = p.gruppen[g];
     var maxSt = p.gruppenphase_bis;
-    var st = zustand.st.pokal || Math.max(1, Math.min(p.akt || 1, maxSt));
+    var pb = p.vorl || p.akt;
+    var st = zustand.st.pokal || Math.max(1, Math.min(pb || 1, maxSt));
     var h = '<div class="kopfzeile"><div><h1>Junkies Pokal</h1><p class="unterzeile">Gruppenphase Spieltag 1–' + maxSt + ' im 1 gegen 1 über die Junkies-Challenge: Sieg 2 Punkte, Unentschieden 1, Niederlage 0. Gruppensieger direkt ins 16tel-Finale, Platz 2 und 3 in die Zwischenrunde (Best of 3).</p></div></div>';
     h += '<div class="status"><div class="kachel"><small>Gewertet bis</small><strong>Spieltag ' + (p.akt || "–") + '</strong></div><div class="kachel"><small>Gruppen</small><strong>' + gs.length + ' × 9</strong></div><div class="kachel' + (p.ids_fehlen.length ? " alarm" : "") + '"><small>Manager ohne ID</small><strong>' + p.ids_fehlen.length + "</strong></div></div>";
     var gesamt = zustand.gruppe === "gesamt";
@@ -505,7 +516,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     });
     t += "</tbody></table></div>";
     var sd = gr.spieltage[st] || {spiele: [], frei: null};
-    var d = '<div class="kopfzeile"><h2>Spieltag ' + st + '</h2>' + (st > p.akt ? '<span class="pill muted">noch nicht gespielt</span>' : "") + "</div>";
+    var d = '<div class="kopfzeile"><h2>Spieltag ' + st + '</h2>' + (st > pb ? '<span class="pill muted">noch nicht gespielt</span>' : st === p.vorl ? '<span class="pill warn">vorläufig · Live-Punkte</span>' : "") + "</div>";
     d += sd.spiele.map(function (e) {
       var fertig = e.a != null && e.b != null;
       var aw = fertig && e.a > e.b, bw = fertig && e.b > e.a;
@@ -513,7 +524,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     }).join("");
     if (sd.frei) d += '<p class="unterzeile" style="margin:0">Spielfrei: ' + esc(sd.frei) + "</p>";
     h += stLeiste("pokal", maxSt, st);
-    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Gruppe ' + g + '</h2><span class="pill muted">nach Spieltag ' + (p.akt || 0) + "</span></div>" + t + '<div class="legende"><span><i style="background:var(--lime)"></i>16tel-Finale</span><span><i style="background:var(--zone2)"></i>Zwischenrunde</span><span>Sortierung: Punkte, dann erzielte Kickbase-Punkte</span></div></section><section class="flaeche spieler">' + d + "</section></div>";
+    h += '<div class="raster"><section class="flaeche"><div class="kopfzeile"><h2>Gruppe ' + g + "</h2>" + nachSt(pb || 0, p.vorl) + "</div>" + t + '<div class="legende"><span><i style="background:var(--lime)"></i>16tel-Finale</span><span><i style="background:var(--zone2)"></i>Zwischenrunde</span><span>Sortierung: Punkte, dann erzielte Kickbase-Punkte</span></div></section><section class="flaeche spieler">' + d + "</section></div>";
     return h + pokalFuss(p);
   }
 
@@ -526,7 +537,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
     var s = zustand.pokalSort || "pkt", f = POKAL_SORT[s] || POKAL_SORT.pkt;
     alle.sort(function (a, b) { var x = f(a), y = f(b); return (y[0] - x[0]) || (y[1] - x[1]) || a.name.localeCompare(b.name); });
     var th = function (k, txt) { return '<th class="sortierbar" data-psort="' + k + '" aria-sort="' + (s === k ? "descending" : "none") + '">' + txt + "</th>"; };
-    var t = '<section class="flaeche"><div class="kopfzeile"><h2>Gesamtranking</h2><span class="pill muted">nach Spieltag ' + (p.akt || 0) + '</span></div><div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Gruppe</th>' +
+    var t = '<section class="flaeche"><div class="kopfzeile"><h2>Gesamtranking</h2>' + nachSt(p.vorl || p.akt || 0, p.vorl) + '</div><div class="tab-scroll"><table><thead><tr><th>Pl.</th><th>Manager</th><th>Gruppe</th>' +
       th("sp", "Sp.") + "<th>S-U-N</th>" + th("plus", "Punkte KB") + th("diff", "Diff") + th("pkt", "Pkt.") + "</tr></thead><tbody>";
     alle.forEach(function (z, i) {
       var zusatz = z.inaktiv ? ' <span class="pill bad">ausgeschlossen</span>' : "";
@@ -608,7 +619,7 @@ footer { color: var(--muted); font-size: 12.5px; padding-block: 0 30px; }
         var fav = (p.favoriten || {})[name] || [];
         h += '<section class="flaeche"><div class="kopfzeile"><h2>Pokal · Gruppe ' + esc(g) + '</h2><span class="pill muted">Platz ' + zeile.platz + " · " + zeile.pkt + " Pkt.</span></div>" +
           '<div class="raster"><div class="tab-scroll"><table><thead><tr><th>ST</th><th>Gegner</th><th>Ergebnis</th></tr></thead><tbody>' +
-          spiele.filter(function (x) { return x.st <= p.akt; }).map(function (x) {
+          spiele.filter(function (x) { return x.st <= (p.vorl || p.akt); }).map(function (x) {
             if (x.frei) return "<tr><td>" + x.st + '</td><td colspan="2" class="leer" style="text-align:left">spielfrei</td></tr>';
             var heim = x.e.heim === name, ich = heim ? x.e.a : x.e.b, er = heim ? x.e.b : x.e.a, geg = heim ? x.e.gast : x.e.heim;
             var farbe = ich == null || er == null ? "" : ich > er ? "var(--ok)" : ich < er ? "var(--bad)" : "var(--muted)";
