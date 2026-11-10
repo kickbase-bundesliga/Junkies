@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-10T01:41:36Z",
+ "abgerufen": "2026-11-10T13:52:42Z",
  "kader": {
   "338218": [
    {
@@ -56,11 +56,6 @@
     "id": "9642",
     "name": "Matsima",
     "marktwert": 17652895
-   },
-   {
-    "id": "10113",
-    "name": "Gomis",
-    "marktwert": 13523387
    },
    {
     "id": "1553",
@@ -138,6 +133,11 @@
     "id": "2300",
     "name": "Stanišić",
     "marktwert": 14629148
+   },
+   {
+    "id": "2803",
+    "name": "Lemperle",
+    "marktwert": 7687954
    }
   ],
   "730586": [
@@ -224,11 +224,6 @@
     "marktwert": 17296084
    },
    {
-    "id": "2015",
-    "name": "Obermair",
-    "marktwert": 9881348
-   },
-   {
     "id": "8247",
     "name": "Hendriks",
     "marktwert": 10512903
@@ -267,6 +262,11 @@
     "id": "12367",
     "name": "Spalt",
     "marktwert": 3113423
+   },
+   {
+    "id": "10115",
+    "name": "Svensson",
+    "marktwert": 21712424
    }
   ],
   "1408411": [
@@ -324,6 +324,11 @@
     "id": "8222",
     "name": "Sylla",
     "marktwert": 1871484
+   },
+   {
+    "id": "2275",
+    "name": "Baumgartner",
+    "marktwert": 13817543
    }
   ],
   "1450470": [
@@ -383,11 +388,6 @@
     "marktwert": 40863251
    },
    {
-    "id": "8381",
-    "name": "Burcu",
-    "marktwert": 2526321
-   },
-   {
     "id": "13448",
     "name": "Aouchiche",
     "marktwert": 7773288
@@ -398,9 +398,9 @@
     "marktwert": 683187
    },
    {
-    "id": "1865",
-    "name": "Poulsen",
-    "marktwert": 4431151
+    "id": "1689",
+    "name": "Henrichs",
+    "marktwert": 8603197
    }
   ],
   "1622434": [
@@ -463,6 +463,16 @@
     "id": "10120",
     "name": "Røssing-Lelesiit",
     "marktwert": 1770128
+   },
+   {
+    "id": "3209",
+    "name": "Engelhardt",
+    "marktwert": 15032832
+   },
+   {
+    "id": "10134",
+    "name": "Schmetgens",
+    "marktwert": 4515743
    }
   ],
   "1677028": [
@@ -673,11 +683,6 @@
     "marktwert": 8246789
    },
    {
-    "id": "2395",
-    "name": "Ryerson",
-    "marktwert": 17125793
-   },
-   {
     "id": "11161",
     "name": "Machida",
     "marktwert": 11379379
@@ -854,11 +859,6 @@
     "marktwert": 36620857
    },
    {
-    "id": "2279",
-    "name": "Rönnow",
-    "marktwert": 9859883
-   },
-   {
     "id": "2172",
     "name": "Führich",
     "marktwert": 20842331
@@ -877,6 +877,11 @@
     "id": "1664",
     "name": "Mittelstädt",
     "marktwert": 30418593
+   },
+   {
+    "id": "357",
+    "name": "Grahl",
+    "marktwert": 500000
    }
   ],
   "2729462": [

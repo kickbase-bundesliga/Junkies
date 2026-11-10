@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-10T01:47:26Z",
+ "abgerufen": "2026-11-10T13:58:36Z",
  "kader": {
   "418331": [
    {
@@ -378,11 +378,6 @@
     "marktwert": 22021004
    },
    {
-    "id": "118",
-    "name": "Grifo",
-    "marktwert": 5219301
-   },
-   {
     "id": "7417",
     "name": "Aséko",
     "marktwert": 10002301
@@ -396,11 +391,6 @@
     "id": "577",
     "name": "Batz",
     "marktwert": 3738843
-   },
-   {
-    "id": "14896",
-    "name": "Koné",
-    "marktwert": 4010323
    },
    {
     "id": "2855",
@@ -587,6 +577,11 @@
     "id": "12367",
     "name": "Spalt",
     "marktwert": 3113423
+   },
+   {
+    "id": "10120",
+    "name": "Røssing-Lelesiit",
+    "marktwert": 1770128
    }
   ],
   "1667851": [
@@ -1015,11 +1010,6 @@
   ],
   "2755846": [
    {
-    "id": "49",
-    "name": "Ginter",
-    "marktwert": 28850188
-   },
-   {
     "id": "3543",
     "name": "Brown",
     "marktwert": 19741083
@@ -1060,19 +1050,9 @@
     "marktwert": 19956706
    },
    {
-    "id": "9776",
-    "name": "Maksimović",
-    "marktwert": 4766111
-   },
-   {
     "id": "13479",
     "name": "Ogundu",
     "marktwert": 744285
-   },
-   {
-    "id": "2491",
-    "name": "Skarke",
-    "marktwert": 3790814
    },
    {
     "id": "3228",
@@ -1082,6 +1062,11 @@
    {
     "id": "16945",
     "name": "Dallinga",
+    "marktwert": 500000
+   },
+   {
+    "id": "157",
+    "name": "Stark",
     "marktwert": 500000
    }
   ]

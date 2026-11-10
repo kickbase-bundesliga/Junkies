@@ -10012,6 +10012,20 @@
    "art": 1,
    "preis": 2837455,
    "zeit": "2026-11-09T02:50:31Z"
+  },
+  {
+   "spieler_id": "118",
+   "spieler": "Grifo",
+   "art": 2,
+   "preis": 5219301,
+   "zeit": "2026-11-10T03:33:19Z"
+  },
+  {
+   "spieler_id": "14896",
+   "spieler": "Koné",
+   "art": 2,
+   "preis": 4010323,
+   "zeit": "2026-11-10T03:33:04Z"
   }
  ],
  "1502756": [
@@ -12475,6 +12489,13 @@
    "art": 2,
    "preis": 10512903,
    "zeit": "2026-11-09T21:12:08Z"
+  },
+  {
+   "spieler_id": "10120",
+   "spieler": "Røssing-Lelesiit",
+   "art": 1,
+   "preis": 3300000,
+   "zeit": "2026-11-10T07:15:08Z"
   }
  ],
  "1667851": [
@@ -22116,6 +22137,48 @@
    "art": 1,
    "preis": 525033,
    "zeit": "2026-11-07T04:14:15Z"
+  },
+  {
+   "spieler_id": "2491",
+   "spieler": "Skarke",
+   "art": 2,
+   "preis": 3790814,
+   "zeit": "2026-11-10T07:41:36Z"
+  },
+  {
+   "spieler_id": "9776",
+   "spieler": "Maksimović",
+   "art": 2,
+   "preis": 4766111,
+   "zeit": "2026-11-10T07:41:29Z"
+  },
+  {
+   "spieler_id": "2852",
+   "spieler": "Philipp",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-11-10T07:41:00Z"
+  },
+  {
+   "spieler_id": "157",
+   "spieler": "Stark",
+   "art": 1,
+   "preis": 500000,
+   "zeit": "2026-11-10T07:36:54Z"
+  },
+  {
+   "spieler_id": "49",
+   "spieler": "Ginter",
+   "art": 2,
+   "preis": 28850188,
+   "zeit": "2026-11-10T07:16:34Z"
+  },
+  {
+   "spieler_id": "2852",
+   "spieler": "Philipp",
+   "art": 1,
+   "preis": 500000,
+   "zeit": "2026-11-10T04:27:07Z"
   }
  ]
 }

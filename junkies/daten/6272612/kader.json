@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-10T01:44:25Z",
+ "abgerufen": "2026-11-10T13:55:33Z",
  "kader": {
   "769136": [
    {
@@ -247,6 +247,11 @@
     "id": "6668",
     "name": "Minjae",
     "marktwert": 12734652
+   },
+   {
+    "id": "2552",
+    "name": "Bülter",
+    "marktwert": 7647436
    }
   ],
   "1406025": [
@@ -319,6 +324,16 @@
     "id": "2967",
     "name": "El-Faouzi",
     "marktwert": 5315727
+   },
+   {
+    "id": "2065",
+    "name": "Uduokhai",
+    "marktwert": 4795794
+   },
+   {
+    "id": "8301",
+    "name": "Sirch",
+    "marktwert": 5985556
    }
   ],
   "1576400": [
@@ -381,6 +396,11 @@
     "id": "2846",
     "name": "Tillman",
     "marktwert": 6519926
+   },
+   {
+    "id": "9754",
+    "name": "Bah",
+    "marktwert": 3032915
    }
   ],
   "1623645": [
@@ -470,11 +490,6 @@
     "id": "2038",
     "name": "Laimer",
     "marktwert": 24808954
-   },
-   {
-    "id": "15301",
-    "name": "Gray",
-    "marktwert": 2954205
    },
    {
     "id": "14300",
@@ -939,6 +954,16 @@
     "id": "3453",
     "name": "Köhn",
     "marktwert": 2937906
+   },
+   {
+    "id": "3209",
+    "name": "Engelhardt",
+    "marktwert": 15032832
+   },
+   {
+    "id": "7543",
+    "name": "Moerstedt",
+    "marktwert": 529390
    }
   ]
  }
