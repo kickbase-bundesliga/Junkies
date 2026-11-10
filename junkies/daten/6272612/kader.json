@@ -1,185 +1,180 @@
 {
- "abgerufen": "2026-11-09T14:31:28Z",
+ "abgerufen": "2026-11-10T01:44:25Z",
  "kader": {
   "769136": [
    {
     "id": "8227",
     "name": "Vandevoordt",
-    "marktwert": 19866074
+    "marktwert": 19956706
    },
    {
     "id": "17288",
     "name": "Regeer",
-    "marktwert": 15047872
+    "marktwert": 15229158
    },
    {
     "id": "2084",
     "name": "Lienhart",
-    "marktwert": 19656094
+    "marktwert": 19747815
    },
    {
     "id": "3069",
     "name": "Nmecha",
-    "marktwert": 29292588
+    "marktwert": 29382711
    },
    {
     "id": "3281",
     "name": "Reis",
-    "marktwert": 12750563
+    "marktwert": 12902574
    },
    {
     "id": "2247",
     "name": "Sosa",
-    "marktwert": 11126574
+    "marktwert": 11164517
    },
    {
     "id": "2854",
     "name": "Demirović",
-    "marktwert": 15877844
+    "marktwert": 16064758
    },
    {
     "id": "4596",
     "name": "Gruda",
-    "marktwert": 19623870
+    "marktwert": 19864834
    },
    {
     "id": "10114",
     "name": "Chukwuemeka",
-    "marktwert": 6971585
+    "marktwert": 7155256
    },
    {
     "id": "1991",
     "name": "Upamecano",
-    "marktwert": 32205942
+    "marktwert": 32328194
    },
    {
     "id": "10024",
     "name": "Schmied",
-    "marktwert": 3853560
+    "marktwert": 4293855
    },
    {
     "id": "11631",
     "name": "Burger",
-    "marktwert": 17531101
+    "marktwert": 17774954
    },
    {
     "id": "8273",
     "name": "El Mala",
-    "marktwert": 2691488
+    "marktwert": 2946853
    },
    {
     "id": "15193",
     "name": "Rots",
-    "marktwert": 8716528
+    "marktwert": 8972941
    },
    {
     "id": "7158",
     "name": "Undav",
-    "marktwert": 28846853
+    "marktwert": 28897978
    },
    {
     "id": "2074",
     "name": "Hack",
-    "marktwert": 6420873
+    "marktwert": 6787841
    }
   ],
   "915846": [
    {
     "id": "3218",
     "name": "Backhaus",
-    "marktwert": 10926200
+    "marktwert": 10989876
    },
    {
     "id": "11010",
     "name": "Diks",
-    "marktwert": 7623394
+    "marktwert": 7659777
    },
    {
     "id": "2255",
     "name": "Burkardt",
-    "marktwert": 27195090
+    "marktwert": 27251475
    },
    {
     "id": "8274",
     "name": "El Mala",
-    "marktwert": 22057245
+    "marktwert": 21849752
    },
    {
     "id": "4335",
     "name": "Scherhant",
-    "marktwert": 20628514
+    "marktwert": 20866866
    },
    {
     "id": "2141",
     "name": "Baku",
-    "marktwert": 16631073
+    "marktwert": 16658406
    },
    {
     "id": "3350",
     "name": "Keidel",
-    "marktwert": 10836647
+    "marktwert": 11053621
    },
    {
     "id": "2887",
     "name": "Dōan",
-    "marktwert": 17247359
+    "marktwert": 16790545
    },
    {
     "id": "9698",
     "name": "Fábio Silva",
-    "marktwert": 11413096
+    "marktwert": 11681447
    },
    {
     "id": "17306",
     "name": "Imeri",
-    "marktwert": 2707293
-   },
-   {
-    "id": "11008",
-    "name": "Banzuzi",
-    "marktwert": 12275625
+    "marktwert": 2954810
    }
   ],
   "1233547": [
    {
     "id": "7226",
     "name": "Kane",
-    "marktwert": 65654951
+    "marktwert": 65687732
    },
    {
     "id": "11162",
     "name": "Avdullahu",
-    "marktwert": 14699347
+    "marktwert": 14788017
    },
    {
     "id": "2172",
     "name": "Führich",
-    "marktwert": 20748801
+    "marktwert": 20842331
    },
    {
     "id": "2804",
     "name": "Musiala",
-    "marktwert": 21806399
+    "marktwert": 22021004
    },
    {
     "id": "14917",
     "name": "Van den Bosch",
-    "marktwert": 6465838
+    "marktwert": 6153800
    },
    {
     "id": "10004",
     "name": "Ebnoutalib",
-    "marktwert": 23394845
+    "marktwert": 23468950
    },
    {
     "id": "1704",
     "name": "Anton",
-    "marktwert": 36582468
+    "marktwert": 36620857
    },
    {
     "id": "6085",
     "name": "Seimen",
-    "marktwert": 11985781
+    "marktwert": 12006705
    },
    {
     "id": "1745",
@@ -189,478 +184,473 @@
    {
     "id": "10134",
     "name": "Schmetgens",
-    "marktwert": 4178501
+    "marktwert": 4515743
    },
    {
     "id": "10916",
     "name": "Ayhan",
-    "marktwert": 2641822
+    "marktwert": 3081973
    }
   ],
   "1371179": [
    {
     "id": "4199",
     "name": "García",
-    "marktwert": 39364530
+    "marktwert": 39415651
    },
    {
     "id": "2015",
     "name": "Obermair",
-    "marktwert": 9669802
+    "marktwert": 9881348
    },
    {
     "id": "2395",
     "name": "Ryerson",
-    "marktwert": 17120558
+    "marktwert": 17125793
    },
    {
     "id": "3120",
     "name": "Bischof",
-    "marktwert": 19471841
+    "marktwert": 19562006
    },
    {
     "id": "3336",
     "name": "Marino",
-    "marktwert": 7600501
+    "marktwert": 7067924
    },
    {
     "id": "7278",
     "name": "Poreba",
-    "marktwert": 9947042
+    "marktwert": 9716094
    },
    {
     "id": "11665",
     "name": "Potulski",
-    "marktwert": 9959807
+    "marktwert": 9753517
    },
    {
     "id": "1873",
     "name": "Kobel",
-    "marktwert": 19009317
+    "marktwert": 19102889
    },
    {
     "id": "3029",
     "name": "Ljubičić",
-    "marktwert": 4217742
+    "marktwert": 4541171
    },
    {
     "id": "3026",
     "name": "Günther",
-    "marktwert": 7829614
+    "marktwert": 7445704
    },
    {
     "id": "6668",
     "name": "Minjae",
-    "marktwert": 12541403
+    "marktwert": 12734652
    }
   ],
   "1406025": [
    {
     "id": "9507",
     "name": "Nusa",
-    "marktwert": 31448818
+    "marktwert": 31561609
    },
    {
     "id": "2373",
     "name": "Kabak",
-    "marktwert": 21341659
+    "marktwert": 21561782
    },
    {
     "id": "2383",
     "name": "Schlotterbeck",
-    "marktwert": 31114952
+    "marktwert": 31226879
    },
    {
     "id": "3759",
     "name": "Gutiérrez",
-    "marktwert": 27724140
+    "marktwert": 27770426
    },
    {
     "id": "9605",
     "name": "Grønbæk",
-    "marktwert": 8553841
+    "marktwert": 8912653
    },
    {
     "id": "9995",
     "name": "Mokwa",
-    "marktwert": 7978974
+    "marktwert": 8246789
    },
    {
     "id": "2988",
     "name": "Leweling",
-    "marktwert": 13555086
+    "marktwert": 13595453
    },
    {
     "id": "2977",
     "name": "Noll",
-    "marktwert": 16155523
+    "marktwert": 16219493
    },
    {
     "id": "1689",
     "name": "Henrichs",
-    "marktwert": 8295275
+    "marktwert": 8603197
    },
    {
     "id": "14048",
     "name": "Goto",
-    "marktwert": 4744561
+    "marktwert": 4862933
    },
    {
     "id": "3089",
     "name": "Ito",
-    "marktwert": 2163336
+    "marktwert": 2590259
    },
    {
     "id": "2939",
     "name": "Dinkçi",
-    "marktwert": 8547546
+    "marktwert": 8845773
    },
    {
     "id": "1811",
     "name": "Gouweleeuw",
-    "marktwert": 7907794
+    "marktwert": 8201014
+   },
+   {
+    "id": "2967",
+    "name": "El-Faouzi",
+    "marktwert": 5315727
    }
   ],
   "1576400": [
    {
     "id": "2522",
     "name": "Raum",
-    "marktwert": 30248574
+    "marktwert": 30337730
    },
    {
     "id": "2928",
     "name": "Petkov",
-    "marktwert": 12852068
+    "marktwert": 12925584
    },
    {
     "id": "7963",
     "name": "Quansah",
-    "marktwert": 19307092
+    "marktwert": 19358751
    },
    {
     "id": "8292",
     "name": "Castañeda",
-    "marktwert": 13509524
-   },
-   {
-    "id": "10789",
-    "name": "Karl",
-    "marktwert": 16767959
+    "marktwert": 13679972
    },
    {
     "id": "11099",
     "name": "Bellingham",
-    "marktwert": 18791888
+    "marktwert": 18954376
    },
    {
     "id": "72",
     "name": "Flekken",
-    "marktwert": 9947533
+    "marktwert": 10032477
    },
    {
     "id": "11748",
     "name": "Mohya",
-    "marktwert": 10952962
+    "marktwert": 11194863
    },
    {
     "id": "1664",
     "name": "Mittelstädt",
-    "marktwert": 30298291
+    "marktwert": 30418593
    },
    {
     "id": "8367",
     "name": "Sambi Lokonga",
-    "marktwert": 5460474
+    "marktwert": 5787007
    },
    {
     "id": "3228",
     "name": "Njinmah",
-    "marktwert": 2371212
+    "marktwert": 2842445
    },
    {
     "id": "670",
     "name": "Karaman",
-    "marktwert": 5455938
+    "marktwert": 5780062
    },
    {
     "id": "2846",
     "name": "Tillman",
-    "marktwert": 6337657
+    "marktwert": 6519926
    }
   ],
   "1623645": [
    {
     "id": "2366",
     "name": "Davies",
-    "marktwert": 23764430
+    "marktwert": 23843370
    },
    {
     "id": "3019",
     "name": "Atubolu",
-    "marktwert": 14384899
+    "marktwert": 14433065
    },
    {
     "id": "1815",
     "name": "Kramarić",
-    "marktwert": 8944337
+    "marktwert": 9219335
    },
    {
     "id": "7277",
     "name": "Chaïbi",
-    "marktwert": 10634264
+    "marktwert": 10852831
    },
    {
     "id": "493",
     "name": "Gregoritsch",
-    "marktwert": 15838283
+    "marktwert": 15894596
    },
    {
     "id": "7320",
     "name": "Scheller",
-    "marktwert": 10812082
+    "marktwert": 10782836
    },
    {
     "id": "11956",
     "name": "Fernández",
-    "marktwert": 15759276
+    "marktwert": 15907812
    },
    {
     "id": "3284",
     "name": "Rohr",
-    "marktwert": 16265727
+    "marktwert": 16370743
    },
    {
     "id": "15472",
     "name": "Daka",
-    "marktwert": 3749481
+    "marktwert": 4144406
    },
    {
     "id": "12367",
     "name": "Spalt",
-    "marktwert": 2571249
+    "marktwert": 3113423
    }
   ],
   "1684680": [
    {
     "id": "2646",
     "name": "Becker",
-    "marktwert": 19006036
+    "marktwert": 18464824
    },
    {
     "id": "1685",
     "name": "Kimmich",
-    "marktwert": 60105937
+    "marktwert": 60134484
    },
    {
     "id": "8307",
     "name": "Sano",
-    "marktwert": 21737014
+    "marktwert": 21198355
    },
    {
     "id": "32",
     "name": "Karius",
-    "marktwert": 16648135
+    "marktwert": 16724497
    },
    {
     "id": "2746",
     "name": "Schick",
-    "marktwert": 32807248
-   },
-   {
-    "id": "3158",
-    "name": "Asllani",
-    "marktwert": 16492208
+    "marktwert": 32909377
    },
    {
     "id": "7224",
     "name": "Castello Jr.",
-    "marktwert": 17607610
+    "marktwert": 17707257
    },
    {
     "id": "2038",
     "name": "Laimer",
-    "marktwert": 24584650
+    "marktwert": 24808954
    },
    {
     "id": "15301",
     "name": "Gray",
-    "marktwert": 3059462
+    "marktwert": 2954205
    },
    {
     "id": "14300",
     "name": "Okon-Engstler",
-    "marktwert": 4265156
+    "marktwert": 4693491
    },
    {
     "id": "3041",
     "name": "Widmer",
-    "marktwert": 2192524
+    "marktwert": 2695983
    },
    {
     "id": "2941",
     "name": "Scally",
-    "marktwert": 9536140
+    "marktwert": 9821620
    },
    {
     "id": "7737",
     "name": "Veerman",
-    "marktwert": 14699865
+    "marktwert": 14927669
+   },
+   {
+    "id": "1856",
+    "name": "Sabitzer",
+    "marktwert": 4923087
+   },
+   {
+    "id": "15202",
+    "name": "Uno",
+    "marktwert": 4120084
    }
   ],
   "1688417": [
    {
     "id": "608",
     "name": "Füllkrug",
-    "marktwert": 23177869
+    "marktwert": 23400153
    },
    {
     "id": "7721",
     "name": "Grüll",
-    "marktwert": 19292894
+    "marktwert": 19355559
    },
    {
     "id": "7215",
     "name": "Makengo",
-    "marktwert": 17212363
+    "marktwert": 17296084
    },
    {
     "id": "6197",
     "name": "Curda",
-    "marktwert": 11795807
-   },
-   {
-    "id": "3187",
-    "name": "Schäfer",
-    "marktwert": 7864054
+    "marktwert": 11456984
    },
    {
     "id": "10115",
     "name": "Svensson",
-    "marktwert": 21664716
-   },
-   {
-    "id": "1645",
-    "name": "Eggestein",
-    "marktwert": 22153290
+    "marktwert": 21712424
    },
    {
     "id": "3204",
     "name": "Conté",
-    "marktwert": 13780443
+    "marktwert": 13698091
    },
    {
     "id": "8247",
     "name": "Hendriks",
-    "marktwert": 10447886
+    "marktwert": 10512903
    },
    {
     "id": "3470",
     "name": "Caci",
-    "marktwert": 15514471
+    "marktwert": 15615305
    },
    {
     "id": "16378",
     "name": "Karetsas",
-    "marktwert": 18565933
+    "marktwert": 18846989
    },
    {
     "id": "6160",
     "name": "Kristof",
-    "marktwert": 12067358
+    "marktwert": 12123033
    },
    {
     "id": "1223",
     "name": "Friedrich",
-    "marktwert": 2717084
+    "marktwert": 3211266
    }
   ],
   "1923586": [
    {
     "id": "1863",
     "name": "Heuer Fernandes",
-    "marktwert": 12189734
+    "marktwert": 12294394
    },
    {
     "id": "3543",
     "name": "Brown",
-    "marktwert": 19543024
+    "marktwert": 19741083
    },
    {
     "id": "15376",
     "name": "Estève",
-    "marktwert": 5036388
+    "marktwert": 4767870
    },
    {
     "id": "14241",
     "name": "Medina",
-    "marktwert": 17495603
+    "marktwert": 17524945
    },
    {
     "id": "11161",
     "name": "Machida",
-    "marktwert": 11132586
+    "marktwert": 11379379
    },
    {
     "id": "13448",
     "name": "Aouchiche",
-    "marktwert": 7830955
+    "marktwert": 7773288
    },
    {
     "id": "7269",
     "name": "Tella",
-    "marktwert": 4899456
+    "marktwert": 4750516
    },
    {
     "id": "2120",
     "name": "Nartey",
-    "marktwert": 3415159
+    "marktwert": 3817340
    },
    {
     "id": "7676",
     "name": "Rieder",
-    "marktwert": 23329012
+    "marktwert": 23435296
    },
    {
     "id": "1257",
     "name": "Kübler",
-    "marktwert": 3830453
+    "marktwert": 3711448
    },
    {
     "id": "3318",
     "name": "Königsdörffer",
-    "marktwert": 2883774
+    "marktwert": 2863161
    },
    {
     "id": "2862",
     "name": "Castrop",
-    "marktwert": 4062650
+    "marktwert": 3972669
    },
    {
     "id": "7167",
     "name": "Lynen",
-    "marktwert": 2865555
+    "marktwert": 3241021
    },
    {
     "id": "15529",
     "name": "Ilicevic",
-    "marktwert": 2031621
+    "marktwert": 2417483
    }
   ],
   "2171487": [
    {
     "id": "3183",
     "name": "Kade",
-    "marktwert": 13215343
+    "marktwert": 12989055
    },
    {
     "id": "8329",
     "name": "Olise",
-    "marktwert": 65496050
+    "marktwert": 65537371
    },
    {
     "id": "6292",
     "name": "Hansen",
-    "marktwert": 8711613
+    "marktwert": 9066558
    },
    {
     "id": "10106",
@@ -670,7 +660,7 @@
    {
     "id": "7441",
     "name": "Campbell",
-    "marktwert": 5613319
+    "marktwert": 5211046
    },
    {
     "id": "10131",
@@ -680,7 +670,7 @@
    {
     "id": "4598",
     "name": "Juranović",
-    "marktwert": 4097214
+    "marktwert": 3995850
    },
    {
     "id": "13449",
@@ -695,7 +685,7 @@
    {
     "id": "3072",
     "name": "Urbig",
-    "marktwert": 7778037
+    "marktwert": 8014692
    },
    {
     "id": "11666",
@@ -705,59 +695,59 @@
    {
     "id": "3277",
     "name": "Muheim",
-    "marktwert": 10507702
+    "marktwert": 10675810
    },
    {
     "id": "1580",
     "name": "Schwäbe",
-    "marktwert": 13459968
+    "marktwert": 13511761
    }
   ],
   "2664047": [
    {
     "id": "6081",
     "name": "Uzun",
-    "marktwert": 24859562
+    "marktwert": 25047004
    },
    {
     "id": "6061",
     "name": "Maza",
-    "marktwert": 33381316
+    "marktwert": 33497485
    },
    {
     "id": "1246",
     "name": "Orban",
-    "marktwert": 30640558
+    "marktwert": 30689107
    },
    {
     "id": "3027",
     "name": "Pieringer",
-    "marktwert": 3000648
+    "marktwert": 3161259
    },
    {
     "id": "1671",
     "name": "Prömel",
-    "marktwert": 11183296
+    "marktwert": 11415931
    },
    {
     "id": "11570",
     "name": "Sebulonsen",
-    "marktwert": 4424754
+    "marktwert": 4316508
    },
    {
     "id": "14249",
     "name": "El Aynaoui",
-    "marktwert": 16498867
+    "marktwert": 16708125
    },
    {
     "id": "1540",
     "name": "Da Costa",
-    "marktwert": 6355809
+    "marktwert": 6054505
    },
    {
     "id": "2765",
     "name": "Thielmann",
-    "marktwert": 566752
+    "marktwert": 500000
    },
    {
     "id": "2536",
@@ -767,34 +757,34 @@
    {
     "id": "10049",
     "name": "Behrens",
-    "marktwert": 14423442
+    "marktwert": 14471947
    }
   ],
   "2669371": [
    {
     "id": "1639",
     "name": "Amiri",
-    "marktwert": 29242637
+    "marktwert": 28894497
    },
    {
     "id": "2279",
     "name": "Rönnow",
-    "marktwert": 9966786
+    "marktwert": 9859883
    },
    {
     "id": "3304",
     "name": "Matanović",
-    "marktwert": 26898214
+    "marktwert": 26956208
    },
    {
     "id": "2125",
     "name": "Beste",
-    "marktwert": 12346200
+    "marktwert": 12526930
    },
    {
     "id": "17285",
     "name": "Brassier",
-    "marktwert": 18220201
+    "marktwert": 18293626
    },
    {
     "id": "7257",
@@ -804,54 +794,54 @@
    {
     "id": "11959",
     "name": "Daghim",
-    "marktwert": 16121648
+    "marktwert": 16337332
    },
    {
     "id": "9642",
     "name": "Matsima",
-    "marktwert": 17600423
+    "marktwert": 17652895
    },
    {
     "id": "14256",
     "name": "El Ouahdi",
-    "marktwert": 5218332
+    "marktwert": 5416538
    },
    {
     "id": "15283",
     "name": "Adeline",
-    "marktwert": 3792839
+    "marktwert": 4038843
    },
    {
     "id": "8252",
     "name": "Krattenmacher",
-    "marktwert": 10687977
+    "marktwert": 10699043
    }
   ],
   "2912849": [
    {
     "id": "2030",
     "name": "Tietz",
-    "marktwert": 22819058
+    "marktwert": 22827269
    },
    {
     "id": "6080",
     "name": "Pavlović",
-    "marktwert": 37516856
+    "marktwert": 37582987
    },
    {
     "id": "6174",
     "name": "Arthur",
-    "marktwert": 11167883
+    "marktwert": 11348934
    },
    {
     "id": "2783",
     "name": "Tapsoba",
-    "marktwert": 27237168
+    "marktwert": 27256305
    },
    {
     "id": "2358",
     "name": "Krauß",
-    "marktwert": 8340645
+    "marktwert": 8096002
    },
    {
     "id": "3419",
@@ -861,79 +851,79 @@
    {
     "id": "524",
     "name": "Baumann",
-    "marktwert": 11649406
+    "marktwert": 11688935
    },
    {
     "id": "16369",
     "name": "Onyedika",
-    "marktwert": 11151498
+    "marktwert": 11275580
    },
    {
     "id": "1996",
     "name": "Friedl",
-    "marktwert": 16256226
+    "marktwert": 16342481
    },
    {
     "id": "8277",
     "name": "Becker",
-    "marktwert": 4341125
+    "marktwert": 4723483
    },
    {
     "id": "8351",
     "name": "Højlund",
-    "marktwert": 542314
+    "marktwert": 764184
    }
   ],
   "3250420": [
    {
     "id": "9513",
     "name": "Hein",
-    "marktwert": 13546116
+    "marktwert": 13663148
    },
    {
     "id": "15211",
     "name": "Gadou",
-    "marktwert": 24556715
+    "marktwert": 24625327
    },
    {
     "id": "12321",
     "name": "Simpson-Pusey",
-    "marktwert": 11913963
+    "marktwert": 11976601
    },
    {
     "id": "11886",
     "name": "Rômulo",
-    "marktwert": 15601880
+    "marktwert": 15838416
    },
    {
     "id": "11006",
     "name": "Suzuki",
-    "marktwert": 19659227
+    "marktwert": 19728948
    },
    {
     "id": "2144",
     "name": "Koch",
-    "marktwert": 25187090
+    "marktwert": 24865374
    },
    {
     "id": "7417",
     "name": "Aséko",
-    "marktwert": 9821533
+    "marktwert": 10002301
    },
    {
     "id": "11949",
     "name": "Nandja",
-    "marktwert": 4342435
+    "marktwert": 4709304
    },
    {
     "id": "11675",
     "name": "Díaz",
-    "marktwert": 40710562
+    "marktwert": 40863251
    },
    {
     "id": "17203",
     "name": "Moffi",
-    "marktwert": 5687349
+    "marktwert": 6027177
    },
    {
     "id": "89",
@@ -943,12 +933,12 @@
    {
     "id": "2275",
     "name": "Baumgartner",
-    "marktwert": 13618495
+    "marktwert": 13817543
    },
    {
     "id": "3453",
     "name": "Köhn",
-    "marktwert": 2503929
+    "marktwert": 2937906
    }
   ]
  }
