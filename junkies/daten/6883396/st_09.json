@@ -2,7 +2,7 @@
  "liga": "6883396",
  "spieltag": 9,
  "fertig": true,
- "abgerufen": "2026-11-10T14:00:04Z",
+ "abgerufen": "2026-11-10T23:40:25Z",
  "letzter_anstoss": "2026-11-08T18:30:00Z",
  "manager": [
   {
@@ -103,7 +103,7 @@
    "punkte": 721,
    "gesamt": 6957,
    "platz": 13,
-   "st_platz": 15,
+   "st_platz": 14,
    "teamwert": 163791347.0,
    "aufstellung_ids": [
     "32",
@@ -117,29 +117,6 @@
     "7441",
     "1553",
     "2201"
-   ]
-  },
-  {
-   "id": "1487878",
-   "name": "Poeti",
-   "admin": false,
-   "punkte": 763,
-   "gesamt": 6593,
-   "platz": 15,
-   "st_platz": 14,
-   "teamwert": 170996379.0,
-   "aufstellung_ids": [
-    "524",
-    "11255",
-    "6197",
-    "8301",
-    "3089",
-    "2560",
-    "8252",
-    "1685",
-    "11099",
-    "12297",
-    "11959"
    ]
   },
   {
@@ -240,8 +217,8 @@
    "admin": true,
    "punkte": 0,
    "gesamt": 0,
-   "platz": 16,
-   "st_platz": 16,
+   "platz": 15,
+   "st_platz": 15,
    "teamwert": 0.0,
    "aufstellung_ids": []
   },
@@ -766,90 +743,6 @@
      "name": "Philippe",
      "verein": "29",
      "punkte": 1
-    }
-   ]
-  },
-  "1487878": {
-   "elf": [
-    {
-     "id": "524",
-     "name": "Baumann",
-     "verein": "14",
-     "punkte": 139
-    },
-    {
-     "id": "1685",
-     "name": "Kimmich",
-     "verein": "2",
-     "punkte": 277
-    },
-    {
-     "id": "2560",
-     "name": "Sander",
-     "verein": "15",
-     "punkte": 19
-    },
-    {
-     "id": "3089",
-     "name": "Ito",
-     "verein": "2",
-     "punkte": 14
-    },
-    {
-     "id": "6197",
-     "name": "Curda",
-     "verein": "29",
-     "punkte": 85
-    },
-    {
-     "id": "8252",
-     "name": "Krattenmacher",
-     "verein": "77",
-     "punkte": 5
-    },
-    {
-     "id": "8301",
-     "name": "Sirch",
-     "verein": "77",
-     "punkte": 23
-    },
-    {
-     "id": "11099",
-     "name": "Bellingham",
-     "verein": "3",
-     "punkte": 111
-    },
-    {
-     "id": "11255",
-     "name": "Katic",
-     "verein": "8",
-     "punkte": 46
-    },
-    {
-     "id": "11959",
-     "name": "Daghim",
-     "verein": "14",
-     "punkte": 23
-    },
-    {
-     "id": "12297",
-     "name": "Tanaka",
-     "verein": "8",
-     "punkte": 21
-    }
-   ],
-   "bank": [
-    {
-     "id": "8381",
-     "name": "Burcu",
-     "verein": "40",
-     "punkte": -14
-    },
-    {
-     "id": "11680",
-     "name": "Eichhorn",
-     "verein": "7",
-     "punkte": 0
     }
    ]
   },
