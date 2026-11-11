@@ -145,6 +145,16 @@ def mw_am(werte, tag):
     return werte[frueher[-1]] if frueher else None
 
 
+def mw_zur_zeit(werte, zeitpunkt_utc):
+    """Marktwert, der zu diesem Zeitpunkt gilt. Kickbase aendert die Marktwerte taeglich um 22 Uhr
+    (deutsche Zeit); der Verlaufseintrag mit Datum D ist der Wert, der ab D 22:00 gilt (geprueft an
+    Verkaeufen: Verkauf Di 22:52 = Eintrag Di, Verkauf Mi 21:00 = ebenfalls Eintrag Di).
+    Die Frist selbst (Di 22:00 bzw. Fr 20:00) zaehlt noch zum alten Wert -> eine Sekunde davor."""
+    lokal = nach_berlin(zeitpunkt_utc - dt.timedelta(seconds=1))
+    tag = lokal.date() if lokal.hour >= 22 else lokal.date() - dt.timedelta(days=1)
+    return mw_am(werte, tag)
+
+
 def strafe(preis, mw_frist, frist_utc, verkauf_utc, pro_tag):
     """MW-Gewinn ab Frist (nie negativ) + Gebuehr je weiteren angefangenen Tag."""
     spaet = verkauf_utc - frist_utc
@@ -228,7 +238,7 @@ def manager_abgabe(z, kandidaten, ctx, ersatzregel):
     if erster:
         if f and erster["_v"]["zeit"] > f:
             status = "zu_spaet"
-            mw = mw_am(ctx["mw"].get(erster["id"]), nach_berlin(f).date())
+            mw = mw_zur_zeit(ctx["mw"].get(erster["id"]), f)
             strafe_m = strafe(erster["preis"], mw, f, erster["_v"]["zeit"], ctx["pro_tag"])
             erster["strafe"] = strafe_m
             erster["status"] = "zu_spaet"
@@ -248,7 +258,7 @@ def manager_abgabe(z, kandidaten, ctx, ersatzregel):
             e["status"] = "bleibt" if erster else ("ueberfaellig" if status == "ueberfaellig" else "offen")
         if e["status"] == "ueberfaellig" and f:
             werte = ctx["mw"].get(e["id"]) or {}
-            mw_f = mw_am(werte, nach_berlin(f).date())
+            mw_f = mw_zur_zeit(werte, f)
             if werte and mw_f is not None:
                 e["mw_seit_frist"] = werte[max(werte)] - mw_f
         if status in ("zu_spaet", "ueberfaellig") and e["status"] in ("zu_spaet", "ueberfaellig"):
