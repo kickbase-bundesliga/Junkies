@@ -191,6 +191,20 @@ def marktwerte(api, lid, pid):
     return werte
 
 
+def behalten(alt, neu):
+    """Manager, die Kickbase nicht mehr liefert (aus der Liga ausgetreten oder entfernt), aus dem
+    bisherigen Stand uebernehmen - sonst fehlen z. B. in der KO-Liga die Punkte der Ausgeschiedenen."""
+    if not alt:
+        return
+    da = {m["id"] for m in neu["manager"]}
+    for m in alt.get("manager", []):
+        if m["id"] not in da:
+            neu["manager"].append(dict(m, ausgetreten=True))
+            auf = (alt.get("aufstellungen") or {}).get(m["id"])
+            if auf is not None and "aufstellungen" in neu:
+                neu["aufstellungen"].setdefault(m["id"], auf)
+
+
 # ---------------------------------------------------------------- Ablauf
 
 def liga_sammeln(api, liga, plan, admin_ids, alles):
@@ -217,6 +231,7 @@ def liga_sammeln(api, liga, plan, admin_ids, alles):
             for m in manager:
                 if not m["admin"]:
                     eintrag["aufstellungen"][m["id"]] = aufstellung(api, lid, m["id"], st)
+        behalten(alt, eintrag)
         schreiben(pfad, eintrag)
         geholt.append(st)
     print("  Spieltage geholt: %s" % (", ".join(map(str, geholt)) or "keine (alles aktuell)"))

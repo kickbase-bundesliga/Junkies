@@ -360,6 +360,42 @@
     "11513",
     "4296"
    ]
+  },
+  {
+   "id": "1458682",
+   "name": "Michelino ",
+   "admin": false,
+   "punkte": 499,
+   "gesamt": 1670,
+   "platz": 16,
+   "st_platz": 16,
+   "teamwert": 161703615.0,
+   "aufstellung_ids": [
+    "2977",
+    "8235",
+    "11949",
+    "17179",
+    "4199",
+    "17282",
+    "14914",
+    "16564",
+    "11006",
+    "11675",
+    "16945"
+   ],
+   "ausgetreten": true
+  },
+  {
+   "id": "1495180",
+   "name": "Niklaas",
+   "admin": false,
+   "punkte": 0,
+   "gesamt": 0,
+   "platz": 17,
+   "st_platz": 17,
+   "teamwert": null,
+   "aufstellung_ids": [],
+   "ausgetreten": true
   }
  ],
  "aufstellungen": {
