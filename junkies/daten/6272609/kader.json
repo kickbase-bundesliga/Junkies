@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-10T23:33:13Z",
+ "abgerufen": "2026-11-11T13:03:34Z",
  "kader": {
   "338218": [
    {
@@ -95,6 +95,11 @@
     "marktwert": 11192301
    },
    {
+    "id": "72",
+    "name": "Flekken",
+    "marktwert": 10108105
+   },
+   {
     "id": "2038",
     "name": "Laimer",
     "marktwert": 25045142
@@ -138,6 +143,11 @@
     "id": "2803",
     "name": "Lemperle",
     "marktwert": 8093975
+   },
+   {
+    "id": "849",
+    "name": "Kleindienst",
+    "marktwert": 5304354
    }
   ],
   "730586": [
@@ -205,6 +215,16 @@
     "id": "16948",
     "name": "Konstantelias",
     "marktwert": 765758
+   },
+   {
+    "id": "3228",
+    "name": "Njinmah",
+    "marktwert": 3305596
+   },
+   {
+    "id": "2120",
+    "name": "Nartey",
+    "marktwert": 4240700
    }
   ],
   "1165589": [
@@ -242,11 +262,6 @@
     "id": "2714",
     "name": "Beier",
     "marktwert": 22888407
-   },
-   {
-    "id": "72",
-    "name": "Flekken",
-    "marktwert": 10108105
    },
    {
     "id": "1645",
@@ -401,6 +416,11 @@
     "id": "1689",
     "name": "Henrichs",
     "marktwert": 8919388
+   },
+   {
+    "id": "8351",
+    "name": "Højlund",
+    "marktwert": 1148071
    }
   ],
   "1622434": [
@@ -530,6 +550,11 @@
     "id": "3183",
     "name": "Kade",
     "marktwert": 12990066
+   },
+   {
+    "id": "7167",
+    "name": "Lynen",
+    "marktwert": 3643885
    }
   ],
   "1703788": [
@@ -899,11 +924,6 @@
     "id": "4606",
     "name": "Kuruçay",
     "marktwert": 9538743
-   },
-   {
-    "id": "11006",
-    "name": "Suzuki",
-    "marktwert": 19813360
    },
    {
     "id": "14917",

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-10T23:35:59Z",
+ "abgerufen": "2026-11-11T13:06:23Z",
  "kader": {
   "769136": [
    {
@@ -185,6 +185,21 @@
     "id": "10916",
     "name": "Ayhan",
     "marktwert": 3534965
+   },
+   {
+    "id": "15502",
+    "name": "Binder",
+    "marktwert": 2465580
+   },
+   {
+    "id": "3176",
+    "name": "Ibrahimović",
+    "marktwert": 10994268
+   },
+   {
+    "id": "2661",
+    "name": "Diaby",
+    "marktwert": 15175769
    }
   ],
   "1371179": [
@@ -567,6 +582,11 @@
     "id": "1223",
     "name": "Friedrich",
     "marktwert": 3701943
+   },
+   {
+    "id": "2714",
+    "name": "Beier",
+    "marktwert": 22888407
    }
   ],
   "1923586": [

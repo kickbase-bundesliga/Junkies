@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-10T23:30:43Z",
+ "abgerufen": "2026-11-11T13:01:01Z",
  "kader": {
   "202239": [
    {
@@ -123,6 +123,16 @@
     "id": "3026",
     "name": "Günther",
     "marktwert": 7156193
+   },
+   {
+    "id": "2939",
+    "name": "Dinkçi",
+    "marktwert": 9174531
+   },
+   {
+    "id": "7282",
+    "name": "Deman",
+    "marktwert": 9075454
    }
   ],
   "1027810": [
@@ -257,6 +267,11 @@
     "id": "17306",
     "name": "Imeri",
     "marktwert": 3323242
+   },
+   {
+    "id": "10113",
+    "name": "Gomis",
+    "marktwert": 13756157
    }
   ],
   "1451237": [
@@ -753,6 +768,11 @@
     "id": "4606",
     "name": "Kuruçay",
     "marktwert": 9538743
+   },
+   {
+    "id": "2068",
+    "name": "Zagadou",
+    "marktwert": 639415
    }
   ],
   "2555651": [
@@ -795,11 +815,6 @@
     "id": "524",
     "name": "Baumann",
     "marktwert": 11751891
-   },
-   {
-    "id": "2764",
-    "name": "Keitel",
-    "marktwert": 4298647
    },
    {
     "id": "15529",

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-10T23:39:01Z",
+ "abgerufen": "2026-11-11T13:09:28Z",
  "kader": {
   "418331": [
    {
@@ -71,6 +71,11 @@
     "id": "6111",
     "name": "Hollerbach",
     "marktwert": 2170765
+   },
+   {
+    "id": "3481",
+    "name": "Stage",
+    "marktwert": 1359174
    }
   ],
   "699062": [
@@ -108,26 +113,6 @@
     "id": "10049",
     "name": "Behrens",
     "marktwert": 14516665
-   },
-   {
-    "id": "2201",
-    "name": "Maina",
-    "marktwert": 8660564
-   },
-   {
-    "id": "4333",
-    "name": "Ullrich",
-    "marktwert": 4631513
-   },
-   {
-    "id": "1954",
-    "name": "Bernardo",
-    "marktwert": 3363945
-   },
-   {
-    "id": "7325",
-    "name": "Baum",
-    "marktwert": 8435473
    },
    {
     "id": "1553",
@@ -396,6 +381,11 @@
     "id": "2176",
     "name": "Höler",
     "marktwert": 3132089
+   },
+   {
+    "id": "13442",
+    "name": "Bolin",
+    "marktwert": 6551868
    }
   ],
   "1502756": [
@@ -701,6 +691,11 @@
     "id": "2141",
     "name": "Baku",
     "marktwert": 16721736
+   },
+   {
+    "id": "6209",
+    "name": "Treu",
+    "marktwert": 10778449
    }
   ],
   "1708012": [
