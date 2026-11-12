@@ -2,7 +2,7 @@
  "liga": "6860190",
  "spieltag": 9,
  "fertig": true,
- "abgerufen": "2026-11-11T13:07:38Z",
+ "abgerufen": "2026-11-12T00:57:43Z",
  "letzter_anstoss": "2026-11-08T18:30:00Z",
  "manager": [
   {
@@ -1089,22 +1089,22 @@
   "1622434": {
    "elf": [
     {
+     "id": "1246",
+     "name": "Orban",
+     "verein": "43",
+     "punkte": 73
+    },
+    {
      "id": "1863",
      "name": "Heuer Fernandes",
      "verein": "6",
      "punkte": 127
     },
     {
-     "id": "4596",
-     "name": "Gruda",
-     "verein": "43",
-     "punkte": 238
-    },
-    {
-     "id": "1246",
-     "name": "Orban",
-     "verein": "43",
-     "punkte": 73
+     "id": "2560",
+     "name": "Sander",
+     "verein": "15",
+     "punkte": 19
     },
     {
      "id": "2646",
@@ -1119,16 +1119,16 @@
      "punkte": 276
     },
     {
-     "id": "12321",
-     "name": "Simpson-Pusey",
-     "verein": "28",
-     "punkte": 45
+     "id": "2764",
+     "name": "Keitel",
+     "verein": "13",
+     "punkte": 22
     },
     {
-     "id": "2560",
-     "name": "Sander",
-     "verein": "15",
-     "punkte": 19
+     "id": "4596",
+     "name": "Gruda",
+     "verein": "43",
+     "punkte": 238
     },
     {
      "id": "8247",
@@ -1137,36 +1137,36 @@
      "punkte": 151
     },
     {
-     "id": "17285",
-     "name": "Brassier",
-     "verein": "4",
-     "punkte": 87
-    },
-    {
-     "id": "2764",
-     "name": "Keitel",
-     "verein": "13",
-     "punkte": 22
+     "id": "12321",
+     "name": "Simpson-Pusey",
+     "verein": "28",
+     "punkte": 45
     },
     {
      "id": "15529",
      "name": "Ilicevic",
      "verein": "4",
      "punkte": 3
+    },
+    {
+     "id": "17285",
+     "name": "Brassier",
+     "verein": "4",
+     "punkte": 87
     }
    ],
    "bank": [
-    {
-     "id": "11010",
-     "name": "Diks",
-     "verein": "15",
-     "punkte": -14
-    },
     {
      "id": "6217",
      "name": "Philippe",
      "verein": "29",
      "punkte": 1
+    },
+    {
+     "id": "11010",
+     "name": "Diks",
+     "verein": "15",
+     "punkte": -14
     }
    ]
   },
