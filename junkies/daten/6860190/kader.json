@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-12T00:59:31Z",
+ "abgerufen": "2026-11-12T14:09:46Z",
  "kader": {
   "418331": [
    {
@@ -123,6 +123,11 @@
     "id": "3754",
     "name": "Vázquez",
     "marktwert": 4257518
+   },
+   {
+    "id": "7216",
+    "name": "Rosenfelder",
+    "marktwert": 4752867
    }
   ],
   "841764": [
@@ -386,6 +391,11 @@
     "id": "2176",
     "name": "Höler",
     "marktwert": 3442762
+   },
+   {
+    "id": "15376",
+    "name": "Estève",
+    "marktwert": 4583944
    }
   ],
   "1502756": [
@@ -1001,6 +1011,11 @@
     "id": "2065",
     "name": "Uduokhai",
     "marktwert": 5344012
+   },
+   {
+    "id": "3027",
+    "name": "Pieringer",
+    "marktwert": 3716506
    }
   ],
   "2755846": [
