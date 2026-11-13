@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-12T23:48:50Z",
+ "abgerufen": "2026-11-13T13:33:30Z",
  "kader": {
   "769136": [
    {
@@ -36,11 +36,6 @@
     "id": "4596",
     "name": "Gruda",
     "marktwert": 20542294
-   },
-   {
-    "id": "10114",
-    "name": "Chukwuemeka",
-    "marktwert": 7322683
    },
    {
     "id": "1991",
@@ -210,6 +205,11 @@
     "id": "3193",
     "name": "Tiago Tomás",
     "marktwert": 4645807
+   },
+   {
+    "id": "11680",
+    "name": "Eichhorn",
+    "marktwert": 3864558
    }
   ],
   "1371179": [
@@ -565,6 +565,16 @@
     "id": "7717",
     "name": "Prass",
     "marktwert": 10552152
+   },
+   {
+    "id": "9684",
+    "name": "Claude-Maurice",
+    "marktwert": 6910718
+   },
+   {
+    "id": "3190",
+    "name": "Chabot",
+    "marktwert": 22148094
    }
   ],
   "1688417": [
@@ -699,6 +709,11 @@
     "id": "15529",
     "name": "Ilicevic",
     "marktwert": 3128399
+   },
+   {
+    "id": "13479",
+    "name": "Ogundu",
+    "marktwert": 1827333
    }
   ],
   "2171487": [

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-12T23:46:11Z",
+ "abgerufen": "2026-11-13T13:31:10Z",
  "kader": {
   "338218": [
    {
@@ -748,6 +748,11 @@
     "id": "2195",
     "name": "Dahmen",
     "marktwert": 14649474
+   },
+   {
+    "id": "2736",
+    "name": "Bensebaini",
+    "marktwert": 5802624
    }
   ],
   "2598323": [
@@ -944,6 +949,16 @@
     "id": "11010",
     "name": "Diks",
     "marktwert": 8101680
+   },
+   {
+    "id": "11170",
+    "name": "Müller",
+    "marktwert": 1113080
+   },
+   {
+    "id": "2822",
+    "name": "Silas",
+    "marktwert": 1397091
    }
   ]
  }

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-12T23:43:47Z",
+ "abgerufen": "2026-11-13T13:29:04Z",
  "kader": {
   "202239": [
    {
@@ -401,6 +401,11 @@
     "id": "6209",
     "name": "Treu",
     "marktwert": 11076520
+   },
+   {
+    "id": "2300",
+    "name": "Stanišić",
+    "marktwert": 14805541
    }
   ],
   "1808207": [
@@ -626,11 +631,6 @@
     "marktwert": 5502567
    },
    {
-    "id": "6197",
-    "name": "Curda",
-    "marktwert": 10544040
-   },
-   {
     "id": "32",
     "name": "Karius",
     "marktwert": 16757718
@@ -701,11 +701,6 @@
     "id": "2803",
     "name": "Lemperle",
     "marktwert": 8871822
-   },
-   {
-    "id": "8872",
-    "name": "Sticker",
-    "marktwert": 500000
    },
    {
     "id": "6085",
@@ -803,6 +798,11 @@
     "id": "2373",
     "name": "Kabak",
     "marktwert": 22244228
+   },
+   {
+    "id": "7283",
+    "name": "Brackelmann",
+    "marktwert": 7768503
    }
   ],
   "2555651": [
@@ -850,6 +850,11 @@
     "id": "15529",
     "name": "Ilicevic",
     "marktwert": 3128399
+   },
+   {
+    "id": "3204",
+    "name": "Conté",
+    "marktwert": 13762482
    }
   ],
   "3275140": [
