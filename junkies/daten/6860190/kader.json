@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-13T23:48:11Z",
+ "abgerufen": "2026-11-14T12:42:30Z",
  "kader": {
   "418331": [
    {
@@ -185,6 +185,11 @@
     "id": "13448",
     "name": "Aouchiche",
     "marktwert": 8291268
+   },
+   {
+    "id": "2822",
+    "name": "Silas",
+    "marktwert": 1760859
    }
   ],
   "1212731": [
@@ -391,6 +396,11 @@
     "id": "15376",
     "name": "Estève",
     "marktwert": 4389641
+   },
+   {
+    "id": "1540",
+    "name": "Da Costa",
+    "marktwert": 4952411
    }
   ],
   "1502756": [
@@ -448,6 +458,16 @@
     "id": "1745",
     "name": "Condé",
     "marktwert": 500000
+   },
+   {
+    "id": "6168",
+    "name": "Fellhauer",
+    "marktwert": 7875136
+   },
+   {
+    "id": "2725",
+    "name": "Bornauw",
+    "marktwert": 7426014
    }
   ],
   "1519494": [
@@ -850,6 +870,11 @@
     "id": "7320",
     "name": "Scheller",
     "marktwert": 10530774
+   },
+   {
+    "id": "3279",
+    "name": "Vušković",
+    "marktwert": 677564
    }
   ],
   "2171487": [

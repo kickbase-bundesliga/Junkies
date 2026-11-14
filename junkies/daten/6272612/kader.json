@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-13T23:45:30Z",
+ "abgerufen": "2026-11-14T12:39:38Z",
  "kader": {
   "769136": [
    {
@@ -177,11 +177,6 @@
     "marktwert": 12195996
    },
    {
-    "id": "1745",
-    "name": "Condé",
-    "marktwert": 500000
-   },
-   {
     "id": "10134",
     "name": "Schmetgens",
     "marktwert": 5691180
@@ -210,6 +205,11 @@
     "id": "11680",
     "name": "Eichhorn",
     "marktwert": 4179750
+   },
+   {
+    "id": "2687",
+    "name": "Nkunku",
+    "marktwert": 27772851
    }
   ],
   "1371179": [
@@ -334,6 +334,11 @@
     "id": "7282",
     "name": "Deman",
     "marktwert": 9806697
+   },
+   {
+    "id": "3279",
+    "name": "Vušković",
+    "marktwert": 677564
    }
   ],
   "1576400": [
@@ -468,6 +473,16 @@
     "id": "12367",
     "name": "Spalt",
     "marktwert": 4958398
+   },
+   {
+    "id": "8166",
+    "name": "Chuki",
+    "marktwert": 10974932
+   },
+   {
+    "id": "4606",
+    "name": "Kuruçay",
+    "marktwert": 8993202
    }
   ],
   "1684680": [
@@ -1004,6 +1019,11 @@
     "id": "9683",
     "name": "Ilic",
     "marktwert": 1145537
+   },
+   {
+    "id": "11955",
+    "name": "El Khannouss",
+    "marktwert": 17073046
    }
   ]
  }

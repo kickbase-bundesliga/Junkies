@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-13T23:43:02Z",
+ "abgerufen": "2026-11-14T12:37:01Z",
  "kader": {
   "338218": [
    {
@@ -205,6 +205,11 @@
     "id": "2120",
     "name": "Nartey",
     "marktwert": 5292056
+   },
+   {
+    "id": "9684",
+    "name": "Claude-Maurice",
+    "marktwert": 7151721
    }
   ],
   "1165589": [
@@ -478,6 +483,16 @@
     "id": "10134",
     "name": "Schmetgens",
     "marktwert": 5691180
+   },
+   {
+    "id": "3279",
+    "name": "Vušković",
+    "marktwert": 677564
+   },
+   {
+    "id": "2854",
+    "name": "Demirović",
+    "marktwert": 16599096
    }
   ],
   "1677028": [
