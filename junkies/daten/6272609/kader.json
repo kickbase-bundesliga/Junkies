@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-14T22:35:38Z",
+ "abgerufen": "2026-11-15T13:02:33Z",
  "kader": {
   "338218": [
    {
@@ -855,6 +855,11 @@
     "id": "755",
     "name": "Müller",
     "marktwert": 1535472
+   },
+   {
+    "id": "3027",
+    "name": "Pieringer",
+    "marktwert": 4489810
    }
   ],
   "2646552": [
@@ -936,11 +941,6 @@
     "marktwert": 12157634
    },
    {
-    "id": "11956",
-    "name": "Fernández",
-    "marktwert": 15840395
-   },
-   {
     "id": "3019",
     "name": "Atubolu",
     "marktwert": 14624543
@@ -966,16 +966,6 @@
     "marktwert": 11877239
    },
    {
-    "id": "8301",
-    "name": "Sirch",
-    "marktwert": 7163116
-   },
-   {
-    "id": "11949",
-    "name": "Nandja",
-    "marktwert": 6015109
-   },
-   {
     "id": "7737",
     "name": "Veerman",
     "marktwert": 15940448
@@ -994,6 +984,16 @@
     "id": "2822",
     "name": "Silas",
     "marktwert": 2123084
+   },
+   {
+    "id": "9698",
+    "name": "Fábio Silva",
+    "marktwert": 12745511
+   },
+   {
+    "id": "3481",
+    "name": "Stage",
+    "marktwert": 2712222
    }
   ]
  }

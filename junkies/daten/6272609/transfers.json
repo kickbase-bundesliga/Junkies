@@ -11419,6 +11419,13 @@
    "art": 1,
    "preis": 1389999,
    "zeit": "2026-11-14T17:39:07Z"
+  },
+  {
+   "spieler_id": "3027",
+   "spieler": "Pieringer",
+   "art": 1,
+   "preis": 4555555,
+   "zeit": "2026-11-15T04:11:17Z"
   }
  ],
  "2646552": [
@@ -14104,6 +14111,41 @@
    "art": 1,
    "preis": 1400000,
    "zeit": "2026-11-13T04:37:15Z"
+  },
+  {
+   "spieler_id": "3481",
+   "spieler": "Stage",
+   "art": 1,
+   "preis": 3243333,
+   "zeit": "2026-11-15T10:34:47Z"
+  },
+  {
+   "spieler_id": "11949",
+   "spieler": "Nandja",
+   "art": 2,
+   "preis": 6015109,
+   "zeit": "2026-11-15T07:42:25Z"
+  },
+  {
+   "spieler_id": "8301",
+   "spieler": "Sirch",
+   "art": 2,
+   "preis": 7163116,
+   "zeit": "2026-11-15T07:42:08Z"
+  },
+  {
+   "spieler_id": "11956",
+   "spieler": "Fernández",
+   "art": 2,
+   "preis": 15840395,
+   "zeit": "2026-11-15T07:41:55Z"
+  },
+  {
+   "spieler_id": "9698",
+   "spieler": "Fábio Silva",
+   "art": 1,
+   "preis": 15000000,
+   "zeit": "2026-11-15T05:14:56Z"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-14T22:37:58Z",
+ "abgerufen": "2026-11-15T13:04:53Z",
  "kader": {
   "769136": [
    {
@@ -262,6 +262,16 @@
     "id": "7349",
     "name": "Jeltsch",
     "marktwert": 8640458
+   },
+   {
+    "id": "1978",
+    "name": "Torunarigha",
+    "marktwert": 7253225
+   },
+   {
+    "id": "11186",
+    "name": "Maluze",
+    "marktwert": 6417434
    }
   ],
   "1406025": [
@@ -334,6 +344,16 @@
     "id": "3279",
     "name": "Vušković",
     "marktwert": 947363
+   },
+   {
+    "id": "3081",
+    "name": "Vidović",
+    "marktwert": 4265402
+   },
+   {
+    "id": "3754",
+    "name": "Vázquez",
+    "marktwert": 5074610
    }
   ],
   "1576400": [
@@ -1024,6 +1044,11 @@
     "id": "11955",
     "name": "El Khannouss",
     "marktwert": 17167852
+   },
+   {
+    "id": "2803",
+    "name": "Lemperle",
+    "marktwert": 9551250
    }
   ]
  }

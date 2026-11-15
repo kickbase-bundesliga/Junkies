@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-14T22:33:30Z",
+ "abgerufen": "2026-11-15T13:00:26Z",
  "kader": {
   "202239": [
    {
@@ -736,6 +736,11 @@
     "id": "10024",
     "name": "Schmied",
     "marktwert": 6034265
+   },
+   {
+    "id": "2822",
+    "name": "Silas",
+    "marktwert": 2123084
    }
   ],
   "2543617": [
@@ -919,11 +924,6 @@
     "marktwert": 41578663
    },
    {
-    "id": "577",
-    "name": "Batz",
-    "marktwert": 5441669
-   },
-   {
     "id": "12367",
     "name": "Spalt",
     "marktwert": 5291491
@@ -1004,6 +1004,11 @@
     "id": "2846",
     "name": "Tillman",
     "marktwert": 7547115
+   },
+   {
+    "id": "849",
+    "name": "Kleindienst",
+    "marktwert": 6280612
    }
   ]
  }
