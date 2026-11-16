@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-16T00:26:08Z",
+ "abgerufen": "2026-11-16T14:08:15Z",
  "kader": {
   "769136": [
    {
@@ -182,11 +182,6 @@
     "marktwert": 5182681
    },
    {
-    "id": "15502",
-    "name": "Binder",
-    "marktwert": 3796714
-   },
-   {
     "id": "3193",
     "name": "Tiago Tomás",
     "marktwert": 5478028
@@ -200,6 +195,16 @@
     "id": "2687",
     "name": "Nkunku",
     "marktwert": 27960833
+   },
+   {
+    "id": "4563",
+    "name": "Badé",
+    "marktwert": 2335056
+   },
+   {
+    "id": "1910",
+    "name": "Müller",
+    "marktwert": 581221
    }
   ],
   "1371179": [
@@ -267,6 +272,11 @@
     "id": "11186",
     "name": "Maluze",
     "marktwert": 6526200
+   },
+   {
+    "id": "14425",
+    "name": "Møller Wolfe",
+    "marktwert": 5233886
    }
   ],
   "1406025": [
@@ -344,6 +354,11 @@
     "id": "3754",
     "name": "Vázquez",
     "marktwert": 5194594
+   },
+   {
+    "id": "13888",
+    "name": "Doué",
+    "marktwert": 5206833
    }
   ],
   "1576400": [
@@ -425,11 +440,6 @@
   ],
   "1623645": [
    {
-    "id": "2366",
-    "name": "Davies",
-    "marktwert": 24098517
-   },
-   {
     "id": "3019",
     "name": "Atubolu",
     "marktwert": 14628931
@@ -463,11 +473,6 @@
     "id": "3284",
     "name": "Rohr",
     "marktwert": 16797001
-   },
-   {
-    "id": "15472",
-    "name": "Daka",
-    "marktwert": 5147079
    },
    {
     "id": "12367",
@@ -632,6 +637,11 @@
     "id": "2714",
     "name": "Beier",
     "marktwert": 23142209
+   },
+   {
+    "id": "2855",
+    "name": "Ache",
+    "marktwert": 7088415
    }
   ],
   "1923586": [

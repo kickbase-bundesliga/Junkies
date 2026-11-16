@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-16T00:23:42Z",
+ "abgerufen": "2026-11-16T14:05:54Z",
  "kader": {
   "338218": [
    {
@@ -138,6 +138,11 @@
     "id": "849",
     "name": "Kleindienst",
     "marktwert": 6445125
+   },
+   {
+    "id": "9683",
+    "name": "Ilic",
+    "marktwert": 1306593
    }
   ],
   "730586": [
@@ -180,11 +185,6 @@
     "id": "11631",
     "name": "Burger",
     "marktwert": 18782888
-   },
-   {
-    "id": "17282",
-    "name": "Moore",
-    "marktwert": 6701626
    },
    {
     "id": "14256",
@@ -396,11 +396,6 @@
     "id": "7514",
     "name": "Le Joncour",
     "marktwert": 2796975
-   },
-   {
-    "id": "1689",
-    "name": "Henrichs",
-    "marktwert": 9453849
    },
    {
     "id": "8351",
@@ -669,6 +664,11 @@
     "id": "2687",
     "name": "Nkunku",
     "marktwert": 27960833
+   },
+   {
+    "id": "2232",
+    "name": "Mwene",
+    "marktwert": 6576769
    }
   ],
   "2587934": [
@@ -832,11 +832,6 @@
     "marktwert": 4640048
    },
    {
-    "id": "11513",
-    "name": "Kofane",
-    "marktwert": 7131325
-   },
-   {
     "id": "11680",
     "name": "Eichhorn",
     "marktwert": 4617430
@@ -927,6 +922,11 @@
     "id": "3336",
     "name": "Marino",
     "marktwert": 5223339
+   },
+   {
+    "id": "3081",
+    "name": "Vidović",
+    "marktwert": 4189329
    }
   ],
   "2729462": [

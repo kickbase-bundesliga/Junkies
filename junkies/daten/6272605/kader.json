@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-16T00:21:32Z",
+ "abgerufen": "2026-11-16T14:03:47Z",
  "kader": {
   "202239": [
    {
@@ -46,11 +46,6 @@
     "id": "7737",
     "name": "Veerman",
     "marktwert": 16084898
-   },
-   {
-    "id": "3228",
-    "name": "Njinmah",
-    "marktwert": 4866543
    },
    {
     "id": "10120",
@@ -329,6 +324,16 @@
     "id": "3081",
     "name": "Vidović",
     "marktwert": 4189329
+   },
+   {
+    "id": "4563",
+    "name": "Badé",
+    "marktwert": 2335056
+   },
+   {
+    "id": "13448",
+    "name": "Aouchiche",
+    "marktwert": 8612236
    }
   ],
   "1567969": [
@@ -860,6 +865,11 @@
     "id": "3204",
     "name": "Conté",
     "marktwert": 13865163
+   },
+   {
+    "id": "6168",
+    "name": "Fellhauer",
+    "marktwert": 7571982
    }
   ],
   "3275140": [
@@ -932,6 +942,16 @@
     "id": "2725",
     "name": "Bornauw",
     "marktwert": 7550202
+   },
+   {
+    "id": "11570",
+    "name": "Sebulonsen",
+    "marktwert": 3919658
+   },
+   {
+    "id": "8355",
+    "name": "Banks",
+    "marktwert": 1544899
    }
   ],
   "3332630": [

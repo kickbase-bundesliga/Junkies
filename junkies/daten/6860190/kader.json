@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-16T00:28:46Z",
+ "abgerufen": "2026-11-16T14:10:47Z",
  "kader": {
   "418331": [
    {
@@ -46,11 +46,6 @@
     "id": "11955",
     "name": "El Khannouss",
     "marktwert": 17258454
-   },
-   {
-    "id": "2498",
-    "name": "Baack",
-    "marktwert": 5759812
    },
    {
     "id": "2074",
@@ -150,11 +145,6 @@
     "id": "1639",
     "name": "Amiri",
     "marktwert": 26921104
-   },
-   {
-    "id": "2366",
-    "name": "Davies",
-    "marktwert": 24098517
    },
    {
     "id": "2694",
@@ -674,6 +664,11 @@
     "id": "6300",
     "name": "Ouédraogo",
     "marktwert": 2250044
+   },
+   {
+    "id": "2939",
+    "name": "Dinkçi",
+    "marktwert": 10352292
    }
   ],
   "1688417": [
@@ -1120,13 +1115,18 @@
     "marktwert": 4866543
    },
    {
-    "id": "16945",
-    "name": "Dallinga",
+    "id": "157",
+    "name": "Stark",
     "marktwert": 500000
    },
    {
-    "id": "157",
-    "name": "Stark",
+    "id": "13472",
+    "name": "Reggiani",
+    "marktwert": 500000
+   },
+   {
+    "id": "7498",
+    "name": "Boey",
     "marktwert": 500000
    }
   ]

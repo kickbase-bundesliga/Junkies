@@ -664,6 +664,13 @@
    "art": 1,
    "preis": 2500000,
    "zeit": "2026-11-11T09:31:31Z"
+  },
+  {
+   "spieler_id": "2498",
+   "spieler": "Baack",
+   "art": 2,
+   "preis": 5759812,
+   "zeit": "2026-11-16T05:37:08Z"
   }
  ],
  "699062": [
@@ -3930,6 +3937,13 @@
    "art": 1,
    "preis": 3331420,
    "zeit": "2026-11-14T23:57:59Z"
+  },
+  {
+   "spieler_id": "2366",
+   "spieler": "Davies",
+   "art": 2,
+   "preis": 24098517,
+   "zeit": "2026-11-16T13:00:50Z"
   }
  ],
  "1212731": [
@@ -13002,6 +13016,13 @@
    "art": 1,
    "preis": 1642452,
    "zeit": "2026-11-10T15:15:30Z"
+  },
+  {
+   "spieler_id": "2939",
+   "spieler": "Dinkçi",
+   "art": 1,
+   "preis": 12667210,
+   "zeit": "2026-11-16T13:57:10Z"
   }
  ],
  "1688417": [
@@ -22515,6 +22536,41 @@
    "art": 1,
    "preis": 500000,
    "zeit": "2026-11-10T04:27:07Z"
+  },
+  {
+   "spieler_id": "7498",
+   "spieler": "Boey",
+   "art": 1,
+   "preis": 500008,
+   "zeit": "2026-11-16T12:59:31Z"
+  },
+  {
+   "spieler_id": "16945",
+   "spieler": "Dallinga",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-11-16T09:04:21Z"
+  },
+  {
+   "spieler_id": "15313",
+   "spieler": "Erevbenagie",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-11-16T09:03:32Z"
+  },
+  {
+   "spieler_id": "15313",
+   "spieler": "Erevbenagie",
+   "art": 1,
+   "preis": 500000,
+   "zeit": "2026-11-16T08:52:05Z"
+  },
+  {
+   "spieler_id": "13472",
+   "spieler": "Reggiani",
+   "art": 1,
+   "preis": 500000,
+   "zeit": "2026-11-16T07:56:59Z"
   }
  ]
 }
