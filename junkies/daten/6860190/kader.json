@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-17T02:03:55Z",
+ "abgerufen": "2026-11-17T04:18:41Z",
  "kader": {
   "418331": [
    {
@@ -344,6 +344,11 @@
     "id": "4563",
     "name": "Badé",
     "marktwert": 2667057
+   },
+   {
+    "id": "4",
+    "name": "Blaswich",
+    "marktwert": 500000
    }
   ],
   "1450470": [
@@ -386,11 +391,6 @@
     "id": "7417",
     "name": "Aséko",
     "marktwert": 8665310
-   },
-   {
-    "id": "1689",
-    "name": "Henrichs",
-    "marktwert": 8893022
    },
    {
     "id": "577",
