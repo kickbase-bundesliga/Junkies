@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-17T04:10:44Z",
+ "abgerufen": "2026-11-17T14:57:44Z",
  "kader": {
   "202239": [
    {
@@ -152,11 +152,6 @@
     "marktwert": 31657059
    },
    {
-    "id": "10004",
-    "name": "Ebnoutalib",
-    "marktwert": 22995176
-   },
-   {
     "id": "1704",
     "name": "Anton",
     "marktwert": 36711592
@@ -205,6 +200,16 @@
     "id": "11186",
     "name": "Maluze",
     "marktwert": 6630777
+   },
+   {
+    "id": "1996",
+    "name": "Friedl",
+    "marktwert": 16870698
+   },
+   {
+    "id": "6292",
+    "name": "Hansen",
+    "marktwert": 10271874
    }
   ],
   "1212731": [
@@ -721,6 +726,11 @@
     "id": "11957",
     "name": "Ben Seghir",
     "marktwert": 500000
+   },
+   {
+    "id": "6300",
+    "name": "Ouédraogo",
+    "marktwert": 2520013
    }
   ],
   "2543617": [
@@ -793,6 +803,11 @@
     "id": "7283",
     "name": "Brackelmann",
     "marktwert": 9098569
+   },
+   {
+    "id": "43",
+    "name": "Weiser",
+    "marktwert": 4795342
    }
   ],
   "2555651": [
@@ -835,11 +850,6 @@
     "id": "524",
     "name": "Baumann",
     "marktwert": 11731039
-   },
-   {
-    "id": "15529",
-    "name": "Ilicevic",
-    "marktwert": 3300685
    },
    {
     "id": "3204",

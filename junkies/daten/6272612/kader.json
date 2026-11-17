@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-17T04:15:46Z",
+ "abgerufen": "2026-11-17T15:02:41Z",
  "kader": {
   "769136": [
    {
@@ -277,6 +277,16 @@
     "id": "14425",
     "name": "Møller Wolfe",
     "marktwert": 5366332
+   },
+   {
+    "id": "2006",
+    "name": "Posch",
+    "marktwert": 7763898
+   },
+   {
+    "id": "11752",
+    "name": "Omari",
+    "marktwert": 4930519
    }
   ],
   "1406025": [

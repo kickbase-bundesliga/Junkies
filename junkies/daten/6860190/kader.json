@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-17T04:18:41Z",
+ "abgerufen": "2026-11-17T15:05:30Z",
  "kader": {
   "418331": [
    {
@@ -120,11 +120,6 @@
     "marktwert": 5263794
    },
    {
-    "id": "7216",
-    "name": "Rosenfelder",
-    "marktwert": 4626539
-   },
-   {
     "id": "2068",
     "name": "Zagadou",
     "marktwert": 2735947
@@ -187,11 +182,6 @@
     "marktwert": 8791825
    },
    {
-    "id": "2822",
-    "name": "Silas",
-    "marktwert": 2825689
-   },
-   {
     "id": "1910",
     "name": "Müller",
     "marktwert": 757340
@@ -210,6 +200,11 @@
     "id": "2199",
     "name": "Vagnoman",
     "marktwert": 7960160
+   },
+   {
+    "id": "9683",
+    "name": "Ilic",
+    "marktwert": 1418942
    }
   ],
   "1212731": [
@@ -416,6 +411,11 @@
     "id": "1540",
     "name": "Da Costa",
     "marktwert": 4718196
+   },
+   {
+    "id": "663",
+    "name": "Andrich",
+    "marktwert": 4668241
    }
   ],
   "1502756": [
@@ -756,6 +756,11 @@
     "id": "6292",
     "name": "Hansen",
     "marktwert": 10271874
+   },
+   {
+    "id": "2214",
+    "name": "Karazor",
+    "marktwert": 5582843
    }
   ],
   "1708012": [
