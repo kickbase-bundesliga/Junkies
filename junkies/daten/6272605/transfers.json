@@ -1814,6 +1814,13 @@
    "art": 1,
    "preis": 7655555,
    "zeit": "2026-11-15T20:35:39Z"
+  },
+  {
+   "spieler_id": "8367",
+   "spieler": "Sambi Lokonga",
+   "art": 2,
+   "preis": 7332213,
+   "zeit": "2026-11-17T19:54:25Z"
   }
  ],
  "1027810": [
@@ -6149,6 +6156,27 @@
    "art": 1,
    "preis": 20212223,
    "zeit": "2026-11-17T06:18:28Z"
+  },
+  {
+   "spieler_id": "14300",
+   "spieler": "Okon-Engstler",
+   "art": 2,
+   "preis": 6340931,
+   "zeit": "2026-11-17T22:13:05Z"
+  },
+  {
+   "spieler_id": "15502",
+   "spieler": "Binder",
+   "art": 2,
+   "preis": 3995686,
+   "zeit": "2026-11-17T22:12:50Z"
+  },
+  {
+   "spieler_id": "2895",
+   "spieler": "Nebel",
+   "art": 1,
+   "preis": 5000316,
+   "zeit": "2026-11-17T16:20:02Z"
   }
  ],
  "1212731": [
