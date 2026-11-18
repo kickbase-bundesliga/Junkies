@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-18T01:03:42Z",
+ "abgerufen": "2026-11-18T14:40:23Z",
  "kader": {
   "338218": [
    {
@@ -220,6 +220,11 @@
     "id": "15472",
     "name": "Daka",
     "marktwert": 4254726
+   },
+   {
+    "id": "2373",
+    "name": "Kabak",
+    "marktwert": 23030586
    }
   ],
   "1165589": [
@@ -604,11 +609,6 @@
     "marktwert": 13495509
    },
    {
-    "id": "2074",
-    "name": "Hack",
-    "marktwert": 8250971
-   },
-   {
     "id": "2764",
     "name": "Keitel",
     "marktwert": 3355572
@@ -904,16 +904,6 @@
     "marktwert": 5930528
    },
    {
-    "id": "3089",
-    "name": "Ito",
-    "marktwert": 4300997
-   },
-   {
-    "id": "8277",
-    "name": "Becker",
-    "marktwert": 6269050
-   },
-   {
     "id": "3336",
     "name": "Marino",
     "marktwert": 4909479
@@ -994,6 +984,11 @@
     "id": "6168",
     "name": "Fellhauer",
     "marktwert": 7586720
+   },
+   {
+    "id": "2006",
+    "name": "Posch",
+    "marktwert": 8079701
    }
   ]
  }

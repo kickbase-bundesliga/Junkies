@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-18T01:06:01Z",
+ "abgerufen": "2026-11-18T14:42:47Z",
  "kader": {
   "769136": [
    {
@@ -205,6 +205,16 @@
     "id": "2300",
     "name": "Stanišić",
     "marktwert": 15386546
+   },
+   {
+    "id": "6183",
+    "name": "Futkeu",
+    "marktwert": 4643116
+   },
+   {
+    "id": "755",
+    "name": "Müller",
+    "marktwert": 1971790
    }
   ],
   "1371179": [
@@ -349,6 +359,16 @@
     "id": "13888",
     "name": "Doué",
     "marktwert": 5832561
+   },
+   {
+    "id": "2491",
+    "name": "Skarke",
+    "marktwert": 2823784
+   },
+   {
+    "id": "7514",
+    "name": "Le Joncour",
+    "marktwert": 3508805
    }
   ],
   "1576400": [
@@ -426,6 +446,11 @@
     "id": "6104",
     "name": "Guiu",
     "marktwert": 500000
+   },
+   {
+    "id": "7498",
+    "name": "Boey",
+    "marktwert": 528107
    }
   ],
   "1623645": [
@@ -520,11 +545,6 @@
     "id": "2038",
     "name": "Laimer",
     "marktwert": 25744506
-   },
-   {
-    "id": "14300",
-    "name": "Okon-Engstler",
-    "marktwert": 6340931
    },
    {
     "id": "3041",

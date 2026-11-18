@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-18T01:08:35Z",
+ "abgerufen": "2026-11-18T14:45:23Z",
  "kader": {
   "418331": [
    {
@@ -123,6 +123,11 @@
     "id": "6745",
     "name": "Boniface",
     "marktwert": 2480167
+   },
+   {
+    "id": "849",
+    "name": "Kleindienst",
+    "marktwert": 6770613
    }
   ],
   "841764": [
@@ -152,11 +157,6 @@
     "marktwert": 11237865
    },
    {
-    "id": "8277",
-    "name": "Becker",
-    "marktwert": 6269050
-   },
-   {
     "id": "9698",
     "name": "Fábio Silva",
     "marktwert": 13251043
@@ -175,11 +175,6 @@
     "id": "13448",
     "name": "Aouchiche",
     "marktwert": 9004822
-   },
-   {
-    "id": "1910",
-    "name": "Müller",
-    "marktwert": 989088
    },
    {
     "id": "11756",
@@ -406,6 +401,11 @@
     "id": "1540",
     "name": "Da Costa",
     "marktwert": 4716849
+   },
+   {
+    "id": "1910",
+    "name": "Müller",
+    "marktwert": 989088
    },
    {
     "id": "663",
@@ -731,11 +731,6 @@
     "id": "10024",
     "name": "Schmied",
     "marktwert": 6465010
-   },
-   {
-    "id": "2141",
-    "name": "Baku",
-    "marktwert": 17271190
    },
    {
     "id": "6209",
@@ -1086,6 +1081,11 @@
     "id": "1856",
     "name": "Sabitzer",
     "marktwert": 5990352
+   },
+   {
+    "id": "2895",
+    "name": "Nebel",
+    "marktwert": 4570686
    }
   ],
   "2755846": [
@@ -1143,6 +1143,11 @@
     "id": "157",
     "name": "Stark",
     "marktwert": 500000
+   },
+   {
+    "id": "2141",
+    "name": "Baku",
+    "marktwert": 17271190
    },
    {
     "id": "13472",
