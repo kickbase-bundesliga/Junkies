@@ -2386,6 +2386,27 @@
    "art": 2,
    "preis": 6196942,
    "zeit": "2026-11-16T20:40:20Z"
+  },
+  {
+   "spieler_id": "43",
+   "spieler": "Weiser",
+   "art": 1,
+   "preis": 7999999,
+   "zeit": "2026-11-19T13:41:03Z"
+  },
+  {
+   "spieler_id": "2074",
+   "spieler": "Hack",
+   "art": 2,
+   "preis": 7704697,
+   "zeit": "2026-11-19T13:35:39Z"
+  },
+  {
+   "spieler_id": "16948",
+   "spieler": "Konstantelias",
+   "art": 1,
+   "preis": 1799999,
+   "zeit": "2026-11-18T20:03:30Z"
   }
  ],
  "915846": [
@@ -6284,6 +6305,20 @@
    "art": 2,
    "preis": 6630777,
    "zeit": "2026-11-17T16:27:27Z"
+  },
+  {
+   "spieler_id": "3481",
+   "spieler": "Stage",
+   "art": 1,
+   "preis": 3850000,
+   "zeit": "2026-11-19T09:21:16Z"
+  },
+  {
+   "spieler_id": "7349",
+   "spieler": "Jeltsch",
+   "art": 2,
+   "preis": 8010171,
+   "zeit": "2026-11-18T17:26:39Z"
   }
  ],
  "1406025": [
@@ -8211,6 +8246,27 @@
    "art": 1,
    "preis": 2989999,
    "zeit": "2026-11-18T04:35:27Z"
+  },
+  {
+   "spieler_id": "2476",
+   "spieler": "Lee",
+   "art": 1,
+   "preis": 6699999,
+   "zeit": "2026-11-19T04:10:33Z"
+  },
+  {
+   "spieler_id": "14048",
+   "spieler": "Goto",
+   "art": 2,
+   "preis": 6645669,
+   "zeit": "2026-11-18T23:08:28Z"
+  },
+  {
+   "spieler_id": "2068",
+   "spieler": "Zagadou",
+   "art": 1,
+   "preis": 3399999,
+   "zeit": "2026-11-18T15:44:08Z"
   }
  ],
  "1576400": [
@@ -9235,6 +9291,20 @@
    "art": 1,
    "preis": 1125000,
    "zeit": "2026-11-18T12:10:50Z"
+  },
+  {
+   "spieler_id": "1920",
+   "spieler": "Guirassy",
+   "art": 1,
+   "preis": 37750000,
+   "zeit": "2026-11-19T08:41:55Z"
+  },
+  {
+   "spieler_id": "670",
+   "spieler": "Karaman",
+   "art": 2,
+   "preis": 7491347,
+   "zeit": "2026-11-18T21:26:36Z"
   }
  ],
  "1623645": [
@@ -19382,6 +19452,13 @@
    "art": 2,
    "preis": 5267471,
    "zeit": "2026-11-17T21:52:18Z"
+  },
+  {
+   "spieler_id": "2294",
+   "spieler": "Pieper",
+   "art": 1,
+   "preis": 20222999,
+   "zeit": "2026-11-18T17:51:01Z"
   }
  ]
 }
