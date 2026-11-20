@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-20T00:44:46Z",
+ "abgerufen": "2026-11-20T14:28:41Z",
  "kader": {
   "338218": [
    {
@@ -411,6 +411,11 @@
     "id": "43",
     "name": "Weiser",
     "marktwert": 5159928
+   },
+   {
+    "id": "13888",
+    "name": "Doué",
+    "marktwert": 6365452
    }
   ],
   "1622434": [
@@ -602,6 +607,11 @@
     "id": "4563",
     "name": "Badé",
     "marktwert": 3559550
+   },
+   {
+    "id": "3193",
+    "name": "Tiago Tomás",
+    "marktwert": 6193158
    }
   ],
   "1997392": [
@@ -668,11 +678,6 @@
     "marktwert": 15870874
    },
    {
-    "id": "7721",
-    "name": "Grüll",
-    "marktwert": 19566805
-   },
-   {
     "id": "14249",
     "name": "El Aynaoui",
     "marktwert": 17481452
@@ -708,9 +713,19 @@
     "marktwert": 14487188
    },
    {
+    "id": "1223",
+    "name": "Friedrich",
+    "marktwert": 6314030
+   },
+   {
     "id": "7278",
     "name": "Poreba",
     "marktwert": 7125688
+   },
+   {
+    "id": "6168",
+    "name": "Fellhauer",
+    "marktwert": 7950506
    }
   ],
   "2589813": [
@@ -840,6 +855,11 @@
     "id": "6149",
     "name": "Lehmann",
     "marktwert": 500000
+   },
+   {
+    "id": "3204",
+    "name": "Conté",
+    "marktwert": 14135174
    }
   ],
   "2646552": [
@@ -879,11 +899,6 @@
     "marktwert": 21426664
    },
    {
-    "id": "3041",
-    "name": "Widmer",
-    "marktwert": 4916492
-   },
-   {
     "id": "1664",
     "name": "Mittelstädt",
     "marktwert": 31135152
@@ -894,11 +909,6 @@
     "marktwert": 500000
    },
    {
-    "id": "1223",
-    "name": "Friedrich",
-    "marktwert": 6314030
-   },
-   {
     "id": "3336",
     "name": "Marino",
     "marktwert": 4891935
@@ -907,6 +917,11 @@
     "id": "3081",
     "name": "Vidović",
     "marktwert": 4171208
+   },
+   {
+    "id": "493",
+    "name": "Gregoritsch",
+    "marktwert": 16703891
    }
   ],
   "2729462": [
@@ -961,19 +976,9 @@
     "marktwert": 3134690
    },
    {
-    "id": "2822",
-    "name": "Silas",
-    "marktwert": 3739009
-   },
-   {
     "id": "9698",
     "name": "Fábio Silva",
     "marktwert": 13596599
-   },
-   {
-    "id": "6168",
-    "name": "Fellhauer",
-    "marktwert": 7950506
    },
    {
     "id": "2006",

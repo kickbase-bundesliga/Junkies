@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-20T00:47:08Z",
+ "abgerufen": "2026-11-20T14:31:04Z",
  "kader": {
   "769136": [
    {
@@ -197,14 +197,14 @@
     "marktwert": 3559550
    },
    {
-    "id": "1910",
-    "name": "Müller",
-    "marktwert": 1459639
-   },
-   {
     "id": "2300",
     "name": "Stanišić",
     "marktwert": 15744368
+   },
+   {
+    "id": "3471",
+    "name": "Hložek",
+    "marktwert": 6932344
    }
   ],
   "1371179": [
@@ -282,6 +282,11 @@
     "id": "3481",
     "name": "Stage",
     "marktwert": 4045857
+   },
+   {
+    "id": "1590",
+    "name": "Zentner",
+    "marktwert": 10397502
    }
   ],
   "1406025": [
@@ -349,6 +354,21 @@
     "id": "7514",
     "name": "Le Joncour",
     "marktwert": 4148099
+   },
+   {
+    "id": "11756",
+    "name": "Culbreath",
+    "marktwert": 3693756
+   },
+   {
+    "id": "7394",
+    "name": "Amoako",
+    "marktwert": 1040622
+   },
+   {
+    "id": "859",
+    "name": "Gyamerah",
+    "marktwert": 805709
    }
   ],
   "1576400": [
@@ -532,11 +552,6 @@
     "marktwert": 6058494
    },
    {
-    "id": "15202",
-    "name": "Uno",
-    "marktwert": 6596943
-   },
-   {
     "id": "7717",
     "name": "Prass",
     "marktwert": 11762610
@@ -604,19 +619,14 @@
     "marktwert": 12390373
    },
    {
-    "id": "1223",
-    "name": "Friedrich",
-    "marktwert": 6314030
+    "id": "15202",
+    "name": "Uno",
+    "marktwert": 6596943
    },
    {
     "id": "2714",
     "name": "Beier",
     "marktwert": 23272237
-   },
-   {
-    "id": "2855",
-    "name": "Ache",
-    "marktwert": 7610741
    }
   ],
   "1923586": [
@@ -694,6 +704,11 @@
     "id": "13479",
     "name": "Ogundu",
     "marktwert": 4185905
+   },
+   {
+    "id": "2126",
+    "name": "Kühn",
+    "marktwert": 1240397
    }
   ],
   "2171487": [
@@ -929,6 +944,11 @@
     "marktwert": 5083190
    },
    {
+    "id": "11675",
+    "name": "Díaz",
+    "marktwert": 42063051
+   },
+   {
     "id": "8351",
     "name": "Højlund",
     "marktwert": 3847359
@@ -969,11 +989,6 @@
     "id": "2144",
     "name": "Koch",
     "marktwert": 22313149
-   },
-   {
-    "id": "11675",
-    "name": "Díaz",
-    "marktwert": 42063051
    },
    {
     "id": "2275",

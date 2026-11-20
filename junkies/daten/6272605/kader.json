@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-20T00:42:36Z",
+ "abgerufen": "2026-11-20T14:26:30Z",
  "kader": {
   "202239": [
    {
@@ -43,11 +43,6 @@
     "marktwert": 16744018
    },
    {
-    "id": "10120",
-    "name": "Røssing-Lelesiit",
-    "marktwert": 5166703
-   },
-   {
     "id": "2661",
     "name": "Diaby",
     "marktwert": 16914396
@@ -73,9 +68,9 @@
     "marktwert": 14311009
    },
    {
-    "id": "11756",
-    "name": "Culbreath",
-    "marktwert": 3693756
+    "id": "11875",
+    "name": "van den Berg",
+    "marktwert": 500000
    }
   ],
   "699062": [
@@ -205,6 +200,11 @@
     "id": "8247",
     "name": "Hendriks",
     "marktwert": 12176518
+   },
+   {
+    "id": "7543",
+    "name": "Moerstedt",
+    "marktwert": 3137635
    }
   ],
   "1212731": [

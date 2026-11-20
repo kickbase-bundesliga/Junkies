@@ -972,6 +972,27 @@
    "art": 2,
    "preis": 6436623,
    "zeit": "2026-11-19T14:07:37Z"
+  },
+  {
+   "spieler_id": "11756",
+   "spieler": "Culbreath",
+   "art": 2,
+   "preis": 3693756,
+   "zeit": "2026-11-20T05:12:22Z"
+  },
+  {
+   "spieler_id": "10120",
+   "spieler": "Røssing-Lelesiit",
+   "art": 2,
+   "preis": 5166703,
+   "zeit": "2026-11-20T05:12:02Z"
+  },
+  {
+   "spieler_id": "11875",
+   "spieler": "van den Berg",
+   "art": 1,
+   "preis": 500001,
+   "zeit": "2026-11-20T02:27:50Z"
   }
  ],
  "699062": [
@@ -6254,6 +6275,13 @@
    "art": 1,
    "preis": 2618374,
    "zeit": "2026-11-18T21:19:50Z"
+  },
+  {
+   "spieler_id": "7543",
+   "spieler": "Moerstedt",
+   "art": 1,
+   "preis": 3137635,
+   "zeit": "2026-11-20T05:14:55Z"
   }
  ],
  "1212731": [

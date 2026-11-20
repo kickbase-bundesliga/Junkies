@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-20T00:49:46Z",
+ "abgerufen": "2026-11-20T14:33:40Z",
  "kader": {
   "418331": [
    {
@@ -120,11 +120,6 @@
     "marktwert": 6524894
    },
    {
-    "id": "3754",
-    "name": "Vázquez",
-    "marktwert": 4085683
-   },
-   {
     "id": "2068",
     "name": "Zagadou",
     "marktwert": 3701904
@@ -187,11 +182,6 @@
     "marktwert": 9410219
    },
    {
-    "id": "11756",
-    "name": "Culbreath",
-    "marktwert": 3693756
-   },
-   {
     "id": "11665",
     "name": "Potulski",
     "marktwert": 8065046
@@ -215,6 +205,11 @@
     "id": "3129",
     "name": "Itakura",
     "marktwert": 3304850
+   },
+   {
+    "id": "6148",
+    "name": "Pinckert",
+    "marktwert": 7770090
    }
   ],
   "1212731": [
@@ -421,6 +416,11 @@
     "id": "663",
     "name": "Andrich",
     "marktwert": 5460913
+   },
+   {
+    "id": "12284",
+    "name": "Kosugi",
+    "marktwert": 4489065
    }
   ],
   "1502756": [
@@ -718,11 +718,6 @@
     "marktwert": 18986799
    },
    {
-    "id": "8273",
-    "name": "El Mala",
-    "marktwert": 4775109
-   },
-   {
     "id": "6209",
     "name": "Treu",
     "marktwert": 12249455
@@ -810,14 +805,14 @@
     "marktwert": 2171156
    },
    {
-    "id": "17306",
-    "name": "Imeri",
-    "marktwert": 5754066
-   },
-   {
     "id": "3072",
     "name": "Urbig",
     "marktwert": 10541429
+   },
+   {
+    "id": "7514",
+    "name": "Le Joncour",
+    "marktwert": 4148099
    }
   ],
   "1881506": [
@@ -957,6 +952,11 @@
     "id": "11513",
     "name": "Kofane",
     "marktwert": 6393802
+   },
+   {
+    "id": "2552",
+    "name": "Bülter",
+    "marktwert": 4871372
    }
   ],
   "2669371": [
@@ -1113,6 +1113,11 @@
     "id": "13479",
     "name": "Ogundu",
     "marktwert": 4185905
+   },
+   {
+    "id": "8273",
+    "name": "El Mala",
+    "marktwert": 4775109
    },
    {
     "id": "3228",
