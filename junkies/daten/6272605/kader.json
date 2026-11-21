@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-21T00:03:07Z",
+ "abgerufen": "2026-11-21T13:45:50Z",
  "kader": {
   "202239": [
    {
@@ -68,9 +68,14 @@
     "marktwert": 738468
    },
    {
-    "id": "11666",
-    "name": "Kinzig",
-    "marktwert": 500000
+    "id": "11512",
+    "name": "Capaldo",
+    "marktwert": 8047412
+   },
+   {
+    "id": "2195",
+    "name": "Dahmen",
+    "marktwert": 12757980
    }
   ],
   "699062": [
@@ -472,11 +477,6 @@
   ],
   "1818625": [
    {
-    "id": "7226",
-    "name": "Kane",
-    "marktwert": 65923375
-   },
-   {
     "id": "10049",
     "name": "Behrens",
     "marktwert": 12962677
@@ -773,11 +773,6 @@
     "id": "4606",
     "name": "Kuruçay",
     "marktwert": 8365703
-   },
-   {
-    "id": "2068",
-    "name": "Zagadou",
-    "marktwert": 3768709
    },
    {
     "id": "7514",

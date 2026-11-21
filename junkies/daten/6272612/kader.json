@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-21T00:07:21Z",
+ "abgerufen": "2026-11-21T13:50:18Z",
  "kader": {
   "769136": [
    {
@@ -76,6 +76,11 @@
     "id": "43",
     "name": "Weiser",
     "marktwert": 5301803
+   },
+   {
+    "id": "2449",
+    "name": "Hwang",
+    "marktwert": 2757479
    }
   ],
   "915846": [
@@ -137,11 +142,6 @@
   ],
   "1233547": [
    {
-    "id": "7226",
-    "name": "Kane",
-    "marktwert": 65923375
-   },
-   {
     "id": "11162",
     "name": "Avdullahu",
     "marktwert": 13310644
@@ -195,6 +195,16 @@
     "id": "2300",
     "name": "Stanišić",
     "marktwert": 15909385
+   },
+   {
+    "id": "173",
+    "name": "Tah",
+    "marktwert": 29602406
+   },
+   {
+    "id": "7745",
+    "name": "Coufal",
+    "marktwert": 21275922
    }
   ],
   "1371179": [
@@ -257,6 +267,11 @@
     "id": "11255",
     "name": "Katic",
     "marktwert": 12324451
+   },
+   {
+    "id": "6111",
+    "name": "Hollerbach",
+    "marktwert": 4817500
    }
   ],
   "1406025": [
@@ -979,6 +994,11 @@
     "id": "2895",
     "name": "Nebel",
     "marktwert": 4955354
+   },
+   {
+    "id": "7616",
+    "name": "ter Horst",
+    "marktwert": 5586403
    }
   ]
  }

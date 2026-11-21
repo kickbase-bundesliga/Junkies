@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-21T00:09:49Z",
+ "abgerufen": "2026-11-21T13:52:54Z",
  "kader": {
   "418331": [
    {
@@ -210,6 +210,11 @@
     "id": "13888",
     "name": "Doué",
     "marktwert": 6436359
+   },
+   {
+    "id": "11967",
+    "name": "Vieira",
+    "marktwert": 8950089
    }
   ],
   "1212731": [
@@ -555,6 +560,11 @@
     "id": "11170",
     "name": "Müller",
     "marktwert": 3252033
+   },
+   {
+    "id": "383",
+    "name": "Ulreich",
+    "marktwert": 500000
    }
   ],
   "1622434": [
@@ -679,6 +689,11 @@
     "id": "16369",
     "name": "Onyedika",
     "marktwert": 9787907
+   },
+   {
+    "id": "9224",
+    "name": "Zimmerschied",
+    "marktwert": 1609785
    }
   ],
   "1688417": [
@@ -1036,11 +1051,6 @@
     "id": "3027",
     "name": "Pieringer",
     "marktwert": 5069552
-   },
-   {
-    "id": "7283",
-    "name": "Brackelmann",
-    "marktwert": 10002458
    },
    {
     "id": "2006",
