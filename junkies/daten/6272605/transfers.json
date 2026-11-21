@@ -993,6 +993,34 @@
    "art": 1,
    "preis": 500001,
    "zeit": "2026-11-20T02:27:50Z"
+  },
+  {
+   "spieler_id": "11666",
+   "spieler": "Kinzig",
+   "art": 1,
+   "preis": 500000,
+   "zeit": "2026-11-20T22:22:45Z"
+  },
+  {
+   "spieler_id": "4292",
+   "spieler": "Herold",
+   "art": 1,
+   "preis": 1378989,
+   "zeit": "2026-11-20T22:12:21Z"
+  },
+  {
+   "spieler_id": "1883",
+   "spieler": "Nicolas",
+   "art": 2,
+   "preis": 9095571,
+   "zeit": "2026-11-20T21:08:57Z"
+  },
+  {
+   "spieler_id": "11875",
+   "spieler": "van den Berg",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-11-20T21:08:50Z"
   }
  ],
  "699062": [
@@ -6282,6 +6310,13 @@
    "art": 1,
    "preis": 3137635,
    "zeit": "2026-11-20T05:14:55Z"
+  },
+  {
+   "spieler_id": "7543",
+   "spieler": "Moerstedt",
+   "art": 2,
+   "preis": 3137635,
+   "zeit": "2026-11-20T18:57:02Z"
   }
  ],
  "1212731": [
@@ -7705,6 +7740,13 @@
    "art": 2,
    "preis": 5858908,
    "zeit": "2026-11-19T10:57:47Z"
+  },
+  {
+   "spieler_id": "663",
+   "spieler": "Andrich",
+   "art": 1,
+   "preis": 7278787,
+   "zeit": "2026-11-20T18:42:43Z"
   }
  ],
  "1451237": [
@@ -10656,6 +10698,20 @@
    "art": 2,
    "preis": 6000000,
    "zeit": "2026-11-19T15:40:01Z"
+  },
+  {
+   "spieler_id": "3481",
+   "spieler": "Stage",
+   "art": 2,
+   "preis": 4045857,
+   "zeit": "2026-11-20T15:10:10Z"
+  },
+  {
+   "spieler_id": "6158",
+   "spieler": "Schnellbacher",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-11-20T15:10:06Z"
   }
  ],
  "1808207": [
@@ -18289,6 +18345,13 @@
    "art": 1,
    "preis": 2520013,
    "zeit": "2026-11-17T04:13:09Z"
+  },
+  {
+   "spieler_id": "2822",
+   "spieler": "Silas",
+   "art": 2,
+   "preis": 3739009,
+   "zeit": "2026-11-20T18:59:38Z"
   }
  ],
  "2543617": [
@@ -21550,6 +21613,20 @@
    "art": 1,
    "preis": 4001848,
    "zeit": "2026-11-16T04:14:40Z"
+  },
+  {
+   "spieler_id": "11665",
+   "spieler": "Potulski",
+   "art": 1,
+   "preis": 8369369,
+   "zeit": "2026-11-20T21:05:57Z"
+  },
+  {
+   "spieler_id": "3027",
+   "spieler": "Pieringer",
+   "art": 2,
+   "preis": 5239540,
+   "zeit": "2026-11-20T17:37:52Z"
   }
  ],
  "3332630": [
