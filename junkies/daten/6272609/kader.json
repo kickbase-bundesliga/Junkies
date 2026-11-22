@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-21T23:30:14Z",
+ "abgerufen": "2026-11-22T13:41:51Z",
  "kader": {
   "338218": [
    {
@@ -118,6 +118,11 @@
     "id": "3029",
     "name": "Ljubičić",
     "marktwert": 4597430
+   },
+   {
+    "id": "1920",
+    "name": "Guirassy",
+    "marktwert": 33590125
    }
   ],
   "730586": [
@@ -376,6 +381,11 @@
     "id": "13888",
     "name": "Doué",
     "marktwert": 6435175
+   },
+   {
+    "id": "9754",
+    "name": "Bah",
+    "marktwert": 7188558
    }
   ],
   "1622434": [
@@ -577,6 +587,11 @@
     "id": "3193",
     "name": "Tiago Tomás",
     "marktwert": 5625977
+   },
+   {
+    "id": "2199",
+    "name": "Vagnoman",
+    "marktwert": 8466092
    }
   ],
   "1997392": [
@@ -931,11 +946,6 @@
     "marktwert": 17010456
    },
    {
-    "id": "11170",
-    "name": "Müller",
-    "marktwert": 3333243
-   },
-   {
     "id": "9698",
     "name": "Fábio Silva",
     "marktwert": 13881542
@@ -949,6 +959,11 @@
     "id": "3281",
     "name": "Reis",
     "marktwert": 14473471
+   },
+   {
+    "id": "2864",
+    "name": "Collins",
+    "marktwert": 5093930
    }
   ]
  }

@@ -2,7 +2,7 @@
  "liga": "6860190",
  "spieltag": 10,
  "fertig": false,
- "abgerufen": "2026-11-21T23:33:43Z",
+ "abgerufen": "2026-11-22T13:44:52Z",
  "letzter_anstoss": "2026-11-22T16:30:00Z",
  "manager": [
   {
@@ -34,7 +34,7 @@
    "admin": false,
    "punkte": 264,
    "gesamt": 8975,
-   "platz": 9,
+   "platz": 10,
    "st_platz": 16,
    "teamwert": 129977097.0,
    "aufstellung_ids": [
@@ -57,7 +57,7 @@
    "admin": false,
    "punkte": 602,
    "gesamt": 8195,
-   "platz": 16,
+   "platz": 15,
    "st_platz": 11,
    "teamwert": 178090045.0,
    "aufstellung_ids": [
@@ -239,9 +239,9 @@
    "id": "1688417",
    "name": "Acke1899",
    "admin": false,
-   "punkte": 691,
-   "gesamt": 8975,
-   "platz": 10,
+   "punkte": 699,
+   "gesamt": 8983,
+   "platz": 9,
    "st_platz": 10,
    "teamwert": 180510404.0,
    "aufstellung_ids": [
@@ -361,9 +361,9 @@
    "id": "2729462",
    "name": "itscalledsoccer",
    "admin": false,
-   "punkte": 538,
-   "gesamt": 8202,
-   "platz": 15,
+   "punkte": 530,
+   "gesamt": 8194,
+   "platz": 16,
    "st_platz": 13,
    "teamwert": 221624961.0,
    "aufstellung_ids": [

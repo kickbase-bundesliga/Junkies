@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-21T23:28:04Z",
+ "abgerufen": "2026-11-22T13:39:59Z",
  "kader": {
   "202239": [
    {
@@ -76,6 +76,11 @@
     "id": "2195",
     "name": "Dahmen",
     "marktwert": 12804553
+   },
+   {
+    "id": "18550",
+    "name": "Codjo-Evora",
+    "marktwert": 700635
    }
   ],
   "699062": [
@@ -396,6 +401,11 @@
     "id": "11010",
     "name": "Diks",
     "marktwert": 8757438
+   },
+   {
+    "id": "7463",
+    "name": "Onyeka",
+    "marktwert": 5249506
    }
   ],
   "1808207": [
@@ -525,6 +535,11 @@
     "id": "7616",
     "name": "ter Horst",
     "marktwert": 5805747
+   },
+   {
+    "id": "9754",
+    "name": "Bah",
+    "marktwert": 7188558
    }
   ],
   "1981519": [
@@ -711,6 +726,11 @@
     "id": "11957",
     "name": "Ben Seghir",
     "marktwert": 500000
+   },
+   {
+    "id": "13806",
+    "name": "Seol",
+    "marktwert": 501850
    }
   ],
   "2543617": [

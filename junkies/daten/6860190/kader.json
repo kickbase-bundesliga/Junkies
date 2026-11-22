@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-21T23:35:27Z",
+ "abgerufen": "2026-11-22T13:46:21Z",
  "kader": {
   "418331": [
    {
@@ -408,11 +408,6 @@
     "marktwert": 4933602
    },
    {
-    "id": "2176",
-    "name": "Höler",
-    "marktwert": 4488281
-   },
-   {
     "id": "1540",
     "name": "Da Costa",
     "marktwert": 5232575
@@ -803,6 +798,16 @@
     "id": "7514",
     "name": "Le Joncour",
     "marktwert": 4619774
+   },
+   {
+    "id": "3471",
+    "name": "Hložek",
+    "marktwert": 7044552
+   },
+   {
+    "id": "3124",
+    "name": "Wimmer",
+    "marktwert": 762770
    }
   ],
   "1881506": [
@@ -865,6 +870,11 @@
     "id": "3279",
     "name": "Vušković",
     "marktwert": 3220370
+   },
+   {
+    "id": "18550",
+    "name": "Codjo-Evora",
+    "marktwert": 700635
    }
   ],
   "2171487": [
@@ -1028,19 +1038,9 @@
     "marktwert": 4492932
    },
    {
-    "id": "3027",
-    "name": "Pieringer",
-    "marktwert": 4654690
-   },
-   {
     "id": "2006",
     "name": "Posch",
     "marktwert": 9386845
-   },
-   {
-    "id": "1856",
-    "name": "Sabitzer",
-    "marktwert": 5772331
    },
    {
     "id": "2895",
@@ -1090,11 +1090,6 @@
     "marktwert": 20744900
    },
    {
-    "id": "13479",
-    "name": "Ogundu",
-    "marktwert": 4184300
-   },
-   {
     "id": "8273",
     "name": "El Mala",
     "marktwert": 4838236
@@ -1103,11 +1098,6 @@
     "id": "3228",
     "name": "Njinmah",
     "marktwert": 4248070
-   },
-   {
-    "id": "8351",
-    "name": "Højlund",
-    "marktwert": 3756943
    },
    {
     "id": "2141",

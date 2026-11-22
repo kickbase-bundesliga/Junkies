@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-21T23:32:44Z",
+ "abgerufen": "2026-11-22T13:44:00Z",
  "kader": {
   "769136": [
    {
@@ -46,11 +46,6 @@
     "id": "11631",
     "name": "Burger",
     "marktwert": 19067674
-   },
-   {
-    "id": "15193",
-    "name": "Rots",
-    "marktwert": 10184638
    },
    {
     "id": "7158",
@@ -167,11 +162,6 @@
     "marktwert": 12675196
    },
    {
-    "id": "3193",
-    "name": "Tiago Tomás",
-    "marktwert": 5625977
-   },
-   {
     "id": "2687",
     "name": "Nkunku",
     "marktwert": 28565855
@@ -195,6 +185,11 @@
     "id": "7745",
     "name": "Coufal",
     "marktwert": 21452934
+   },
+   {
+    "id": "8061",
+    "name": "Bakayoko",
+    "marktwert": 638115
    }
   ],
   "1371179": [
@@ -257,6 +252,11 @@
     "id": "11255",
     "name": "Katic",
     "marktwert": 12341649
+   },
+   {
+    "id": "11170",
+    "name": "Müller",
+    "marktwert": 3333243
    }
   ],
   "1406025": [
@@ -319,6 +319,21 @@
     "id": "1590",
     "name": "Zentner",
     "marktwert": 10424174
+   },
+   {
+    "id": "6172",
+    "name": "Adamu",
+    "marktwert": 4583846
+   },
+   {
+    "id": "10122",
+    "name": "Gruber",
+    "marktwert": 9158626
+   },
+   {
+    "id": "1553",
+    "name": "Haberer",
+    "marktwert": 5554068
    }
   ],
   "1576400": [
