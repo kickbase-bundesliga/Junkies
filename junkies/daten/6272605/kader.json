@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-23T01:08:39Z",
+ "abgerufen": "2026-11-23T16:33:55Z",
  "kader": {
   "202239": [
    {
@@ -200,6 +200,21 @@
     "id": "8247",
     "name": "Hendriks",
     "marktwert": 12841280
+   },
+   {
+    "id": "3187",
+    "name": "Schäfer",
+    "marktwert": 4806189
+   },
+   {
+    "id": "3124",
+    "name": "Wimmer",
+    "marktwert": 1110516
+   },
+   {
+    "id": "7441",
+    "name": "Campbell",
+    "marktwert": 4048584
    }
   ],
   "1212731": [
@@ -406,6 +421,11 @@
     "id": "11170",
     "name": "Müller",
     "marktwert": 3449549
+   },
+   {
+    "id": "2261",
+    "name": "Neuhaus",
+    "marktwert": 6184268
    }
   ],
   "1808207": [
@@ -664,6 +684,11 @@
     "id": "16369",
     "name": "Onyedika",
     "marktwert": 9576322
+   },
+   {
+    "id": "2358",
+    "name": "Krauß",
+    "marktwert": 6211512
    }
   ],
   "2252575": [
@@ -731,6 +756,16 @@
     "id": "2144",
     "name": "Koch",
     "marktwert": 22378174
+   },
+   {
+    "id": "1955",
+    "name": "Burke",
+    "marktwert": 1256383
+   },
+   {
+    "id": "7349",
+    "name": "Jeltsch",
+    "marktwert": 7497048
    }
   ],
   "2543617": [

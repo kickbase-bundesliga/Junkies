@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-23T01:13:14Z",
+ "abgerufen": "2026-11-23T16:38:26Z",
  "kader": {
   "769136": [
    {
@@ -185,6 +185,11 @@
     "id": "8061",
     "name": "Bakayoko",
     "marktwert": 888800
+   },
+   {
+    "id": "6148",
+    "name": "Pinckert",
+    "marktwert": 7429335
    }
   ],
   "1371179": [
@@ -401,6 +406,11 @@
     "id": "51",
     "name": "Khedira",
     "marktwert": 4115356
+   },
+   {
+    "id": "663",
+    "name": "Andrich",
+    "marktwert": 5906882
    }
   ],
   "1623645": [
@@ -936,11 +946,6 @@
     "marktwert": 15131261
    },
    {
-    "id": "7543",
-    "name": "Moerstedt",
-    "marktwert": 3399929
-   },
-   {
     "id": "9683",
     "name": "Ilic",
     "marktwert": 2944330
@@ -974,6 +979,11 @@
     "id": "7616",
     "name": "ter Horst",
     "marktwert": 6094609
+   },
+   {
+    "id": "8355",
+    "name": "Banks",
+    "marktwert": 3184346
    }
   ]
  }

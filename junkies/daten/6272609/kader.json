@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-23T01:10:47Z",
+ "abgerufen": "2026-11-23T16:36:01Z",
  "kader": {
   "338218": [
    {
@@ -123,6 +123,11 @@
     "id": "1920",
     "name": "Guirassy",
     "marktwert": 33650526
+   },
+   {
+    "id": "6199",
+    "name": "Machino",
+    "marktwert": 4369459
    }
   ],
   "730586": [
@@ -271,11 +276,6 @@
     "marktwert": 4746056
    },
    {
-    "id": "1333",
-    "name": "Klostermann",
-    "marktwert": 500000
-   },
-   {
     "id": "383",
     "name": "Ulreich",
     "marktwert": 500000
@@ -405,11 +405,6 @@
     "marktwert": 21668120
    },
    {
-    "id": "1856",
-    "name": "Sabitzer",
-    "marktwert": 5525302
-   },
-   {
     "id": "2928",
     "name": "Petkov",
     "marktwert": 12956905
@@ -534,19 +529,9 @@
     "marktwert": 20846775
    },
    {
-    "id": "2855",
-    "name": "Ache",
-    "marktwert": 7077640
-   },
-   {
     "id": "3350",
     "name": "Keidel",
     "marktwert": 13334707
-   },
-   {
-    "id": "8273",
-    "name": "El Mala",
-    "marktwert": 4869752
    },
    {
     "id": "10049",
@@ -651,11 +636,6 @@
     "id": "15211",
     "name": "Gadou",
     "marktwert": 25283057
-   },
-   {
-    "id": "3277",
-    "name": "Muheim",
-    "marktwert": 11892846
    },
    {
     "id": "6292",
@@ -825,6 +805,16 @@
     "id": "6085",
     "name": "Seimen",
     "marktwert": 12770660
+   },
+   {
+    "id": "11967",
+    "name": "Vieira",
+    "marktwert": 8891473
+   },
+   {
+    "id": "4292",
+    "name": "Herold",
+    "marktwert": 1367408
    }
   ],
   "2646552": [
@@ -882,6 +872,11 @@
     "id": "493",
     "name": "Gregoritsch",
     "marktwert": 17043265
+   },
+   {
+    "id": "12297",
+    "name": "Tanaka",
+    "marktwert": 4776255
    }
   ],
   "2729462": [
@@ -944,6 +939,11 @@
     "id": "2864",
     "name": "Collins",
     "marktwert": 5380002
+   },
+   {
+    "id": "6148",
+    "name": "Pinckert",
+    "marktwert": 7429335
    }
   ]
  }

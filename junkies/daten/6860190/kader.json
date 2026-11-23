@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-23T01:15:55Z",
+ "abgerufen": "2026-11-23T16:41:05Z",
  "kader": {
   "418331": [
    {
@@ -202,11 +202,6 @@
     "marktwert": 7429335
    },
    {
-    "id": "13888",
-    "name": "Doué",
-    "marktwert": 6473236
-   },
-   {
     "id": "3081",
     "name": "Vidović",
     "marktwert": 4822073
@@ -326,19 +321,9 @@
     "marktwert": 2749040
    },
    {
-    "id": "9995",
-    "name": "Mokwa",
-    "marktwert": 7394664
-   },
-   {
     "id": "7463",
     "name": "Onyeka",
     "marktwert": 5488868
-   },
-   {
-    "id": "7167",
-    "name": "Lynen",
-    "marktwert": 4515296
    },
    {
     "id": "4563",
@@ -349,6 +334,11 @@
     "id": "4",
     "name": "Blaswich",
     "marktwert": 500000
+   },
+   {
+    "id": "859",
+    "name": "Gyamerah",
+    "marktwert": 1266051
    }
   ],
   "1450470": [
@@ -532,11 +522,6 @@
     "marktwert": 7981027
    },
    {
-    "id": "383",
-    "name": "Ulreich",
-    "marktwert": 500000
-   },
-   {
     "id": "4292",
     "name": "Herold",
     "marktwert": 1367408
@@ -612,6 +597,11 @@
     "id": "11512",
     "name": "Capaldo",
     "marktwert": 8635330
+   },
+   {
+    "id": "1012",
+    "name": "Džeko",
+    "marktwert": 611044
    }
   ],
   "1667851": [
@@ -793,6 +783,11 @@
     "id": "3124",
     "name": "Wimmer",
     "marktwert": 1110516
+   },
+   {
+    "id": "2015",
+    "name": "Obermair",
+    "marktwert": 10877016
    }
   ],
   "1881506": [
@@ -934,9 +929,9 @@
     "marktwert": 5640281
    },
    {
-    "id": "2552",
-    "name": "Bülter",
-    "marktwert": 4625890
+    "id": "1961",
+    "name": "Gnabry",
+    "marktwert": 6620115
    }
   ],
   "2669371": [
@@ -1098,6 +1093,16 @@
     "id": "2864",
     "name": "Collins",
     "marktwert": 5380002
+   },
+   {
+    "id": "2764",
+    "name": "Keitel",
+    "marktwert": 3007040
+   },
+   {
+    "id": "8247",
+    "name": "Hendriks",
+    "marktwert": 12841280
    }
   ]
  }
