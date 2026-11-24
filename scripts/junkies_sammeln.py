@@ -305,7 +305,7 @@ def pokal_sammeln(cfg):
     api = Api(*zugangsdaten(name))
     ch = pk.get("challenge_id", "910")
     pfad = os.path.join(DATEN, "pokal", "punkte.json")
-    alt = lesen(pfad, {})
+    alt = lesen(pfad, {}).get("manager", {})
     neu, fehler_n = {}, []
     for name, e in tn.items():
         uid = e.get("id")
@@ -313,8 +313,8 @@ def pokal_sammeln(cfg):
             continue
         d = api.get("/v4/challenges/%s/table/%s" % (ch, uid))
         if fehler(d) or not isinstance(d.get("mds"), list):
-            fehler_n.append(name)
-            if name in alt:
+            fehler_n.append("%s (%s)" % (name, str(d)[:150]))
+            if name in alt:   # letzten bekannten Stand behalten
                 neu[name] = alt[name]
             continue
         punkte = {str(m["day"]): m.get("p", 0) for m in d["mds"] if m.get("t") == 2}
