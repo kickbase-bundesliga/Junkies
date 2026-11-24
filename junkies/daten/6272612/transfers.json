@@ -2435,6 +2435,13 @@
    "art": 2,
    "preis": 4715528,
    "zeit": "2026-11-22T19:04:10Z"
+  },
+  {
+   "spieler_id": "2854",
+   "spieler": "Demirović",
+   "art": 2,
+   "preis": 20000000,
+   "zeit": "2026-11-23T21:47:43Z"
   }
  ],
  "915846": [
@@ -5176,6 +5183,13 @@
    "art": 1,
    "preis": 9242433,
    "zeit": "2026-11-23T11:15:02Z"
+  },
+  {
+   "spieler_id": "2897",
+   "spieler": "Reitz",
+   "art": 1,
+   "preis": 9240188,
+   "zeit": "2026-11-23T21:53:43Z"
   }
  ],
  "1371179": [
@@ -8568,6 +8582,48 @@
    "art": 1,
    "preis": 5899999,
    "zeit": "2026-11-22T04:02:07Z"
+  },
+  {
+   "spieler_id": "9995",
+   "spieler": "Mokwa",
+   "art": 2,
+   "preis": 7181377,
+   "zeit": "2026-11-23T23:04:11Z"
+  },
+  {
+   "spieler_id": "18550",
+   "spieler": "Codjo-Evora",
+   "art": 1,
+   "preis": 2899999,
+   "zeit": "2026-11-23T22:53:54Z"
+  },
+  {
+   "spieler_id": "6172",
+   "spieler": "Adamu",
+   "art": 2,
+   "preis": 4449196,
+   "zeit": "2026-11-23T22:17:40Z"
+  },
+  {
+   "spieler_id": "2491",
+   "spieler": "Skarke",
+   "art": 2,
+   "preis": 2279151,
+   "zeit": "2026-11-23T22:17:35Z"
+  },
+  {
+   "spieler_id": "1553",
+   "spieler": "Haberer",
+   "art": 2,
+   "preis": 5025239,
+   "zeit": "2026-11-23T22:17:25Z"
+  },
+  {
+   "spieler_id": "2854",
+   "spieler": "Demirović",
+   "art": 1,
+   "preis": 20000000,
+   "zeit": "2026-11-23T21:47:43Z"
   }
  ],
  "1576400": [
@@ -9655,6 +9711,13 @@
    "art": 1,
    "preis": 6250000,
    "zeit": "2026-11-23T13:19:31Z"
+  },
+  {
+   "spieler_id": "3228",
+   "spieler": "Njinmah",
+   "art": 2,
+   "preis": 4294871,
+   "zeit": "2026-11-23T21:32:13Z"
   }
  ],
  "1623645": [
@@ -11612,6 +11675,20 @@
    "art": 2,
    "preis": 6058494,
    "zeit": "2026-11-20T17:13:42Z"
+  },
+  {
+   "spieler_id": "2764",
+   "spieler": "Keitel",
+   "art": 1,
+   "preis": 3758000,
+   "zeit": "2026-11-24T01:36:43Z"
+  },
+  {
+   "spieler_id": "2746",
+   "spieler": "Schick",
+   "art": 2,
+   "preis": 33893085,
+   "zeit": "2026-11-23T21:59:36Z"
   }
  ],
  "1688417": [
@@ -19984,6 +20061,20 @@
    "art": 1,
    "preis": 3567999,
    "zeit": "2026-11-23T09:37:54Z"
+  },
+  {
+   "spieler_id": "11886",
+   "spieler": "Rômulo",
+   "art": 2,
+   "preis": 18593386,
+   "zeit": "2026-11-23T22:22:21Z"
+  },
+  {
+   "spieler_id": "7325",
+   "spieler": "Baum",
+   "art": 1,
+   "preis": 5111999,
+   "zeit": "2026-11-23T17:07:34Z"
   }
  ]
 }
