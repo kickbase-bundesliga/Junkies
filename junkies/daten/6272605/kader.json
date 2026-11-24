@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-24T05:30:48Z",
+ "abgerufen": "2026-11-24T15:40:49Z",
  "kader": {
   "202239": [
    {
@@ -205,6 +205,11 @@
     "id": "2201",
     "name": "Maina",
     "marktwert": 6160187
+   },
+   {
+    "id": "2125",
+    "name": "Beste",
+    "marktwert": 13810581
    }
   ],
   "1212731": [
@@ -366,11 +371,6 @@
     "id": "7277",
     "name": "Chaïbi",
     "marktwert": 13399828
-   },
-   {
-    "id": "2038",
-    "name": "Laimer",
-    "marktwert": 26348086
    },
    {
     "id": "3139",
@@ -612,6 +612,11 @@
     "id": "2495",
     "name": "Boss",
     "marktwert": 500000
+   },
+   {
+    "id": "2084",
+    "name": "Lienhart",
+    "marktwert": 20952112
    }
   ],
   "2240874": [
@@ -751,6 +756,11 @@
     "id": "4335",
     "name": "Scherhant",
     "marktwert": 23011612
+   },
+   {
+    "id": "6199",
+    "name": "Machino",
+    "marktwert": 4588386
    }
   ],
   "2543617": [
@@ -820,11 +830,6 @@
     "marktwert": 4179932
    },
    {
-    "id": "2646",
-    "name": "Becker",
-    "marktwert": 16258709
-   },
-   {
     "id": "8307",
     "name": "Sano",
     "marktwert": 18553325
@@ -870,11 +875,6 @@
     "id": "2275",
     "name": "Baumgartner",
     "marktwert": 15216704
-   },
-   {
-    "id": "524",
-    "name": "Baumann",
-    "marktwert": 11179430
    },
    {
     "id": "3204",

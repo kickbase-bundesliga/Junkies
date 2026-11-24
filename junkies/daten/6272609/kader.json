@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-24T05:33:20Z",
+ "abgerufen": "2026-11-24T15:43:12Z",
  "kader": {
   "338218": [
    {
@@ -237,6 +237,11 @@
     "id": "10115",
     "name": "Svensson",
     "marktwert": 22715761
+   },
+   {
+    "id": "2560",
+    "name": "Sander",
+    "marktwert": 5219054
    }
   ],
   "1408411": [
@@ -621,11 +626,6 @@
     "marktwert": 18040249
    },
    {
-    "id": "2863",
-    "name": "Knauff",
-    "marktwert": 3151070
-   },
-   {
     "id": "9283",
     "name": "Zeitler",
     "marktwert": 500000
@@ -896,11 +896,6 @@
     "marktwert": 10245615
    },
    {
-    "id": "3019",
-    "name": "Atubolu",
-    "marktwert": 14870863
-   },
-   {
     "id": "7158",
     "name": "Undav",
     "marktwert": 29730061
@@ -959,6 +954,11 @@
     "id": "7463",
     "name": "Onyeka",
     "marktwert": 5746496
+   },
+   {
+    "id": "524",
+    "name": "Baumann",
+    "marktwert": 11179430
    }
   ]
  }

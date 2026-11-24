@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-24T05:36:13Z",
+ "abgerufen": "2026-11-24T15:46:00Z",
  "kader": {
   "769136": [
    {
@@ -66,6 +66,11 @@
     "id": "2449",
     "name": "Hwang",
     "marktwert": 2830655
+   },
+   {
+    "id": "6199",
+    "name": "Machino",
+    "marktwert": 4588386
    }
   ],
   "915846": [
@@ -324,6 +329,11 @@
     "id": "18550",
     "name": "Codjo-Evora",
     "marktwert": 1354004
+   },
+   {
+    "id": "9600",
+    "name": "Schlager",
+    "marktwert": 500000
    }
   ],
   "1576400": [
@@ -420,11 +430,6 @@
     "marktwert": 9194818
    },
    {
-    "id": "11956",
-    "name": "Fernández",
-    "marktwert": 13805641
-   },
-   {
     "id": "3284",
     "name": "Rohr",
     "marktwert": 17234267
@@ -475,6 +480,11 @@
     "id": "32",
     "name": "Karius",
     "marktwert": 15271755
+   },
+   {
+    "id": "3470",
+    "name": "Caci",
+    "marktwert": 16825573
    },
    {
     "id": "7224",
@@ -554,11 +564,6 @@
     "marktwert": 13098834
    },
    {
-    "id": "3470",
-    "name": "Caci",
-    "marktwert": 16825573
-   },
-   {
     "id": "16378",
     "name": "Karetsas",
     "marktwert": 20895025
@@ -572,6 +577,11 @@
     "id": "2714",
     "name": "Beier",
     "marktwert": 23629427
+   },
+   {
+    "id": "3063",
+    "name": "Chiarodia",
+    "marktwert": 5116582
    }
   ],
   "1923586": [

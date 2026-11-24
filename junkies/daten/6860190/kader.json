@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-24T05:39:19Z",
+ "abgerufen": "2026-11-24T15:48:59Z",
  "kader": {
   "418331": [
    {
@@ -262,6 +262,11 @@
     "id": "16948",
     "name": "Konstantelias",
     "marktwert": 2324222
+   },
+   {
+    "id": "11008",
+    "name": "Banzuzi",
+    "marktwert": 14983431
    }
   ],
   "1385068": [
@@ -321,11 +326,6 @@
     "marktwert": 4401328
    },
    {
-    "id": "4",
-    "name": "Blaswich",
-    "marktwert": 500000
-   },
-   {
     "id": "859",
     "name": "Gyamerah",
     "marktwert": 1594525
@@ -339,6 +339,11 @@
     "id": "2279",
     "name": "Rönnow",
     "marktwert": 10555648
+   },
+   {
+    "id": "49",
+    "name": "Ginter",
+    "marktwert": 29533343
    }
   ],
   "1450470": [
@@ -711,6 +716,16 @@
     "id": "1955",
     "name": "Burke",
     "marktwert": 1676224
+   },
+   {
+    "id": "78",
+    "name": "Hofmann",
+    "marktwert": 4806939
+   },
+   {
+    "id": "3364",
+    "name": "Klaus",
+    "marktwert": 500000
    }
   ],
   "1708012": [
@@ -758,11 +773,6 @@
     "id": "15472",
     "name": "Daka",
     "marktwert": 3799342
-   },
-   {
-    "id": "3072",
-    "name": "Urbig",
-    "marktwert": 11122902
    },
    {
     "id": "7514",
