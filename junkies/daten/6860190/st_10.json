@@ -2,7 +2,7 @@
  "liga": "6860190",
  "spieltag": 10,
  "fertig": true,
- "abgerufen": "2026-11-24T16:39:00Z",
+ "abgerufen": "2026-11-25T02:41:59Z",
  "letzter_anstoss": "2026-11-22T16:30:00Z",
  "manager": [
   {
@@ -333,29 +333,10 @@
    "admin": true,
    "punkte": 0,
    "gesamt": 0,
-   "platz": 18,
-   "st_platz": 18,
-   "teamwert": 0.0,
-   "aufstellung_ids": []
-  },
-  {
-   "id": "2669371",
-   "name": "Lakaka",
-   "admin": false,
-   "punkte": 382,
-   "gesamt": 7510,
    "platz": 17,
    "st_platz": 17,
-   "teamwert": 113413555.0,
-   "aufstellung_ids": [
-    "9513",
-    "1664",
-    "10112",
-    "7963",
-    "2395",
-    "2846",
-    "6081"
-   ]
+   "teamwert": 0.0,
+   "aufstellung_ids": []
   },
   {
    "id": "2729462",
@@ -402,6 +383,26 @@
     "3228",
     "8273"
    ]
+  },
+  {
+   "id": "2669371",
+   "name": "Lakaka",
+   "admin": false,
+   "punkte": 382,
+   "gesamt": 7510,
+   "platz": 17,
+   "st_platz": 17,
+   "teamwert": 113413555.0,
+   "aufstellung_ids": [
+    "9513",
+    "1664",
+    "10112",
+    "7963",
+    "2395",
+    "2846",
+    "6081"
+   ],
+   "ausgetreten": true
   }
  ],
  "aufstellungen": {
@@ -1605,53 +1606,6 @@
     }
    ]
   },
-  "2669371": {
-   "elf": [
-    {
-     "id": "1664",
-     "name": "Mittelstädt",
-     "verein": "9",
-     "punkte": 206
-    },
-    {
-     "id": "2395",
-     "name": "Ryerson",
-     "verein": "3",
-     "punkte": 114
-    },
-    {
-     "id": "2846",
-     "name": "Tillman",
-     "verein": "7",
-     "punkte": 189
-    },
-    {
-     "id": "6081",
-     "name": "Uzun",
-     "verein": "4",
-     "punkte": 0
-    },
-    {
-     "id": "7963",
-     "name": "Quansah",
-     "verein": "7",
-     "punkte": 133
-    },
-    {
-     "id": "9513",
-     "name": "Hein",
-     "verein": "10",
-     "punkte": 140
-    },
-    {
-     "id": "10112",
-     "name": "Jaquez",
-     "verein": "9",
-     "punkte": 0
-    }
-   ],
-   "bank": []
-  },
   "2729462": {
    "elf": [
     {
@@ -1837,6 +1791,53 @@
      "punkte": 38
     }
    ]
+  },
+  "2669371": {
+   "elf": [
+    {
+     "id": "1664",
+     "name": "Mittelstädt",
+     "verein": "9",
+     "punkte": 206
+    },
+    {
+     "id": "2395",
+     "name": "Ryerson",
+     "verein": "3",
+     "punkte": 114
+    },
+    {
+     "id": "2846",
+     "name": "Tillman",
+     "verein": "7",
+     "punkte": 189
+    },
+    {
+     "id": "6081",
+     "name": "Uzun",
+     "verein": "4",
+     "punkte": 0
+    },
+    {
+     "id": "7963",
+     "name": "Quansah",
+     "verein": "7",
+     "punkte": 133
+    },
+    {
+     "id": "9513",
+     "name": "Hein",
+     "verein": "10",
+     "punkte": 140
+    },
+    {
+     "id": "10112",
+     "name": "Jaquez",
+     "verein": "9",
+     "punkte": 0
+    }
+   ],
+   "bank": []
   }
  }
 }
