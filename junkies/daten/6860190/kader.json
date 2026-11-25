@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-25T02:43:42Z",
+ "abgerufen": "2026-11-25T16:19:29Z",
  "kader": {
   "418331": [
    {
@@ -286,11 +286,6 @@
     "marktwert": 20665457
    },
    {
-    "id": "6174",
-    "name": "Arthur",
-    "marktwert": 12389800
-   },
-   {
     "id": "3187",
     "name": "Schäfer",
     "marktwert": 5227493
@@ -554,11 +549,6 @@
     "marktwert": 2378732
    },
    {
-    "id": "1223",
-    "name": "Friedrich",
-    "marktwert": 4716815
-   },
-   {
     "id": "2967",
     "name": "El-Faouzi",
     "marktwert": 7095853
@@ -592,6 +582,11 @@
     "id": "9605",
     "name": "Grønbæk",
     "marktwert": 11856702
+   },
+   {
+    "id": "2395",
+    "name": "Ryerson",
+    "marktwert": 12277149
    }
   ],
   "1667851": [
@@ -716,6 +711,16 @@
     "id": "3364",
     "name": "Klaus",
     "marktwert": 500000
+   },
+   {
+    "id": "12263",
+    "name": "Schnitzer",
+    "marktwert": 951564
+   },
+   {
+    "id": "1671",
+    "name": "Prömel",
+    "marktwert": 13500422
    }
   ],
   "1708012": [
@@ -783,6 +788,16 @@
     "id": "2015",
     "name": "Obermair",
     "marktwert": 11042540
+   },
+   {
+    "id": "1728",
+    "name": "Nyland",
+    "marktwert": 500000
+   },
+   {
+    "id": "7781",
+    "name": "Sauer",
+    "marktwert": 1159618
    }
   ],
   "1881506": [
@@ -815,6 +830,11 @@
     "id": "6197",
     "name": "Curda",
     "marktwert": 10215770
+   },
+   {
+    "id": "6174",
+    "name": "Arthur",
+    "marktwert": 12389800
    },
    {
     "id": "2358",
@@ -984,6 +1004,11 @@
     "id": "2895",
     "name": "Nebel",
     "marktwert": 6264434
+   },
+   {
+    "id": "1954",
+    "name": "Bernardo",
+    "marktwert": 2347056
    }
   ],
   "2755846": [

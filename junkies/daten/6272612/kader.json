@@ -1,12 +1,7 @@
 {
- "abgerufen": "2026-11-25T02:40:55Z",
+ "abgerufen": "2026-11-25T16:16:45Z",
  "kader": {
   "769136": [
-   {
-    "id": "8227",
-    "name": "Vandevoordt",
-    "marktwert": 21069263
-   },
    {
     "id": "17288",
     "name": "Regeer",
@@ -21,11 +16,6 @@
     "id": "3281",
     "name": "Reis",
     "marktwert": 14880450
-   },
-   {
-    "id": "2247",
-    "name": "Sosa",
-    "marktwert": 11571816
    },
    {
     "id": "4596",
@@ -76,6 +66,11 @@
     "id": "357",
     "name": "Grahl",
     "marktwert": 500000
+   },
+   {
+    "id": "12314",
+    "name": "Ndiaye",
+    "marktwert": 802315
    }
   ],
   "915846": [
@@ -316,11 +311,6 @@
     "marktwert": 1947098
    },
    {
-    "id": "10122",
-    "name": "Gruber",
-    "marktwert": 8571888
-   },
-   {
     "id": "18550",
     "name": "Codjo-Evora",
     "marktwert": 1703550
@@ -339,6 +329,16 @@
     "id": "2560",
     "name": "Sander",
     "marktwert": 5382008
+   },
+   {
+    "id": "2232",
+    "name": "Mwene",
+    "marktwert": 8893472
+   },
+   {
+    "id": "11008",
+    "name": "Banzuzi",
+    "marktwert": 15140671
    }
   ],
   "1576400": [
@@ -453,6 +453,11 @@
     "id": "4292",
     "name": "Herold",
     "marktwert": 2172945
+   },
+   {
+    "id": "2201",
+    "name": "Maina",
+    "marktwert": 6368275
    }
   ],
   "1684680": [
@@ -577,6 +582,11 @@
     "id": "3063",
     "name": "Chiarodia",
     "marktwert": 5438179
+   },
+   {
+    "id": "2261",
+    "name": "Neuhaus",
+    "marktwert": 6662971
    }
   ],
   "1923586": [
@@ -701,6 +711,11 @@
     "id": "3072",
     "name": "Urbig",
     "marktwert": 11286642
+   },
+   {
+    "id": "2247",
+    "name": "Sosa",
+    "marktwert": 11571816
    },
    {
     "id": "1580",

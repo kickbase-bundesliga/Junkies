@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-25T02:36:02Z",
+ "abgerufen": "2026-11-25T16:11:56Z",
  "kader": {
   "202239": [
    {
@@ -43,11 +43,6 @@
     "marktwert": 17492808
    },
    {
-    "id": "3279",
-    "name": "Vušković",
-    "marktwert": 3821363
-   },
-   {
     "id": "2855",
     "name": "Ache",
     "marktwert": 6600473
@@ -76,6 +71,16 @@
     "id": "18550",
     "name": "Codjo-Evora",
     "marktwert": 1703550
+   },
+   {
+    "id": "7717",
+    "name": "Prass",
+    "marktwert": 12386595
+   },
+   {
+    "id": "1540",
+    "name": "Da Costa",
+    "marktwert": 6155155
    }
   ],
   "699062": [
@@ -406,11 +411,6 @@
     "id": "12297",
     "name": "Tanaka",
     "marktwert": 5140574
-   },
-   {
-    "id": "11170",
-    "name": "Müller",
-    "marktwert": 3575443
    },
    {
     "id": "2261",
@@ -833,6 +833,11 @@
     "id": "6148",
     "name": "Pinckert",
     "marktwert": 7778854
+   },
+   {
+    "id": "2471",
+    "name": "Schubert",
+    "marktwert": 500000
    }
   ],
   "2555651": [
@@ -890,6 +895,11 @@
     "id": "9600",
     "name": "Schlager",
     "marktwert": 500000
+   },
+   {
+    "id": "15376",
+    "name": "Estève",
+    "marktwert": 3737770
    }
   ],
   "3275140": [

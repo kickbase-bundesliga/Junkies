@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-25T02:38:18Z",
+ "abgerufen": "2026-11-25T16:14:10Z",
  "kader": {
   "338218": [
    {
@@ -433,6 +433,11 @@
     "id": "11512",
     "name": "Capaldo",
     "marktwert": 9213462
+   },
+   {
+    "id": "2084",
+    "name": "Lienhart",
+    "marktwert": 21101902
    }
   ],
   "1677028": [
@@ -614,6 +619,11 @@
     "id": "9283",
     "name": "Zeitler",
     "marktwert": 500000
+   },
+   {
+    "id": "9224",
+    "name": "Zimmerschied",
+    "marktwert": 3146538
    }
   ],
   "2587934": [
@@ -805,6 +815,11 @@
     "id": "13806",
     "name": "Seol",
     "marktwert": 1138930
+   },
+   {
+    "id": "7745",
+    "name": "Coufal",
+    "marktwert": 22103218
    }
   ],
   "2646552": [
@@ -849,11 +864,6 @@
     "marktwert": 31557067
    },
    {
-    "id": "357",
-    "name": "Grahl",
-    "marktwert": 500000
-   },
-   {
     "id": "3081",
     "name": "Vidović",
     "marktwert": 5441740
@@ -889,11 +899,6 @@
     "id": "4606",
     "name": "Kuruçay",
     "marktwert": 9357515
-   },
-   {
-    "id": "14917",
-    "name": "Van den Bosch",
-    "marktwert": 5024804
    },
    {
     "id": "7277",
@@ -944,6 +949,11 @@
     "id": "524",
     "name": "Baumann",
     "marktwert": 11248824
+   },
+   {
+    "id": "7325",
+    "name": "Baum",
+    "marktwert": 5113043
    }
   ]
  }
