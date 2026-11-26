@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-26T01:59:30Z",
+ "abgerufen": "2026-11-26T16:00:00Z",
  "kader": {
   "418331": [
    {
@@ -66,6 +66,11 @@
     "id": "7325",
     "name": "Baum",
     "marktwert": 5299561
+   },
+   {
+    "id": "2232",
+    "name": "Mwene",
+    "marktwert": 9139025
    }
   ],
   "699062": [
@@ -393,11 +398,6 @@
     "marktwert": 6419285
    },
    {
-    "id": "1910",
-    "name": "Müller",
-    "marktwert": 2088342
-   },
-   {
     "id": "663",
     "name": "Andrich",
     "marktwert": 6320360
@@ -406,6 +406,11 @@
     "id": "12284",
     "name": "Kosugi",
     "marktwert": 5928171
+   },
+   {
+    "id": "12368",
+    "name": "Tangvik",
+    "marktwert": 500000
    }
   ],
   "1502756": [
@@ -520,6 +525,11 @@
     "id": "6085",
     "name": "Seimen",
     "marktwert": 13096011
+   },
+   {
+    "id": "2846",
+    "name": "Tillman",
+    "marktwert": 7280585
    }
   ],
   "1622434": [
@@ -798,6 +808,11 @@
     "id": "7781",
     "name": "Sauer",
     "marktwert": 1461249
+   },
+   {
+    "id": "7963",
+    "name": "Quansah",
+    "marktwert": 20744337
    }
   ],
   "1881506": [
@@ -1014,6 +1029,11 @@
     "id": "4296",
     "name": "Pejčinović",
     "marktwert": 4992466
+   },
+   {
+    "id": "7684",
+    "name": "Aebischer",
+    "marktwert": 4578963
    }
   ],
   "2755846": [

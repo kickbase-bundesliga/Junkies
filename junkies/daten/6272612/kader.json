@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-26T01:56:22Z",
+ "abgerufen": "2026-11-26T15:57:06Z",
  "kader": {
   "769136": [
    {
@@ -48,11 +48,6 @@
     "marktwert": 17210175
    },
    {
-    "id": "16948",
-    "name": "Konstantelias",
-    "marktwert": 2389725
-   },
-   {
     "id": "43",
     "name": "Weiser",
     "marktwert": 6755200
@@ -68,14 +63,19 @@
     "marktwert": 5137633
    },
    {
-    "id": "357",
-    "name": "Grahl",
-    "marktwert": 500000
-   },
-   {
     "id": "12314",
     "name": "Ndiaye",
     "marktwert": 981871
+   },
+   {
+    "id": "9224",
+    "name": "Zimmerschied",
+    "marktwert": 3431138
+   },
+   {
+    "id": "10789",
+    "name": "Karl",
+    "marktwert": 20171538
    }
   ],
   "915846": [
@@ -128,6 +128,11 @@
     "id": "17306",
     "name": "Imeri",
     "marktwert": 3809147
+   },
+   {
+    "id": "2199",
+    "name": "Vagnoman",
+    "marktwert": 9361264
    }
   ],
   "1233547": [
@@ -262,6 +267,11 @@
     "id": "11170",
     "name": "Müller",
     "marktwert": 3506830
+   },
+   {
+    "id": "12297",
+    "name": "Tanaka",
+    "marktwert": 5296004
    }
   ],
   "1406025": [
@@ -324,11 +334,6 @@
     "id": "9600",
     "name": "Schlager",
     "marktwert": 500000
-   },
-   {
-    "id": "6319",
-    "name": "Honorat",
-    "marktwert": 4469898
    },
    {
     "id": "2560",
@@ -542,11 +547,6 @@
     "id": "608",
     "name": "Füllkrug",
     "marktwert": 25763908
-   },
-   {
-    "id": "7721",
-    "name": "Grüll",
-    "marktwert": 19030223
    },
    {
     "id": "7215",

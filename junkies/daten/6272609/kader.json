@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-26T01:53:25Z",
+ "abgerufen": "2026-11-26T15:54:21Z",
  "kader": {
   "338218": [
    {
@@ -391,6 +391,16 @@
     "id": "9754",
     "name": "Bah",
     "marktwert": 8003142
+   },
+   {
+    "id": "577",
+    "name": "Batz",
+    "marktwert": 5340429
+   },
+   {
+    "id": "1873",
+    "name": "Kobel",
+    "marktwert": 19958594
    }
   ],
   "1622434": [
@@ -559,11 +569,6 @@
     "marktwert": 3556482
    },
    {
-    "id": "2065",
-    "name": "Uduokhai",
-    "marktwert": 3990871
-   },
-   {
     "id": "4563",
     "name": "Badé",
     "marktwert": 5010481
@@ -686,6 +691,11 @@
     "id": "6168",
     "name": "Fellhauer",
     "marktwert": 9640581
+   },
+   {
+    "id": "3190",
+    "name": "Chabot",
+    "marktwert": 24094373
    }
   ],
   "2589813": [
@@ -748,6 +758,11 @@
     "id": "1811",
     "name": "Gouweleeuw",
     "marktwert": 5473657
+   },
+   {
+    "id": "2395",
+    "name": "Ryerson",
+    "marktwert": 12390786
    }
   ],
   "2598323": [
@@ -882,6 +897,16 @@
     "id": "12297",
     "name": "Tanaka",
     "marktwert": 5296004
+   },
+   {
+    "id": "7684",
+    "name": "Aebischer",
+    "marktwert": 4578963
+   },
+   {
+    "id": "417",
+    "name": "Zieler",
+    "marktwert": 500000
    }
   ],
   "2729462": [
@@ -954,6 +979,11 @@
     "id": "7325",
     "name": "Baum",
     "marktwert": 5299561
+   },
+   {
+    "id": "2015",
+    "name": "Obermair",
+    "marktwert": 11132607
    }
   ]
  }

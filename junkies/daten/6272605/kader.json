@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-26T01:50:53Z",
+ "abgerufen": "2026-11-26T15:52:01Z",
  "kader": {
   "202239": [
    {
@@ -36,11 +36,6 @@
     "id": "7737",
     "name": "Veerman",
     "marktwert": 17484499
-   },
-   {
-    "id": "2661",
-    "name": "Diaby",
-    "marktwert": 17552635
    },
    {
     "id": "2855",
@@ -723,11 +718,6 @@
     "marktwert": 10445142
    },
    {
-    "id": "11957",
-    "name": "Ben Seghir",
-    "marktwert": 500000
-   },
-   {
     "id": "13806",
     "name": "Seol",
     "marktwert": 1459184
@@ -761,6 +751,11 @@
     "id": "7350",
     "name": "Stange",
     "marktwert": 500000
+   },
+   {
+    "id": "1671",
+    "name": "Prömel",
+    "marktwert": 13662827
    }
   ],
   "2543617": [
