@@ -2,7 +2,7 @@
  "liga": "6860190",
  "spieltag": 10,
  "fertig": true,
- "abgerufen": "2026-11-25T16:17:48Z",
+ "abgerufen": "2026-11-26T01:57:34Z",
  "letzter_anstoss": "2026-11-22T16:30:00Z",
  "manager": [
   {
@@ -1111,10 +1111,16 @@
   "1622434": {
    "elf": [
     {
-     "id": "1223",
-     "name": "Friedrich",
-     "verein": "40",
-     "punkte": 69
+     "id": "1863",
+     "name": "Heuer Fernandes",
+     "verein": "6",
+     "punkte": 45
+    },
+    {
+     "id": "4596",
+     "name": "Gruda",
+     "verein": "43",
+     "punkte": 266
     },
     {
      "id": "1246",
@@ -1123,16 +1129,34 @@
      "punkte": 221
     },
     {
-     "id": "1863",
-     "name": "Heuer Fernandes",
-     "verein": "6",
-     "punkte": 45
+     "id": "11010",
+     "name": "Diks",
+     "verein": "15",
+     "punkte": 3
     },
     {
      "id": "2687",
      "name": "Nkunku",
      "verein": "43",
      "punkte": 148
+    },
+    {
+     "id": "17285",
+     "name": "Brassier",
+     "verein": "4",
+     "punkte": 81
+    },
+    {
+     "id": "1223",
+     "name": "Friedrich",
+     "verein": "40",
+     "punkte": 69
+    },
+    {
+     "id": "12367",
+     "name": "Spalt",
+     "verein": "9",
+     "punkte": 47
     },
     {
      "id": "2967",
@@ -1147,34 +1171,10 @@
      "punkte": 49
     },
     {
-     "id": "4596",
-     "name": "Gruda",
-     "verein": "43",
-     "punkte": 266
-    },
-    {
-     "id": "11010",
-     "name": "Diks",
-     "verein": "15",
-     "punkte": 3
-    },
-    {
      "id": "11512",
      "name": "Capaldo",
      "verein": "6",
      "punkte": 71
-    },
-    {
-     "id": "12367",
-     "name": "Spalt",
-     "verein": "9",
-     "punkte": 47
-    },
-    {
-     "id": "17285",
-     "name": "Brassier",
-     "verein": "4",
-     "punkte": 81
     }
    ],
    "bank": [
