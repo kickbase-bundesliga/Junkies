@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-27T01:56:42Z",
+ "abgerufen": "2026-11-27T15:48:39Z",
  "kader": {
   "418331": [
    {
@@ -71,6 +71,11 @@
     "id": "2232",
     "name": "Mwene",
     "marktwert": 9313666
+   },
+   {
+    "id": "2201",
+    "name": "Maina",
+    "marktwert": 6824961
    }
   ],
   "699062": [
@@ -120,24 +125,19 @@
     "marktwert": 4643310
    },
    {
-    "id": "2068",
-    "name": "Zagadou",
-    "marktwert": 2695150
-   },
-   {
     "id": "6745",
     "name": "Boniface",
     "marktwert": 1725099
    },
    {
-    "id": "849",
-    "name": "Kleindienst",
-    "marktwert": 4910714
-   },
-   {
     "id": "2261",
     "name": "Neuhaus",
     "marktwert": 7170825
+   },
+   {
+    "id": "3081",
+    "name": "Vidović",
+    "marktwert": 5878307
    }
   ],
   "841764": [
@@ -187,16 +187,6 @@
     "marktwert": 9732061
    },
    {
-    "id": "2199",
-    "name": "Vagnoman",
-    "marktwert": 9574606
-   },
-   {
-    "id": "9683",
-    "name": "Ilic",
-    "marktwert": 4219242
-   },
-   {
     "id": "9754",
     "name": "Bah",
     "marktwert": 8172282
@@ -205,11 +195,6 @@
     "id": "6148",
     "name": "Pinckert",
     "marktwert": 8283965
-   },
-   {
-    "id": "3081",
-    "name": "Vidović",
-    "marktwert": 5878307
    }
   ],
   "1212731": [
@@ -408,6 +393,11 @@
     "marktwert": 6123128
    },
    {
+    "id": "18550",
+    "name": "Codjo-Evora",
+    "marktwert": 2294151
+   },
+   {
     "id": "12368",
     "name": "Tangvik",
     "marktwert": 500000
@@ -468,6 +458,11 @@
     "id": "2725",
     "name": "Bornauw",
     "marktwert": 10165504
+   },
+   {
+    "id": "7684",
+    "name": "Aebischer",
+    "marktwert": 4844739
    }
   ],
   "1519494": [
@@ -669,6 +664,11 @@
     "id": "9224",
     "name": "Zimmerschied",
     "marktwert": 3625675
+   },
+   {
+    "id": "14241",
+    "name": "Medina",
+    "marktwert": 14970161
    }
   ],
   "1688417": [
@@ -698,11 +698,6 @@
     "marktwert": 18422889
    },
    {
-    "id": "11631",
-    "name": "Burger",
-    "marktwert": 19293450
-   },
-   {
     "id": "6209",
     "name": "Treu",
     "marktwert": 13585073
@@ -716,6 +711,11 @@
     "id": "2214",
     "name": "Karazor",
     "marktwert": 7466493
+   },
+   {
+    "id": "9683",
+    "name": "Ilic",
+    "marktwert": 4219242
    },
    {
     "id": "1955",
@@ -880,11 +880,6 @@
     "id": "3279",
     "name": "Vušković",
     "marktwert": 4213634
-   },
-   {
-    "id": "18550",
-    "name": "Codjo-Evora",
-    "marktwert": 2294151
    }
   ],
   "2171487": [
@@ -1026,14 +1021,9 @@
     "marktwert": 3011220
    },
    {
-    "id": "4296",
-    "name": "Pejčinović",
-    "marktwert": 5197936
-   },
-   {
-    "id": "7684",
-    "name": "Aebischer",
-    "marktwert": 4844739
+    "id": "4406",
+    "name": "Dina Ebimbe",
+    "marktwert": 3263967
    }
   ],
   "2755846": [
@@ -1086,6 +1076,11 @@
     "id": "7498",
     "name": "Boey",
     "marktwert": 3150189
+   },
+   {
+    "id": "2199",
+    "name": "Vagnoman",
+    "marktwert": 9574606
    },
    {
     "id": "2864",

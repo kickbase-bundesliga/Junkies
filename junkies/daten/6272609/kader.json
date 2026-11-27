@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-27T01:51:11Z",
+ "abgerufen": "2026-11-27T15:43:03Z",
  "kader": {
   "338218": [
    {
@@ -135,11 +135,6 @@
     "marktwert": 18422889
    },
    {
-    "id": "2887",
-    "name": "Dōan",
-    "marktwert": 11715054
-   },
-   {
     "id": "12314",
     "name": "Ndiaye",
     "marktwert": 1141775
@@ -175,11 +170,6 @@
     "id": "2746",
     "name": "Schick",
     "marktwert": 34133950
-   },
-   {
-    "id": "11631",
-    "name": "Burger",
-    "marktwert": 19293450
    },
    {
     "id": "14256",
@@ -515,6 +505,11 @@
     "id": "7167",
     "name": "Lynen",
     "marktwert": 3950994
+   },
+   {
+    "id": "11006",
+    "name": "Suzuki",
+    "marktwert": 20779191
    }
   ],
   "1703788": [
@@ -710,11 +705,6 @@
     "marktwert": 33911628
    },
    {
-    "id": "11556",
-    "name": "Massengo",
-    "marktwert": 6028212
-   },
-   {
     "id": "7717",
     "name": "Prass",
     "marktwert": 12565417
@@ -740,14 +730,14 @@
     "marktwert": 6847605
    },
    {
-    "id": "15472",
-    "name": "Daka",
-    "marktwert": 3433325
-   },
-   {
     "id": "1811",
     "name": "Gouweleeuw",
     "marktwert": 5124230
+   },
+   {
+    "id": "2887",
+    "name": "Dōan",
+    "marktwert": 11715054
    },
    {
     "id": "2395",
@@ -892,6 +882,11 @@
     "id": "417",
     "name": "Zieler",
     "marktwert": 500000
+   },
+   {
+    "id": "2279",
+    "name": "Rönnow",
+    "marktwert": 10872796
    }
   ],
   "2729462": [
@@ -941,19 +936,9 @@
     "marktwert": 15179125
    },
    {
-    "id": "2864",
-    "name": "Collins",
-    "marktwert": 6272481
-   },
-   {
     "id": "6148",
     "name": "Pinckert",
     "marktwert": 8283965
-   },
-   {
-    "id": "18550",
-    "name": "Codjo-Evora",
-    "marktwert": 2294151
    },
    {
     "id": "524",

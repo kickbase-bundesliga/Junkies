@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-27T01:53:52Z",
+ "abgerufen": "2026-11-27T15:45:46Z",
  "kader": {
   "769136": [
    {
@@ -31,11 +31,6 @@
     "id": "1991",
     "name": "Upamecano",
     "marktwert": 33911628
-   },
-   {
-    "id": "11631",
-    "name": "Burger",
-    "marktwert": 19293450
    },
    {
     "id": "7158",
@@ -321,11 +316,6 @@
     "marktwert": 6348107
    },
    {
-    "id": "7394",
-    "name": "Amoako",
-    "marktwert": 2447031
-   },
-   {
     "id": "859",
     "name": "Gyamerah",
     "marktwert": 2575723
@@ -344,11 +334,6 @@
     "id": "2560",
     "name": "Sander",
     "marktwert": 5685696
-   },
-   {
-    "id": "2232",
-    "name": "Mwene",
-    "marktwert": 9313666
    },
    {
     "id": "11008",
@@ -547,11 +532,6 @@
     "marktwert": 24201429
    },
    {
-    "id": "2214",
-    "name": "Karazor",
-    "marktwert": 7466493
-   },
-   {
     "id": "2764",
     "name": "Keitel",
     "marktwert": 3781746
@@ -622,6 +602,11 @@
     "id": "1645",
     "name": "Eggestein",
     "marktwert": 23283118
+   },
+   {
+    "id": "2863",
+    "name": "Knauff",
+    "marktwert": 4243669
    }
   ],
   "1923586": [
@@ -699,6 +684,11 @@
     "id": "3158",
     "name": "Asllani",
     "marktwert": 18422889
+   },
+   {
+    "id": "2395",
+    "name": "Ryerson",
+    "marktwert": 12502953
    }
   ],
   "2171487": [
@@ -1009,6 +999,11 @@
     "id": "3187",
     "name": "Schäfer",
     "marktwert": 5615288
+   },
+   {
+    "id": "9605",
+    "name": "Grønbæk",
+    "marktwert": 11995880
    }
   ]
  }

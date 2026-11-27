@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-27T01:48:53Z",
+ "abgerufen": "2026-11-27T15:40:44Z",
  "kader": {
   "202239": [
    {
@@ -172,11 +172,6 @@
     "marktwert": 17855307
    },
    {
-    "id": "2895",
-    "name": "Nebel",
-    "marktwert": 6719028
-   },
-   {
     "id": "2214",
     "name": "Karazor",
     "marktwert": 7466493
@@ -207,11 +202,6 @@
     "id": "1863",
     "name": "Heuer Fernandes",
     "marktwert": 13017065
-   },
-   {
-    "id": "11631",
-    "name": "Burger",
-    "marktwert": 19293450
    },
    {
     "id": "10789",
@@ -262,6 +252,16 @@
     "id": "663",
     "name": "Andrich",
     "marktwert": 6360949
+   },
+   {
+    "id": "3193",
+    "name": "Tiago Tomás",
+    "marktwert": 4243442
+   },
+   {
+    "id": "7417",
+    "name": "Aséko",
+    "marktwert": 6512873
    }
   ],
   "1451237": [
@@ -391,11 +391,6 @@
     "id": "7463",
     "name": "Onyeka",
     "marktwert": 6467274
-   },
-   {
-    "id": "12297",
-    "name": "Tanaka",
-    "marktwert": 5402417
    },
    {
     "id": "2261",
@@ -545,6 +540,16 @@
     "id": "11591",
     "name": "Lenz",
     "marktwert": 500000
+   },
+   {
+    "id": "1809",
+    "name": "Wolf",
+    "marktwert": 6008552
+   },
+   {
+    "id": "8222",
+    "name": "Sylla",
+    "marktwert": 2145633
    }
   ],
   "1981519": [
@@ -835,9 +840,9 @@
     "marktwert": 8283965
    },
    {
-    "id": "2471",
-    "name": "Schubert",
-    "marktwert": 500000
+    "id": "3218",
+    "name": "Backhaus",
+    "marktwert": 9631234
    }
   ],
   "2555651": [
@@ -1039,6 +1044,11 @@
     "id": "849",
     "name": "Kleindienst",
     "marktwert": 4910714
+   },
+   {
+    "id": "2895",
+    "name": "Nebel",
+    "marktwert": 6719028
    }
   ]
  }
