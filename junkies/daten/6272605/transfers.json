@@ -6457,6 +6457,20 @@
    "art": 1,
    "preis": 13881051,
    "zeit": "2026-11-24T15:29:42Z"
+  },
+  {
+   "spieler_id": "3124",
+   "spieler": "Wimmer",
+   "art": 2,
+   "preis": 2741079,
+   "zeit": "2026-11-26T22:26:06Z"
+  },
+  {
+   "spieler_id": "7441",
+   "spieler": "Campbell",
+   "art": 2,
+   "preis": 4371667,
+   "zeit": "2026-11-26T22:23:57Z"
   }
  ],
  "1212731": [
@@ -12683,6 +12697,27 @@
    "art": 2,
    "preis": 4108298,
    "zeit": "2026-11-25T20:35:22Z"
+  },
+  {
+   "spieler_id": "11591",
+   "spieler": "Lenz",
+   "art": 1,
+   "preis": 1500000,
+   "zeit": "2026-11-27T01:34:19Z"
+  },
+  {
+   "spieler_id": "9224",
+   "spieler": "Zimmerschied",
+   "art": 1,
+   "preis": 4750000,
+   "zeit": "2026-11-27T01:26:14Z"
+  },
+  {
+   "spieler_id": "2863",
+   "spieler": "Knauff",
+   "art": 1,
+   "preis": 8710298,
+   "zeit": "2026-11-26T23:35:54Z"
   }
  ],
  "1981519": [
