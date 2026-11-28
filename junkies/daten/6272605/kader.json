@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-28T01:31:04Z",
+ "abgerufen": "2026-11-28T14:36:28Z",
  "kader": {
   "202239": [
    {
@@ -43,11 +43,6 @@
     "marktwert": 5895832
    },
    {
-    "id": "3281",
-    "name": "Reis",
-    "marktwert": 15311710
-   },
-   {
     "id": "11512",
     "name": "Capaldo",
     "marktwert": 9630077
@@ -76,6 +71,11 @@
     "id": "15313",
     "name": "Erevbenagie",
     "marktwert": 962334
+   },
+   {
+    "id": "3471",
+    "name": "Hložek",
+    "marktwert": 8307534
    }
   ],
   "699062": [
@@ -848,6 +848,11 @@
     "id": "3218",
     "name": "Backhaus",
     "marktwert": 9735450
+   },
+   {
+    "id": "6197",
+    "name": "Curda",
+    "marktwert": 10745913
    }
   ],
   "2555651": [

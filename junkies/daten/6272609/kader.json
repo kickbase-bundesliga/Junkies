@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-28T01:33:19Z",
+ "abgerufen": "2026-11-28T14:38:24Z",
  "kader": {
   "338218": [
    {
@@ -358,11 +358,6 @@
     "marktwert": 4546756
    },
    {
-    "id": "43",
-    "name": "Weiser",
-    "marktwert": 6930092
-   },
-   {
     "id": "9754",
     "name": "Bah",
     "marktwert": 8298390
@@ -381,6 +376,11 @@
     "id": "4296",
     "name": "Pejčinović",
     "marktwert": 5263871
+   },
+   {
+    "id": "9642",
+    "name": "Matsima",
+    "marktwert": 9081871
    }
   ],
   "1622434": [
@@ -857,11 +857,6 @@
     "id": "1664",
     "name": "Mittelstädt",
     "marktwert": 31886721
-   },
-   {
-    "id": "3081",
-    "name": "Vidović",
-    "marktwert": 5880721
    },
    {
     "id": "493",

@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-28T01:35:58Z",
+ "abgerufen": "2026-11-28T14:40:40Z",
  "kader": {
   "769136": [
    {
@@ -162,11 +162,6 @@
     "marktwert": 29178374
    },
    {
-    "id": "4563",
-    "name": "Badé",
-    "marktwert": 5182353
-   },
-   {
     "id": "2300",
     "name": "Stanišić",
     "marktwert": 16969452
@@ -257,11 +252,6 @@
     "id": "11255",
     "name": "Katic",
     "marktwert": 13378960
-   },
-   {
-    "id": "12297",
-    "name": "Tanaka",
-    "marktwert": 5346604
    }
   ],
   "1406025": [
@@ -329,6 +319,16 @@
     "id": "2195",
     "name": "Dahmen",
     "marktwert": 13292974
+   },
+   {
+    "id": "8222",
+    "name": "Sylla",
+    "marktwert": 2316005
+   },
+   {
+    "id": "10114",
+    "name": "Chukwuemeka",
+    "marktwert": 4374200
    }
   ],
   "1576400": [
@@ -525,6 +525,11 @@
     "id": "2736",
     "name": "Bensebaini",
     "marktwert": 6922662
+   },
+   {
+    "id": "15313",
+    "name": "Erevbenagie",
+    "marktwert": 962334
    }
   ],
   "1688417": [
@@ -721,6 +726,11 @@
     "id": "2247",
     "name": "Sosa",
     "marktwert": 11933077
+   },
+   {
+    "id": "4563",
+    "name": "Badé",
+    "marktwert": 5182353
    },
    {
     "id": "11752",
@@ -979,6 +989,11 @@
     "id": "9605",
     "name": "Grønbæk",
     "marktwert": 11926613
+   },
+   {
+    "id": "2694",
+    "name": "Stiller",
+    "marktwert": 21645725
    }
   ]
  }

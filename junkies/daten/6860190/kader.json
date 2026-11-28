@@ -1,5 +1,5 @@
 {
- "abgerufen": "2026-11-28T01:38:44Z",
+ "abgerufen": "2026-11-28T14:43:02Z",
  "kader": {
   "418331": [
    {
@@ -190,6 +190,16 @@
     "id": "6148",
     "name": "Pinckert",
     "marktwert": 8504185
+   },
+   {
+    "id": "2863",
+    "name": "Knauff",
+    "marktwert": 4542243
+   },
+   {
+    "id": "1664",
+    "name": "Mittelstädt",
+    "marktwert": 31886721
    }
   ],
   "1212731": [
@@ -378,11 +388,6 @@
     "marktwert": 6617370
    },
    {
-    "id": "12284",
-    "name": "Kosugi",
-    "marktwert": 6117401
-   },
-   {
     "id": "18550",
     "name": "Codjo-Evora",
     "marktwert": 2464166
@@ -396,16 +401,6 @@
     "id": "3124",
     "name": "Wimmer",
     "marktwert": 3014015
-   },
-   {
-    "id": "12368",
-    "name": "Tangvik",
-    "marktwert": 500000
-   },
-   {
-    "id": "10114",
-    "name": "Chukwuemeka",
-    "marktwert": 4374200
    }
   ],
   "1502756": [
@@ -540,6 +535,11 @@
     "id": "11101",
     "name": "Albert",
     "marktwert": 1686484
+   },
+   {
+    "id": "2862",
+    "name": "Castrop",
+    "marktwert": 5356136
    }
   ],
   "1622434": [
@@ -731,11 +731,6 @@
     "id": "1955",
     "name": "Burke",
     "marktwert": 2997674
-   },
-   {
-    "id": "78",
-    "name": "Hofmann",
-    "marktwert": 5313114
    },
    {
     "id": "12263",
