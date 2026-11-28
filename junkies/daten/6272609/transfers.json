@@ -741,6 +741,34 @@
    "art": 1,
    "preis": 6999999,
    "zeit": "2026-11-19T17:27:24Z"
+  },
+  {
+   "spieler_id": "13479",
+   "spieler": "Ogundu",
+   "art": 2,
+   "preis": 3193025,
+   "zeit": "2026-11-27T17:37:48Z"
+  },
+  {
+   "spieler_id": "7257",
+   "spieler": "Stergiou",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-11-27T17:37:17Z"
+  },
+  {
+   "spieler_id": "9605",
+   "spieler": "Grønbæk",
+   "art": 1,
+   "preis": 14300000,
+   "zeit": "2026-11-27T17:07:25Z"
+  },
+  {
+   "spieler_id": "2895",
+   "spieler": "Nebel",
+   "art": 2,
+   "preis": 7100000,
+   "zeit": "2026-11-27T15:53:22Z"
   }
  ],
  "478689": [
@@ -2964,6 +2992,13 @@
    "art": 2,
    "preis": 19293450,
    "zeit": "2026-11-27T12:18:42Z"
+  },
+  {
+   "spieler_id": "2895",
+   "spieler": "Nebel",
+   "art": 1,
+   "preis": 7100000,
+   "zeit": "2026-11-27T15:53:22Z"
   }
  ],
  "1165589": [
@@ -6442,6 +6477,48 @@
    "art": 2,
    "preis": 5505514,
    "zeit": "2026-11-26T21:34:45Z"
+  },
+  {
+   "spieler_id": "13433",
+   "spieler": "Lemke",
+   "art": 2,
+   "preis": 925455,
+   "zeit": "2026-11-27T21:00:21Z"
+  },
+  {
+   "spieler_id": "13433",
+   "spieler": "Lemke",
+   "art": 1,
+   "preis": 1351667,
+   "zeit": "2026-11-27T17:58:28Z"
+  },
+  {
+   "spieler_id": "10121",
+   "spieler": "Rondic",
+   "art": 2,
+   "preis": 500000,
+   "zeit": "2026-11-27T17:57:37Z"
+  },
+  {
+   "spieler_id": "10121",
+   "spieler": "Rondic",
+   "art": 1,
+   "preis": 627555,
+   "zeit": "2026-11-27T17:56:57Z"
+  },
+  {
+   "spieler_id": "4296",
+   "spieler": "Pejčinović",
+   "art": 1,
+   "preis": 6135778,
+   "zeit": "2026-11-27T17:40:17Z"
+  },
+  {
+   "spieler_id": "2804",
+   "spieler": "Musiala",
+   "art": 2,
+   "preis": 24683924,
+   "zeit": "2026-11-27T17:08:24Z"
   }
  ],
  "1622434": [
@@ -12266,6 +12343,13 @@
    "art": 2,
    "preis": 2492350,
    "zeit": "2026-11-25T22:39:11Z"
+  },
+  {
+   "spieler_id": "1012",
+   "spieler": "Džeko",
+   "art": 1,
+   "preis": 2022222,
+   "zeit": "2026-11-27T21:51:40Z"
   }
  ],
  "2646552": [
@@ -13724,6 +13808,13 @@
    "art": 1,
    "preis": 15286333,
    "zeit": "2026-11-27T03:26:23Z"
+  },
+  {
+   "spieler_id": "7417",
+   "spieler": "Aséko",
+   "art": 2,
+   "preis": 6512873,
+   "zeit": "2026-11-27T15:59:35Z"
   }
  ],
  "2729462": [
